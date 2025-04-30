@@ -1,0 +1,81 @@
+[
+    // Source: the fandom, so take these with a grain of salt
+    // I also did some testing in the official version, but by far not all
+
+    {
+        "name": "Archaic Age",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 1,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Foot Guard",
+        "startingGold": 500,
+        "startingCulture": 50,
+        "startingFaith": 0,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 4,
+        "startPercent": 0,
+        "citySound": "cityClassical",
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Classical Age",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "King",
+        "startingGold": 3000,
+        "startingCulture": 600,
+        "startingFaith": 300,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Shrine","Market"],
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 5,
+        "startPercent": 20,
+        "citySound": "cityClassical",
+        "iconRGB": [233, 31, 99],
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"]
+    },
+    {
+        "name": "Hellenistic Age",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "King",
+        "startingGold": 150,
+        "startingCulture": 700,
+        "startingFaith": 0,
+        "settlerPopulation": 4,
+        "settlerBuildings": ["Shrine","Walls","Market"],
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 6,
+        "startPercent": 60,
+        "citySound": "cityClassical",
+        "iconRGB": [255, 87, 35],
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"]
+    },
+    { // Technically, this Era doesn't exist in the original game.
+      // But as it is _really_ usefull to have for testing, I'd like to keep it.
+      // The stats are just copy-pasted from the information era.
+        "name": "Imperial Age",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 4,
+        "startingWorkerCount": 5,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "King",
+        "startingGold": 3000,
+        "startingCulture": 2500,
+        "startingFaith": 0,
+        "settlerPopulation": 6,
+        "settlerBuildings": ["Shrine","Walls","Market","Tavern"],
+        "baseUnitBuyCost": 300,
+        "embarkDefense": 7,
+        "startPercent": 100,
+        "citySound": "cityClassical",
+        "iconRGB": [104, 58, 183],
+        "uniques": ["Every major Civilization gains a spy once a civilization enters this era"]
+    }
+]
