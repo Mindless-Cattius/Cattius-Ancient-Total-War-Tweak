@@ -1,3 +1,4 @@
+THIS IS NOT MY MOD - I SIMPLY TWEAKING IT FOR PERSONAL TASTE, ALL THANK BELONG TO Prod0ad.
 A Hellenistic/Roman Republic era mod for Unciv. In early alpha stage, expect missing features.<br>
 
 The mod can finally be downloaded directly in game! Many recent changes are higly experimental and unbalanced for now though. Feedback is welcome in the Unciv Discord -> Mods -> Ancient Total War<br>
