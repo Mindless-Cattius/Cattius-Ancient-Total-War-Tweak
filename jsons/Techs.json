@@ -414,7 +414,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Imperial Age",
-		"techCost": 2350,
+		"techCost": 10350,
 		"buildingCost": 300,
 		"wonderCost": 500,
 		"techs": [

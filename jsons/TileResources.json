@@ -397,7 +397,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
-		"improvementStats": {"gold": 1,"production": 1},
+		"improvementStats": {"gold": 2},
 		"improvement": "Mine",
 		"uniques": [
 		"[+10]% [Gold] <when above [1] [Gold Ore]>",
@@ -484,7 +484,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 2},
 		"uniques": [
 		"[+5]% [Gold] <in cities with a [Noble District]> <when above [1] [Marble]>",
 		"[+10]% Production when constructing [All] wonders [in all cities] <when above [1] [Marble]>",

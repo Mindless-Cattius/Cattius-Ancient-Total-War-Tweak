@@ -3,7 +3,7 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
-		"cost": 40,
+		"cost": 50,
 		"production": 3,
 		"science": 3,
 		"gold": 3,
@@ -15,7 +15,7 @@
 		"Provides [1] [Decadence] <during the [Classical Age]>",
 		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
 		"Provides [3] [Decadence] <during the [Imperial Age]>",
-//		"Provides [2] [Manpower]",
+//		"Provides [3] [Manpower]",
 		"Consumes [2] [Nobles] <after adopting [Social Revolution]>",
 		"Doubles Gold given to enemy if city is captured",
 		"Indicates the capital city"
@@ -27,7 +27,7 @@
 		"maintenance": 0,
 		"uniques": [
 //		"[+1 Culture] <while the empire is happy>",
-		"Provides [1] [Manpower] <while the empire is happy>",
+		"Provides [3] [Manpower] <while the empire is happy>",
 		"Provides [5] [Manpower] <for [City-states]> <hidden from users>",
 //		"Comment [Provides 1 additional Manpower per 5 Population]",
 //		"Provides [1] [Manpower] <in cities with at least [5] [Population]> <hidden from users>",
@@ -45,7 +45,7 @@
 		"Must be next to [Coast]"
 		"Only available <starting from the [Classical Age]>",
 		"Consumes [1] [Mercenary (Illyrian)]","Only available <with [Mercenary (Illyrian)]> <hidden from users>",
-		"New [Galley] units start with [20] XP [in this city]",
+		"New [Galley] units start with [30] XP [in this city]",
 		],
 	},
 	{
@@ -61,12 +61,12 @@
 		"Only available <starting from the [Classical Age]>",
 		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
 		"Consumes [1] [Mercenary (Cretan)]","Only available <with [Mercenary (Cretan)]> <hidden from users>",
-		"New [Hemiola] units start with [20] XP [in this city]",
+		"New [Hemiola] units start with [30] XP [in this city]",
 		],
 	},
 	{
 		"name": "Pirate Haven (Cilician)",
-		"cost": 40,
+		"cost": 60,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
@@ -113,8 +113,8 @@
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 		"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
-		"New [Foot Guard] units start with [10] XP [in this city]",
-		"New [King] units start with [10] Experience [in this city]",
+		"New [Foot Guard] units start with [15] XP [in this city]",
+		"New [King] units start with [15] Experience [in this city]",
 		"Only available <in cities with a [Palace]>"
 		],
 		"requiredTech": "Writing"
@@ -131,7 +131,7 @@
 		"Provides [1] [Decadence] <during the [Classical Age]>",
 		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
 		"Provides [3] [Decadence] <during the [Imperial Age]>",
-		"New [Foot Guard] units start with [10] XP [in this city]",
+		"New [Foot Guard] units start with [15] XP [in this city]",
 		"New [King] units start with [15] Experience [in this city]",
 		"Only available <in cities with a [Palace]>",
 		"Destroyed when the city is captured"
@@ -190,7 +190,7 @@
 		"maintenance": 0,
 		"culture": 1,
 		"happiness": 3,
-		"cityStrength": 5,
+		"cityStrength": 2,
 		"cityHealth": 20,
 		"greatPersonPoints": {"General": 1},
 		"uniques": [
@@ -852,20 +852,20 @@
 	// Masonry
 	{
 		"name": "Walls",
-		"hurryCostModifier": 25,
-		"cityStrength": 15,
-		"cityHealth": 45,
+		"hurryCostModifier": 35,
+		"cityStrength": 12,
+		"cityHealth": 70,
 		"requiredTech": "Masonry",
 	},
 	{
 		"name": "Oppidum",
 		"replaces": "Walls",
 		"uniqueTo": "The Boii",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 35,
 		"maintenance": 0,
 		"production": 1,
-		"cityStrength": 25,
-		"cityHealth": 55,
+		"cityStrength": 15,
+		"cityHealth": 80,
 		"requiredTech": "Masonry",
 	},
 	{
@@ -886,7 +886,7 @@
 		"maintenance": 0,
 		"happiness": 2,
 		"gold": 1,
-		"cityHealth": 40,
+		"cityHealth": 30,
 		"uniques": [
 			"Must be on [Hill]"
 		],
@@ -977,7 +977,7 @@
 		"name": "Archery Range",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cityStrength": 5,
+		"cityStrength": 2,
 		"cityHealth": 25,
 		"uniques": [
 		"Provides [1] [Manpower]",
@@ -1004,7 +1004,7 @@
 		"requiredBuilding": "Archery Range",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"cityStrength": 3,
+		"cityStrength": 2,
 		"cityHealth": 20,
 		"uniques": [
 		"Provides [1] [Manpower]",
@@ -1018,8 +1018,8 @@
 	{
 		"name": "Wall Towers",
 		"requiredBuilding": "Walls",
-		"cityStrength": 10,
-		"cityHealth": 55,
+		"cityStrength": 5,
+		"cityHealth": 60,
 		"hurryCostModifier": 25,
 		"requiredTech": "Torsion Engines",
 	},
@@ -1119,7 +1119,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"production": 1,
-		"cityStrength": 3,
+		"cityStrength": 2,
 		"requiredNearbyImprovedResources": ["Tar"],
 		"uniques": [
 		"[+1 Production] from [Tar] tiles [in this city]",

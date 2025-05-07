@@ -29,7 +29,7 @@
         "[-5]% Strength <for [All] units> <when below [-10] Happiness>",
         "[-5]% Strength <for [All] units> <when below [-12] Happiness>",
         "[-5]% Strength <for [All] units> <when below [-14] Happiness>",
-        "Rebel units may spawn <when below [-6] Happiness>",
+        "Rebel units may spawn <when below [-1] Happiness>",
 // Events
 
 //        "Free [Spearman] appears <when between [1] and [555] Happiness> <upon founding a city>",
@@ -102,10 +102,10 @@
 
 //        "[+25]% Production when constructing [Faction Leader] units [in all cities] <when above [0] [Nobles]>",
 
-//        "Free [Great General] appears <upon turn end> <when above [0] [Nobles]> <with [50]% chance>",
+//        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [50]% chance>",
 //        "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
 //        "[relativeAmount]% Great Person generation [cityFilter]
-//        "[Great General] units gain the [Siege I] promotion <upon conquering a city>",
+//        "[General] units gain the [Siege I] promotion <upon conquering a city>",
 //        "[Faction Leader] units gain the [Siege I] promotion <upon conquering a city>",
 // AI Great People
         "Free Social Policy <upon gaining a [Great Orator] unit> <for [AI player] Civilizations>",
@@ -141,10 +141,10 @@
         "[+75]% maintenance costs <for [Elephant] units>",
         "[+50]% maintenance costs <for [Ballista] units>",
 
-        "[+30]% maintenance costs <for [Trireme] units>",
-        "[+60]% maintenance costs <for [Pentere] units>",
-        "[+85]% maintenance costs <for [Hexere] units>",
-        "[+120]% maintenance costs <for [Decere] units>",
+        "[+40]% maintenance costs <for [Trireme] units>",
+        "[+70]% maintenance costs <for [Pentere] units>",
+        "[+95]% maintenance costs <for [Hexere] units>",
+        "[+130]% maintenance costs <for [Decere] units>",
 
         "[-50]% maintenance costs <for [All] units> <in [City center] tiles>",
 // + research with nobles, + happiness with recruits 

@@ -13,7 +13,7 @@
         "goldenAgeLengthModifier": 0.80,
         "religiousPressureAdjacentCity": 9,
         "peaceDealDuration": 10,
-        "dealDuration": 25,
+        "dealDuration": 15,
         "startYear": -800,
         "turns": [
             {"yearsPerTurn": 2, "untilTurn":  400} // 0
@@ -34,10 +34,10 @@
         "goldenAgeLengthModifier": 1.0,
         "religiousPressureAdjacentCity": 6,
         "peaceDealDuration": 10,
-        "dealDuration": 30,
+        "dealDuration": 20,
         "startYear": -800,
         "turns": [
-            {"yearsPerTurn": 2, "untilTurn":  200}, // -400
+            {"yearsPerTurn": 1, "untilTurn":  200}, // -400
             {"yearsPerTurn": 1, "untilTurn":  600} // 0
         ]
     },
@@ -56,7 +56,7 @@
         "goldenAgeLengthModifier": 1.25,
         "religiousPressureAdjacentCity": 4,
         "peaceDealDuration": 15,
-        "dealDuration": 45,
+        "dealDuration": 35,
         "startYear": -800,
         "turns": [
             {"yearsPerTurn": 2, "untilTurn":  100}, // -600
@@ -79,7 +79,7 @@
         "goldenAgeLengthModifier": 2.0,
         "religiousPressureAdjacentCity": 2,
         "peaceDealDuration": 30,
-        "dealDuration": 90,
+        "dealDuration": 70,
         "startYear": -800,
         "turns": [
             {"yearsPerTurn": 1, "untilTurn":  350}, // -450
