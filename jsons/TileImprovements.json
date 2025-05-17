@@ -164,7 +164,7 @@
 	},
 	{
 		"name": "Remove Marsh",
-		"turnsToBuild": 5,
+		"turnsToBuild": 8,
 		"techRequired": "Land Grants",
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"

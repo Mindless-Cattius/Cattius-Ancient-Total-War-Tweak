@@ -226,7 +226,7 @@
 	{
 		"name": "Marsh",
 		"type": "TerrainFeature",
-		"food": 2,
+		"food": 3,
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.2,
@@ -256,7 +256,7 @@
 		"type": "TerrainFeature",
 		"food": 3,
 		"movementCost": 1,
-		"defenceBonus": -0.2,
+		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": ["Always Fertility [5] for Map Generation",
 					"Considered [Food] when determining start locations",
