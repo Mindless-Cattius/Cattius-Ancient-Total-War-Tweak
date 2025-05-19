@@ -393,7 +393,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"food": 2,
-		"cityHealth": 20,
+		"cityHealth": 10,
 		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","Only available <in cities without a [Grain Exports]>"],
 		"requiredTech": "Pottery"
 	},
@@ -437,7 +437,7 @@
 		"maintenance": 2,
 		"uniques": [
 		"Provides [1] [Olive Oil]",
-		"[+2 Food] from [Olives] tiles [in this city]"
+		"[+1 Food] from [Olives] tiles [in this city]"
 		],
 		"requiredTech": "Barter"
 	},
@@ -644,7 +644,7 @@
 		"name": "Water Mill",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"food": 3,
+		"food": 2,
 		"production": 1,
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "The Wheel"
@@ -656,7 +656,7 @@
 		"hurryCostModifier": 25,
 		"cost": 100,
 		"maintenance": 1,
-		"cityHealth": 15,
+		"cityHealth": 10,
 		"uniques": [
 		"[+10]% Production when constructing [Mounted] units [in this city]",
 		"[+1 Production] from [Horses] tiles [in this city]"
@@ -683,7 +683,7 @@
 		"requiredBuilding": "Stable",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"cityHealth": 30,
+		"cityHealth": 20,
 		"uniques": [
 		"Provides [1] [Manpower]",
 		"New [Mounted] units start with [15] XP [in this city]",
@@ -712,7 +712,7 @@
 		"maintenance": 1,
 		"uniques": [
 		"Comment [+1 Food from non-fresh water Farm tiles in this city]",
-		"[50]% Food is carried over after population increases [in this city]"
+		"[30]% Food is carried over after population increases [in this city]"
 		],
 		"requiredTech": "Public Works"
 	},
@@ -722,7 +722,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"happiness": 1,
-		"food": 3,
+		"food": 2,
 		"uniques": [
 		"[+1 Food] from [Wheat] tiles [in this city]"
 		],
@@ -733,7 +733,7 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cityHealth": 50,
+		"cityHealth": 30,
 		"uniques": [
 		"Provides [3] [Manpower]",
 		"[+20]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
@@ -747,7 +747,7 @@
 		"uniqueTo": "The Spartans",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"cityHealth": 40,
+		"cityHealth": 30,
 		"uniques": [
 		"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 		"New [Spear] units start with [20] XP [in this city]",
@@ -774,7 +774,7 @@
 		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"cityHealth": 75,
+		"cityHealth": 50,
 		"uniques": [
 		"Provides [5] [Manpower]",
 		"[+20]% Production when constructing [Sword] units [in this city] <in cities with a [Forge]>",
@@ -853,7 +853,7 @@
 	{
 		"name": "Walls",
 		"hurryCostModifier": 35,
-		"cityStrength": 12,
+		"cityStrength": 10,
 		"cityHealth": 70,
 		"requiredTech": "Masonry",
 	},
@@ -864,7 +864,7 @@
 		"hurryCostModifier": 35,
 		"maintenance": 0,
 		"production": 1,
-		"cityStrength": 15,
+		"cityStrength": 12,
 		"cityHealth": 80,
 		"requiredTech": "Masonry",
 	},
@@ -914,7 +914,7 @@
 		"maintenance": 0,
 		"culture": 1,
 		"happiness": 1,
-		"cityHealth": 35,
+		"cityHealth": 25,
 		"uniques": [
 		"Provides [1] [Manpower]",
 		"[+10]% Production when constructing [{Melee} {Land}] units [in this city]"
@@ -968,7 +968,7 @@
 		"Provides [1] [Manpower] <while the empire is happy>",
 		"New [Archery] units start with [10] XP [in this city]",
 		"[+25]% Production when constructing [Archery Range] buildings [in this city]",
-		"[+2 Food] from [Deer] tiles [in this city]","[+3 Gold] from [Furs] tiles [in this city]"
+		"[+1 Food] from [Deer] tiles [in this city]","[+3 Gold] from [Furs] tiles [in this city]"
 		],
 		"requiredTech": "Forestry"
 	},
@@ -978,9 +978,9 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"cityStrength": 2,
-		"cityHealth": 25,
+		"cityHealth": 15,
 		"uniques": [
-		"Provides [1] [Manpower]",
+		"Provides [2] [Manpower]",
 		"Comment [Required for some Archery units]",
 		"Destroyed when the city is captured"
 		],
@@ -1005,9 +1005,9 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"cityStrength": 2,
-		"cityHealth": 20,
+		"cityHealth": 10,
 		"uniques": [
-		"Provides [1] [Manpower]",
+		"Provides [2] [Manpower]",
 		"New [Archery] units start with [20] XP [in this city]",
 		"New [Scout] units start with [20] XP [in this city]",
 		"Destroyed when the city is captured"
@@ -1020,7 +1020,7 @@
 		"requiredBuilding": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 60,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 35,
 		"requiredTech": "Torsion Engines",
 	},
 	// Fishing
@@ -1028,10 +1028,10 @@
 		"name": "Anchorage",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"food": 2,
+		"food": 1,
 		"gold": 2,
 		"culture": 1,
-		"cityHealth": 25,
+		"cityHealth": 20,
 		"uniques": [
 		"Only available <in cities without a [Harbor]> <hidden from users>","Only available <in cities without a [Great Harbor]> <hidden from users>",
 		"Requires at least [2] population",
@@ -1044,8 +1044,8 @@
 		"hurryCostModifier": 25,
 		"cost": 40,
 		"maintenance": 0,
-		"food": 2,
-		"cityHealth": 25,
+		"food": 1,
+		"cityHealth": 15,
 		"uniques": ["Must be next to [Fresh water]"],
 		"requiredTech": "Fishing"
 	},
@@ -1068,10 +1068,10 @@
 		"requiredBuilding": "Anchorage",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"food": 2,
+		"food": 1,
 		"production": 1,
 		"culture": 2,
-		"cityHealth": 40,
+		"cityHealth": 20,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Provides [1] [Manpower]",
@@ -1101,7 +1101,7 @@
 		"uniqueTo": "The Carthaginians",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"cityHealth": 40,
+		"cityHealth": 20,
 		"science": 1,
 		"happiness": 2,
 		"uniques": [
@@ -1152,10 +1152,10 @@
 		"requiredBuilding": "Harbor",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"food": 4,
+		"food": 3,
 		"production": 2,
 		"culture": 3,
-		"cityHealth": 55,
+		"cityHealth": 35,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
 		"Provides [1] [Manpower]",
@@ -1289,7 +1289,7 @@
 		"cost": 185,
 		"culture": 3,
 		"science": 2,
-		"cityHealth": 30,
+		"cityHealth": 20,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scholar": 1},
 		"uniques": ["[-15]% maintenance costs <for [Water] units>"],
@@ -1321,7 +1321,7 @@
 		"uniqueTo": "The Babylonians",
 		"cost": 185,
 		"greatPersonPoints": {"Great Artist": 1},
-		"food": 7,
+		"food": 5,
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["Provides [3] [Mercenary (Mesopotamian)]","Gain a free [Garden] [in this city]"],

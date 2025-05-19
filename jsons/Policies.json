@@ -78,6 +78,7 @@
                     "Upon capturing a city, receive [10] times its [Gold] production as [Gold] immediately",
                     "Free [General] appears",
                     "[+1 Happiness] [in capital]"
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                 ],
                 "requires": ["Tribal Bonds"],
                 "row": 4,
@@ -114,6 +115,7 @@
                     "[+2 Happiness] from [Gold Ore] tiles [in all cities]",
                     "[+2 Happiness] from [Tin] tiles [in all cities]",
                     "[+1 Happiness] [in capital]"
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                 ]
             }
         ]
@@ -233,6 +235,7 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities]",
                     "[+1 Happiness] [in capital]"
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                 ]
             }
         ]
@@ -343,6 +346,7 @@
             {
                 "name": "Germanic Culture Complete",
                 "uniques": [
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "[+1] Movement <for [Land] units> <in [Forest] tiles>",
                     "[+1 Happiness] [in capital]"
                 ]
@@ -977,6 +981,7 @@
 		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ]
             }
@@ -1065,6 +1070,8 @@
                     "[+1 Happiness] from every [Barracks]",
                     "[+1 Happiness] from every [Army Barracks]",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -1099,6 +1106,7 @@
                 "name": "Numidian Culture Complete",
                 "uniques": [
                     "[{Military} {Land}] units gain the [Scouting I] promotion",
+		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     "[+1 Happiness] [in capital]"
@@ -1179,7 +1187,7 @@
             {
                 "name": "Mercenary Armies",
                 "uniques": [
-                    "[Gold] cost of purchasing [{Military} {Land}] units [-25]%",
+                    "[Gold] cost of purchasing [{Military} {Land}] units [-30]%",
                     "[+1 Happiness] [in all cities]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1230,6 +1238,7 @@
                 "uniques": [
                     "[General] units gain the [Scouting II] promotion",
                     "[Mounted] units gain the [Scouting I] promotion",
+		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
                     "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
                     "[+1 Happiness] [in capital]"
@@ -1324,7 +1333,7 @@
                 "name": "Heroic Tradition",
                 "uniques": [
                     "[+50]% XP gained from combat <for [Mounted] units>",
-                    "Free [Horseman] appears <upon discovering [Riding] technology>",
+                    "Free [Calvary] appears <upon discovering [Riding] technology>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1349,6 +1358,7 @@
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ]
             }
@@ -1457,6 +1467,9 @@
                 "name": "Federation Complete",
                 "uniques": [
                     "May buy [Great Merchant] units for [1000] [Faith] [in all coastal cities] at an increasing price ([500])",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ]
             }

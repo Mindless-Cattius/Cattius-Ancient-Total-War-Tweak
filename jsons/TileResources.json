@@ -71,7 +71,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra"],
 		"production": 1,
 		"improvement": "Quarry",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 2},
 		"uniques": [
 		"Generated on every [20] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 		"Generated on every [15] tiles <in [{Featureless} {Tundra}] tiles>",
@@ -84,7 +84,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Marsh"],
 		"production": 1,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 2},
 		"uniques": [
 		"Generated on every [32] tiles <in [{Featureless} {Grassland}] tiles> <in [Fresh Water] tiles>",
 		"Generated on every [28] tiles <in [{Featureless} {Grassland}] tiles> <in [Coastal] tiles>",
@@ -99,7 +99,7 @@
 		"terrainsCanBeFoundOn": ["Marsh"],
 		"production": 1,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 2},
 		"uniques": [
 		"Generated on every [8] tiles <in [Marsh] tiles>"
 		]
@@ -125,7 +125,7 @@
 		"name": "Herbs",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Hill","Marsh","Jungle"],
-		"food": 1,
+		"food": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
 		"uniques": [
@@ -143,7 +143,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"production": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 2},
 		"uniques": [
 		"Generated on every [25] tiles <in [{Featureless} {Grassland}] tiles> <in tiles without [Fresh Water]>",
 		"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles> <in [Fresh Water] tiles>",
@@ -155,7 +155,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
 		"production": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"gold": 2},
 		"uniques": [
 		"Generated on every [27] tiles <in [{Featureless} {Plains}] tiles> <in tiles without [Fresh Water]>",
 		"Generated on every [25] tiles <in [{Hill} {Plains}] tiles> <in tiles without [Fresh Water]>",
@@ -211,7 +211,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"production": 1,
 		"improvement": "Lumber mill",
-		"improvementStats": {"production": 1},
+		"improvementStats": {"production": 2},
 		"uniques": [
 		"Cannot be traded",
 		"Guaranteed with Strategic Balance resource option",

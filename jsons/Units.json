@@ -108,14 +108,13 @@
     "unitType": "Scout",
     "movement": 3,
     "strength": 10,
-    "cost": 70,
+    "cost": 100,
     "uniques": [
       "Consumes [1] [Mercenary (Illyrian)]",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -136,7 +135,7 @@
     "unitType": "Scout",
     "movement": 3,
     "strength": 11,
-    "cost": 85,
+    "cost": 90,
     "uniques": [
       "Consumes [1] [Mercenary (Cilician)]",
       "Only available <starting from the [Hellenistic Age]>",
@@ -144,7 +143,6 @@
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -292,7 +290,6 @@
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Slinger] ability",
@@ -336,7 +333,6 @@
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "Shock I",
@@ -348,15 +344,14 @@
     "name": "Mercenary Axeman",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 16,
-    "cost": 135,
+    "strength": 15,
+    "cost": 125,
     "uniques": [
       "Consumes [1] [Mercenary (Germanic)]",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "Forester",
@@ -377,7 +372,6 @@
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -461,7 +455,6 @@
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "Infantry Shield II"
@@ -480,7 +473,6 @@
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "Infantry Shield II"
@@ -496,7 +488,6 @@
     "uniques": [
       "Consumes [1] [Manpower]",
       "Only available <in cities with a [Parthenon]>",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -718,7 +709,7 @@
     "uniqueTo": "The Getae",
     "movement": 2,
     "strength": 16,
-    "cost": 145,
+    "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -738,7 +729,7 @@
     "uniqueTo": "The Bastarnae",
     "movement": 2,
     "strength": 17,
-    "cost": 145,
+    "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -758,7 +749,7 @@
     "uniqueTo": "The Celtiberians",
     "movement": 2,
     "strength": 18,
-    "cost": 145,
+    "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -778,7 +769,7 @@
     "uniqueTo": "The Scordisci",
     "movement": 3,
     "strength": 18,
-    "cost": 145,
+    "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -798,7 +789,7 @@
     "uniqueTo": "The Lusitani",
     "movement": 2,
     "strength": 18,
-    "cost": 145,
+    "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -824,7 +815,7 @@
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 19,
-    "cost": 180,
+    "cost": 190,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Can build [Land] improvements on tiles",
@@ -884,7 +875,7 @@
   {
     "name": "Heavy Swordsman",
     "unitType": "Sword",
-    "cost": 140,
+    "cost": 150,
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
@@ -907,16 +898,15 @@
     "replaces": "Heavy Swordsman",
     "uniqueTo": "The Aquitani",
     "hurryCostModifier": 20,
-    "cost": 140,
+    "cost": 150,
     "movement": 2,
     "strength": 20,
     "requiredTech": "Military Reforms",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Iron]"
     ],
     "promotions": [
-      "Drill I",
       "Infantry Shield II"
     ],
     "attackSound": "metalhit"
@@ -1054,7 +1044,7 @@
     "hurryCostModifier": 20,
     "cost": 140,
     "movement": 3,
-    "strength": 10,
+    "strength": 11,
     "rangedStrength": 11,
     "uniques": [
       "Consumes [1] [Mercenary (Libyan)]",
@@ -1073,9 +1063,9 @@
     "name": "War Chariot",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 106,
+    "cost": 146,
     "movement": 3,
-    "strength": 14,
+    "strength": 16,
     "requiredTech": "The Wheel",
     "uniques": [
       "Consumes [1] [Manpower]",
@@ -1097,9 +1087,9 @@
     "uniqueTo": "The Cyreneans",
     "replaces": "War Chariot",
     "hurryCostModifier": 20,
-    "cost": 116,
+    "cost": 146,
     "movement": 3,
-    "strength": 15,
+    "strength": 16,
     "requiredTech": "The Wheel",
     "uniques": [
       "Consumes [1] [Manpower]",
@@ -1116,7 +1106,7 @@
     "unitType": "Mounted",
     "uniqueTo": "The Mithridatids",
     "hurryCostModifier": 20,
-    "cost": 115,
+    "cost": 145,
     "movement": 3,
     "strength": 15,
     "requiredTech": "Equestrian Class",
@@ -1158,7 +1148,7 @@
     "name": "Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 120,
+    "cost": 140,
     "movement": 4,
     "strength": 15,
     "requiredTech": "Equestrian Class",
@@ -1180,7 +1170,7 @@
     "name": "Royal Agema",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 150,
+    "cost": 170,
     "movement": 4,
     "strength": 17,
     "requiredTech": "Metallurgy",
@@ -1207,7 +1197,7 @@
     "strength": 24,
     "requiredTech": "Metallurgy",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [2] [Horses]",
       "Consumes [2] [Iron]",
       "Only available <in cities with a [Cavalry Barracks]>",
@@ -1250,9 +1240,9 @@
     "name": "War Elephant",
     "unitType": "Elephant",
     "hurryCostModifier": 25,
-    "cost": 140,
+    "cost": 160,
     "movement": 3,
-    "strength": 16,
+    "strength": 17,
     "requiredTech": "Equestrian Class",
     "uniques": [
       "Consumes [1] [Manpower]",
@@ -1272,14 +1262,14 @@
     "uniqueTo": "The Seleucids",
     "replaces": "War Elephant",
     "hurryCostModifier": 25,
-    "cost": 160,
+    "cost": 190,
     "movement": 3,
-    "strength": 20,
+    "strength": 23,
     "requiredTech": "Equestrian Class",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Elephants]",
-      "Consumes [1] [Iron]"
+      "Consumes [2] [Iron]"
     ],
     "promotions": [
       "[War Elephant] ability"
@@ -1290,8 +1280,8 @@
     "name": "Galley",
     "unitType": "Melee Water",
     "movement": 5,
-    "strength": 12,
-    "cost": 96,
+    "strength": 11,
+    "cost": 106,
     "requiredTech": "Woodworking",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -1307,7 +1297,7 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 15,
-    "cost": 160,
+    "cost": 170,
     "requiredTech": "Shipbuilding",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -1323,8 +1313,8 @@
     "name": "Pentere",
     "unitType": "Melee Water",
     "movement": 5,
-    "strength": 18,
-    "cost": 200,
+    "strength": 20,
+    "cost": 220,
     "requiredTech": "Navigation",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -1341,7 +1331,7 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 14,
-    "cost": 120,
+    "cost": 160,
     "requiredTech": "Navigation",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -1349,7 +1339,6 @@
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Hemiola]> <hidden from users>",
       "Only available <in cities without a [Colossus]> <hidden from users>",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Hemiola] ability",
@@ -1361,8 +1350,8 @@
     "name": "Trihemiola",
     "unitType": "Melee Water",
     "movement": 6,
-    "strength": 15,
-    "cost": 170,
+    "strength": 16,
+    "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
       "Cannot enter ocean tiles",
@@ -1383,7 +1372,7 @@
     "movement": 5,
     "strength": 18,
     "rangedStrength": 18,
-    "cost": 220,
+    "cost": 230,
     "requiredTech": "Naval Artillery",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -1399,12 +1388,12 @@
     "name": "Decere",
     "unitType": "Ranged Water",
     "movement": 5,
-    "strength": 22,
-    "rangedStrength": 21,
-    "cost": 260,
+    "strength": 23,
+    "rangedStrength": 22,
+    "cost": 300,
     "requiredTech": "Naval Artillery",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [2] [Timber]",
       "Cannot enter ocean tiles",
       "Only available <in cities with a [Drydock]>",
@@ -1566,7 +1555,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
-    "cost": 105,
+    "cost": 135,
     "uniques": [
       "Limited to [1] per Civilization",
       "[+10]% Strength bonus for [Military] units within [3] tiles",
@@ -1587,7 +1576,7 @@
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 18,
-    "cost": 115,
+    "cost": 155,
     "uniques": [
       "Limited to [1] per Civilization",
       "[+15]% Strength bonus for [Military] units within [3] tiles",
@@ -1608,7 +1597,7 @@
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 17,
-    "cost": 105,
+    "cost": 140,
     "uniques": [
       "Limited to [1] per Civilization",
       "[+15]% Strength bonus for [Military] units within [3] tiles",
@@ -1627,7 +1616,7 @@
     "unitType": "Mounted",
     "movement": 4,
     "strength": 18,
-    "cost": 150,
+    "cost": 160,
     "uniques": [
       "Limited to [1] per Civilization",
       "Can move after attacking",
@@ -1649,7 +1638,7 @@
     "replaces": "King",
     "movement": 4,
     "strength": 18,
-    "cost": 160,
+    "cost": 170,
     "uniques": [
       "Limited to [1] per Civilization",
       "Can move after attacking",

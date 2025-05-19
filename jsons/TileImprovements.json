@@ -33,8 +33,7 @@
 		"turnsToBuild": 4,
 		"techRequired": "Forestry",
 		"uniques": [
-//		"Provides [1] [Manpower] <while the empire is happy>",
-		"Does not need removal of [Forest]",
+//		"Does not need removal of [Forest]",
 		"Does not need removal of [Jungle]",
 		"[+1 Production] <after discovering [Mass Production]>", 
 		"Can only be built to improve a resource", 
@@ -49,8 +48,7 @@
 		"turnsToBuild": 4,
 		"techRequired": "Mining",
 		"uniques": [
-//		"Provides [1] [Manpower] <while the empire is happy>",
-		"[+1 Production] <after discovering [Mass Production]>",
+//		"[+1 Production] <after discovering [Mass Production]>",
 		"Can only be built to improve a resource",
 		"Pillaging this improvement yields approximately [+30 Gold]"
 		],
@@ -100,8 +98,7 @@
 		"turnsToBuild": 5,
 		"techRequired": "Mining",
 		"uniques": [
-//		"Provides [1] [Manpower] <while the empire is happy>",
-		"[+2 Production] <after discovering [Mass Production]>", 
+//		"[+2 Production] <after discovering [Mass Production]>", 
 		"Can only be built to improve a resource", 
 		"Pillaging this improvement yields approximately [+30 Gold]"
 		],

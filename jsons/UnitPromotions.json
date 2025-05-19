@@ -119,8 +119,8 @@
 	},
 	{
 		"name": "Marksman III",
-		"prerequisites": ["Marksman II"],
-		"uniques": ["[+35]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"prerequisites": ["[+1] Sight","Marksman II"],
+		"uniques": ["[+30]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 3
@@ -143,14 +143,14 @@
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
-		"uniques": ["[+35]% Strength <when attacking>"],
+		"uniques": ["[+30]% Strength <when attacking>","[+10]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant"],
         "column": 6,
         "row": 3
 	},
 	{
 		"name": "Ramming Tactics I",
-		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"uniques": ["[+10]% Strength <vs [Water] units>","[+10]% Strength <vs [Embarked] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 7,
         "row": 1
@@ -158,7 +158,7 @@
 	{
 		"name": "Ramming Tactics II",
 		"prerequisites": ["Ramming Tactics I"],
-		"uniques": ["[+20]% Strength <vs [Water] units>"],
+		"uniques": ["[+20]% Strength <vs [Water] units>","[+20]% Strength <vs [Embarked] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 7,
         "row": 2
@@ -166,7 +166,7 @@
 	{
 		"name": "Ramming Tactics III",
 		"prerequisites": ["Ramming Tactics II"],
-		"uniques": ["[+30]% Strength <vs [Water] units>"],
+		"uniques": ["[+30]% Strength <vs [Water] units>","[+30]% Strength <vs [Embarked] units>"],
 		"unitTypes": ["Melee Water"],
         "column": 7,
         "row": 3
@@ -290,7 +290,7 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+50]% Strength <vs cities>"],
+		"uniques": ["[+50]% Strength <vs cities>","[+1] Sight"],
 		"unitTypes": ["Siege"],
         "column": 13,
         "row": 3
@@ -305,7 +305,7 @@
 	{
 		"name": "Assault II",
 		"prerequisites": ["Assault I"],
-		"uniques": ["[+35]% Strength <vs cities>","[+10]% Strength <when fighting in [Barbarian encampment] tiles>"],
+		"uniques": ["[+40]% Strength <vs cities>","[+10]% Strength <when fighting in [Barbarian encampment] tiles>"],
 		"unitTypes": ["Sword","Spear"],
         "column": 14,
         "row": 2
@@ -313,14 +313,14 @@
 	{
 		"name": "Assault III",
 		"prerequisites": ["Assault II"],
-		"uniques": ["[+50]% Strength <vs cities>","[+10]% Strength <when fighting in [Barbarian encampment] tiles>"],
+		"uniques": ["[+60]% Strength <vs cities>","[+10]% Strength <when fighting in [Barbarian encampment] tiles>"],
 		"unitTypes": ["Sword","Spear"],
         "column": 14,
         "row": 3
 	},
 	{
 		"name": "Coastal Raider I",
-		"uniques": ["[+50]% Strength <vs cities>","Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+50]% Strength <vs cities>","Earn [35]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
         "column": 15,
         "row": 1
@@ -328,7 +328,7 @@
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["[+70]% Strength <vs cities>","Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+70]% Strength <vs cities>","Earn [35]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water"],
         "column": 15,
         "row": 2
@@ -352,7 +352,7 @@
 	{
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
-		"uniques": ["[+80]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+70]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Spear"],
         "column": 16,
         "row": 3
@@ -406,7 +406,7 @@
 	{
 		"name": "Woodsman",
 		"prerequisites": ["Ambush II"],
-		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]","[+15]% Strength <when fighting in [Forest] tiles>","[+15]% Strength <when fighting in [Jungle] tiles>"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]","[+15]% Strength <when fighting in [Forest] tiles>","[+10]% Strength <when fighting in [Jungle] tiles>"],
 		"unitTypes": ["Sword","Spear","Archery", "scout"],
         "column": 19,
         "row": 3
@@ -427,7 +427,7 @@
 		"prerequisites": ["Amphibious I"],
 		"uniques": [
 		"[0] Movement point cost to disembark",
-		"[1] Movement point cost to embark",
+		"[0] Movement point cost to embark",
 		"[+150]% Strength <when defending> <when [Embarked]>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout"],
@@ -469,7 +469,7 @@
 	// Rank 12
 	{
 		"name": "Raider I",
-		"uniques": ["No movement cost to pillage"],
+		"uniques": ["No movement cost to pillage", "Withdraws before melee combat <with [10]% chance>"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water"],
         "column": 25,
         "row": 1
@@ -485,7 +485,7 @@
 	{
 		"name": "Raider III",
 		"prerequisites": ["Raider II"],
-		"uniques": ["Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately"],
+		"uniques": ["Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately","Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Sword","Spear","Mounted","Scout"],
         "column": 25,
         "row": 3
@@ -524,7 +524,7 @@
 		"name": "[Archer] ability",
 		"uniques": [
 		"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"[+30]% Strength <vs [Military] units> <when fighting in [City center] tiles>"
+		"[+40]% Strength <vs [Military] units> <when fighting in [City center] tiles>"
 		]
 	},
 	{
@@ -538,13 +538,13 @@
 	{
 		"name": "[Spearman] ability",
 		"uniques": [
-		"[+60]% Strength <vs [Mounted] units>",
+		"[+50]% Strength <vs [Mounted] units>",
 		]
 	},
 	{
 		"name": "[Pike Phalanx] ability",
 		"uniques": [
-		"[+70]% Strength <vs [Mounted] units>",
+		"[+60]% Strength <vs [Mounted] units>",
 		"[+25]% Strength <vs [Melee] units>",
 		"[-40]% Strength <when fighting in [Rough terrain] tiles>"
 		]
@@ -552,7 +552,7 @@
 	{
 		"name": "[Royal Phalanx] ability",
 		"uniques": [
-		"[+70]% Strength <vs [Mounted] units>",
+		"[+60]% Strength <vs [Mounted] units>",
 		"[+25]% Strength <vs [Melee] units>",
 		"[+10]% Strength <vs cities>"
 		"[-40]% Strength <when fighting in [Rough terrain] tiles>"
@@ -562,7 +562,7 @@
 		"name": "[Horseman] ability",
 		"uniques": [
 		"[-25]% Strength <vs cities> <when attacking>",
-		"Withdraws before melee combat <with [50]% chance>",
+		"Withdraws before melee combat <with [40]% chance>",
 		"No defensive terrain bonus"
 		]
 	},
@@ -571,7 +571,7 @@
 		"uniques": [
 		"[+25]% Strength <when fighting in [Desert] tiles>",
 		"[-20]% Strength <vs cities> <when attacking>",
-		"Withdraws before melee combat <with [40]% chance>",
+		"Withdraws before melee combat <with [30]% chance>",
 		"No defensive terrain bonus"
 		]
 	},
@@ -588,7 +588,7 @@
 		"name": "[Cavalry] ability",
 		"uniques": [
 		"[-20]% Strength <vs cities> <when attacking>",
-		"[+10]% Strength <vs [Archery] units>"
+		"[+15]% Strength <vs [Archery] units>"
 		"Can move after attacking",
 		"[-15]% Strength <when fighting in [Rough terrain] tiles>"
 		"No defensive terrain bonus"
@@ -599,7 +599,7 @@
 		"name": "[Cataphract] ability",
 		"uniques": [
 		"[-15]% Strength <vs cities> <when attacking>",
-		"[+20]% Strength <vs [Archery] units>"
+		"[+25]% Strength <vs [Archery] units>"
 		"[-25]% Strength <when fighting in [Rough terrain] tiles>"
 		"No defensive terrain bonus"
 		"Withdraws before melee combat <with [10]% chance>",
@@ -664,6 +664,7 @@
 	{
 		"name": "Lancer",
 		"uniques": [
+		"[+10]% Strength <vs [Ranged] units>",
 		"[+25]% Strength <vs [Melee] units>"
 		]
 	},
@@ -697,7 +698,7 @@
 		"name": "Spartan Aura",
 		"uniques": [
 		"[-15]% Strength for enemy [{Melee} {Land}] units in adjacent [All] tiles",
-		"Earn [20]% of killed [Military] unit's [Strength] as [Culture]"
+		"Earn [15]% of killed [Military] unit's [Strength] as [Culture]"
 		]
 	},
 	{
@@ -739,6 +740,7 @@
 		"name": "Forester",
 		"uniques": [
 		"[+30]% Strength <when fighting in [Forest] tiles>",
+		"[+33]% Strength <when fighting in [Jungle] tiles>"
 		]
 	},
 	{
