@@ -108,7 +108,7 @@
     "unitType": "Scout",
     "movement": 3,
     "strength": 10,
-    "cost": 100,
+    "cost": 140,
     "uniques": [
       "Consumes [1] [Mercenary (Illyrian)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -134,8 +134,8 @@
     "name": "Cilician Pirate",
     "unitType": "Scout",
     "movement": 3,
-    "strength": 11,
-    "cost": 90,
+    "strength": 14,
+    "cost": 140,
     "uniques": [
       "Consumes [1] [Mercenary (Cilician)]",
       "Only available <starting from the [Hellenistic Age]>",
@@ -282,7 +282,7 @@
     "movement": 2,
     "strength": 9,
     "rangedStrength": 13,
-    "cost": 96,
+    "cost": 156,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
       "Only available <starting from the [Hellenistic Age]>",
@@ -304,7 +304,7 @@
     "movement": 3,
     "strength": 9,
     "rangedStrength": 11,
-    "cost": 100,
+    "cost": 140,
     "uniques": [
       "Consumes [1] [Mercenary (Cretan)]",
       "Only available <starting from the [Hellenistic Age]>",
@@ -326,7 +326,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 125,
+    "cost": 165,
     "uniques": [
       "Consumes [1] [Mercenary (Celtic)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -345,7 +345,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 125,
+    "cost": 165,
     "uniques": [
       "Consumes [1] [Mercenary (Germanic)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -363,8 +363,8 @@
     "name": "Mercenary Hoplite",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 13,
-    "cost": 110,
+    "strength": 14,
+    "cost": 160,
     "uniques": [
       "Only available <before the [Hellenistic Age]>",
       "Consumes [1] [Mercenary (Hellenic)]",
@@ -384,7 +384,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 125,
+    "cost": 175,
     "uniques": [
       "Ignores terrain cost",
       "Only available <starting from the [Hellenistic Age]>",
@@ -406,7 +406,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 125,
+    "cost": 165,
     "uniques": [
       "Consumes [1] [Mercenary (Judean)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -427,7 +427,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 145,
+    "cost": 165,
     "uniques": [
       "Consumes [1] [Mercenary (Thracian)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -447,8 +447,8 @@
     "name": "Iberian Mercenary",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 16,
-    "cost": 145,
+    "strength": 17,
+    "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Iberian)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -466,7 +466,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 140,
+    "cost": 165,
     "uniques": [
       "Consumes [1] [Mercenary (Oscan)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -486,7 +486,7 @@
     "strength": 15,
     "cost": 125,
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Only available <in cities with a [Parthenon]>",
     ],
     "promotions": [
@@ -504,7 +504,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 13,
-    "cost": 80,
+    "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": [
       "Consumes [1] [Manpower]"
@@ -523,7 +523,7 @@
     "uniqueTo": "The Insubres",
     "movement": 2,
     "strength": 14,
-    "cost": 86,
+    "cost": 76,
     "requiredTech": "Bronze Working",
     "uniques": [
       "Consumes [1] [Manpower]"
@@ -531,6 +531,7 @@
     "promotions": [
       "[Spearman] ability",
       "Ambush I",
+      "Shock I",
       "Infantry Shield II"
     ],
     "attackSound": "metalhit"
@@ -543,7 +544,7 @@
     "cost": 90,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Bronze]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Hoplite]> <hidden from users>",
@@ -552,7 +553,7 @@
     "promotions": [
       "[Spearman] ability",
       "Drill I"
-      "Infantry Shield III"
+      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -563,10 +564,10 @@
     "uniqueTo": "The Spartans",
     "movement": 2,
     "strength": 16,
-    "cost": 115,
+    "cost": 135,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Bronze]",
       "Only available <in cities with a [Syssition]>"
     ],
@@ -584,11 +585,11 @@
     "replaces": "Hoplite",
     "uniqueTo": "The Dardanians",
     "movement": 2,
-    "strength": 14,
-    "cost": 110,
+    "strength": 15,
+    "cost": 130,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Bronze]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -608,7 +609,7 @@
     "cost": 125,
     "requiredTech": "Infantry Training",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Bronze]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Pike Phalanx]> <hidden from users>",
@@ -628,7 +629,7 @@
     "strength": 18,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>",
       "Comment [Has cultural requirements]",
@@ -646,11 +647,11 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Arsacids",
     "movement": 2,
-    "strength": 16,
-    "cost": 140,
+    "strength": 17,
+    "cost": 150,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
       "Can move immediately once bought"
     ],
@@ -671,7 +672,7 @@
     "cost": 150,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
       "Can move immediately once bought"
     ],
@@ -692,7 +693,7 @@
     "cost": 150,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -712,7 +713,7 @@
     "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -732,7 +733,7 @@
     "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -752,7 +753,7 @@
     "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -772,7 +773,7 @@
     "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -792,7 +793,7 @@
     "cost": 155,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -814,12 +815,12 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Romans",
     "movement": 2,
-    "strength": 19,
-    "cost": 190,
+    "strength": 20,
+    "cost": 220,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Can build [Land] improvements on tiles",
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -827,21 +828,23 @@
       "Infantry Shield III",
       "Assault I",
       "Drill I"
+      "Shock I"
     ],
     "attackSound": "metalhit"
   },
   {
     "name": "Royal Phalanx",
     "unitType": "Spear",
-    "hurryCostModifier": 20,
-    "cost": 160,
+    "hurryCostModifier": 30,
+    "cost": 170,
     "movement": 2,
-    "strength": 18,
+    "strength": 20,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [2] [Bronze]",
       "Comment [Has cultural requirements]",
+      "Limited to [10] per Civilization",
       "Only available <with [Enable Royal Phalanx]> <hidden from users>",
       "Only available <in cities with a [Palace]>",
       "Never appears as a Barbarian unit"
@@ -855,12 +858,12 @@
   {
     "name": "Heavy Spearman",
     "unitType": "Spear",
-    "cost": 140,
+    "cost": 160,
     "movement": 2,
-    "strength": 16,
+    "strength": 17,
     "requiredTech": "Military Reforms",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Heavy Spearman]> <hidden from users>"
@@ -875,12 +878,12 @@
   {
     "name": "Heavy Swordsman",
     "unitType": "Sword",
-    "cost": 150,
+    "cost": 160,
     "movement": 2,
     "strength": 18,
     "requiredTech": "Military Reforms",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Heavy Swordsman]> <hidden from users>",
@@ -898,12 +901,12 @@
     "replaces": "Heavy Swordsman",
     "uniqueTo": "The Aquitani",
     "hurryCostModifier": 20,
-    "cost": 150,
+    "cost": 180,
     "movement": 2,
     "strength": 20,
     "requiredTech": "Military Reforms",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]"
     ],
     "promotions": [
@@ -914,21 +917,22 @@
   {
     "name": "Numidian Mercenary",
     "unitType": "Mounted",
-    "hurryCostModifier": 20,
-    "cost": 120,
+    "hurryCostModifier": 25,
+    "cost": 195,
     "movement": 5,
-    "strength": 14,
+    "strength": 15,
     "uniques": [
       "Consumes [1] [Mercenary (Numidian)]",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Horseman] ability",
       "Scouting II",
+      "Scouting I",
+      "Raider I"
       "Cavalry Shield I"
     ],
     "attackSound": "metalhit"
@@ -942,7 +946,7 @@
     "strength": 13,
     "requiredTech": "Riding",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
       "Comment [Has cultural requirements]",
       "Only available <before adopting [Eastern Culture]> <hidden from users>",
@@ -959,18 +963,17 @@
   {
     "name": "Mercenary Horse Archer",
     "unitType": "Mounted Archery",
-    "hurryCostModifier": 20,
-    "cost": 130,
+    "hurryCostModifier": 30,
+    "cost": 210,
     "movement": 5,
-    "strength": 8,
-    "rangedStrength": 11,
+    "strength": 9,
+    "rangedStrength": 12,
     "uniques": [
       "Consumes [1] [Mercenary (Eastern)]",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Horseman] ability"
@@ -981,13 +984,13 @@
     "name": "Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 140,
+    "cost": 170,
     "movement": 5,
-    "strength": 6,
+    "strength": 7,
     "rangedStrength": 11,
     "requiredTech": "Riding",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
       "Only available <in cities with a [Nomadic Herd]>",
       "Never appears as a Barbarian unit"
@@ -1001,12 +1004,12 @@
     "name": "Camel Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 135,
+    "cost": 145,
     "movement": 4,
     "strength": 12,
     "rangedStrength": 10,
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Only available <in cities with a [Spice Road]>",
       "Never appears as a Barbarian unit"
     ],
@@ -1019,13 +1022,13 @@
     "name": "Chariot Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 130,
+    "cost": 145,
     "movement": 4,
     "strength": 10,
     "rangedStrength": 11,
     "requiredTech": "The Wheel",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Chariot Archer]> <hidden from users>",
@@ -1041,8 +1044,8 @@
   {
     "name": "Libyan Chariot Archer",
     "unitType": "Mounted Archery",
-    "hurryCostModifier": 20,
-    "cost": 140,
+    "hurryCostModifier": 25,
+    "cost": 180,
     "movement": 3,
     "strength": 11,
     "rangedStrength": 11,
@@ -1063,12 +1066,12 @@
     "name": "War Chariot",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 146,
+    "cost": 156,
     "movement": 3,
     "strength": 16,
     "requiredTech": "The Wheel",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable War Chariot]> <hidden from users>",
@@ -1087,12 +1090,12 @@
     "uniqueTo": "The Cyreneans",
     "replaces": "War Chariot",
     "hurryCostModifier": 20,
-    "cost": 146,
+    "cost": 156,
     "movement": 3,
     "strength": 16,
     "requiredTech": "The Wheel",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]"
     ],
     "promotions": [
@@ -1106,12 +1109,12 @@
     "unitType": "Mounted",
     "uniqueTo": "The Mithridatids",
     "hurryCostModifier": 20,
-    "cost": 145,
+    "cost": 155,
     "movement": 3,
     "strength": 15,
     "requiredTech": "Equestrian Class",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
       "Only available <in cities with a [Stable]>"
     ],
@@ -1125,8 +1128,8 @@
   {
     "name": "Scythed Chariot",
     "unitType": "Mounted",
-    "hurryCostModifier": 20,
-    "cost": 135,
+    "hurryCostModifier": 25,
+    "cost": 195,
     "movement": 3,
     "strength": 15,
     "uniques": [
@@ -1148,12 +1151,12 @@
     "name": "Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 140,
+    "cost": 160,
     "movement": 4,
     "strength": 15,
     "requiredTech": "Equestrian Class",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
       "Only available <in cities with a [Stable]>",
       "Comment [Has cultural requirements]",
@@ -1192,12 +1195,12 @@
     "name": "Cataphract",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 250,
+    "cost": 270,
     "movement": 3,
-    "strength": 24,
+    "strength": 25,
     "requiredTech": "Metallurgy",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [2] [Horses]",
       "Consumes [2] [Iron]",
       "Only available <in cities with a [Cavalry Barracks]>",
@@ -1217,12 +1220,12 @@
     "uniqueTo": "The Armenians",
     "replaces": "Cataphract",
     "hurryCostModifier": 20,
-    "cost": 170,
+    "cost": 230,
     "movement": 3,
     "strength": 19,
     "requiredTech": "Metallurgy",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Horses]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Cavalry Barracks]>",
@@ -1240,12 +1243,12 @@
     "name": "War Elephant",
     "unitType": "Elephant",
     "hurryCostModifier": 25,
-    "cost": 160,
+    "cost": 200,
     "movement": 3,
     "strength": 17,
     "requiredTech": "Equestrian Class",
     "uniques": [
-      "Consumes [1] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Consumes [1] [Elephants]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable War Elephant]> <hidden from users>",
@@ -1262,12 +1265,12 @@
     "uniqueTo": "The Seleucids",
     "replaces": "War Elephant",
     "hurryCostModifier": 25,
-    "cost": 190,
+    "cost": 250,
     "movement": 3,
     "strength": 23,
     "requiredTech": "Equestrian Class",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]"
     ],
@@ -1280,8 +1283,8 @@
     "name": "Galley",
     "unitType": "Melee Water",
     "movement": 5,
-    "strength": 11,
-    "cost": 106,
+    "strength": 12,
+    "cost": 126,
     "requiredTech": "Woodworking",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -1297,10 +1300,10 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 15,
-    "cost": 170,
+    "cost": 200,
     "requiredTech": "Shipbuilding",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Timber]",
       "Cannot enter ocean tiles",
       "Comment [Has cultural requirements]",
@@ -1314,10 +1317,10 @@
     "unitType": "Melee Water",
     "movement": 5,
     "strength": 20,
-    "cost": 220,
+    "cost": 300,
     "requiredTech": "Navigation",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [2] [Timber]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Pentere]> <hidden from users>",
@@ -1331,7 +1334,7 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 14,
-    "cost": 160,
+    "cost": 200,
     "requiredTech": "Navigation",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -1351,7 +1354,7 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 16,
-    "cost": 200,
+    "cost": 300,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
       "Cannot enter ocean tiles",
@@ -1372,10 +1375,10 @@
     "movement": 5,
     "strength": 18,
     "rangedStrength": 18,
-    "cost": 230,
+    "cost": 350,
     "requiredTech": "Naval Artillery",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [2] [Timber]",
       "Only available <in cities with a [Drydock]>",
       "Comment [Has cultural requirements]",
@@ -1389,11 +1392,11 @@
     "unitType": "Ranged Water",
     "movement": 5,
     "strength": 23,
-    "rangedStrength": 22,
-    "cost": 300,
+    "rangedStrength": 23,
+    "cost": 500,
     "requiredTech": "Naval Artillery",
     "uniques": [
-      "Consumes [4] [Manpower]",
+      "Consumes [5] [Manpower]",
       "Consumes [2] [Timber]",
       "Cannot enter ocean tiles",
       "Only available <in cities with a [Drydock]>",
@@ -1410,7 +1413,7 @@
     "movement": 2,
     "strength": 7,
     "rangedStrength": 11,
-    "cost": 150,
+    "cost": 170,
     "requiredTech": "Engineering",
     "uniques": [
       "Consumes [2] [Manpower]",

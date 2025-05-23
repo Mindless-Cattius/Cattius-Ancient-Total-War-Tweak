@@ -15,10 +15,14 @@
 		"Provides [1] [Decadence] <during the [Classical Age]>",
 		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
 		"Provides [3] [Decadence] <during the [Imperial Age]>",
+		"Provides [1] [Manpower] <during the [Classical Age]>",
+		"Provides [2] [Manpower] <during the [Hellenistic Age]>",
+		"Provides [3] [Manpower] <during the [Imperial Age]>",
 //		"Provides [3] [Manpower]",
 		"Consumes [2] [Nobles] <after adopting [Social Revolution]>",
 		"Doubles Gold given to enemy if city is captured",
 		"Indicates the capital city"
+		"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -28,9 +32,9 @@
 		"uniques": [
 //		"[+1 Culture] <while the empire is happy>",
 		"Provides [3] [Manpower] <while the empire is happy>",
-		"Provides [5] [Manpower] <for [City-states]> <hidden from users>",
-//		"Comment [Provides 1 additional Manpower per 5 Population]",
-//		"Provides [1] [Manpower] <in cities with at least [5] [Population]> <hidden from users>",
+		"Provides [10] [Manpower] <for [City-states]> <hidden from users>",
+//		"Comment [Provides 1 additional Manpower per 10 Population]",
+//		"Provides [1] [Manpower] <in cities with at least [7] [Population]> <hidden from users>",
 		]
 	},
 	{
@@ -39,13 +43,14 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
-		"happiness": 1,
+		"happiness": -1,
 		"cityHealth": 5,
 		"uniques": [
 		"Must be next to [Coast]"
 		"Only available <starting from the [Classical Age]>",
 		"Consumes [1] [Mercenary (Illyrian)]","Only available <with [Mercenary (Illyrian)]> <hidden from users>",
 		"New [Galley] units start with [30] XP [in this city]",
+		"Destroyed when the city is captured"
 		],
 	},
 	{
@@ -54,7 +59,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
-		"happiness": 1,
+		"happiness": -1,
 		"cityHealth": 5,
 		"uniques": [
 		"Must be next to [Coast]"
@@ -62,6 +67,7 @@
 		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
 		"Consumes [1] [Mercenary (Cretan)]","Only available <with [Mercenary (Cretan)]> <hidden from users>",
 		"New [Hemiola] units start with [30] XP [in this city]",
+		"Destroyed when the city is captured"
 		],
 	},
 	{
@@ -70,7 +76,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"gold": 2,
-		"happiness": 1,
+		"happiness": -1,
 		"cityHealth": 5,
 		"uniques": [
 		"Must be next to [Coast]"
@@ -78,6 +84,7 @@
 		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
 		"Consumes [1] [Mercenary (Cilician)]","Only available <with [Mercenary (Cilician)]> <hidden from users>",
 		"New [Hemiola] units start with [20] XP [in this city]",
+		"Destroyed when the city is captured"
 		],
 	},
 	// Agriculture
@@ -113,9 +120,10 @@
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 		"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
-		"New [Foot Guard] units start with [15] XP [in this city]",
-		"New [King] units start with [15] Experience [in this city]",
+		"New [Foot Guard] units start with [10] XP [in this city]",
+		"New [King] units start with [10] XP [in this city]",
 		"Only available <in cities with a [Palace]>"
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Writing"
 	},
@@ -131,8 +139,10 @@
 		"Provides [1] [Decadence] <during the [Classical Age]>",
 		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
 		"Provides [3] [Decadence] <during the [Imperial Age]>",
-		"New [Foot Guard] units start with [15] XP [in this city]",
-		"New [King] units start with [15] Experience [in this city]",
+		"Provides [1] [Nobles] <during the [Hellenistic Age]>",
+		"Provides [1] [Nobles] <during the [Imperial Age]>",
+		"New [Foot Guard] units start with [20] XP [in this city]",
+		"New [King] units start with [20] XP [in this city]",
 		"Only available <in cities with a [Palace]>",
 		"Destroyed when the city is captured"
 		],
@@ -152,6 +162,7 @@
 		"[-10]% [Food] <in this city> <in cities without a [Colony]>",
 		"Can only be built <in [Annexed] cities>",
 		"Cannot be purchased"
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Writing"
 	},
@@ -195,6 +206,7 @@
 		"greatPersonPoints": {"General": 1},
 		"uniques": [
 		"Only available <in cities with a [Palace]>"
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Diplomacy"
 	},
@@ -283,9 +295,10 @@
 		"happiness": 2,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
-		"Provides [1] [Manpower]",
+		"Provides [2] [Manpower]",
 		"[+1 Culture] [in this city] <when not at war>",
 		"[+1 Happiness] [in this city] <when at war>"
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Entertainment"
 	},
@@ -492,26 +505,28 @@
 	},
 	{
 		"name": "Mercenary Camp",
-		"cost": 75,
-		"maintenance": 1,
+		"cost": 100,
+		"maintenance": 3,
 		"uniques": [
 		"Comment [Enables Mercenary Units]",
 		"Comment [Provides 2 Mercenary Units]",
 		"Provides [1] [Decadence]",
-		"Limited to [2] per Civilization <before the [Hellenistic Age]>",
-		"Limited to [6] per Civilization <during the [Hellenistic Age]>",
-		"Limited to [7] per Civilization <during the [Imperial Age]>",
-		"Provides [3] [Mercenary (Celtic)] <after adopting [Celtic Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Eastern)] <after adopting [Eastern Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Germanic)] <after adopting [Germanic Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Hellenic)] <after adopting [Hellenic Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Hellenic)] <after adopting [Hellenistic Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Iberian)] <after adopting [Iberian Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Illyrian)] <after adopting [Illyrian Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Oscan)] <after adopting [Latin Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Numidian)] <after adopting [Numidian Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Numidian)] <after adopting [Punic Culture]> <hidden from users>",
-		"Provides [3] [Mercenary (Thracian)] <after adopting [Thracian Culture]> <hidden from users>"
+		"Limited to [3] per Civilization <before the [Hellenistic Age]>",
+		"Limited to [4] per Civilization <during the [Hellenistic Age]>",
+		"Limited to [5] per Civilization <during the [Imperial Age]>",
+		"Provides [1] [Mercenary (Celtic)]",
+		"Provides [1] [Mercenary (Eastern)]",
+		"Provides [1] [Mercenary (Germanic)]",
+		"Provides [1] [Mercenary (Hellenic)]",
+		"Provides [1] [Mercenary (Hellenic)]",
+		"Provides [1] [Mercenary (Iberian)]",
+		"Provides [1] [Mercenary (Illyrian)]",
+		"Provides [1] [Mercenary (Oscan)]",
+		"Provides [1] [Mercenary (Numidian)]", 
+		"Provides [1] [Mercenary (Numidian)]",
+		"Provides [1] [Mercenary (Thracian)]",
+		"Provides [1] [Mercenary (Rhodian)]",
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
 	},
@@ -579,6 +594,7 @@
 		"uniques": [
 		"Provides [2] [Decadence]",
 		"Doubles Gold given to enemy if city is captured"
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Tax Farming"
 	},
@@ -595,6 +611,7 @@
 		"[Gold] cost of purchasing [Civilian] units [-50]%","Limited to [1] per Civilization"
 		"[-10 Happiness] <after adopting [Land Reform]>",
 		"Unbuildable <after adopting [Slave Liberation]>",
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Private Estates"
 	},
@@ -621,6 +638,7 @@
 		"uniques": [
 		"Provides [2] [Decadence]",
 		"[+120]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Aesthetics",
 		"isNationalWonder": true
@@ -633,7 +651,7 @@
 		"food": 2,
 		"uniques": [
 		"New [Mounted Archery] units start with [5] XP [in this city]",
-		"Provides [1] [Manpower] <while the empire is happy>","Provides [1] [Horses] <while the empire is happy>",
+		"Provides [2] [Manpower] <while the empire is happy>","Provides [1] [Horses] <while the empire is happy>",
 		"Only available <after adopting [Eastern Culture]>","Must not be on [Desert]",
 		"Never destroyed when the city is captured"
 		],
@@ -653,9 +671,9 @@
 	{
 		"name": "Stable",
 		"requiredNearbyImprovedResources": ["Horses"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 35,
 		"cost": 100,
-		"maintenance": 1,
+		"maintenance": 2,
 		"cityHealth": 10,
 		"uniques": [
 		"[+10]% Production when constructing [Mounted] units [in this city]",
@@ -666,7 +684,7 @@
 	{
 		"name": "Elephant Trainer",
 		"requiredNearbyImprovedResources": ["Ivory"],
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 35,
 		"maintenance": 3,
 		"uniques": [
 		"Comment [Has cultural requirements]","Only available <with [Enable War Elephant]> <hidden from users>",
@@ -681,11 +699,11 @@
 		"name": "Cavalry Barracks",
 		"requiredNearbyImprovedResources": ["Horses"],
 		"requiredBuilding": "Stable",
-		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"hurryCostModifier": 35,
+		"maintenance": 4,
 		"cityHealth": 20,
 		"uniques": [
-		"Provides [1] [Manpower]",
+		"Provides [2] [Manpower]",
 		"New [Mounted] units start with [15] XP [in this city]",
 		"Destroyed when the city is captured"
 		],
@@ -702,6 +720,7 @@
 		"Provides [1] [Manpower]",
 		"Comment [Reduces the Production and Food penalty in Cities with a Courthouse]",
 		"Can only be built <in [Annexed] cities> <before adopting [Hellenistic Culture]>"
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Land Grants"
 	},
@@ -732,11 +751,12 @@
 	{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"cityHealth": 30,
 		"uniques": [
 		"Provides [3] [Manpower]",
 		"[+20]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
+		"New [Spearman] units start with [10] XP [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Citizen Levy"
@@ -746,7 +766,7 @@
 		"replaces": "Barracks",
 		"uniqueTo": "The Spartans",
 		"hurryCostModifier": 25,
-		"maintenance": 0,
+		"maintenance": 1,
 		"cityHealth": 30,
 		"uniques": [
 		"Consumes [1] [Decadence] <in cities with a [Syssition]>",
@@ -772,12 +792,14 @@
 	{
 		"name": "Army Barracks",
 		"requiredBuilding": "Barracks",
-		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"cityHealth": 50,
+		"hurryCostModifier": 50,
+		"maintenance": 7,
+		"cityHealth": 80,
 		"uniques": [
-		"Provides [5] [Manpower]",
+		"Provides [3] [Manpower]",
 		"[+20]% Production when constructing [Sword] units [in this city] <in cities with a [Forge]>",
+		"New [Spearman] units start with [10] XP [in this city]",
+		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Assault I] promotion",
 		"Can only be built <in [Capital] cities> <before adopting [Centralization]>",
 		"Destroyed when the city is captured"
 		],
@@ -799,7 +821,7 @@
 	// Metallurgy
 	{
 		"name": "Forge",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 35,
 		"maintenance": 3,
 		"production": 2,
 		"requiredTech": "Metallurgy",
@@ -855,6 +877,9 @@
 		"hurryCostModifier": 35,
 		"cityStrength": 10,
 		"cityHealth": 70,
+		"uniques": [
+		"Consumes [1] [Manpower]"
+		],
 		"requiredTech": "Masonry",
 	},
 	{
@@ -866,6 +891,9 @@
 		"production": 1,
 		"cityStrength": 12,
 		"cityHealth": 80,
+		"uniques": [
+		"Consumes [1] [Manpower]"
+		],
 		"requiredTech": "Masonry",
 	},
 	{
@@ -888,7 +916,9 @@
 		"gold": 1,
 		"cityHealth": 30,
 		"uniques": [
-			"Must be on [Hill]"
+		"Consumes [1] [Manpower]",
+		"Must be on [Hill]",
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Masonry"
 	},
@@ -954,6 +984,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 		"[+1 Production] from [Iron] tiles [in this city]"
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Mass Production"
 	},
@@ -980,7 +1011,7 @@
 		"cityStrength": 2,
 		"cityHealth": 15,
 		"uniques": [
-		"Provides [2] [Manpower]",
+		"Provides [1] [Manpower]",
 		"Comment [Required for some Archery units]",
 		"Destroyed when the city is captured"
 		],
@@ -1003,13 +1034,13 @@
 		"name": "Skirmisher Barracks",
 		"requiredBuilding": "Archery Range",
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 3,
 		"cityStrength": 2,
 		"cityHealth": 10,
 		"uniques": [
-		"Provides [2] [Manpower]",
-		"New [Archery] units start with [20] XP [in this city]",
-		"New [Scout] units start with [20] XP [in this city]",
+		"Provides [1] [Manpower]",
+		"New [Archery] units start with [15] XP [in this city]",
+		"New [Scout] units start with [30] XP [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Engineering"
@@ -1021,6 +1052,9 @@
 		"cityStrength": 5,
 		"cityHealth": 60,
 		"hurryCostModifier": 35,
+		"uniques": [
+		"Consumes [1] [Manpower] <after adopting [Social Revolution]>"
+		],
 		"requiredTech": "Torsion Engines",
 	},
 	// Fishing
@@ -1052,11 +1086,11 @@
 	// Woodworking
 	{
 		"name": "Coal Pile",
-		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Timber"],
+		"hurryCostModifier": 35,
 		"maintenance": 0,
 		"production": 2,
 		"uniques": [
-		"Consumes [1] [Timber]",
 		"[+1 Production] from [Timber] tiles [in this city]","[+1 Production] from [Olives] tiles [in this city]",
 		"[+5]% [Production] <in this city> <in cities with a [Bronze Works]>","[+5]% [Production] <in this city> <in cities with a [Forge]>","[+5]% [Production] <in this city> <in cities with a [Ironworks]>",
 		],
@@ -1177,6 +1211,7 @@
 		"Provides [2] [Horses]",
 		"[+5]% Production when constructing [Mounted] units [in all cities]",
 		"Can only be built <in [Capital] cities>"
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "The Wheel"
 	},
@@ -1189,56 +1224,61 @@
 		"Provides [2] [Copper]",
 		"[+25]% Production when constructing [Bronze Works] buildings [in all cities]",
 		"Can only be built <in [Capital] cities>"
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Bronze Imports",
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"hurryCostModifier": 35,
+		"maintenance": 3,
 		"uniques": [
 		"Provides [2] [Bronze]",
 		"[+10]% Production when constructing [Spear] units [in all cities]",
 		"Can only be built <in [Capital] cities>"
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Citizen Levy"
 	},
 	{
 		"name": "Iron Imports",
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"hurryCostModifier": 35,
+		"maintenance": 4,
 		"uniques": [
 		"Provides [2] [Iron]",
 		"[+10]% Production when constructing [Sword] units [in all cities]",
 		"Can only be built <in [Capital] cities>"
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Heavy Infantry"
 	},
 	{
 		"name": "Timber Imports",
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 35,
 		"maintenance": 2,
 		"uniques": [
 		"Provides [2] [Timber]",
 		"[+15]% Production when constructing [Water] units [in all cities]",
 		"Can only be built <in [Capital] cities>"
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Woodworking"
 	},
 	{
 		"name": "Elephant Imports",
 		"requiredBuilding": "Market",
-		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"hurryCostModifier": 35,
+		"maintenance": 5,
 		"uniques": [
 		"Provides [2] [Elephants]",
 		"[+10]% Production when constructing [Elephant] units [in all cities]",
 		"Can only be built <in [Capital] cities>",
 		"Comment [Has cultural requirements]","Only available <with [Enable War Elephant]> <hidden from users>",
 		"Never destroyed when the city is captured"
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Equestrian Class"
 	},
@@ -1346,7 +1386,7 @@
 		"gold": 6,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides [8] [Mercenary (Rhodian)]","Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"uniques": ["Provides [3] [Mercenary (Rhodian)]","Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 

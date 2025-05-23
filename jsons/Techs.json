@@ -18,7 +18,7 @@
 	{
 		"columnNumber": 1,
 		"era": "Archaic Age",
-		"techCost": 55,
+		"techCost": 45,
 		"buildingCost": 60,
 		"wonderCost": 185,
 		"techs": [
@@ -337,7 +337,7 @@
 		"columnNumber": 7,
 		"era": "Hellenistic Age",
 		"techCost": 1150,
-		"buildingCost": 200,
+		"buildingCost": 250,
 		"wonderCost": 400,
 		"techs": [
 			{
@@ -370,8 +370,8 @@
 	{
 		"columnNumber": 8,
 		"era": "Hellenistic Age",
-		"techCost": 1150,
-		"buildingCost": 250,
+		"techCost": 1550,
+		"buildingCost": 350,
 		"wonderCost": 400,
 		"techs": [
 			{
