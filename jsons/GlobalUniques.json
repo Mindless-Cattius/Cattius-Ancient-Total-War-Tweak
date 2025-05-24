@@ -105,9 +105,9 @@
 //        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [50]% chance>",
 //        "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
 //        "[relativeAmount]% Great Person generation [cityFilter]
-//        "[General] units gain the [Siege I] promotion <upon conquering a city>",
-//        "[King] units gain the [Assaut I] promotion <upon conquering a city>",
-//        "[Sword] units gain the [Assaut I] promotion <upon conquering a city>",
+//        "[General] units gain the [Art of War] promotion <upon conquering a city>",
+//        "[King] units gain the [Art of War] promotion <upon conquering a city>",
+//        "[Sword] units gain the [Assaut II] promotion <upon conquering a city>",
 // AI Great People
         "Free Social Policy <upon gaining a [Great Orator] unit> <for [AI player] Civilizations>",
         "Empire enters a [12]-turn Golden Age <upon gaining a [Great Artist] unit> <for [AI player] Civilizations>",
@@ -118,14 +118,14 @@
         "[1] free random researchable Tech(s) from the [Classical Age] <upon gaining a [Great Scientist] unit> <for [AI player] Civilizations> <during the [Classical Age]>",
         "[1] free random researchable Tech(s) from the [Hellenistic Age] <upon gaining a [Great Scientist] unit> <for [AI player] Civilizations> <during the [Hellenistic Age]>",
 // Maintenance
-        "[+130]% maintenance costs <for [Military] units>",
+        "[+100]% maintenance costs <for [Military] units>",
 
         "[+40]% maintenance costs <for [Cretan Archer] units>",
         "[+100]% maintenance costs <for [Can be purchased with [Gold] [in all cities]] units>",
 
-        "[+55]% maintenance costs <for [Spear] units>",
+        "[+40]% maintenance costs <for [Spear] units>",
         "[+65]% maintenance costs <for [Pike Phalanx] units>",
-        "[+120]% maintenance costs <for [Royal Phalanx] units>",
+        "[+80]% maintenance costs <for [Royal Phalanx] units>",
         "[+100]% maintenance costs <for [Heavy Spearman] units>",
 
         "[+100]% maintenance costs <for [Sword] units>",
@@ -145,9 +145,9 @@
         "[+150]% maintenance costs <for [Trireme] units>",
         "[+200]% maintenance costs <for [Pentere] units>",
         "[+200]% maintenance costs <for [Hexere] units>",
-        "[+250]% maintenance costs <for [Decere] units>",
+        "[+200]% maintenance costs <for [Decere] units>",
 
-        "[-90]% maintenance costs <for [All] units> <in [City center] tiles>",
+        "[-70]% maintenance costs <for [All] units> <in [City center] tiles>",
 // + research with nobles, + happiness with recruits 
     ]
 }

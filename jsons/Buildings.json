@@ -32,7 +32,7 @@
 		"uniques": [
 //		"[+1 Culture] <while the empire is happy>",
 		"Provides [3] [Manpower] <while the empire is happy>",
-		"Provides [10] [Manpower] <for [City-states]> <hidden from users>",
+		"Provides [10] [Manpower] <for [City-state]> <hidden from users>",
 //		"Comment [Provides 1 additional Manpower per 10 Population]",
 //		"Provides [1] [Manpower] <in cities with at least [7] [Population]> <hidden from users>",
 		]

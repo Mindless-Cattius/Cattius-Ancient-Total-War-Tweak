@@ -1418,6 +1418,7 @@
     "uniques": [
       "Consumes [2] [Manpower]",
       "Consumes [1] [Timber]",
+ 	"[+50]% Strength <vs [Mounted] units> <when attacking>",
       "[+220]% Strength <vs cities> <when attacking>",
       "No defensive terrain bonus",
       "Must set up to ranged attack",
