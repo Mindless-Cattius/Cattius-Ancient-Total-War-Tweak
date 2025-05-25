@@ -1617,7 +1617,7 @@
   },
   {
     "name": "King",
-    "unitType": "Mounted",
+    "unitType": "King",
     "movement": 4,
     "strength": 18,
     "cost": 160,
@@ -1625,6 +1625,7 @@
       "Limited to [1] per Civilization",
       "Can move after attacking",
       "[+20]% Strength bonus for [Military] units within [3] tiles",
+	"[+30]% Strength <for [Spear] units> <when defending> <when adjacent to a [King] unit>",
       "Only available <in cities with a [Palace]>",
       "Cannot be purchased",
       "Never appears as a Barbarian unit"
@@ -1637,7 +1638,7 @@
   },
   {
     "name": "Emperor",
-    "unitType": "Mounted",
+    "unitType": "King",
     "uniqueTo": "The Romans",
     "replaces": "King",
     "movement": 4,
@@ -1647,12 +1648,13 @@
       "Limited to [1] per Civilization",
       "Can move after attacking",
       "[+20]% Strength bonus for [Military] units within [3] tiles",
+	"[+20]% Strength <for [Spear] units> <when defending> <when adjacent to a [King] unit>",
+	"[+30]% Strength <for [Sword] units> <when defending> <when adjacent to a [King] unit>",
       "Only available <in cities with a [Palace]>",
       "Cannot be purchased"
     ],
     "promotions": [
       "[Horseman] ability",
-      "Scouting I",
       "Cavalry Shield II"
     ],
     "attackSound": "metalhit"

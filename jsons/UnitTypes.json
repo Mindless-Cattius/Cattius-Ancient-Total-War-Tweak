@@ -36,6 +36,10 @@
         "movementType": "Land"
     },
     {
+        "name": "King",
+        "movementType": "Land"
+    },
+    {
         "name": "Civilian Water",
         "movementType": "Water"
     },
