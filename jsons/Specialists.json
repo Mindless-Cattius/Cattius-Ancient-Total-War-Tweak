@@ -32,7 +32,7 @@
 	},
 	{
 		"name":"Magistrate",
-		"gold":2,
+		"gold":3,
 		"happiness":1,
 		"greatPersonPoints": {"Great Orator":2},
 		"color": [0,0,0]

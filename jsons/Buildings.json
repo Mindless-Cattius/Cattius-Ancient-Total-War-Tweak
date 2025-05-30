@@ -2,6 +2,7 @@
 	// Always available
 	{
 		"name": "Palace",
+//		"requiredBuilding": "Palace",
 		"isNationalWonder": true,
 		"cost": 50,
 		"production": 3,
@@ -10,7 +11,7 @@
 		"culture": 1,
 		"cityStrength": 3,
 //		"greatPersonPoints": {"Great Courtesan":500},
-//		"specialistSlots": {"Courtesan": 1},
+//		"specialistSlots": {"Courtesan": 2},
 		"uniques": [
 		"Provides [1] [Decadence] <during the [Classical Age]>",
 		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
@@ -21,21 +22,62 @@
 //		"Provides [3] [Manpower]",
 		"Consumes [2] [Nobles] <after adopting [Social Revolution]>",
 		"Doubles Gold given to enemy if city is captured",
-		"Indicates the capital city"
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
+		]
+	},	
+	{
+		"name": "Make Capital",
+//		"specialistSlots": {"Courtesan": 2},
+		"cost": 100,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"production": 3,
+		"culture": 1,
+		"happiness": 1,
+		"cityHealth": 15,
+		"cityStrength": 5,
+//		"greatPersonPoints": {"Great Courtesan":500},
+//		"specialistSlots": {"Courtesan": 2},
+		"uniques": [
+                "All newly-trained [Military] units [in all cities] receive the [Morale] promotion",
+                "[Military] units gain the [Morale] promotion",
+		"Provides [3] [Manpower] <during the [Classical Age]>",
+		"Provides [4] [Manpower] <during the [Hellenistic Age]>",
+		"Provides [5] [Manpower] <during the [Imperial Age]>",
+		"[+1 Gold] from [Farm] tiles [in this city]",
+		"[+1 Gold] from [Desert] tiles [in this city] <during the [Imperial Age]>",
+		"[+1 Food] from [Snow] tiles [in this city] <during the [Imperial Age]>",
+		"[+1 Gold] per every [100] [Science]",
+		"[+1 Gold] per every [100] [Culture]",
+		"[+1 Culture] per [10] population [in this city]",
+		"[+2 Happiness] per [10] population [in this city]",
+		"[+1 Happiness] per [20] population [in this city]",
+		"Provides 1 extra copy of each improved luxury resource near this City",
+		"Doubles Gold given to enemy if city is captured",
+		"[-30]% enemy spy effectiveness [in this city]",
+		"Indicates the capital city",
+		"Limited to [1] per Civilization",
+		"Destroyed when the city is captured",
+		"Can be purchased with [Gold] [in all cities]"
 		]
 	},
 	{
 		"name": "Muster Field",
 		"cost": 40,
-		"maintenance": 0,
+		"maintenance": 1,
 		"uniques": [
 //		"[+1 Culture] <while the empire is happy>",
+		"[-1 Happiness] per [10] population [in this city]",
+		"[+10]% Production when constructing [Military] units [in this city]",
+		"[+5]% Production when constructing [Military] units [in this city] <during the [Hellenistic Age]>"
+		"[+10]% Production when constructing [Military] units [in this city] <during the [Imperial Age]>"
 		"Provides [3] [Manpower] <while the empire is happy>",
-		"Provides [10] [Manpower] <for [City-state]> <hidden from users>",
-//		"Comment [Provides 1 additional Manpower per 10 Population]",
-//		"Provides [1] [Manpower] <in cities with at least [7] [Population]> <hidden from users>",
-		"Destroyed when the city is captured"
+		"Provides [1] [Manpower] <during the [Classical Age]>",
+		"Provides [3] [Manpower] <during the [Hellenistic Age]>",
+		"Provides [5] [Manpower] <during the [Imperial Age]>",
+//		"Provides [1] [Manpower] <in cities with at least [10] [Population]>",
+		"Provides [15] [Manpower] [in City-State cities] <hidden from users>"
 		]
 	},
 	{
@@ -124,6 +166,7 @@
 		"New [Foot Guard] units start with [10] XP [in this city]",
 		"New [King] units start with [10] XP [in this city]",
 		"Only available <in cities with a [Palace]>"
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Writing"
@@ -145,6 +188,7 @@
 		"New [Foot Guard] units start with [20] XP [in this city]",
 		"New [King] units start with [20] XP [in this city]",
 		"Only available <in cities with a [Palace]>",
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Writing"
@@ -191,6 +235,7 @@
 		"[+1 Happiness] from [Wine] tiles [in this city]","[+1 Happiness] from [Incense] tiles [in this city]",
 		"[+1 Happiness] from [Truffles] tiles [in this city]","[+1 Happiness] from [Honey] tiles [in this city]",
 		"Only available <in cities with a [Palace]>",
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Diplomacy"
@@ -208,6 +253,7 @@
 		"greatPersonPoints": {"General": 1},
 		"uniques": [
 		"Only available <in cities with a [Palace]>"
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Diplomacy"
@@ -520,12 +566,10 @@
 		"Provides [1] [Mercenary (Eastern)]",
 		"Provides [1] [Mercenary (Germanic)]",
 		"Provides [1] [Mercenary (Hellenic)]",
-		"Provides [1] [Mercenary (Hellenic)]",
 		"Provides [1] [Mercenary (Iberian)]",
 		"Provides [1] [Mercenary (Illyrian)]",
 		"Provides [1] [Mercenary (Oscan)]",
 		"Provides [1] [Mercenary (Numidian)]", 
-		"Provides [1] [Mercenary (Numidian)]",
 		"Provides [1] [Mercenary (Thracian)]",
 		"Provides [1] [Mercenary (Rhodian)]",
 		"Destroyed when the city is captured",
@@ -593,6 +637,7 @@
 		"gold": 10,
 		"culture": 1,
 		"isNationalWonder": true,
+		"specialistSlots": {"Merchant": 2},
 		"uniques": [
 		"Provides [2] [Decadence]",
 		"Doubles Gold given to enemy if city is captured"
@@ -641,7 +686,7 @@
 		"specialistSlots": {"Priest": 2},
 		"uniques": [
 		"Provides [2] [Decadence]",
-		"[+120]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"
+		"[+200]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Aesthetics",
@@ -654,8 +699,8 @@
 		"maintenance": 0,
 		"food": 2,
 		"uniques": [
-		"New [Mounted Archery] units start with [5] XP [in this city]",
-		"Provides [2] [Manpower] <while the empire is happy>","Provides [1] [Horses] <while the empire is happy>",
+		"New [Mounted Archery] units start with [10] XP [in this city]",
+		"Provides [2] [Manpower] <while the empire is happy>","Provides [1] [Horses] <while the empire is happy> <after adopting [Eastern Culture]>",
 		"Only available <after adopting [Eastern Culture]>","Must not be on [Desert]",
 		"Never destroyed when the city is captured"
 		],
@@ -701,6 +746,7 @@
 	// Equestrian Class
 	{
 		"name": "Cavalry Barracks",
+//		"specialistSlots": {"General": 1},
 		"requiredNearbyImprovedResources": ["Horses"],
 		"requiredBuilding": "Stable",
 		"hurryCostModifier": 35,
@@ -754,6 +800,7 @@
 	// Citizen Levy
 	{
 		"name": "Barracks",
+//		"specialistSlots": {"General": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"cityHealth": 30,
@@ -768,6 +815,7 @@
 	{
 		"name": "Syssition",
 		"replaces": "Barracks",
+//		"specialistSlots": {"General": 1},
 		"uniqueTo": "The Spartans",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -796,6 +844,7 @@
 	{
 		"name": "Army Barracks",
 		"requiredBuilding": "Barracks",
+//		"specialistSlots": {"General": 1},
 		"hurryCostModifier": 50,
 		"maintenance": 7,
 		"cityHealth": 80,
@@ -871,7 +920,8 @@
 		"Provides [2] [Bronze]",
 		"Consumes [2] [Copper]",
 		"[+2 Gold] from [Tin] tiles [in this city]",
-		"[+1 Gold] from [Copper] tiles [in this city]"
+		"[+1 Gold] from [Copper] tiles [in this city]",
+		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
 	},
@@ -1017,7 +1067,6 @@
 		"uniques": [
 		"Provides [1] [Manpower]",
 		"Comment [Required for some Archery units]",
-		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Archery"
 	},
@@ -1036,13 +1085,14 @@
 	},
 	{
 		"name": "Skirmisher Barracks",
+//		"specialistSlots": {"General": 1},
 		"requiredBuilding": "Archery Range",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"cityStrength": 2,
 		"cityHealth": 10,
 		"uniques": [
-		"Provides [1] [Manpower]",
+		"Provides [2] [Manpower]",
 		"New [Archery] units start with [15] XP [in this city]",
 		"New [Scout] units start with [30] XP [in this city]",
 		"Destroyed when the city is captured"
@@ -1209,70 +1259,81 @@
 	{
 		"name": "Horse Imports",
 		"requiredBuilding": "Market",
+		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
 		"Provides [2] [Horses]",
 		"[+5]% Production when constructing [Mounted] units [in all cities]",
-		"Can only be built <in [Capital] cities>"
+		"Can only be built <in [Capital] cities>",
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "The Wheel"
 	},
 	{
 		"name": "Copper Imports",
+		"specialistSlots": {"Merchant": 1},
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
 		"Provides [2] [Copper]",
 		"[+25]% Production when constructing [Bronze Works] buildings [in all cities]",
-		"Can only be built <in [Capital] cities>"
+		"Can only be built <in [Capital] cities>",
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Bronze Imports",
+		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 35,
 		"maintenance": 3,
 		"uniques": [
 		"Provides [2] [Bronze]",
 		"[+10]% Production when constructing [Spear] units [in all cities]",
-		"Can only be built <in [Capital] cities>"
+		"Can only be built <in [Capital] cities>",
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Citizen Levy"
 	},
 	{
 		"name": "Iron Imports",
+		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 35,
 		"maintenance": 4,
 		"uniques": [
 		"Provides [2] [Iron]",
 		"[+10]% Production when constructing [Sword] units [in all cities]",
-		"Can only be built <in [Capital] cities>"
+		"Can only be built <in [Capital] cities>",
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Heavy Infantry"
 	},
 	{
 		"name": "Timber Imports",
+		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 35,
 		"maintenance": 2,
 		"uniques": [
 		"Provides [2] [Timber]",
 		"[+15]% Production when constructing [Water] units [in all cities]",
-		"Can only be built <in [Capital] cities>"
+		"Can only be built <in [Capital] cities>",
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Woodworking"
 	},
 	{
 		"name": "Elephant Imports",
+		"specialistSlots": {"Magistrate": 1},
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 35,
 		"maintenance": 5,
@@ -1281,7 +1342,7 @@
 		"[+10]% Production when constructing [Elephant] units [in all cities]",
 		"Can only be built <in [Capital] cities>",
 		"Comment [Has cultural requirements]","Only available <with [Enable War Elephant]> <hidden from users>",
-		"Never destroyed when the city is captured"
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Equestrian Class"

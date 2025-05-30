@@ -5,6 +5,7 @@
     "movement": 3,
     "uniques": [
       "Can build [Land] improvements on tiles",
+      "Can build [Fort] improvements on tiles",
       "Automation is a primary action"
     ],
     "cost": 60
@@ -39,7 +40,7 @@
     "unitType": "Scout",
     "movement": 4,
     "strength": 9,
-    "cost": 65,
+    "cost": 55,
     "requiredTech": "Agriculture",
     "uniques": [
       "Consumes [1] [Manpower]"
@@ -503,7 +504,7 @@
     "name": "Spearman",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 13,
+    "strength": 12,
     "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": [
@@ -607,7 +608,7 @@
     "movement": 2,
     "strength": 16,
     "cost": 125,
-    "requiredTech": "Infantry Training",
+    "requiredTech": "Bronze Working",
     "uniques": [
       "Consumes [2] [Manpower]",
       "Consumes [1] [Bronze]",
@@ -624,19 +625,17 @@
     "name": "Swordsman",
     "unitType": "Sword",
     "hurryCostModifier": 20,
-    "cost": 145,
+    "cost": 160,
     "movement": 2,
-    "strength": 18,
-    "requiredTech": "Heavy Infantry",
+    "strength": 15,
+    "requiredTech": "Infantry Training",
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Consumes [1] [Iron]",
+      "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Swordsman]> <hidden from users>"
     ],
     "promotions": [
-      "Drill I",
       "Infantry Shield II"
     ],
     "attackSound": "metalhit"
@@ -647,16 +646,15 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Arsacids",
     "movement": 2,
-    "strength": 17,
-    "cost": 150,
-    "requiredTech": "Heavy Infantry",
+    "strength": 15,
+    "cost": 170,
+    "requiredTech": "Infantry Training",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [2] [Manpower]",
       "Only available <in cities with a [Barracks]>",
       "Can move immediately once bought"
     ],
     "promotions": [
-      "Drill I",
       "Shock I"
       "Infantry Shield II"
     ],
@@ -669,8 +667,8 @@
     "uniqueTo": "The Insubres",
     "movement": 2,
     "strength": 16,
-    "cost": 150,
-    "requiredTech": "Heavy Infantry",
+    "cost": 170,
+    "requiredTech": "Infantry Training",
     "uniques": [
       "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
@@ -689,12 +687,11 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Odrysians",
     "movement": 2,
-    "strength": 18,
-    "cost": 150,
-    "requiredTech": "Heavy Infantry",
+    "strength": 16,
+    "cost": 170,
+    "requiredTech": "Infantry Training",
     "uniques": [
       "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -710,11 +707,10 @@
     "uniqueTo": "The Getae",
     "movement": 2,
     "strength": 16,
-    "cost": 155,
-    "requiredTech": "Heavy Infantry",
+    "cost": 175,
+    "requiredTech": "Infantry Training",
     "uniques": [
       "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -729,12 +725,11 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Bastarnae",
     "movement": 2,
-    "strength": 17,
-    "cost": 155,
-    "requiredTech": "Heavy Infantry",
+    "strength": 16,
+    "cost": 175,
+    "requiredTech": "Infantry Training",
     "uniques": [
       "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -750,11 +745,10 @@
     "uniqueTo": "The Celtiberians",
     "movement": 2,
     "strength": 18,
-    "cost": 155,
-    "requiredTech": "Heavy Infantry",
+    "cost": 175,
+    "requiredTech": "Infantry Training",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron]",
+      "Consumes [4] [Manpower]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -770,11 +764,10 @@
     "uniqueTo": "The Scordisci",
     "movement": 3,
     "strength": 18,
-    "cost": 155,
-    "requiredTech": "Heavy Infantry",
+    "cost": 175,
+    "requiredTech": "Infantry Training",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron]",
+      "Consumes [4] [Manpower]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -789,16 +782,15 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Lusitani",
     "movement": 2,
-    "strength": 18,
-    "cost": 155,
-    "requiredTech": "Heavy Infantry",
+    "strength": 17,
+    "cost": 175,
+    "requiredTech": "Infantry Training",
     "uniques": [
       "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
-      "Raider II",
+      "Raider I",
       "Ambush I",
       "Infantry Shield I"
     ],
@@ -812,14 +804,14 @@
   {
     "name": "Legion",
     "unitType": "Sword",
-    "replaces": "Swordsman",
+    "replaces": "Heavy Swordsman",
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 20,
     "cost": 220,
-    "requiredTech": "Heavy Infantry",
+    "requiredTech": "Infantry Training",
     "uniques": [
-      "Can build [Land] improvements on tiles",
+	"Can build [All Road] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
@@ -828,7 +820,6 @@
       "Infantry Shield III",
       "Assault I",
       "Drill I"
-      "Shock I"
     ],
     "attackSound": "metalhit"
   },
@@ -836,17 +827,18 @@
     "name": "Royal Phalanx",
     "unitType": "Spear",
     "hurryCostModifier": 30,
-    "cost": 170,
+    "cost": 180,
     "movement": 2,
     "strength": 20,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Consumes [4] [Manpower]",
-      "Consumes [2] [Bronze]",
+      "Consumes [1] [Bronze]",
       "Comment [Has cultural requirements]",
       "Limited to [10] per Civilization",
       "Only available <with [Enable Royal Phalanx]> <hidden from users>",
       "Only available <in cities with a [Palace]>",
+      "Only available <in cities with a [Make Capital]>",
       "Never appears as a Barbarian unit"
     ],
     "promotions": [
@@ -858,9 +850,9 @@
   {
     "name": "Heavy Spearman",
     "unitType": "Spear",
-    "cost": 160,
+    "cost": 200,
     "movement": 2,
-    "strength": 17,
+    "strength": 19,
     "requiredTech": "Military Reforms",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -878,16 +870,15 @@
   {
     "name": "Heavy Swordsman",
     "unitType": "Sword",
-    "cost": 160,
+    "cost": 200,
     "movement": 2,
-    "strength": 18,
+    "strength": 19,
     "requiredTech": "Military Reforms",
     "uniques": [
       "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Heavy Swordsman]> <hidden from users>",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "Drill I",
@@ -903,7 +894,7 @@
     "hurryCostModifier": 20,
     "cost": 180,
     "movement": 2,
-    "strength": 20,
+    "strength": 21,
     "requiredTech": "Military Reforms",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -918,7 +909,7 @@
     "name": "Numidian Mercenary",
     "unitType": "Mounted",
     "hurryCostModifier": 25,
-    "cost": 195,
+    "cost": 205,
     "movement": 5,
     "strength": 15,
     "uniques": [
@@ -987,13 +978,12 @@
     "cost": 170,
     "movement": 5,
     "strength": 7,
-    "rangedStrength": 11,
+    "rangedStrength": 12,
     "requiredTech": "Riding",
     "uniques": [
       "Consumes [2] [Manpower]",
-      "Consumes [1] [Horses]",
+      "Consumes [2] [Horses]",
       "Only available <in cities with a [Nomadic Herd]>",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Horseman] ability"
@@ -1009,9 +999,8 @@
     "strength": 12,
     "rangedStrength": 10,
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Only available <in cities with a [Spice Road]>",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Camel Archer] ability"
@@ -1156,12 +1145,11 @@
     "strength": 15,
     "requiredTech": "Equestrian Class",
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Consumes [1] [Horses]",
+      "Consumes [3] [Manpower]",
+      "Consumes [2] [Horses]",
       "Only available <in cities with a [Stable]>",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Cavalry]> <hidden from users>",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -1173,13 +1161,13 @@
     "name": "Royal Agema",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 170,
+    "cost": 180,
     "movement": 4,
     "strength": 17,
     "requiredTech": "Metallurgy",
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Consumes [1] [Horses]",
+      "Consumes [3] [Manpower]",
+      "Consumes [2] [Horses]",
       "Can move after attacking",
       "Only available <in cities with a [Palace]>",
       "Comment [Has cultural requirements]",
@@ -1201,7 +1189,7 @@
     "requiredTech": "Metallurgy",
     "uniques": [
       "Consumes [4] [Manpower]",
-      "Consumes [2] [Horses]",
+      "Consumes [3] [Horses]",
       "Consumes [2] [Iron]",
       "Only available <in cities with a [Cavalry Barracks]>",
       "Comment [Has cultural requirements]",
@@ -1226,7 +1214,7 @@
     "requiredTech": "Metallurgy",
     "uniques": [
       "Consumes [3] [Manpower]",
-      "Consumes [1] [Horses]",
+      "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Cavalry Barracks]>",
       "[-15]% Strength <vs cities> <when attacking>"
@@ -1270,7 +1258,7 @@
     "strength": 23,
     "requiredTech": "Equestrian Class",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]"
     ],
@@ -1308,7 +1296,6 @@
       "Cannot enter ocean tiles",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Trireme]> <hidden from users>",
-      "Never appears as a Barbarian unit"
     ],
     "attackSound": "nonmetalhit"
   },
@@ -1519,11 +1506,11 @@
     "name": "Great Prophet",
     "unitType": "Civilian",
     "uniques": [
-      "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+      "Can Spread Religion <for [1] movement> <[4] times> <after which this unit is consumed>",
       "Removes other religions when spreading religion",
       "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
       "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-      "May enter foreign tiles without open borders",
+	"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
       "[-1] Sight",
       "Great Person - [Faith]",
       "Unbuildable",
@@ -1531,7 +1518,7 @@
       "Only available <when religion is enabled>",
       "Takes your religion over the one in their birth city"
     ],
-    "movement": 3,
+    "movement": 4,
     "religiousStrength": 1000
   },
   {
@@ -1539,17 +1526,18 @@
     "unitType": "Mounted",
     "movement": 4,
     "strength": 17,
-    "cost": 130,
+    "cost": 2500,
     "uniques": [
+      "Only available <in cities with a [Army Barracks]>",
       "Consumes [1] [Nobles]",
-      "Can move after attacking",
-      "[+15]% Strength bonus for [Military] units within [3] tiles",
-      "Great Person - [War]",
-      "Unbuildable"
+	"Cannot be purchased",
+      "Never appears as a Barbarian unit",
+      "Great Person - [War]"
     ],
     "promotions": [
       "[Horseman] ability",
       "Scouting I",
+	"Commander",
       "Cavalry Shield II"
     ],
     "attackSound": "metalhit"
@@ -1563,11 +1551,10 @@
     "uniques": [
       "Limited to [1] per Civilization",
       "[+10]% Strength bonus for [Military] units within [3] tiles",
-      "Only available <in cities with a [Palace]>",
       "Cannot be purchased",
-      "Never appears as a Barbarian unit"
     ],
     "promotions": [
+	"Morale",
       "[Spearman] ability",
       "Infantry Shield III"
     ],
@@ -1582,7 +1569,7 @@
     "strength": 18,
     "cost": 155,
     "uniques": [
-      "Limited to [1] per Civilization",
+      "Limited to [2] per Civilization",
       "[+15]% Strength bonus for [Military] units within [3] tiles",
       "Only available <in cities with a [Palace]>",
       "Cannot be purchased"
@@ -1619,19 +1606,17 @@
     "name": "King",
     "unitType": "King",
     "movement": 4,
-    "strength": 18,
-    "cost": 160,
+    "strength": 19,
+    "cost": 200,
     "uniques": [
-      "Limited to [1] per Civilization",
-      "Can move after attacking",
-      "[+20]% Strength bonus for [Military] units within [3] tiles",
-	"[+30]% Strength <for [Spear] units> <when defending> <when adjacent to a [King] unit>",
-      "Only available <in cities with a [Palace]>",
+	"Can only be built <in [Capital] cities>",
       "Cannot be purchased",
+	"Limited to [1] per Civilization",
       "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Horseman] ability",
+	"Commander",
       "Cavalry Shield II"
     ],
     "attackSound": "metalhit"
@@ -1642,20 +1627,19 @@
     "uniqueTo": "The Romans",
     "replaces": "King",
     "movement": 4,
-    "strength": 18,
-    "cost": 170,
+    "strength": 19,
+    "cost": 250,
     "uniques": [
+	"Can only be built <in [Capital] cities>",
       "Limited to [1] per Civilization",
-      "Can move after attacking",
-      "[+20]% Strength bonus for [Military] units within [3] tiles",
-	"[+20]% Strength <for [Spear] units> <when defending> <when adjacent to a [King] unit>",
-	"[+30]% Strength <for [Sword] units> <when defending> <when adjacent to a [King] unit>",
-      "Only available <in cities with a [Palace]>",
-      "Cannot be purchased"
+      "Cannot be purchased",
+      "Never appears as a Barbarian unit"
     ],
     "promotions": [
       "[Horseman] ability",
-      "Cavalry Shield II"
+	"Commander",
+      "Cavalry Shield II",
+	"Inspiring"
     ],
     "attackSound": "metalhit"
   }

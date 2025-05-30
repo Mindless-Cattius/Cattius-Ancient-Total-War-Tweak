@@ -258,6 +258,7 @@
 				"name": "Infantry Training",
 				"row": 6,
 				"prerequisites": ["Citizen Levy"],
+				"uniques": ["Enable Swordsman"],
 				"quote": "Philip II of Macedon sent a message to Sparta: 'If I invade Laconia you will be destroyed, never to rise again.'. The Spartan repply was 'If'."
 			},
 			{
@@ -414,7 +415,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Imperial Age",
-		"techCost": 10350,
+		"techCost": 15350,
 		"buildingCost": 300,
 		"wonderCost": 500,
 		"techs": [
@@ -422,7 +423,14 @@
 				"name": "Imperial Decay",
 				"row": 5,
 				"prerequisites": ["Exploration","Mass Production","Military Reforms","Aesthetics","Social Reforms"],
-				"uniques": ["Can be continually researched"],
+				"uniques": [
+				"Can be continually researched","Empire enters a [10]-turn Golden Age",
+				"[5]% Natural religion spread [in all cities]",
+				"[-5]% Production when constructing [Military] units [in all cities]",
+				"[-5]% Production towards any buildings that already exist in the Capital",
+				"[+5]% Yield from pillaging tiles",
+				"[-1 Culture] per [20] population [in all cities]",
+],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]
 			}

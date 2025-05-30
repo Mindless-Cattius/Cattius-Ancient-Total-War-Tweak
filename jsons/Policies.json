@@ -23,6 +23,8 @@
                     "[+1 Production] from every [Camp]",
 //                    "[+15]% Strength <for [Spearman] units> <when fighting in [Forest] tiles>",
 //                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Forest] tiles>"
+                    "[3] free [Spearman] units appear",
+                    "Provides [5] [Manpower]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -46,7 +48,9 @@
                     "All newly-trained [Swordsman] units [in all cities] receive the [Shock I] promotion",
                     "All newly-trained [Mercenary Warband] units [in all cities] receive the [Shock I] promotion",
                     "[+1 Happiness] [in all cities] <when at war>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[1] free [Swordsman] units appear",
+                    "Provides [3] [Manpower]"
                 ],
                 "row": 1,
                 "column": 3
@@ -79,6 +83,8 @@
                     "Free [General] appears",
                     "[+1 Happiness] [in capital]"
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [5] [Manpower]",
                 ],
                 "requires": ["Tribal Bonds"],
                 "row": 4,
@@ -169,7 +175,9 @@
                     "[-25]% construction time for [Camp] improvements",
                     "[-25]% construction time for [Pasture] improvements",
                     "[+1 Food] from every [Nomadic Herd]",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Spearman] units appear",
+                    "Provides [5] [Manpower]",
                 ],
                 "row": 1,
                 "column": 3
@@ -198,6 +206,7 @@
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -239,8 +248,10 @@
                 "uniques": [
                     "[+1 Happiness] [in all cities]",
                     "[+1 Happiness] [in capital]"
-                    "Provides [4] [Manpower]",
+                    "[3] free [Swordsman] units appear",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                 ]
             }
         ]
@@ -278,6 +289,9 @@
                     "[Skirmisher] units gain the [Forester] promotion",
                     "[Archer] units gain the [Forester] promotion",
                     "[Spearman] units gain the [Forester] promotion",
+                    "[2] free [Skirmisher] units appear",
+                    "[1] free [Archer] units appear",
+                    "Provides [3] [Manpower]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["The Great Hunt"],
@@ -287,9 +301,10 @@
             {
                 "name": "Beast Warriors",
                 "uniques": [
-                    "All newly-trained [Cavalry] units [in all cities] receive the [Morale] promotion",
-                    "All newly-trained [Swordsman] units [in all cities] receive the [Morale] promotion",
-                    "[+1 Happiness] [in capital]"
+                    "All newly-trained [Cavalry] units [in all cities] receive the [Charge I] promotion",
+                    "All newly-trained [Swordsman] units [in all cities] receive the [Shock I] promotion",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [4] [Manpower]",
                 ],
                 "requires": ["Woodland Warfare"],
                 "row": 3,
@@ -299,7 +314,9 @@
                 "name": "Shield Wall",
                 "uniques": [
                     "[+30]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Spearman] units appear",
+                    "Provides [5] [Manpower]",
                 ],
                 "row": 1,
                 "column": 3
@@ -318,7 +335,10 @@
                 "name": "Chosen Warriors",
                 "uniques": [
                     "[+150]% XP gained from combat <for [Land] units> <when below [25] HP>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[1] free [Heavy Swordsman] units appear",
+                    "Provides [3] [Manpower]",
+                    "Provides [1] [Iron]",
                 ],
                 "requires": ["Shieldmaidens","Woodland Warfare"],
                 "row": 3,
@@ -354,8 +374,10 @@
                 "uniques": [
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "[+1] Movement <for [Land] units> <in [Forest] tiles>",
-                    "[+1 Happiness] [in capital]"
-                    "Provides [4] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Heavy Swordsman] units appear",
+                    "Provides [2] [Iron]",
+                    "Provides [5] [Manpower]",
                 ]
             }
         ]
@@ -386,7 +408,7 @@
                 "requires": ["Freedom of The Greeks"],
                 "uniques": [
                     "Provides [1] [Manpower]",
-                    "All newly-trained [Spear] units [in capital] receive the [Morale] promotion",
+                    "All newly-trained [Spear] units [in capital] receive the [Spear Wall] promotion",
                     "[+2 Happiness] [in capital] <with a garrison>",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -398,6 +420,7 @@
                 "requires": ["City Guard"],
                 "uniques": [
                     "Provides [4] [Manpower]",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables Pike Phalanx] <for [The Cyreneans] Civilizations>","Provides [1] [Enable Pike Phalanx] <for [The Cyreneans] Civilizations> <hidden from users>",
                     "Comment [Enables Royal Phalanx] <for [The Cyreneans] Civilizations>","Provides [1] [Enable Royal Phalanx] <for [The Cyreneans] Civilizations> <hidden from users>",
                     "Comment [Enables Pike Phalanx] <for [The Spartans] Civilizations>","Provides [1] [Enable Pike Phalanx] <for [The Spartans] Civilizations> <hidden from users>",
@@ -405,7 +428,10 @@
                     "[+2 Happiness] [in capital] <if [Army Barracks] is constructed>",
                     "[+1 Happiness] [in capital] <if [Skirmisher Barracks] is constructed>",
                     "[+1 Happiness] [in capital] <if [Cavalry Barracks] is constructed>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[1] free [Hoplite] units appear",
+                    "Provides [1] [Bronze]",
+                    "Provides [2] [Manpower]",
                 ],
                 "row": 3,
                 "column": 1
@@ -416,7 +442,9 @@
                     "[+15]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>",
                     "[+50]% Production when constructing [Barracks] buildings [in all cities]",
                     "Provides [2] [Bronze]",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Spearman] units appear",
+                    "Provides [5] [Manpower]",
                 ],
                 "row": 1,
                 "column": 3
@@ -485,8 +513,11 @@
                 "name": "Hellenic Culture Complete",
                 "uniques": [
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "[+25]% Great Person generation [in all cities]",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Hoplite] units appear",
+                    "Provides [4] [Bronze]",
                     "Provides [4] [Manpower]",
                 ]
             }
@@ -567,7 +598,8 @@
                     "New [{Melee} {Land}] units start with [10] XP [in all cities] <in cities with a [Colony]>",
                     "Provides [2] [Bronze]",
                     "[+2 Happiness] [in annexed cities] <in cities with a [Colony]>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>"
                 ],
                 "row": 1,
                 "column": 3
@@ -584,7 +616,10 @@
                     "Comment [Enables Royal Agema] <for [The Macedonians] Civilizations>","Provides [1] [Enable Royal Agema] <for [The Macedonians] Civilizations> <hidden from users>",
                     "Comment [Enables Royal Agema] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Royal Agema] <for [The Pergamenes] Civilizations> <hidden from users>",
                     "Comment [Enables Royal Agema] <for [The Pergamenes] Civilizations>","Provides [1] [Enable Royal Agema] <for [The Ptolemies] Civilizations> <hidden from users>",              
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Pike Phalanx] units appear",
+                    "Provides [3] [Bronze]",
+                    "Provides [6] [Manpower]",
                 ],
                 "requires": ["Euergetes","Poliorketes"],
                 "row": 3,
@@ -610,7 +645,9 @@
                     "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
                     "Notified of new Barbarian encampments",
                     "[+33]% Strength <vs [Barbarian] units>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[1] free [Swordsman] units appear",
+                    "Provides [3] [Manpower]"
                 ],
                 "row": 1,
                 "column": 5
@@ -631,13 +668,12 @@
                 "name": "Hellenistic Culture Complete",
                 "civilopediaText": [{"text": "Successor States"}],
                 "uniques": [
-                    "Comment [Enables Heavy Spearman] <for [The Mithridatids] Civilizations>","Provides [1] [Enable Heavy Spearman] <for [The Mithridatids] Civilizations> <hidden from users>",
-                    "Comment [Enables Heavy Spearman] <for [The Pergamenes] Civilizations>","Provides [1] [Enable Heavy Spearman] <for [The Pergamenes] Civilizations> <hidden from users>",
-                    "Comment [Enables Heavy Swordsman] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Heavy Swordsman] <for [The Ptolemies] Civilizations> <hidden from users>",
-                    "Comment [Enables Heavy Swordsman] <for [The Seleucids] Civilizations>","Provides [1] [Enable Heavy Swordsman] <for [The Seleucids] Civilizations> <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "[+1 Happiness] from every [Colony]",
-                    "[+1 Happiness] [in capital]"
-                    "Provides [4] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
                 ]
             }
         ]
@@ -688,7 +724,9 @@
                     "[+1 Science, +1 Production] from every [Forge]",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
                 ],
                 "row": 3,
                 "column": 1
@@ -697,7 +735,8 @@
                 "name": "Flaming Javelins",
                 "requires": ["Iberian Workshops","Skirmish Tactics"],
                 "uniques": [
-                    "[+33]% Strength <for [Skirmisher] units> <vs cities> <when attacking>",
+                    "[+50]% Strength <for [Skirmisher] units> <vs cities> <when attacking>",
+                    "[+30]% Strength <for [Skirmisher] units> <when attacking>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -709,7 +748,9 @@
                 "uniques": [
                     "Free [General] appears",
                     "[+1 Culture, +1 Happiness] from every [Hill Fort]",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[1] free [Heavy Swordsman] units appear",
+                    "Provides [1] [Iron]",
                 ],
                 "row": 4,
                 "column": 3
@@ -719,7 +760,9 @@
                 "uniques": [
                     "[+15]% Strength <for [Skirmisher] units> <when fighting in [Rough terrain] tiles>",
                     "[+15]% Strength <for [Archery] units> <when fighting in [Rough terrain] tiles>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Skirmisher] units appear",
+                    "Provides [3] [Manpower]",
                 ],
                 "row": 1,
                 "column": 5
@@ -728,7 +771,7 @@
                 "name": "Iberian Pastures",
                 "requires": ["Skirmish Tactics"],
                 "uniques": [
-                    "Provides [2] [Horses]",
+                    "Provides [3] [Horses]",
                     "[+1 Happiness] from every [Stable]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -750,8 +793,9 @@
                 "name": "Iberian Culture Complete",
                 "uniques": [
                     "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
-                    "[+1 Happiness] [in capital]"
-                    "Provides [4] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
                 ]
             }
         ]
@@ -776,7 +820,8 @@
                 "name": "The Right to Plunder",
                 "uniques": [
                     "[Military] units gain the [Raider I] promotion",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "Enables embarkation for land units"
                 ],
                 "row": 1,
                 "column": 1
@@ -786,7 +831,6 @@
                 "uniques": [
                     "All newly-trained [{Military} {Water}] units [in all coastal cities] receive the [Coastal Raider I] promotion",
                     "All newly-trained [{Military} {Land}] units [in all coastal cities] receive the [Amphibious I] promotion",
-                    "Enables embarkation for land units",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["The Right to Plunder"],
@@ -811,6 +855,7 @@
                 "uniques": [
                     "Empire enters golden age",
                     "[+1 Happiness, +1 Culture] [in all cities]",
+                    "[+1] additional attacks per turn <for [Galley] units>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Liburnes","Adventurers"],
@@ -821,7 +866,10 @@
                 "name": "Fierce Defenders",
                 "uniques": [
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]",
                 ],
                 "row": 1,
                 "column": 3
@@ -840,7 +888,7 @@
             {
                 "name": "Adventurers",
                 "uniques": [
-                    "[Faction Leader] units gain the [Ignore terrain cost] promotion",
+                    "[King] units gain the [Ignore terrain cost] promotion",
                     "[General] units gain the [Ignore terrain cost] promotion",
                     "[Military] units gain the [Scouting I] promotion",
                     "[+1 Happiness] [in capital]"
@@ -855,6 +903,11 @@
                     "New [Spear] units start with [15] XP [in all cities]",
                     "[+100]% Production when constructing [Barracks] buildings [in capital]",
                     "[+1 Happiness] [in capital]"
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enable Archer]","Provides [1] [Enable Archer] <hidden from users>",
+                    "[3] free [Pike Phalanx] units appear",
+                    "Provides [6] [Manpower]",
+                    "Provides [3] [Bronze]",
                 ],
                 "requires": ["Fierce Defenders"],
                 "row": 2,
@@ -866,7 +919,8 @@
                     "[+15]% Strength <for [All] units> <during a Golden Age>",
                     "[+1] Movement <for [Embarked] units> <during a Golden Age>",
                     "[+1] Sight <for [Embarked] units> <during a Golden Age>",
-                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                     "Provides [4] [Manpower]",
                 ]
@@ -884,9 +938,8 @@
         "uniques": [
                     "Only available <after adopting [Latin Culture]> <hidden from users>",
                     "[+15]% growth [in capital]",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
-                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
-                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "[+1 Happiness] [in capital]",
@@ -897,6 +950,7 @@
                 "uniques": [
                     "Provides [3] [Manpower] <while the empire is happy>",
                     "[-10]% City-State Influence degradation",
+                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -918,9 +972,10 @@
                 "name": "Manipular Legion",
                 "requires": ["Socii"],
                 "uniques": [
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "[+25]% Production when constructing [Melee] units [in capital]",
-                    "[2] free [Swordsman] units appear",
-                    "Provides [6] [Manpower]",
+                    "[3] free [Swordsman] units appear",
+                    "Provides [9] [Manpower]",
                     "Provides [2] [Iron]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -937,6 +992,7 @@
                     "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -946,10 +1002,12 @@
                 "name": "Marian Reforms",
                 "requires": ["Bread and Circuses","Manipular Legion","Auxilia"],
                 "uniques": [
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "[-20]% maintenance costs <for [Sword] units>",
                     "[+50]% Production when constructing [Army Barracks] buildings [in all cities]",
                     "[+15]% Production when constructing [Sword] units [in all cities]",
-                    "[2] free [Swordsman] units appear",
-                    "Provides [6] [Manpower]",
+                    "[2] free [Heavy Swordsman] units appear",
+                    "Provides [9] [Manpower]",
                     "Provides [2] [Iron]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -996,8 +1054,6 @@
                     "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
                     "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
 		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
-                    "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
-                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                     "Provides [4] [Manpower]",
@@ -1049,8 +1105,11 @@
                 "name": "Royal Mausoleum",
                 "requires": ["Feed The World"],
                 "uniques": [
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "[+1 Happiness, +1 Culture] from every [Mausoleum]",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]"
                 ],
                 "row": 3,
                 "column": 1
@@ -1058,13 +1117,12 @@
             {
                 "name": "Numidian Warfare",
                 "uniques": [
-                    "[+25]% Strength <for [Horseman] units> <vs [Mounted] units>",
-                    "[+25]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units>",
-                    "[+25]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles>",
+                    "[+35]% Strength <for [Horseman] units> <vs [Mounted] units>",
+                    "[+35]% Strength <for [Numidian Mercenary] units> <vs [Mounted] units>",
+                    "[+35]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles>",
                     "Free [Horseman] appears",
-                    "Provides [3] [Manpower]",
+                    "Provides [4] [Manpower]",
                     "Provides [1] [Horses]",
-                    "Provides [1] [Manpower]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1104,7 +1162,9 @@
                     "[Numidian Mercenary] units gain the [Raider II] promotion",
                     "[Skirmisher] units gain the [Raider II] promotion",
                     "Free [General] appears",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]"
                 ],
                 "row": 4,
                 "column": 3
@@ -1129,6 +1189,7 @@
 		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                     "Provides [4] [Manpower]",
                 ]
@@ -1211,9 +1272,12 @@
             {
                 "name": "Mercenary Armies",
                 "uniques": [
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "[Gold] cost of purchasing [{Military} {Land}] units [-30]%",
                     "[+1 Happiness] [in all cities]",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]"
                 ],
                 "row": 1,
                 "column": 3
@@ -1228,6 +1292,8 @@
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Free [Horseman] appears",
                     "Provides [4] [Manpower]",
+                    "[2] free [Spearman] units appear",
+                    "Provides [1] [Horses]"
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1263,10 +1329,11 @@
                 "name": "Punic Culture Complete",
                 "uniques": [
                     "[General] units gain the [Scouting II] promotion",
+                    "[King] units gain the [Scouting II] promotion",
                     "[Mounted] units gain the [Scouting I] promotion",
-		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                     "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
                     "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                     "Provides [5] [Manpower]",
                 ]
@@ -1295,8 +1362,9 @@
                 "uniques": [
                     "[+15]% Production when constructing [Scout] units [in all cities]",
                     "[+15]% Strength <for [Scout] units> <when fighting in [Rough terrain] tiles>",
-                    "[+1 Happiness] [in capital]"
-                    "Provides [1] [Manpower]",
+                    "[+1 Happiness] [in capital]",
+                    "[3] free [Spearman] units appear",
+                    "Provides [5] [Manpower]"
                 ],
                 "row": 1,
                 "column": 1
@@ -1329,7 +1397,8 @@
                 "uniques": [
                     "[{Melee} {Land}] units gain the [Raider I] promotion",
                     "[+1 Happiness] [in capital]"
-                    "Provides [2] [Manpower]",
+                    "[2] free [Swordsman] units appear",
+                    "Provides [6] [Manpower]"
                 ],
                 "row": 1,
                 "column": 3
@@ -1366,6 +1435,7 @@
                     "Free [Cavalry] appears <upon discovering [Riding] technology>",
                     "Provides [3] [Manpower]",
                     "[+1 Happiness] [in capital]"
+                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                 ],
                 "row": 1,
                 "column": 5
@@ -1390,6 +1460,7 @@
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+                    "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "[+1 Happiness] [in capital]"
                     "Provides [4] [Manpower]",
                 ]
@@ -1499,11 +1570,12 @@
             {
                 "name": "Federation Complete",
                 "uniques": [
-                    "May buy [Great Merchant] units for [5000] [Gold] [in all coastal cities] at an increasing price ([1000])",
+			"[May buy [Great Merchant] units for [5000] [Gold] [Capital] at an increasing price ([1000])"
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
 		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
+                    "[+1 Happiness] [in capital]",
                     "Provides [6] [Manpower]",
                 ]
             }
@@ -1581,7 +1653,7 @@
                     "[+1 Happiness] from every [Skirmisher Barracks]",
                     "[+2 Happiness] [in capital]"
                     "Provides [4] [Manpower]",
-                    "[Military] units gain the [Morale] promotion",
+                    "[Military] units gain the [Survivalism I] promotion",
                 ],
                 "row": 2,
                 "column": 5
@@ -1624,10 +1696,12 @@
             {
                 "name": "Centralization Complete",
                 "uniques": [
-                    "May buy [Great Prophet] units for [2000] [Gold] [in capital] at an increasing price ([1000])",
+                    "May buy [Great Prophet] units for [5000] [Gold] [Capital] at an increasing price ([1000])",
                     "[+1 Happiness] [in capital]",
                     "[+20]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
-                    "Provides [4] [Manpower]",
+                    "Provides [6] [Manpower]",
+                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",		
+		"All newly-trained [{Melee} {Land}] units [in all cities] receive the [Improved Equipment] promotion"
                 ]
             }
         ]
@@ -1669,8 +1743,9 @@
                 "name": "Military Drills",
                 "requires": ["Extended Citizenship"],
                 "uniques": [
-                    "All newly-trained [Military] units [in all cities] receive the [Morale] promotion",
-                    "[Military] units gain the [Morale] promotion",
+                    "All newly-trained [Military] units [in all cities] receive the [Drill I] promotion",
+                    "[Military] units gain the [Drill I] promotion",
+                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -1695,6 +1770,7 @@
                 "uniques": [
                     "[-25]% Unhappiness from [Population] [in all cities]"
                     "[+1 Food] from every [Farm]",
+                    "[-1 Gold] from every [Farm]",
                     "[+1 Food] from every [Pasture]",
                     "[+1 Food] from every [Plantation]",
                     "[+1 Happiness] [in capital]"
@@ -1730,8 +1806,8 @@
                 "name": "Heliopolitans",
                 "requires": ["Military Drills","Slave Liberation"],
                 "uniques": [
-                    "All newly-trained [Military] units [in all cities] receive the [Morale] promotion",
-                    "[Military] units gain the [Morale] promotion",
+                    "All newly-trained [Scout] units [in capital] receive the [Veteran] promotion",
+                    "[Scout] units gain the [Veteran] promotion",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 3,
@@ -1740,7 +1816,7 @@
             {
                 "name": "Land Reform Complete",
                 "uniques": [
-                    "May buy [General] units for [3000] [Gold] [in all cities] at an increasing price ([1000])",
+                    "May buy [General] units for [5000] [Gold] [Capital] at an increasing price ([1000])",
                     "[+1 Happiness] [in capital]"        
                     "Provides [4] [Manpower]",    
                     "All newly-trained [Military] units [in all cities] receive the [Improved Armor] promotion",     
