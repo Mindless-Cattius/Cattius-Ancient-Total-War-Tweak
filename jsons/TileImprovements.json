@@ -123,10 +123,10 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"turnsToBuild": 10,
 		"gold": -5,
-		"techRequired": "Masonry",
+		"techRequired": "Imperial Decay",
 		"uniques": [
 			"Adjacent enemy units ending their turn take [30] damage",
-			"Gives a defensive bonus of [30]%","Limited to [10] per Civilization"
+			"Gives a defensive bonus of [30]%"
 		],
 		"shortcutKey": "O"
 	},
@@ -186,7 +186,7 @@
     {
         "name": "Repair",
         "terrainsCanBeBuiltOn": ["Land"],
-        "turnsToBuild": 1,
+        "turnsToBuild": 2,
         "shortcutKey": "E",
         "uniques": ["Unbuildable"],
         "civilopediaText": [{"text":"Repairs a pillaged Improvement or Route"}]

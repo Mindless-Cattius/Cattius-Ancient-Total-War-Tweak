@@ -1090,7 +1090,7 @@
 	{
 		"name": "Commander",
 		"uniques": [
-			"[+15]% Strength bonus for [[{Melee} {Land}]] units within [2] tiles <when attacking>",
+			"[+15]% Strength bonus for [[{Melee} {Land}] units within [2] tiles <when attacking>",
 			"[+30]% Strength bonus for [Scout] units within [2] tiles <when defending>",
 			"[+20]% Strength bonus for [Spear] units within [2] tiles <when defending>",
 			"[+20]% Strength bonus for [Archery] units within [2] tiles <when defending>",

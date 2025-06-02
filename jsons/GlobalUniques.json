@@ -2,11 +2,15 @@
     "name": "Global uniques",
     "uniques": [ 
 // ADDONS
+	"[-20]% City Strength from defensive buildings <during the [Archaic Age]>",
+	"[-20]% City Strength from defensive buildings <during the [Classical Age]>",
+	"[-20]% City Strength from defensive buildings <during the [Hellenistic Age]>",
 	"May not annex cities <during the [Archaic Age]>",
-	"[-20]% Production when constructing [Military] units [in all cities] <during the [Imperial Age]>"
-	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
+	"[-100]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
+	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
+	"[-75]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
 	"[-25]% Production when constructing [Military] units [in all cities] <during the [Imperial Age]>",
-        "Rebel units may spawn <when below [200] [Happiness]>",
+        "Rebel units may spawn <when below [150] [Happiness]>",
 	 "[25]% Science cost of researching new Technologies",
 	"All newly-trained [Military] units [in all cities] receive the [Morale] promotion <during the [Imperial Age]>",
 	"Military Units gifted from City-States start with [30] XP",
@@ -20,7 +24,7 @@
         "[+100]% Culture cost of adopting new Policies",
         "[{Military} {Water}] units gain the [Warship] promotion",
         "May buy items in puppet cities",
-        "[-70]% resources gifted by City-States",
+        "[-50]% resources gifted by City-States",
 //GOLD
 	"[Gold] cost of purchasing [Military] units [+25]% <during the [Imperial Age]>",
 // Happiness
