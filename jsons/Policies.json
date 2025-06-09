@@ -10,10 +10,12 @@
         "uniques": [
                     "Only available <after adopting [Celtic Culture]> <hidden from users>",
                     "Gain a free [Hill Fort] [in capital]",
+                    "[1] free [Great Scholar] units appear",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] 
+ <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
@@ -137,6 +139,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Eastern Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
                     "[+100]% Production when constructing [Market] buildings [in all cities]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
@@ -188,9 +191,9 @@
                 "uniques": [
                     "[+25]% Strength <for [Mounted Archery] units> <vs [Sword] units>",
                     "[+25]% Strength <for [Mounted Archery] units> <vs [Spear] units>",
-                    "Free [Horse Archer] appears",
-                    "Provides [2] [Horses]",
-                    "Provides [4] [Manpower]",
+                    "[2] free [Horse Archer] units appears",
+                    "Provides [5] [Horses]",
+                    "Provides [6] [Manpower]",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 2,
@@ -265,6 +268,7 @@
             "Domination": 50
         },
         "uniques": [
+                    "[1] free [Great Scholar] units appear",
                     "Only available <after adopting [Germanic Culture]> <hidden from users>",              
                     "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
@@ -394,6 +398,7 @@
                     "Only available <after adopting [Hellenic Culture]> <hidden from users>",
                     "[-25]% Culture cost of natural border growth [in capital]",
                     "[+1 Culture] from every [Theatre]",
+                    "[1] free [Great Scholar] units appear",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Lancer] promotion <hidden from users>",
@@ -534,6 +539,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Hellenistic Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
                     "[+25]% Production when constructing [Settler] units [in all cities]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
@@ -548,7 +554,7 @@
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
-                    "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",  
+                    "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
                     "Comment [Enables Chariot Archer] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Chariot Archer] <for [The Ptolemies] Civilizations> <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
@@ -599,7 +605,6 @@
                     "Provides [2] [Bronze]",
                     "[+2 Happiness] [in annexed cities] <in cities with a [Colony]>",
                     "[+1 Happiness] [in capital]",
-                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>"
                 ],
                 "row": 1,
                 "column": 3
@@ -608,7 +613,7 @@
                 "name": "Nikator",
                 "civilopediaText": [{"text": "Nikator was a hellenestic royal epithet meaning The Victorious. Most famous of the victors was Seleucos I."}],
                 "uniques": [
-                    "Earn [25]% of killed [Military] unit's [Strength] as [Culture]",
+                    "Earn [20]% of killed [Military] unit's [Strength] as [Culture]",
                     "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
                     "Comment [Enables Cataphract] <for [The Mithridatids] Civilizations>","Provides [1] [Enable Cataphract] <for [The Mithridatids] Civilizations> <hidden from users>",
                     "Comment [Enables Cataphract] <for [The Seleucids] Civilizations>","Provides [1] [Enable Cataphract] <for [The Seleucids] Civilizations> <hidden from users>",
@@ -617,8 +622,8 @@
                     "Comment [Enables Royal Agema] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Royal Agema] <for [The Pergamenes] Civilizations> <hidden from users>",
                     "Comment [Enables Royal Agema] <for [The Pergamenes] Civilizations>","Provides [1] [Enable Royal Agema] <for [The Ptolemies] Civilizations> <hidden from users>",              
                     "[+1 Happiness] [in capital]",
-                    "[3] free [Pike Phalanx] units appear",
-                    "Provides [3] [Bronze]",
+                    "[2] free [Pike Phalanx] units appear",
+                    "Provides [2] [Bronze]",
                     "Provides [6] [Manpower]",
                 ],
                 "requires": ["Euergetes","Poliorketes"],
@@ -658,7 +663,8 @@
                 "uniques": [
                     "[1] additional attacks per turn <for [Siege] units>",
                     "[-20]% maintenance costs <for [Military] units>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>"
                 ],
                 "requires": ["Soter","Military Colonies"],
                 "row": 2,
@@ -670,9 +676,10 @@
                 "uniques": [
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+                    "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
                     "[+1 Happiness] from every [Colony]",
                     "[+1 Happiness] [in capital]",
-                    "[3] free [Swordsman] units appear",
+                    "[2] free [Swordsman] units appear",
                     "Provides [6] [Manpower]",
                 ]
             }
@@ -688,6 +695,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Iberian Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
                     "[+100]% Production when constructing [Hill Fort] buildings [in all cities]",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
@@ -810,6 +818,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Illyrian Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
                     "Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <hidden from users>"
@@ -937,6 +946,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Latin Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
                     "[+15]% growth [in capital]",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
@@ -1002,7 +1012,6 @@
                 "name": "Marian Reforms",
                 "requires": ["Bread and Circuses","Manipular Legion","Auxilia"],
                 "uniques": [
-                    "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "[-20]% maintenance costs <for [Sword] units>",
                     "[+50]% Production when constructing [Army Barracks] buildings [in all cities]",
                     "[+15]% Production when constructing [Sword] units [in all cities]",
@@ -1071,6 +1080,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Numidian Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
                     "Earn [33]% of killed [Military] unit's [Strength] as [Science]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
@@ -1206,6 +1216,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Punic Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
                     "[{Military} {Water}] units gain the [Scouting I] promotion",
                     "[+1] Sight <for [Embarked] units>",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
@@ -1350,6 +1361,7 @@
         },
         "uniques": [
                     "Only available <after adopting [Thracian Culture]> <hidden from users>",
+                    "[1] free [Great Scholar] units appear",
                     "[50]% of excess happiness converted to [Gold] <after discovering [Currency]>",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
@@ -1678,6 +1690,7 @@
                     "[+2 Faith] from [Luxury resource] tiles [in capital]",
                     "[+1 Faith] from [Luxury resource] tiles [in all cities]",
                     "[+1 Happiness] [in capital]"
+                    "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
                 ],
                 "row": 3,
                 "column": 3

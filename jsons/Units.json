@@ -115,7 +115,7 @@
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
+      "Can move immediately once bought"
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -243,7 +243,7 @@
     "replaces": "Slinger",
     "uniqueTo": "The Belgae",
     "movement": 2,
-    "strength": 10,
+    "strength": 7,
     "rangedStrength": 12,
     "cost": 86,
     "requiredTech": "Archery",
@@ -406,8 +406,8 @@
     "name": "Mercenary Judean Spearman",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 15,
-    "cost": 165,
+    "strength": 13,
+    "cost": 150,
     "uniques": [
       "Consumes [1] [Mercenary (Judean)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -448,7 +448,7 @@
     "name": "Iberian Mercenary",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 17,
+    "strength": 15,
     "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Iberian)]",
@@ -492,7 +492,6 @@
     ],
     "promotions": [
       "[Spearman] ability",
-      "Drill I",
       "Assault I",
       "Amphibious I",
       "Infantry Shield II"
@@ -504,7 +503,7 @@
     "name": "Spearman",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 12,
+    "strength": 11,
     "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": [
@@ -512,7 +511,6 @@
     ],
     "promotions": [
       "[Spearman] ability",
-      "Formation I",
       "Infantry Shield II"
     ],
     "attackSound": "metalhit"
@@ -523,7 +521,7 @@
     "replaces": "Spearman",
     "uniqueTo": "The Insubres",
     "movement": 2,
-    "strength": 14,
+    "strength": 12,
     "cost": 76,
     "requiredTech": "Bronze Working",
     "uniques": [
@@ -628,7 +626,7 @@
     "cost": 160,
     "movement": 2,
     "strength": 15,
-    "requiredTech": "Infantry Training",
+    "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
@@ -648,9 +646,9 @@
     "movement": 2,
     "strength": 15,
     "cost": 170,
-    "requiredTech": "Infantry Training",
+    "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
       "Can move immediately once bought"
     ],
@@ -668,7 +666,7 @@
     "movement": 2,
     "strength": 16,
     "cost": 170,
-    "requiredTech": "Infantry Training",
+    "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
@@ -689,9 +687,9 @@
     "movement": 2,
     "strength": 16,
     "cost": 170,
-    "requiredTech": "Infantry Training",
+    "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -706,11 +704,11 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Getae",
     "movement": 2,
-    "strength": 16,
+    "strength": 14,
     "cost": 175,
-    "requiredTech": "Infantry Training",
+    "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -727,7 +725,7 @@
     "movement": 2,
     "strength": 16,
     "cost": 175,
-    "requiredTech": "Infantry Training",
+    "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>"
@@ -742,9 +740,9 @@
     "name": "Celtiberian Warband",
     "unitType": "Sword",
     "replaces": "Swordsman",
-    "uniqueTo": "The Celtiberians",
+    "uniqueTo": "Citizen Levy",
     "movement": 2,
-    "strength": 18,
+    "strength": 17,
     "cost": 175,
     "requiredTech": "Infantry Training",
     "uniques": [
@@ -763,9 +761,9 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Scordisci",
     "movement": 3,
-    "strength": 18,
+    "strength": 17,
     "cost": 175,
-    "requiredTech": "Infantry Training",
+    "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [4] [Manpower]",
       "Only available <in cities with a [Barracks]>"
@@ -780,9 +778,9 @@
     "name": "Lusitanian Warband",
     "unitType": "Sword",
     "replaces": "Swordsman",
-    "uniqueTo": "The Lusitani",
+    "uniqueTo": "Citizen Levy",
     "movement": 2,
-    "strength": 17,
+    "strength": 16,
     "cost": 175,
     "requiredTech": "Infantry Training",
     "uniques": [
@@ -808,7 +806,7 @@
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 20,
-    "cost": 220,
+    "cost": 260,
     "requiredTech": "Infantry Training",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
@@ -823,16 +821,36 @@
     ],
     "attackSound": "metalhit"
   },
+{
+    "name": "Cohors Urbana",
+    "unitType": "Sword",
+    "replaces": "Swordsman",
+    "uniqueTo": "The Romans",
+    "movement": 2,
+    "strength": 16,
+    "cost": 180,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+	"Can build [All Road] improvements on tiles",
+      "Consumes [3] [Manpower]",
+      "Only available <in cities with a [Barracks]>"
+    ],
+    "promotions": [
+      "Infantry Shield III",
+      "Drill I"
+    ],
+    "attackSound": "metalhit"
+  },
   {
     "name": "Royal Phalanx",
     "unitType": "Spear",
-    "hurryCostModifier": 30,
-    "cost": 180,
+    "hurryCostModifier": 40,
+    "cost": 220,
     "movement": 2,
     "strength": 20,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [4] [Manpower]",
+      "Consumes [5] [Manpower]",
       "Consumes [1] [Bronze]",
       "Comment [Has cultural requirements]",
       "Limited to [10] per Civilization",
@@ -852,7 +870,7 @@
     "unitType": "Spear",
     "cost": 200,
     "movement": 2,
-    "strength": 19,
+    "strength": 18,
     "requiredTech": "Military Reforms",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -978,11 +996,11 @@
     "cost": 170,
     "movement": 5,
     "strength": 7,
-    "rangedStrength": 12,
+    "rangedStrength": 13,
     "requiredTech": "Riding",
     "uniques": [
       "Consumes [2] [Manpower]",
-      "Consumes [2] [Horses]",
+      "Consumes [1] [Horses]",
       "Only available <in cities with a [Nomadic Herd]>",
     ],
     "promotions": [
@@ -1166,8 +1184,8 @@
     "strength": 17,
     "requiredTech": "Metallurgy",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [2] [Horses]",
+      "Consumes [5] [Manpower]",
+      "Consumes [1] [Horses]",
       "Can move after attacking",
       "Only available <in cities with a [Palace]>",
       "Comment [Has cultural requirements]",
@@ -1182,14 +1200,14 @@
   {
     "name": "Cataphract",
     "unitType": "Mounted",
-    "hurryCostModifier": 20,
-    "cost": 270,
+    "hurryCostModifier": 30,
+    "cost": 320,
     "movement": 3,
-    "strength": 25,
+    "strength": 26,
     "requiredTech": "Metallurgy",
     "uniques": [
-      "Consumes [4] [Manpower]",
-      "Consumes [3] [Horses]",
+      "Consumes [5] [Manpower]",
+      "Consumes [2] [Horses]",
       "Consumes [2] [Iron]",
       "Only available <in cities with a [Cavalry Barracks]>",
       "Comment [Has cultural requirements]",
@@ -1208,12 +1226,12 @@
     "uniqueTo": "The Armenians",
     "replaces": "Cataphract",
     "hurryCostModifier": 20,
-    "cost": 230,
+    "cost": 260,
     "movement": 3,
-    "strength": 19,
+    "strength": 20,
     "requiredTech": "Metallurgy",
     "uniques": [
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Cavalry Barracks]>",
@@ -1223,7 +1241,6 @@
       "[Horseman] ability",
       "Cavalry Shield II"
       "Armored Lancer",
-      "Charge I",
     ],
     "attackSound": "metalhit"
   },
@@ -1253,9 +1270,9 @@
     "uniqueTo": "The Seleucids",
     "replaces": "War Elephant",
     "hurryCostModifier": 25,
-    "cost": 250,
+    "cost": 270,
     "movement": 3,
-    "strength": 23,
+    "strength": 24,
     "requiredTech": "Equestrian Class",
     "uniques": [
       "Consumes [4] [Manpower]",
@@ -1527,10 +1544,10 @@
     "movement": 4,
     "strength": 17,
     "cost": 2500,
+    "requiredTech": "Infantry Training",
     "uniques": [
       "Only available <in cities with a [Army Barracks]>",
       "Consumes [1] [Nobles]",
-	"Cannot be purchased",
       "Never appears as a Barbarian unit",
       "Great Person - [War]"
     ],

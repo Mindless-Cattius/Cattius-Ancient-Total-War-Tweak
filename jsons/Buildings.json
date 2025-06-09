@@ -2,7 +2,6 @@
 	// Always available
 	{
 		"name": "Palace",
-//		"requiredBuilding": "Palace",
 		"isNationalWonder": true,
 		"cost": 50,
 		"production": 3,
@@ -10,8 +9,8 @@
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 3,
-//		"greatPersonPoints": {"Great Courtesan":500},
-//		"specialistSlots": {"Courtesan": 2},
+		"greatPersonPoints": {"Great Courtesan":10},
+		"specialistSlots": {"Courtesan": 2},
 		"uniques": [
 		"Provides [1] [Decadence] <during the [Classical Age]>",
 		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
@@ -19,7 +18,7 @@
 		"Provides [1] [Manpower] <during the [Classical Age]>",
 		"Provides [2] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [3] [Manpower] <during the [Imperial Age]>",
-//		"Provides [3] [Manpower]",
+		"Provides [3] [Manpower]",
 		"Consumes [2] [Nobles] <after adopting [Social Revolution]>",
 		"Doubles Gold given to enemy if city is captured",
 		"Limited to [1] per Civilization",
@@ -28,8 +27,9 @@
 	},	
 	{
 		"name": "Make Capital",
-//		"specialistSlots": {"Courtesan": 2},
-		"cost": 150,
+		"requiredTech": "Social Reforms"
+		"specialistSlots": {"Courtesan": 2},
+		"cost": 250,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"production": 3,
@@ -37,14 +37,10 @@
 		"happiness": 1,
 		"cityHealth": 20,
 		"cityStrength": 5,
-//		"greatPersonPoints": {"Great Courtesan":500},
-//		"specialistSlots": {"Courtesan": 2},
+		"greatPersonPoints": {"Great Courtesan":10},
+		"specialistSlots": {"Courtesan": 2},
 		"uniques": [
-                "All newly-trained [Military] units [in all cities] receive the [Morale] promotion",
-                "[Military] units gain the [Morale] promotion",
-		"Provides [3] [Manpower] <during the [Classical Age]>",
-		"Provides [4] [Manpower] <during the [Hellenistic Age]>",
-		"Provides [5] [Manpower] <during the [Imperial Age]>",
+		"Indicates the capital city",
 		"[+1 Gold] from [Farm] tiles [in this city]",
 		"[+1 Gold] from [Desert] tiles [in this city] <during the [Imperial Age]>",
 		"[+1 Food] from [Snow] tiles [in this city] <during the [Imperial Age]>",
@@ -53,11 +49,15 @@
 		"[+1 Culture] per [10] population [in this city]",
 		"[+2 Happiness] per [10] population [in this city]",
 		"[+1 Happiness] per [20] population [in this city]",
+                "All newly-trained [Military] units [in all cities] receive the [Morale] promotion",
+                "[Military] units gain the [Morale] promotion",
+		"Provides [5] [Manpower] <during the [Classical Age]>",
+		"Provides [10] [Manpower] <during the [Hellenistic Age]>",
+		"Provides [15] [Manpower] <during the [Imperial Age]>",
 		"Provides 1 extra copy of each improved luxury resource near this City",
-		"Doubles Gold given to enemy if city is captured",
 		"[-30]% enemy spy effectiveness [in this city]",
-		"Indicates the capital city",
 		"Limited to [1] per Civilization",
+		"Doubles Gold given to enemy if city is captured",
 		"Destroyed when the city is captured",
 		"Can be purchased with [Gold] [in all cities]"
 		]
@@ -67,8 +67,7 @@
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": [
-//		"[+1 Culture] <while the empire is happy>",
-		"[-1 Happiness] per [10] population [in this city]",
+		"[+1 Culture] <while the empire is happy>",
 		"[+10]% Production when constructing [Military] units [in this city]",
 		"[+5]% Production when constructing [Military] units [in this city] <during the [Hellenistic Age]>"
 		"[+10]% Production when constructing [Military] units [in this city] <during the [Imperial Age]>"
@@ -76,17 +75,20 @@
 		"Provides [1] [Manpower] <during the [Classical Age]>",
 		"Provides [3] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [5] [Manpower] <during the [Imperial Age]>",
-//		"Provides [1] [Manpower] <in cities with at least [10] [Population]>",
+		"Provides [3] [Manpower] <in cities with at least [10] [Population]>",
+		"Provides [3] [Manpower] <in cities with at least [15] [Population]>",
+		"Provides [3] [Manpower] <in cities with at least [25] [Population]>",
+		"Provides [3] [Manpower] <in cities with at least [30] [Population]>",
 		"Provides [15] [Manpower] [in City-State cities] <hidden from users>"
 		]
 	},
 	{
 		"name": "Pirate Haven (Illyrian)",
-		"cost": 40,
+		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"gold": 2,
-		"happiness": -1,
+		"gold": 5,
+		"happiness": -3,
 		"cityHealth": 5,
 		"uniques": [
 		"Must be next to [Coast]"
@@ -98,11 +100,11 @@
 	},
 	{
 		"name": "Pirate Haven (Cretan)",
-		"cost": 40,
+		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"gold": 2,
-		"happiness": -1,
+		"gold": 5,
+		"happiness": -3,
 		"cityHealth": 5,
 		"uniques": [
 		"Must be next to [Coast]"
@@ -115,11 +117,11 @@
 	},
 	{
 		"name": "Pirate Haven (Cilician)",
-		"cost": 60,
+		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"gold": 2,
-		"happiness": -1,
+		"gold": 5,
+		"happiness": -3,
 		"cityHealth": 5,
 		"uniques": [
 		"Must be next to [Coast]"
@@ -146,7 +148,7 @@
 		"science": 1,
 		"cityHealth": 10,
 		"uniques": [
-//		"[+1 Science] from [Herbs] tiles [in this city]",
+		"[+1 Science] from [Herbs] tiles [in this city]",
 		"[+10]% growth [in this city]"
 		],
 
@@ -155,7 +157,7 @@
 	// Writing
 	{
 		"name": "Palace Library",
-//		"requiredBuilding": "Palace",
+		"requiredBuilding": "Palace",
 		"hurryCostModifier": 25,
 		"cost": 100,
 		"maintenance": 2,
@@ -173,7 +175,7 @@
 	},
 	{
 		"name": "Council of Nobles",
-//		"requiredBuilding": "Palace",
+		"requiredBuilding": "Palace",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"happiness": 2,
@@ -195,7 +197,7 @@
 	},
 	{
 		"name": "Courthouse",
-//		"hurryCostModifier": 50,
+		"hurryCostModifier": 50,
 		"maintenance": 2,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [
@@ -225,7 +227,7 @@
 	},
 	{
 		"name": "Pleasure Chambers",
-//		"requiredBuilding": "Palace",
+		"requiredBuilding": "Palace",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"happiness": 4,
@@ -392,7 +394,9 @@
 	{
 		"name": "School",
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 4,
+		"happiness": 2,
+		"culture": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 		"[+2 Science] per [2] population [in this city]",
@@ -404,6 +408,7 @@
 		"name": "Garden",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
+		"happiness": 1,
 		"uniques": ["[+30]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"requiredTech": "Philosophy"
 	},
@@ -519,6 +524,7 @@
 		"name": "Market",
 		"hurryCostModifier": 25,
 		"gold": 3,
+		"happiness": 1,
 		"percentStatBonus": {"gold": 30},
 		"specialistSlots": {"Merchant": 1},
 		"requiredTech": "Currency"
@@ -528,6 +534,7 @@
 		"uniqueTo": "The Cyreneans",
 		"replaces": "Market",
 		"hurryCostModifier": 25,
+		"happiness": 1,
 		"gold": 3,
 		"culture": 1,
 		"percentStatBonus": {"gold": 32},
@@ -535,7 +542,7 @@
 		"uniques": [
 		"Provides [1] [Silphium]",
 		"Provides [1] [Decadence]",
-//		"Never destroyed when the city is captured"
+		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Currency"
 	},
@@ -594,6 +601,7 @@
 		"name": "Spice Road",
 		"requiredBuilding": "Market",
 		"gold": 2,
+		"happiness": 1,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -601,7 +609,7 @@
 		"Provides [1] [Spices]","Provides [1] [Decadence]",
 		"Must be on [Desert]",
 		"Only available <after adopting [Eastern Culture]>",
-//		"Never destroyed when the city is captured"
+		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -609,25 +617,27 @@
 		"name": "Silk Road",
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 35,
+		"happiness": 1,
 		"gold": 4,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Provides [1] [Silk]","Provides [1] [Decadence]",
 		"Must not be on [Desert]",
 		"Only available <after adopting [Eastern Culture]>",
-//		"Never destroyed when the city is captured"
+		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Trade Routes"
 	},
 	{
 		"name": "Amber Road",
 		"hurryCostModifier": 25,
+		"happiness": 1,
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Provides [1] [Amber]",
 		"Only available <after adopting [Germanic Culture]>",
-//		"Never destroyed when the city is captured"
+		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -635,6 +645,7 @@
 	{
 		"name": "National Treasury",
 		"gold": 10,
+		"happiness": 2,
 		"culture": 1,
 		"isNationalWonder": true,
 		"specialistSlots": {"Merchant": 2},
@@ -683,6 +694,7 @@
 		"name": "Grand Temple",
 		"culture": 3,
 		"faith": 8,
+		"happiness": 2,
 		"specialistSlots": {"Priest": 2},
 		"uniques": [
 		"Provides [2] [Decadence]",
@@ -700,7 +712,7 @@
 		"food": 2,
 		"uniques": [
 		"New [Mounted Archery] units start with [10] XP [in this city]",
-		"Provides [2] [Manpower] <while the empire is happy>","Provides [1] [Horses] <while the empire is happy> <after adopting [Eastern Culture]>",
+		"Provides [2] [Manpower] <while the empire is happy>","Provides [1] [Horses]",
 		"Only available <after adopting [Eastern Culture]>","Must not be on [Desert]",
 		"Never destroyed when the city is captured"
 		],
@@ -711,6 +723,7 @@
 		"name": "Water Mill",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
+		"happiness": 1,
 		"food": 2,
 		"production": 1,
 		"uniques": ["Must be on [River]"],
@@ -746,10 +759,10 @@
 	// Equestrian Class
 	{
 		"name": "Cavalry Barracks",
-//		"specialistSlots": {"General": 1},
 		"requiredNearbyImprovedResources": ["Horses"],
 		"requiredBuilding": "Stable",
 		"hurryCostModifier": 35,
+		"happiness": 1,
 		"maintenance": 4,
 		"cityHealth": 20,
 		"uniques": [
@@ -800,14 +813,15 @@
 	// Citizen Levy
 	{
 		"name": "Barracks",
-//		"specialistSlots": {"General": 1},
 		"hurryCostModifier": 25,
 		"maintenance": 2,
+		"happiness": 2,
 		"cityHealth": 30,
 		"uniques": [
 		"Provides [3] [Manpower]",
 		"[+20]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
 		"New [Spearman] units start with [10] XP [in this city]",
+		"All newly-trained [Spear] units [in this city] receive the [Formation I] promotion",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Citizen Levy"
@@ -815,7 +829,6 @@
 	{
 		"name": "Syssition",
 		"replaces": "Barracks",
-//		"specialistSlots": {"General": 1},
 		"uniqueTo": "The Spartans",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -844,15 +857,17 @@
 	{
 		"name": "Army Barracks",
 		"requiredBuilding": "Barracks",
-//		"specialistSlots": {"General": 1},
 		"hurryCostModifier": 50,
 		"maintenance": 7,
-		"cityHealth": 80,
+		"cityHealth": 100,
+		"Cost": 420,
 		"uniques": [
-		"Provides [3] [Manpower]",
+		"Provides [5] [Manpower]",
 		"[+20]% Production when constructing [Sword] units [in this city] <in cities with a [Forge]>",
+		"[+10]% Production when constructing [General] units [in this city] <in cities with a [Forge]>",
 		"New [Spearman] units start with [10] XP [in this city]",
 		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Assault I] promotion",
+		"All newly-trained [General] units [in this city] receive the [Art of War] promotion",
 		"Can only be built <in [Capital] cities> <before adopting [Centralization]>",
 		"Destroyed when the city is captured"
 		],
@@ -866,7 +881,8 @@
 		"culture": 2,
 		"uniques": [
 		"Consumes [1] [Decadence] <in cities with a [Thracian Weaponsmith]>",
-		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Improved Equipment] promotion",
+		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Improved Equipment] promotion",     
+                "[Military] units gain the [Improved Equipment] promotion",
 		"Only available <after adopting [Thracian Culture]>"
 		],
 		"requiredTech": "Heavy Infantry"
@@ -880,7 +896,8 @@
 		"requiredTech": "Metallurgy",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-		"All newly-trained [{Military} {Land}] units [in this city] receive the [Improved Equipment] promotion",
+		"All newly-trained [{Military} {Land}] units [in this city] receive the [Improved Equipment] promotion",     
+                "[Military] units gain the [Improved Equipment] promotion",
 		"[+1 Production] from [Iron] tiles [in this city]"
 		]
 	},
@@ -930,7 +947,7 @@
 		"name": "Walls",
 		"hurryCostModifier": 35,
 		"cityStrength": 10,
-		"cityHealth": 70,
+		"cityHealth": 50,
 		"uniques": [
 		"Consumes [1] [Manpower]"
 		],
@@ -944,7 +961,7 @@
 		"maintenance": 0,
 		"production": 1,
 		"cityStrength": 12,
-		"cityHealth": 80,
+		"cityHealth": 60,
 		"uniques": [
 		"Consumes [1] [Manpower]"
 		],
@@ -968,7 +985,7 @@
 		"maintenance": 0,
 		"happiness": 2,
 		"gold": 1,
-		"cityHealth": 30,
+		"cityHealth": 20,
 		"uniques": [
 		"Consumes [1] [Manpower]",
 		"Must be on [Hill]",
@@ -998,7 +1015,7 @@
 		"maintenance": 0,
 		"culture": 1,
 		"happiness": 1,
-		"cityHealth": 25,
+		"cityHealth": 20,
 		"uniques": [
 		"Provides [1] [Manpower]",
 		"[+10]% Production when constructing [{Melee} {Land}] units [in this city]"
@@ -1085,7 +1102,6 @@
 	},
 	{
 		"name": "Skirmisher Barracks",
-//		"specialistSlots": {"General": 1},
 		"requiredBuilding": "Archery Range",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
@@ -1105,7 +1121,7 @@
 		"requiredBuilding": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 60,
-		"hurryCostModifier": 35,
+		"hurryCostModifier": 40,
 		"uniques": [
 		"Consumes [1] [Manpower] <after adopting [Social Revolution]>"
 		],
@@ -1174,7 +1190,7 @@
 	{
 		"name": "Drydock",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 3,
 		"uniques": [
 		"[Water] Units adjacent to this city heal [20] HP per turn when healing",
 		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
@@ -1188,13 +1204,13 @@
 		"replaces": "Drydock",
 		"uniqueTo": "The Carthaginians",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 2,
 		"cityHealth": 20,
 		"science": 1,
 		"happiness": 2,
 		"uniques": [
 		"New [{Military} {Water}] units start with [15] XP [in this city]",
-		"[Water] Units adjacent to this city heal [20] HP per turn when healing",
+		"[Water] Units adjacent to this city heal [25] HP per turn when healing",
 		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
 		"[+10]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
 		"Must be next to [Coast]"
@@ -1263,7 +1279,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-		"Provides [2] [Horses]",
+		"Provides [4] [Horses]",
 		"[+5]% Production when constructing [Mounted] units [in all cities]",
 		"Can only be built <in [Capital] cities>",
 		"Limited to [1] per Civilization",
@@ -1278,7 +1294,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-		"Provides [2] [Copper]",
+		"Provides [4] [Copper]",
 		"[+25]% Production when constructing [Bronze Works] buildings [in all cities]",
 		"Can only be built <in [Capital] cities>",
 		"Limited to [1] per Civilization",
@@ -1293,7 +1309,7 @@
 		"hurryCostModifier": 35,
 		"maintenance": 3,
 		"uniques": [
-		"Provides [2] [Bronze]",
+		"Provides [3] [Bronze]",
 		"[+10]% Production when constructing [Spear] units [in all cities]",
 		"Can only be built <in [Capital] cities>",
 		"Limited to [1] per Civilization",
@@ -1323,7 +1339,7 @@
 		"hurryCostModifier": 35,
 		"maintenance": 2,
 		"uniques": [
-		"Provides [2] [Timber]",
+		"Provides [3] [Timber]",
 		"[+15]% Production when constructing [Water] units [in all cities]",
 		"Can only be built <in [Capital] cities>",
 		"Limited to [1] per Civilization",
@@ -1385,7 +1401,7 @@
 		"gold": 3,
 		"greatPersonPoints": {"Great Prophet": 1},
 		"isWonder": true,
-//		"uniques": ["Free Social Policy"],
+		"uniques": ["Free Social Policy"],
 		"quote": "When some one boasted that at the Pythian games he had vanquished men, Diogenes replied: 'Nay, I defeat men, you defeat slaves'." 
 	},
 	{
