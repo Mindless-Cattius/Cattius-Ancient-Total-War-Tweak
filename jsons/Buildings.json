@@ -712,6 +712,7 @@
 		"food": 2,
 		"uniques": [
 		"New [Mounted Archery] units start with [10] XP [in this city]",
+		"[+20]% Production when constructing [Mounted Archery] units [in this city]",
 		"Provides [2] [Manpower] <while the empire is happy>","Provides [1] [Horses]",
 		"Only available <after adopting [Eastern Culture]>","Must not be on [Desert]",
 		"Never destroyed when the city is captured"

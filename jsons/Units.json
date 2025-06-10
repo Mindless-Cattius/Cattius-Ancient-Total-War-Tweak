@@ -40,6 +40,7 @@
     "unitType": "Scout",
     "movement": 4,
     "strength": 9,
+    "rangedStrength": 5,
     "cost": 55,
     "requiredTech": "Agriculture",
     "uniques": [
@@ -63,6 +64,7 @@
     "uniqueTo": "The Odrysians",
     "movement": 4,
     "strength": 10,
+    "rangedStrength": 5,
     "cost": 73,
     "requiredTech": "Agriculture",
     "uniques": [
@@ -87,6 +89,7 @@
     "uniqueTo": "The Mithridatids",
     "movement": 4,
     "strength": 9,
+    "rangedStrength": 6,
     "cost": 70,
     "requiredTech": "Agriculture",
     "uniques": [
@@ -109,6 +112,7 @@
     "unitType": "Scout",
     "movement": 3,
     "strength": 10,
+    "rangedStrength": 5,
     "cost": 140,
     "uniques": [
       "Consumes [1] [Mercenary (Illyrian)]",
@@ -143,7 +147,7 @@
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
+      "Can move immediately once bought"
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -224,7 +228,7 @@
     "movement": 2,
     "strength": 5,
     "rangedStrength": 13,
-    "cost": 86,
+    "cost": 100,
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
@@ -623,7 +627,7 @@
     "name": "Swordsman",
     "unitType": "Sword",
     "hurryCostModifier": 20,
-    "cost": 160,
+    "cost": 150,
     "movement": 2,
     "strength": 15,
     "requiredTech": "Citizen Levy",
@@ -708,7 +712,7 @@
     "cost": 175,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [4] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -827,11 +831,12 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Romans",
     "movement": 2,
-    "strength": 16,
+    "strength": 15,
     "cost": 180,
     "requiredTech": "Citizen Levy",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
+       "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
       "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>"
     ],
@@ -850,10 +855,9 @@
     "strength": 20,
     "requiredTech": "Heavy Infantry",
     "uniques": [
-      "Consumes [5] [Manpower]",
-      "Consumes [1] [Bronze]",
+      "Consumes [4] [Manpower]",
+      "Consumes [2] [Bronze]",
       "Comment [Has cultural requirements]",
-      "Limited to [10] per Civilization",
       "Only available <with [Enable Royal Phalanx]> <hidden from users>",
       "Only available <in cities with a [Palace]>",
       "Only available <in cities with a [Make Capital]>",
@@ -910,7 +914,7 @@
     "replaces": "Heavy Swordsman",
     "uniqueTo": "The Aquitani",
     "hurryCostModifier": 20,
-    "cost": 180,
+    "cost": 220,
     "movement": 2,
     "strength": 21,
     "requiredTech": "Military Reforms",
@@ -973,8 +977,8 @@
     "name": "Mercenary Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 30,
-    "cost": 210,
-    "movement": 5,
+    "cost": 230,
+    "movement": 4,
     "strength": 9,
     "rangedStrength": 12,
     "uniques": [
@@ -982,6 +986,7 @@
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
+      "Can move after attacking",
       "Can move immediately once bought",
     ],
     "promotions": [
@@ -993,14 +998,15 @@
     "name": "Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 20,
-    "cost": 170,
-    "movement": 5,
+    "cost": 190,
+    "movement": 4,
     "strength": 7,
-    "rangedStrength": 13,
+    "rangedStrength": 11,
     "requiredTech": "Riding",
     "uniques": [
       "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
+      "Can move after attacking",
       "Only available <in cities with a [Nomadic Herd]>",
     ],
     "promotions": [
@@ -1160,7 +1166,7 @@
     "hurryCostModifier": 20,
     "cost": 160,
     "movement": 4,
-    "strength": 15,
+    "strength": 16,
     "requiredTech": "Equestrian Class",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -1179,11 +1185,12 @@
     "name": "Royal Agema",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 180,
+    "cost": 220,
     "movement": 4,
-    "strength": 17,
+    "strength": 18,
     "requiredTech": "Metallurgy",
     "uniques": [
+      "Limited to [1] per Civilization",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Horses]",
       "Can move after attacking",
@@ -1270,9 +1277,9 @@
     "uniqueTo": "The Seleucids",
     "replaces": "War Elephant",
     "hurryCostModifier": 25,
-    "cost": 270,
+    "cost": 300,
     "movement": 3,
-    "strength": 24,
+    "strength": 25,
     "requiredTech": "Equestrian Class",
     "uniques": [
       "Consumes [4] [Manpower]",
@@ -1304,7 +1311,7 @@
     "name": "Trireme",
     "unitType": "Melee Water",
     "movement": 6,
-    "strength": 15,
+    "strength": 16,
     "cost": 200,
     "requiredTech": "Shipbuilding",
     "uniques": [
@@ -1320,7 +1327,7 @@
     "name": "Pentere",
     "unitType": "Melee Water",
     "movement": 5,
-    "strength": 20,
+    "strength": 22,
     "cost": 300,
     "requiredTech": "Navigation",
     "uniques": [
@@ -1337,7 +1344,7 @@
     "name": "Hemiola",
     "unitType": "Melee Water",
     "movement": 6,
-    "strength": 14,
+    "strength": 15,
     "cost": 200,
     "requiredTech": "Navigation",
     "uniques": [
@@ -1357,7 +1364,7 @@
     "name": "Trihemiola",
     "unitType": "Melee Water",
     "movement": 6,
-    "strength": 16,
+    "strength": 17,
     "cost": 300,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
@@ -1377,7 +1384,7 @@
     "name": "Hexere",
     "unitType": "Ranged Water",
     "movement": 5,
-    "strength": 18,
+    "strength": 20,
     "rangedStrength": 18,
     "cost": 350,
     "requiredTech": "Naval Artillery",
@@ -1395,7 +1402,7 @@
     "name": "Decere",
     "unitType": "Ranged Water",
     "movement": 5,
-    "strength": 23,
+    "strength": 25,
     "rangedStrength": 23,
     "cost": 500,
     "requiredTech": "Naval Artillery",
@@ -1584,7 +1591,7 @@
     "replaces": "Foot Guard",
     "movement": 2,
     "strength": 18,
-    "cost": 155,
+    "cost": 175,
     "uniques": [
       "Limited to [2] per Civilization",
       "[+15]% Strength bonus for [Military] units within [3] tiles",
