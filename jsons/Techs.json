@@ -371,7 +371,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Hellenistic Age",
-		"techCost": 1550,
+		"techCost": 2000,
 		"buildingCost": 350,
 		"wonderCost": 400,
 		"techs": [
@@ -414,15 +414,36 @@
 	},
 	{
 		"columnNumber": 9,
+		"era": "Hellenistic Age",
+		"techCost": 3000,
+		"buildingCost": 400,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Heavy Archery Tactics",
+				"row": 4,
+				"prerequisites": ["Military Reforms"],
+				"quote": "..."
+			},
+			{
+				"name": "Crossbow Engineering",
+				"row": 5,
+				"prerequisites": ["Mass Production"],
+				"quote": "..."
+			},
+		]
+	},
+	{
+		"columnNumber": 10,
 		"era": "Imperial Age",
-		"techCost": 15350,
-		"buildingCost": 300,
+		"techCost": 20000,
+		"buildingCost": 500,
 		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Imperial Decay",
 				"row": 5,
-				"prerequisites": ["Exploration","Mass Production","Military Reforms","Aesthetics","Social Reforms"],
+				"prerequisites": ["Crossbow Engineering","Heavy Archery Tactics"],
 				"uniques": [
 				"Can be continually researched","Empire enters a [10]-turn Golden Age",
 				"[5]% Natural religion spread [in all cities]",

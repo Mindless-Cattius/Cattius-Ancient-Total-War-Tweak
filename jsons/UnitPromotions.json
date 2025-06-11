@@ -530,8 +530,8 @@
 	{
 		"name": "Raider II",
 		"prerequisites": ["Raider I"],
-		"uniques": ["Earn [60]% of the damage done to [City] units as [Gold]",
-		"Withdraws before melee combat <with [2]% chance>",
+		"uniques": [
+    		"[+20]% Yield from pillaging tiles",
  		"[+10]% Strength <when fighting in [Foreign Land] tiles>"],
 		"unitTypes": ["Sword","Spear","Mounted","Scout"],
         "column": 25,
@@ -540,7 +540,10 @@
 	{
 		"name": "Raider III",
 		"prerequisites": ["Raider II"],
-		"uniques": ["Upon capturing a city, receive [4] times its [Gold] production as [Gold] immediately","[+10]% Strength <when fighting in [Foreign Land] tiles>"],
+		"uniques": [
+			"Upon capturing a city, receive [4] times its [Gold] production as [Gold] immediately",
+			"Earn [50]% of the damage done to [City] units as [Gold]",
+			"[+10]% Strength <when fighting in [Foreign Land] tiles>"],
 		"unitTypes": ["Sword","Spear","Mounted","Scout"],
         "column": 25,
         "row": 3
@@ -581,7 +584,7 @@
 		"uniques": [
 		"[+25]% Strength <when fighting in [Hill] tiles> <when defending>",
 		"[+50]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
-		"Withdraws before melee combat <with [1]% chance>",
+		"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
 	{
@@ -590,7 +593,7 @@
 		"[+20]% Strength <vs [Archery] units>",
 		"[+20]% Strength <vs [Mounted Archery] units>",
 		"[+20]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"Withdraws before melee combat <with [1]% chance>",
+		"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
 	{
@@ -623,11 +626,12 @@
 		"name": "[Horseman] ability",
 		"uniques": [
 		"Ignores terrain cost",
-		"[-50]% Strength <vs cities> <when attacking>",
+		"[-40]% Strength <vs cities> <when attacking>",
 		"[+20]% to Flank Attack bonuses",
-		"[+20]% Strength <vs [Wounded] units> <when attacking>",
-		"No defensive terrain bonus",
+		"[+10]% Strength <vs [Wounded] units> <when attacking>",
+		"[-10]% Strength <when fighting in [Hill] tiles> <when defending>",
 		"Withdraws before melee combat <with [35]% chance>",
+		"No defensive terrain bonus",
 		]
 	},
 	{
@@ -916,7 +920,7 @@
 		"name": "[Maneuver]",
   		"prerequisites": ["Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water","King"],
-		"uniques": ["Heals [10] damage if it kills a unit","[+10]% Strength <when attacking>"],
+		"uniques": ["Heals [10] damage if it kills a unit"],
         "column": 6,
         "row": 6
 	},
@@ -941,7 +945,7 @@
   		"prerequisites": ["Art of War"],
   		"unitTypes": ["Siege"],
   		"uniques": [
-    			"[+10]% Strength when stacked with [Worker]","[+1] Movement","[+5] HP when healing","[+20]% Strength <when defending>"],
+    			"[+10]% Strength when stacked with [Worker]","[+5] HP when healing","[+10]% Strength <when defending>"],
         "column": 4,
         "row": 6
 	},

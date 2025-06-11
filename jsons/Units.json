@@ -5,7 +5,7 @@
     "movement": 3,
     "uniques": [
       "Can build [Land] improvements on tiles",
-      "Can build [Fort] improvements on tiles",
+      "Can build [Fort] improvements on tiles","Can upgrade to [Skirmisher]",
       "Automation is a primary action"
     ],
     "cost": 60
@@ -34,6 +34,30 @@
       "Uncapturable",
       "Automation is a primary action"
     ]
+  },
+  {
+    "name": "Battering Ram",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 100
+    "uniques": [
+		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
+     		 "Uncapturable",
+     		 "Only available <in cities with a [Barracks]>",
+    ],
+  },
+  {
+    "name": "Siege Tower",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 200
+    "uniques": [
+		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
+     		 "Only available <in cities with a [Barracks]>",
+     		 "Uncapturable",
+     		 "Only available <in cities with a [Siege Workshop]>",
+    ],
+    "cost": 100
   },
   {
     "name": "Skirmisher",
@@ -139,8 +163,9 @@
     "name": "Cilician Pirate",
     "unitType": "Scout",
     "movement": 3,
-    "strength": 14,
-    "cost": 140,
+    "strength": 12,
+    "rangedStrength": 7,
+    "cost": 160,
     "uniques": [
       "Consumes [1] [Mercenary (Cilician)]",
       "Only available <starting from the [Hellenistic Age]>",
@@ -165,13 +190,14 @@
   {
     "name": "Archer",
     "unitType": "Archery",
-    "movement": 2,
+    "movement": 3,
     "strength": 5,
     "rangedStrength": 12,
-    "cost": 80,
+    "cost": 90,
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
+      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Archer]> <hidden from users>"
@@ -180,6 +206,110 @@
       "[Archer] ability"
     ],
     "attackSound": "arrow"
+  },
+////Add-ons unit
+  {
+    "name": "Armored Horse Archer",
+    "unitType": "Mounted Archery",
+    "hurryCostModifier": 20,
+    "cost": 300,
+    "movement": 3,
+    "strength": 10,
+    "rangedStrength": 11,
+    "requiredTech": "Heavy Archery Tactics",
+    "uniques": [
+      "Consumes [4] [Manpower]",
+      "Consumes [2] [Horses]",
+      "Only available <in cities with a [Nomadic Herd]>",
+      "Only available <in cities with a [Ballistics Range]>",
+    ],
+    "promotions": [
+      "[Horseman] ability"
+    ],
+    "attackSound": "arrow"
+  },
+{
+  "name": "Mounted Skirmisher",
+  "unitType": "Mounted Archery",
+  "hurryCostModifier": 30,
+  "cost": 170,
+  "movement": 3,
+  "strength": 9,
+  "rangedStrength": 15,
+  "requiredTech": "Riding",
+  "uniques": [
+    "Consumes [3] [Manpower]",
+    "Consumes [1] [Horses]",
+    "[-1] Range",
+    "Can move after attacking",
+    "Only available <in cities with a [Cavalry Barracks]>",
+    "Never appears as a Barbarian unit"
+  ],
+  "promotions": [
+    "Amphibious I",
+    "Scouting I",
+    "Ambush I"
+  ],
+  "attackSound": "arrow"
+  },
+  {
+    "name": "Armored Archer",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 11,
+    "rangedStrength": 12,
+    "cost": 270,
+    "requiredTech": "Heavy Archery Tactics",
+    "uniques": [
+      "Consumes [4] [Manpower]",
+      "Only available <in cities with a [Ballistics Range]>",
+    ],
+    "promotions": [
+      "[Archer] ability"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Crossbowman",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 8,
+    "rangedStrength": 12,
+    "cost": 250,
+    "requiredTech": "Crossbow Engineering",
+    "uniques": [
+      "Consumes [3] [Manpower]",
+    	"[-1] Range",
+	"[+50]% Strength <vs [Melee] units> <when attacking>",
+      "Only available <in cities with a [Ballistics Range]>",
+    ],
+    "promotions": [
+      "[Archer] ability"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Imperial Velite",
+    "unitType": "Scout",
+    "uniqueTo": "The Romans",
+    "movement": 3,
+    "strength": 12,
+    "rangedStrength": 7,
+    "cost": 240,
+    "uniques": [
+      "Only available <in cities with a [Ballistics Range]>",
+      "Consumes [3] [Manpower]"
+    ],
+    "attackSound": "nonmetalhit",
+    "promotions": [
+      "[Skirmisher] ability",
+      "Infantry Shield II"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Elite Skirmisher unit."
+      }
+    ]
   },
   {
     "name": "Slinger",
@@ -191,6 +321,7 @@
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
+      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Slinger]> <hidden from users>"
@@ -208,10 +339,11 @@
     "movement": 2,
     "strength": 5,
     "rangedStrength": 13,
-    "cost": 85,
+    "cost": 100,
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
+      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>"
     ],
     "promotions": [
@@ -232,6 +364,7 @@
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
+      "Can move after attacking",
       "Can move immediately once bought",
       "Only available <in cities with a [Archery Range]>"
     ],
@@ -249,10 +382,11 @@
     "movement": 2,
     "strength": 7,
     "rangedStrength": 12,
-    "cost": 86,
+    "cost": 100,
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
+      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>"
     ],
     "promotions": [
@@ -268,11 +402,12 @@
     "uniqueTo": "The Carthaginians",
     "movement": 2,
     "strength": 9,
-    "rangedStrength": 12,
-    "cost": 86,
+    "rangedStrength": 13,
+    "cost": 110,
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
+      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>",
       "Can move immediately once bought"
     ],
@@ -287,9 +422,10 @@
     "movement": 2,
     "strength": 9,
     "rangedStrength": 13,
-    "cost": 156,
+    "cost": 170,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
+      "Can move after attacking",
       "Only available <starting from the [Hellenistic Age]>",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
@@ -308,10 +444,11 @@
     "unitType": "Archery",
     "movement": 3,
     "strength": 9,
-    "rangedStrength": 11,
-    "cost": 140,
+    "rangedStrength": 12,
+    "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Cretan)]",
+      "Can move after attacking",
       "Only available <starting from the [Hellenistic Age]>",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
@@ -331,7 +468,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 165,
+    "cost": 160,
     "uniques": [
       "Consumes [1] [Mercenary (Celtic)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -350,9 +487,10 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 165,
+    "cost": 180,
     "uniques": [
       "Consumes [1] [Mercenary (Germanic)]",
+      "Can move after attacking",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -368,8 +506,8 @@
     "name": "Mercenary Hoplite",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 14,
-    "cost": 160,
+    "strength": 15,
+    "cost": 180,
     "uniques": [
       "Only available <before the [Hellenistic Age]>",
       "Consumes [1] [Mercenary (Hellenic)]",
@@ -389,7 +527,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 175,
+    "cost": 180,
     "uniques": [
       "Ignores terrain cost",
       "Only available <starting from the [Hellenistic Age]>",
@@ -432,7 +570,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 165,
+    "cost": 180,
     "uniques": [
       "Consumes [1] [Mercenary (Thracian)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -451,9 +589,9 @@
   {
     "name": "Iberian Mercenary",
     "unitType": "Sword",
-    "movement": 2,
+    "movement": 3,
     "strength": 15,
-    "cost": 200,
+    "cost": 180,
     "uniques": [
       "Consumes [1] [Mercenary (Iberian)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -471,7 +609,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 165,
+    "cost": 170,
     "uniques": [
       "Consumes [1] [Mercenary (Oscan)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -831,13 +969,13 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Romans",
     "movement": 2,
-    "strength": 15,
+    "strength": 14,
     "cost": 180,
     "requiredTech": "Citizen Levy",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
        "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
-      "Consumes [3] [Manpower]",
+      "Consumes [4] [Manpower]",
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
@@ -1423,19 +1561,44 @@
     "unitType": "Siege",
     "movement": 2,
     "strength": 7,
-    "rangedStrength": 11,
-    "cost": 170,
+    "rangedStrength": 12,
+    "cost": 210,
     "requiredTech": "Engineering",
     "uniques": [
       "Consumes [2] [Manpower]",
       "Consumes [1] [Timber]",
  	"[+50]% Strength <vs [Mounted] units> <when attacking>",
-      "[+220]% Strength <vs cities> <when attacking>",
+      "[+200]% Strength <vs cities> <when attacking>",
+      "[-1] Sight",
+	"May attack when embarked",
       "No defensive terrain bonus",
       "Must set up to ranged attack",
-      "[-1] Sight",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Ballista]> <hidden from users>",
+      "Only available <in cities with a [Barracks]>",
+      "Never appears as a Barbarian unit"
+    ],
+    "hurryCostModifier": 20,
+    "attackSound": "throw"
+  },
+  {
+    "name": "Catapult",
+    "unitType": "Siege",
+    "movement": 2,
+    "strength": 7,
+    "rangedStrength": 8,
+    "cost": 300,
+    "requiredTech": "Mass Production",
+    "uniques": [
+      "Consumes [3] [Manpower]",
+      "Consumes [1] [Timber]",
+      "[+400]% Strength <vs cities> <when attacking>",
+	"Blast radius [1]",
+      "[-1] Sight","Destroys tile improvements when attacking",
+	"May attack when embarked",
+      "No defensive terrain bonus",
+      "Must set up to ranged attack",
+      "Only available <in cities with a [Siege Workshop]>",
       "Never appears as a Barbarian unit"
     ],
     "hurryCostModifier": 20,
@@ -1594,7 +1757,7 @@
     "cost": 175,
     "uniques": [
       "Limited to [2] per Civilization",
-      "[+15]% Strength bonus for [Military] units within [3] tiles",
+      "[+15]% Strength bonus for [Military] units within [2] tiles",
       "Only available <in cities with a [Palace]>",
       "Cannot be purchased"
     ],

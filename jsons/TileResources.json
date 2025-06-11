@@ -213,7 +213,6 @@
 		"improvement": "Lumber mill",
 		"improvementStats": {"production": 2},
 		"uniques": [
-		"Cannot be traded",
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [100] <in [Forest] tiles>",
 		"Generated with weight [50] <in [Jungle] tiles>",
@@ -233,7 +232,6 @@
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
 		"uniques": [
-		"Cannot be traded",
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",
 		"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",
@@ -251,7 +249,6 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
 		"uniques": [
-		"Cannot be traded",
 		"Doesn't generate naturally"
 		],
     },
@@ -279,7 +276,6 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Mining",
 		"uniques": [
-		"Cannot be traded",
 		"Doesn't generate naturally"
 		],
     },
@@ -291,7 +287,6 @@
 		"production": 1,
 		"improvement": "Mine",
 		"uniques": [
-		"Cannot be traded",
 		"Guaranteed with Strategic Balance resource option",
 		"Generated with weight [45] <in [{Featureless} {Tundra}] tiles>",
 		"Generated with weight [25] <in [{Featureless} {Snow}] tiles>",

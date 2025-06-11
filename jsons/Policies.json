@@ -14,8 +14,7 @@
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] 
- <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [

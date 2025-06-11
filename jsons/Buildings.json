@@ -71,7 +71,7 @@
 		"[+10]% Production when constructing [Military] units [in this city]",
 		"[+5]% Production when constructing [Military] units [in this city] <during the [Hellenistic Age]>"
 		"[+10]% Production when constructing [Military] units [in this city] <during the [Imperial Age]>"
-		"Provides [3] [Manpower] <while the empire is happy>",
+		"Provides [2] [Manpower] <while the empire is happy>",
 		"Provides [1] [Manpower] <during the [Classical Age]>",
 		"Provides [3] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [5] [Manpower] <during the [Imperial Age]>",
@@ -988,6 +988,7 @@
 		"gold": 1,
 		"cityHealth": 20,
 		"uniques": [
+                "[+20]% Strength for cities <with a garrison> <when attacking>",
 		"Consumes [1] [Manpower]",
 		"Must be on [Hill]",
 		"Destroyed when the city is captured"
@@ -1124,7 +1125,8 @@
 		"cityHealth": 60,
 		"hurryCostModifier": 40,
 		"uniques": [
-		"Consumes [1] [Manpower] <after adopting [Social Revolution]>"
+		"Consumes [1] [Manpower]",
+                "[+20]% Strength for cities <with a garrison> <when attacking>",
 		],
 		"requiredTech": "Torsion Engines",
 	},
@@ -1508,5 +1510,35 @@
 		"faith": 1,
 		"happiness": 4,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
-	}
+	},
+	{
+		"name": "Ballistics Range",
+		"requiredBuilding": "Skirmisher Barracks",
+		"hurryCostModifier": 50,
+		"Cost":400,
+		"maintenance": 5,
+		"cityStrength": 3,
+		"cityHealth": 10,
+		"uniques": [
+		"Provides [3] [Manpower]",
+		"New [Archery] units start with [10] XP [in this city]",
+		"Destroyed when the city is captured",
+		],
+		"requiredTech": "Military Reforms"
+	},
+	{
+		"name": "Siege Workshop",
+		"requiredBuilding": "Barracks",
+		"hurryCostModifier": 50,
+		"Cost":400,
+		"maintenance": 5,
+		"cityStrength": 5,
+		"cityHealth": 10,
+		"uniques": [
+		"Provides [3] [Manpower]",
+		"New [Siege] units start with [10] XP [in this city]",
+		"Destroyed when the city is captured",
+		],
+		"requiredTech": "Military Reforms"
+	},
 ]

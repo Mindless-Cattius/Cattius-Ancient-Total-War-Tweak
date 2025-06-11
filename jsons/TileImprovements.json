@@ -125,7 +125,7 @@
 		"gold": -10,
 		"uniques": [
 			"Adjacent enemy units ending their turn take [3] damage",
-			"Gives a defensive bonus of [40]%"
+			"Gives a defensive bonus of [30]%"
 		],
 		"shortcutKey": "O"
 	},
