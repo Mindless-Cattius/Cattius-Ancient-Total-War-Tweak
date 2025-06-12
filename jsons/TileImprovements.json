@@ -124,8 +124,9 @@
 		"turnsToBuild": 10,
 		"gold": -10,
 		"uniques": [
-			"Adjacent enemy units ending their turn take [3] damage",
-			"Gives a defensive bonus of [30]%"
+		"Adjacent enemy units ending their turn take [3] damage",
+		"Gives a defensive bonus of [30]%",
+		"Pillaging this improvement yields approximately [+50 Gold]"
 		],
 		"shortcutKey": "O"
 	},

@@ -88,7 +88,7 @@
     "uniqueTo": "The Odrysians",
     "movement": 4,
     "strength": 10,
-    "rangedStrength": 5,
+    "rangedStrength": 6,
     "cost": 73,
     "requiredTech": "Agriculture",
     "uniques": [
@@ -136,8 +136,8 @@
     "unitType": "Scout",
     "movement": 3,
     "strength": 10,
-    "rangedStrength": 5,
-    "cost": 140,
+    "rangedStrength": 6,
+    "cost": 150,
     "uniques": [
       "Consumes [1] [Mercenary (Illyrian)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -224,11 +224,32 @@
       "Only available <in cities with a [Ballistics Range]>",
     ],
     "promotions": [
-      "[Horseman] ability"
+      "[Horseman] ability",
+	"Improved Armor"
     ],
     "attackSound": "arrow"
   },
-{
+  {
+    "name": "Armored Skirmisher Cavalry",
+    "unitType": "Mounted Archery",
+    "hurryCostModifier": 30,
+    "cost": 250,
+    "movement": 3,
+    "strength": 10,
+    "rangedStrength": 15,
+    "requiredTech": "Heavy Archery Tactics",
+    "uniques": [
+      "Consumes [3] [Manpower]",
+      "Consumes [2] [Horses]",
+      "Only available <in cities with a [Skirmisher Barracks]>",
+    ],
+    "promotions": [
+      "[Horseman] ability",
+	"Improved Armor"
+    ],
+    "attackSound": "arrow"
+  },
+  {
   "name": "Mounted Skirmisher",
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
@@ -258,14 +279,15 @@
     "movement": 2,
     "strength": 11,
     "rangedStrength": 12,
-    "cost": 270,
+    "cost": 250,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
       "Consumes [4] [Manpower]",
       "Only available <in cities with a [Ballistics Range]>",
     ],
     "promotions": [
-      "[Archer] ability"
+      "[Archer] ability",
+	"Improved Armor"
     ],
     "attackSound": "arrow"
   },
@@ -274,8 +296,8 @@
     "unitType": "Archery",
     "movement": 2,
     "strength": 8,
-    "rangedStrength": 12,
-    "cost": 250,
+    "rangedStrength": 10,
+    "cost": 230,
     "requiredTech": "Crossbow Engineering",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -297,7 +319,7 @@
     "rangedStrength": 7,
     "cost": 240,
     "uniques": [
-      "Only available <in cities with a [Ballistics Range]>",
+      "Only available <in cities with a [Skirmisher Barracks]>",
       "Consumes [3] [Manpower]"
     ],
     "attackSound": "nonmetalhit",
@@ -444,7 +466,7 @@
     "unitType": "Archery",
     "movement": 3,
     "strength": 9,
-    "rangedStrength": 12,
+    "rangedStrength": 13,
     "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Cretan)]",
@@ -468,7 +490,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 160,
+    "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Celtic)]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -609,7 +631,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 170,
+    "cost": 160,
     "uniques": [
       "Consumes [1] [Mercenary (Oscan)]",
       "Only available <in cities with a [Mercenary Camp]>",
