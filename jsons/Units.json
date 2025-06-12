@@ -39,7 +39,7 @@
     "name": "Battering Ram",
     "unitType": "Civilian",
     "movement": 2,
-    "cost": 100
+    "cost": 100,
     "uniques": [
 		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
      		 "Uncapturable",
@@ -49,22 +49,21 @@
   {
     "name": "Siege Tower",
     "unitType": "Civilian",
-    "movement": 2,
-    "cost": 200
+    "movement": 1,
+    "cost": 200,
     "uniques": [
 		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
+		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when defending>",
      		 "Only available <in cities with a [Barracks]>",
      		 "Uncapturable",
-     		 "Only available <in cities with a [Siege Workshop]>",
     ],
-    "cost": 100
   },
   {
     "name": "Skirmisher",
     "unitType": "Scout",
     "movement": 4,
     "strength": 9,
-    "rangedStrength": 5,
+    "rangedStrength": 7,
     "cost": 55,
     "requiredTech": "Agriculture",
     "uniques": [
@@ -88,7 +87,7 @@
     "uniqueTo": "The Odrysians",
     "movement": 4,
     "strength": 10,
-    "rangedStrength": 6,
+    "rangedStrength": 8,
     "cost": 73,
     "requiredTech": "Agriculture",
     "uniques": [
@@ -113,7 +112,7 @@
     "uniqueTo": "The Mithridatids",
     "movement": 4,
     "strength": 9,
-    "rangedStrength": 6,
+    "rangedStrength": 8,
     "cost": 70,
     "requiredTech": "Agriculture",
     "uniques": [
@@ -136,10 +135,11 @@
     "unitType": "Scout",
     "movement": 3,
     "strength": 10,
-    "rangedStrength": 6,
+    "rangedStrength": 8,
     "cost": 150,
     "uniques": [
       "Consumes [1] [Mercenary (Illyrian)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -164,10 +164,11 @@
     "unitType": "Scout",
     "movement": 3,
     "strength": 12,
-    "rangedStrength": 7,
+    "rangedStrength": 8,
     "cost": 160,
     "uniques": [
       "Consumes [1] [Mercenary (Cilician)]",
+	"[+1] XP gained from combat",
       "Only available <starting from the [Hellenistic Age]>",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
@@ -190,7 +191,7 @@
   {
     "name": "Archer",
     "unitType": "Archery",
-    "movement": 3,
+    "movement": 2,
     "strength": 5,
     "rangedStrength": 12,
     "cost": 90,
@@ -214,12 +215,14 @@
     "hurryCostModifier": 20,
     "cost": 300,
     "movement": 3,
-    "strength": 10,
-    "rangedStrength": 11,
+    "strength": 11,
+    "rangedStrength": 13,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
       "Consumes [4] [Manpower]",
-      "Consumes [2] [Horses]",
+      "Consumes [1] [Veterans]",
+      "Consumes [1] [Horses]",
+      "[+1] XP gained from combat",
       "Only available <in cities with a [Nomadic Herd]>",
       "Only available <in cities with a [Ballistics Range]>",
     ],
@@ -230,18 +233,21 @@
     "attackSound": "arrow"
   },
   {
-    "name": "Armored Skirmisher Cavalry",
+    "name": "Mounted Armored Skirmisher",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 30,
-    "cost": 250,
+    "cost": 300,
     "movement": 3,
-    "strength": 10,
+    "strength": 11,
     "rangedStrength": 15,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [2] [Horses]",
-      "Only available <in cities with a [Skirmisher Barracks]>",
+	"Consumes [4] [Manpower]",
+ 	"Consumes [1] [Veterans]"
+	"Consumes [1] [Horses]",
+	"[+1] XP gained from combat",
+	"[-1] Range",
+      "Only available <in cities with a [Cavalry Barracks]>",
     ],
     "promotions": [
       "[Horseman] ability",
@@ -253,10 +259,10 @@
   "name": "Mounted Skirmisher",
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
-  "cost": 170,
+  "cost": 190,
   "movement": 3,
-  "strength": 9,
-  "rangedStrength": 15,
+  "strength": 8,
+  "rangedStrength": 13,
   "requiredTech": "Riding",
   "uniques": [
     "Consumes [3] [Manpower]",
@@ -267,9 +273,7 @@
     "Never appears as a Barbarian unit"
   ],
   "promotions": [
-    "Amphibious I",
-    "Scouting I",
-    "Ambush I"
+      "[Horseman] ability",
   ],
   "attackSound": "arrow"
   },
@@ -296,7 +300,7 @@
     "unitType": "Archery",
     "movement": 2,
     "strength": 8,
-    "rangedStrength": 10,
+    "rangedStrength": 12,
     "cost": 230,
     "requiredTech": "Crossbow Engineering",
     "uniques": [
@@ -315,12 +319,14 @@
     "unitType": "Scout",
     "uniqueTo": "The Romans",
     "movement": 3,
-    "strength": 12,
-    "rangedStrength": 7,
-    "cost": 240,
+    "strength": 13,
+    "rangedStrength": 10,
+    "cost": 250,
     "uniques": [
+      "Consumes [4] [Manpower]"
+      "Consumes [1] [Veterans]"
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Skirmisher Barracks]>",
-      "Consumes [3] [Manpower]"
     ],
     "attackSound": "nonmetalhit",
     "promotions": [
@@ -402,9 +408,9 @@
     "replaces": "Slinger",
     "uniqueTo": "The Belgae",
     "movement": 2,
-    "strength": 7,
+    "strength": 8,
     "rangedStrength": 12,
-    "cost": 100,
+    "cost": 120,
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
@@ -447,6 +453,7 @@
     "cost": 170,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
+	"[+1] XP gained from combat",
       "Can move after attacking",
       "Only available <starting from the [Hellenistic Age]>",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -470,6 +477,7 @@
     "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Cretan)]",
+	"[+1] XP gained from combat",
       "Can move after attacking",
       "Only available <starting from the [Hellenistic Age]>",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -493,6 +501,7 @@
     "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Celtic)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -509,9 +518,10 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 180,
+    "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Germanic)]",
+	"[+1] XP gained from combat",
       "Can move after attacking",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
@@ -532,6 +542,7 @@
     "cost": 180,
     "uniques": [
       "Only available <before the [Hellenistic Age]>",
+	"[+1] XP gained from combat",
       "Consumes [1] [Mercenary (Hellenic)]",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
@@ -553,6 +564,7 @@
     "uniques": [
       "Ignores terrain cost",
       "Only available <starting from the [Hellenistic Age]>",
+	"[+1] XP gained from combat",
       "Consumes [1] [Mercenary (Hellenic)]",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
@@ -574,6 +586,7 @@
     "cost": 150,
     "uniques": [
       "Consumes [1] [Mercenary (Judean)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -592,9 +605,10 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 180,
+    "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Thracian)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -616,6 +630,7 @@
     "cost": 180,
     "uniques": [
       "Consumes [1] [Mercenary (Iberian)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -634,6 +649,7 @@
     "cost": 160,
     "uniques": [
       "Consumes [1] [Mercenary (Oscan)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -1096,6 +1112,7 @@
     "strength": 15,
     "uniques": [
       "Consumes [1] [Mercenary (Numidian)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -1143,6 +1160,7 @@
     "rangedStrength": 12,
     "uniques": [
       "Consumes [1] [Mercenary (Eastern)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -1224,6 +1242,7 @@
     "rangedStrength": 11,
     "uniques": [
       "Consumes [1] [Mercenary (Libyan)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -1307,6 +1326,7 @@
     "strength": 15,
     "uniques": [
       "Consumes [1] [Mercenary (Mesopotamian)]",
+	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -1326,7 +1346,7 @@
     "hurryCostModifier": 20,
     "cost": 160,
     "movement": 4,
-    "strength": 16,
+    "strength": 17,
     "requiredTech": "Equestrian Class",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -1337,7 +1357,6 @@
     ],
     "promotions": [
       "[Cavalry] ability",
-      "Drill I"
     ],
     "attackSound": "metalhit"
   },
@@ -1528,6 +1547,7 @@
     "cost": 300,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
+	"[+1] XP gained from combat",
       "Cannot enter ocean tiles",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",

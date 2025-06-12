@@ -205,6 +205,15 @@
 		]
     },
     {
+		"name": "Veterans",
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded",
+		"Comment [Required to train Elite Military Units]",
+		"Doesn't generate naturally"
+		]
+    },
+    {
 		"name": "Timber",
 		"resourceType": "Strategic",
 		"revealedBy": "Forestry",

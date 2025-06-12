@@ -820,6 +820,7 @@
 		"cityHealth": 30,
 		"uniques": [
 		"Provides [3] [Manpower]",
+		"Provides [1] [Veterans] <during the [Imperial Age]>",
 		"[+20]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
 		"New [Spearman] units start with [10] XP [in this city]",
 		"All newly-trained [Spear] units [in this city] receive the [Formation I] promotion",
@@ -835,6 +836,8 @@
 		"maintenance": 1,
 		"cityHealth": 30,
 		"uniques": [
+		"Provides [3] [Manpower]",
+		"Provides [1] [Veterans] <during the [Imperial Age]>",
 		"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 		"New [Spear] units start with [20] XP [in this city]",
 		"Unbuildable <in cities with a [Courthouse]> <before adopting [Land Reform]>",
@@ -1530,7 +1533,7 @@
 		"name": "Siege Workshop",
 		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 50,
-		"Cost":400,
+		"Cost":500,
 		"maintenance": 5,
 		"cityStrength": 5,
 		"cityHealth": 10,

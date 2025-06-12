@@ -381,7 +381,10 @@
 	},
 	{
 		"name": "Charge I",
-		"uniques": ["[+10]% Strength <when attacking>"],
+		"uniques": [
+			"[+10]% Strength <when attacking>",
+			"[+10]% Strength <when attacking> <vs [Melee] units>"
+		],
 		"unitTypes": ["Mounted","King"],
         "column": 17,
         "row": 1
@@ -389,7 +392,9 @@
 	{
 		"name": "Charge II",
 		"prerequisites": ["Charge I"],
-		"uniques": ["[+20]% Strength <when attacking>"],
+		"uniques": ["[+10]% Strength <when attacking>",
+			"[+10]% Strength <when attacking> <vs [Melee] units>"
+		],
 		"unitTypes": ["Mounted","King"],
         "column": 17,
         "row": 2
@@ -397,7 +402,9 @@
 	{
 		"name": "Charge III",
 		"prerequisites": ["Charge II"],
-		"uniques": ["[+30]% Strength <when attacking>"],
+		"uniques": ["[+10]% Strength <when attacking>",
+			"[+10]% Strength <when attacking> <vs [Melee] units>"
+	],
 		"unitTypes": ["Mounted","King"],
         "column": 17,
         "row": 3
@@ -429,9 +436,9 @@
 		"name": "Trample III",
 		"prerequisites": ["Trample II"],
 		"uniques": [
-			"[+10]% Strength <vs [Melee] units> <when defending>",
-			"[+10]% Strength <vs [Sword] units> <when attacking>",
-			"[+10]% Strength <vs [Mounted] units> <when attacking>",
+			"[+15]% Strength <vs [Melee] units> <when defending>",
+			"[+15]% Strength <vs [Sword] units> <when attacking>",
+			"[+15]% Strength <vs [Mounted] units> <when attacking>",
 		"Eliminates combat penalty for attacking over a river"],
 		"unitTypes": ["Elephant"],
         "column": 18,
@@ -590,9 +597,10 @@
 	{
 		"name": "[Slinger] ability",
 		"uniques": [
-		"[+20]% Strength <vs [Archery] units>",
-		"[+20]% Strength <vs [Mounted Archery] units>",
+		"[+20]% Strength <vs [Archery] units> <when attacking>",
+		"[+20]% Strength <vs [Mounted Archery] units> <when attacking>",
 		"[+20]% Strength <when fighting in [Hill] tiles> <when defending>",
+		"[+20]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
 		"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
