@@ -67,6 +67,7 @@
     "cost": 55,
     "requiredTech": "Agriculture",
     "uniques": [
+    "Can move after attacking",
       "Consumes [1] [Manpower]"
     ],
     "attackSound": "nonmetalhit",
@@ -91,6 +92,7 @@
     "cost": 73,
     "requiredTech": "Agriculture",
     "uniques": [
+    "Can move after attacking",
       "Consumes [1] [Manpower]"
     ],
     "promotions": [
@@ -116,6 +118,7 @@
     "cost": 70,
     "requiredTech": "Agriculture",
     "uniques": [
+    "Can move after attacking",
       "Consumes [1] [Manpower]"
     ],
     "promotions": [
@@ -138,6 +141,7 @@
     "rangedStrength": 8,
     "cost": 150,
     "uniques": [
+    "Can move after attacking",
       "Consumes [1] [Mercenary (Illyrian)]",
 	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -167,6 +171,7 @@
     "rangedStrength": 8,
     "cost": 160,
     "uniques": [
+    "Can move after attacking",
       "Consumes [1] [Mercenary (Cilician)]",
 	"[+1] XP gained from combat",
       "Only available <starting from the [Hellenistic Age]>",
@@ -307,6 +312,7 @@
       "Consumes [3] [Manpower]",
     	"[-1] Range",
 	"[+50]% Strength <vs [Melee] units> <when attacking>",
+	"[+70]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
       "Only available <in cities with a [Ballistics Range]>",
     ],
     "promotions": [
@@ -323,6 +329,7 @@
     "rangedStrength": 10,
     "cost": 250,
     "uniques": [
+    "Can move after attacking",
       "Consumes [4] [Manpower]"
       "Consumes [1] [Veterans]"
 	"[+1] XP gained from combat",
@@ -1002,7 +1009,7 @@
     "attackSound": "metalhit"
   },
 {
-    "name": "Cohors Urbana",
+    "name": "Limitanei",
     "unitType": "Sword",
     "replaces": "Swordsman",
     "uniqueTo": "The Romans",
