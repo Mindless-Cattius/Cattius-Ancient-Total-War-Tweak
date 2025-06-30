@@ -89,7 +89,7 @@
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
-	"Units ending their turn on this terrain take [1] damage",
+	"Units ending their turn on this terrain take [2] damage",
 		]
 	},
 	{
@@ -147,7 +147,7 @@
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>",
-		"Units ending their turn on this terrain take [2] damage",]
+		"Units ending their turn on this terrain take [3] damage",]
 	},
 	{
 		"name": "Impassable",

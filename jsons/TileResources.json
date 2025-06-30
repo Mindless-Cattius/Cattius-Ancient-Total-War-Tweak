@@ -205,7 +205,7 @@
 		]
     },
     {
-		"name": "Veterans",
+		"name": "Veteran",
 		"resourceType": "Strategic",
 		"uniques": [
 		"Cannot be traded",

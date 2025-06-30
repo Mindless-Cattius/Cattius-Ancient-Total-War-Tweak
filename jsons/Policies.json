@@ -14,7 +14,6 @@
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
@@ -46,8 +45,10 @@
             {
                 "name": "Naked Fanatics",
                 "uniques": [
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     "All newly-trained [Swordsman] units [in all cities] receive the [Shock I] promotion",
                     "All newly-trained [Mercenary Warband] units [in all cities] receive the [Shock I] promotion",
+                    "All newly-trained [Mercenary Warband] units [in all cities] receive the [Shock II] promotion",
                     "[+1 Happiness] [in all cities] <when at war>",
                     "[+1 Happiness] [in capital]",
                     "[1] free [Swordsman] units appear",
@@ -457,7 +458,7 @@
                 "name": "Local Hegemony",
                 "requires": ["Freedom of The Greeks"],
                 "uniques": [
-                    "[+30]% Strength <vs [City-States]>",
+                    "[+20]% Strength <vs [City-States]>",
                     "[+1 Gold, +1 Happiness] from every [Hill Fort]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -548,13 +549,12 @@
                     "[Cavalry] units gain the [Lancer] promotion <for [The Macedonians] Civilizations> <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <for [The Ptolemies] Civilizations> <hidden from users>",
                     "[Cavalry] units gain the [Lancer] promotion <for [The Pergamenes] Civilizations> <hidden from users>",
+                    "Comment [Enables Chariot Archer] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Chariot Archer] <for [The Ptolemies] Civilizations> <hidden from users>",
                     "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
-                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
-                    "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
-                    "Comment [Enables Chariot Archer] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Chariot Archer] <for [The Ptolemies] Civilizations> <hidden from users>",
+                    "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
         "policies": [
@@ -602,6 +602,7 @@
                 "uniques": [
                     "New [{Melee} {Land}] units start with [10] XP [in all cities] <in cities with a [Colony]>",
                     "Provides [2] [Bronze]",
+                    "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "[+2 Happiness] [in annexed cities] <in cities with a [Colony]>",
                     "[+1 Happiness] [in capital]",
                 ],
@@ -613,13 +614,10 @@
                 "civilopediaText": [{"text": "Nikator was a hellenestic royal epithet meaning The Victorious. Most famous of the victors was Seleucos I."}],
                 "uniques": [
                     "Earn [20]% of killed [Military] unit's [Strength] as [Culture]",
-                    "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-                    "Comment [Enables Cataphract] <for [The Mithridatids] Civilizations>","Provides [1] [Enable Cataphract] <for [The Mithridatids] Civilizations> <hidden from users>",
-                    "Comment [Enables Cataphract] <for [The Seleucids] Civilizations>","Provides [1] [Enable Cataphract] <for [The Seleucids] Civilizations> <hidden from users>",
-                    "Comment [Enables Slinger] <for [The Macedonians] Civilizations>","Provides [1] [Enable Slinger] <for [The Macedonians] Civilizations> <hidden from users>",
-                    "Comment [Enables Royal Agema] <for [The Macedonians] Civilizations>","Provides [1] [Enable Royal Agema] <for [The Macedonians] Civilizations> <hidden from users>",
-                    "Comment [Enables Royal Agema] <for [The Ptolemies] Civilizations>","Provides [1] [Enable Royal Agema] <for [The Pergamenes] Civilizations> <hidden from users>",
-                    "Comment [Enables Royal Agema] <for [The Pergamenes] Civilizations>","Provides [1] [Enable Royal Agema] <for [The Ptolemies] Civilizations> <hidden from users>",              
+                    "Upon capturing a city, receive [5] times its [Culture] production as [Culture] immediately",
+                    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+                    "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
+                    "Comment [Enables Royal Agema]","Provides [1] [Enable Royal Agema]",              
                     "[+1 Happiness] [in capital]",
                     "[2] free [Pike Phalanx] units appear",
                     "Provides [2] [Bronze]",
@@ -634,8 +632,9 @@
                 "civilopediaText": [{"text": "Megas was a hellenestic royal epithet meaning The Great. Alexander III, Antiochos III and Mithridates VI were the Greats."}],
                 "uniques": [
                     "Free [General] appears",
-                    "[+2] Movement <for [General] units>",
-                    "[+100]% XP gained from combat <for [Melee] units> <when adjacent to a [General] unit>",
+                    "[+1] Movement <for [General] units>",
+                    "[+50]% XP gained from combat <for [Melee] units> <when adjacent to a [General] unit>",
+                    "[+50]% XP gained from combat <for [Melee] units> <when adjacent to a [King] unit>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "requires": ["Nikator"],
@@ -1628,7 +1627,7 @@
                 "name": "Urbanization",
                 "requires": ["Mercenary Scholars"],
                 "uniques": [
-                     "[+25]% Production towards any buildings that already exist in the Capital",
+                     "[+15]% Production towards any buildings that already exist in the Capital",
                      "No Maintenance costs for improvements in [Open terrain] tiles",
                     "[+1 Happiness] [in capital]"
                     "Provides [3] [Manpower]",
@@ -1639,7 +1638,7 @@
             {
                 "name": "Marriage Alliance",
                 "uniques": [
-                    "Can spend Gold to annex or puppet a City-State that has been your Ally for [20] turns",
+                    "Can spend Gold to annex or puppet a City-State that has been your Ally for [40] turns",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -1663,8 +1662,7 @@
                     "[+1 Happiness] from every [Cavalry Barracks]",
                     "[+1 Happiness] from every [Skirmisher Barracks]",
                     "[+2 Happiness] [in capital]"
-                    "Provides [4] [Manpower]",
-                    "[Military] units gain the [Survivalism I] promotion",
+                    "Provides [5] [Manpower]",
                 ],
                 "row": 2,
                 "column": 5
@@ -1712,8 +1710,8 @@
                     "[+1 Happiness] [in capital]",
                     "[+20]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
                     "Provides [6] [Manpower]",
-                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",		
-		"All newly-trained [{Melee} {Land}] units [in all cities] receive the [Improved Equipment] promotion"
+                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
+                    "[Military] units gain the [Survivalism I] promotion",
                 ]
             }
         ]
@@ -1755,8 +1753,6 @@
                 "name": "Military Drills",
                 "requires": ["Extended Citizenship"],
                 "uniques": [
-                    "All newly-trained [Military] units [in all cities] receive the [Drill I] promotion",
-                    "[Military] units gain the [Drill I] promotion",
                     "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1818,7 +1814,6 @@
                 "name": "Heliopolitans",
                 "requires": ["Military Drills","Slave Liberation"],
                 "uniques": [
-                    "All newly-trained [Scout] units [in capital] receive the [Veteran] promotion",
                     "[Scout] units gain the [Veteran] promotion",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1830,9 +1825,7 @@
                 "uniques": [
                     "May buy [General] units for [5000] [Gold] [Capital] at an increasing price ([1000])",
                     "[+1 Happiness] [in capital]"        
-                    "Provides [4] [Manpower]",    
-                    "All newly-trained [Military] units [in all cities] receive the [Improved Armor] promotion",     
-                    "[Military] units gain the [Improved Armor] promotion",
+                    "Provides [4] [Manpower]", 
                 ]
             }
         ]

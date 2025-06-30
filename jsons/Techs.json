@@ -407,7 +407,10 @@
 				"name": "Exploration",
 				"row": 9,
 				"prerequisites": ["Naval Artillery"],
-				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
+				"uniques": [
+					"Enables [Embarked] units to enter ocean tiles",
+					"[+1] Movement <for [Water] units>",
+				],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			}
 		]
@@ -415,20 +418,34 @@
 	{
 		"columnNumber": 9,
 		"era": "Imperial Age",
-		"techCost": 3000,
+		"techCost": 6000,
 		"buildingCost": 400,
 		"wonderCost": 400,
 		"techs": [
 			{
+				"name": "Imperial Military Doctrine",
+				"row": 3,
+				"prerequisites": ["Military Reforms","Social Reforms"],
+				"uniques": [
+                  			  "[Spearman] units gain the [Improved Armor] promotion",
+                   			 "[Scout] units gain the [Ignore terrain cost] promotion",
+				]
+				"quote": "'Therefore, he who desires peace, should prepare for war.'- Vegetius"
+			},
+			{
 				"name": "Heavy Archery Tactics",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Military Reforms"],
-				"quote": "..."
+				"quote": "Arm the archer not only with arrows, but with purpose and formation."
 			},
 			{
 				"name": "Crossbow Engineering",
 				"row": 7,
 				"prerequisites": ["Mass Production"],
+				"uniques": [
+                   			 "[Pike Phalanx] units gain the [Improved Armor] promotion",
+                   			 "[Royal Phalanx] units gain the [Improved Armor] promotion",
+				],
 				"quote": "..."
 			},
 		]

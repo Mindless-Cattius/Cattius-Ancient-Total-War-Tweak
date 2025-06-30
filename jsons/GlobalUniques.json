@@ -2,6 +2,7 @@
     "name": "Global uniques",
     "uniques": [ 
 // ADDONS
+	"[-50]% Strength for cities <when attacking>",
 	"[-1] Range <for [Scout] units>",
 	"[-30]% City Strength from defensive buildings <during the [Archaic Age]>",
 	"[-25]% City Strength from defensive buildings <during the [Classical Age]>",
@@ -9,14 +10,14 @@
 	"May not annex cities <during the [Archaic Age]>",
 	"[-80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
 	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
-	"[-75]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
+	"[-70]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
 	"[-25]% Production when constructing [Military] units [in all cities] <during the [Imperial Age]>",
-        "Rebel units may spawn <when below [150] [Happiness]>",
 	 "[25]% Science cost of researching new Technologies",
 	"All newly-trained [Military] units [in all cities] receive the [Morale] promotion <during the [Imperial Age]>",
 	"Military Units gifted from City-States start with [30] XP",
+	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
 	"[-1 Happiness] per [10] population [in all cities]",
-	"[+25]% Science cost of researching new Technologies",
+	"[+40]% Science cost of researching new Technologies <during the [Imperial Age]>",
 	"Retain [+25]% of the happiness from a luxury after the last copy has been traded away",
 	"[+10]% unhappiness from the number of cities",
         "[-1] Sight <for [Embarked] units>",
@@ -26,8 +27,15 @@
         "[{Military} {Water}] units gain the [Warship] promotion",
         "May buy items in puppet cities",
         "[-50]% resources gifted by City-States",
+        "[-25]% resources gifted by City-States <during the [Imperial Age]>",
+	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
+	"[+20]% Yield from pillaging tiles <during the [Imperial Age]>",
+	"[+30]% Yield from pillaging tiles <during the [Archaic Age]>",
+        "[-30]% [Production] [in all cities] <during the [Imperial Age]>",
+        "[-20]% [Production] [in all cities] <during the [Classical Age]>",
+        "[-10]% [Production] [in all cities] <during the [Hellenistic Age]>",
 //GOLD
-	"[Gold] cost of purchasing [Military] units [+25]% <during the [Imperial Age]>",
+	"[Gold] cost of purchasing [Military] units [+30]% <during the [Imperial Age]>",
 // Happiness
         "[-5]% growth [in all cities] <when below [30] Happiness>",
         "[-5]% growth [in all cities] <when below [20] Happiness>",
@@ -36,7 +44,7 @@
         "[-5]% growth [in all cities] <when below [-10] Happiness>",
         "[-5]% growth [in all cities] <when below [-20] Happiness>",
         "[-5]% growth [in all cities] <when below [-30] Happiness>",
-        "Nullifies Growth [in all cities] <when below [-35] Happiness>",
+        "Nullifies Growth [in all cities] <when below [-30] Happiness>",
 
         "[-10]% [Production] [in all cities] <when below [30] Happiness>",
         "[-10]% [Production] [in all cities] <when below [20] Happiness>",
@@ -45,23 +53,29 @@
         "[-10]% [Production] [in all cities] <when below [-10] Happiness>",
         "Cannot build [Settler] units <when below [-15] Happiness>",
 
-        "[-5]% Strength <for [All] units> <when below [-5] Happiness>",
+        "[-5]% Strength <for [All] units> <when below [-1] Happiness>",
         "[-5]% Strength <for [All] units> <when below [-10] Happiness>",
         "[-5]% Strength <for [All] units> <when below [-15] Happiness>",
         "[-5]% Strength <for [All] units> <when below [-20] Happiness>",
         "[-5]% Strength <for [All] units> <when below [-25] Happiness>",
+        "[-5]% Strength <for [All] units> <when below [-30] Happiness>",
 
-	"Rebel units may spawn <every [100] turns> <when below [100] Happiness>",
-	"Rebel units may spawn <every [70] turns> <when below [70] Happiness>",
-	"Rebel units may spawn <every [50] turns> <when below [50] Happiness>",
-	"Rebel units may spawn <every [40] turns> <when below [20] Happiness>",
-	"Rebel units may spawn <every [20] turns> <when below [5] Happiness>",
+	"Rebel units may spawn <every [150] turns> <when below [180] Happiness>",
+	"Rebel units may spawn <every [110] turns> <when below [170] Happiness>",
+	"Rebel units may spawn <every [100] turns> <when below [160] Happiness>",
+	"Rebel units may spawn <every [90] turns> <when below [150] Happiness>",
+	"Rebel units may spawn <every [80] turns> <when below [120] Happiness>",
+	"Rebel units may spawn <every [70] turns> <when below [100] Happiness>",
+	"Rebel units may spawn <every [50] turns> <when below [70] Happiness>",
+	"Rebel units may spawn <every [30] turns> <when below [40] Happiness>",
+	"Rebel units may spawn <every [20] turns> <when below [20] Happiness>",
+	"Rebel units may spawn <every [15] turns> <when below [5] Happiness>",
 	"Rebel units may spawn <every [10] turns> <when below [0] Happiness>",
 	"Rebel units may spawn <every [9] turns> <when below [-10] Happiness>",
 	"Rebel units may spawn <every [7] turns> <when below [-20] Happiness>",
 	"Rebel units may spawn <every [5] turns> <when below [-30] Happiness>",
 	"Rebel units may spawn <every [3] turns> <when below [-40] Happiness>",
-        "Rebel units may spawn <when below [10] Happiness>",
+        "Rebel units may spawn <when below [150] [Happiness]>",
 // Events
 
         "Free [Spearman] appears <when between [1] and [555] Happiness> <upon founding a city>",
@@ -131,10 +145,10 @@
         "[General] is earned [-5]% faster <when above [12] [Decadence]>",
         "[General] is earned [-5]% faster <when above [15] [Decadence]>",
 
-        "[+50]% Production when constructing [King] units [in all cities] <when above [0] [Nobles]>",
-	"[-50]% Production when constructing [King] units [in all cities] <when below [1] [Nobles]>",
+        "[-50]% Production when constructing [King] units [in all cities] <when above [1] [Nobles]>",
 
-        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [20]% chance>",
+        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [5]% chance>",
+        "Free [Spearman] appears <upon turn end> <when above [10] [Manpower]> <with [1]% chance>",
         "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
         "[-5]% Great Person generation [in all cities]",
 // AI Great People
@@ -156,13 +170,15 @@
         "[+70]% maintenance costs <for [Pike Phalanx] units>",
         "[+100]% maintenance costs <for [Royal Phalanx] units>",
         "[+120]% maintenance costs <for [Heavy Spearman] units>",
+        "[+200]% maintenance costs <for [Gladiator] units>",
+        "[+200]% maintenance costs <for [Legion] units>",
 
         "[+100]% maintenance costs <for [Sword] units>",
-        "[+140]% maintenance costs <for [Heavy Swordsman] units>",
+        "[+150]% maintenance costs <for [Heavy Swordsman] units>",
 
         "[+100]% maintenance costs <for [Mounted] units>",
-        "[+100]% maintenance costs <for [Mounted Archery] units>",
-        "[+100]% maintenance costs <for [Cavalry] units>",
+        "[+120]% maintenance costs <for [Mounted Archery] units>",
+        "[+120]% maintenance costs <for [Cavalry] units>",
         "[+150]% maintenance costs <for [Cataphract] units>",
         "[+50]% maintenance costs <for [Royal Agema] units>",
         "[+25]% maintenance costs <for [General] units>",
@@ -176,7 +192,7 @@
         "[+300]% maintenance costs <for [Hexere] units>",
         "[+300]% maintenance costs <for [Decere] units>",
 
-        "[-70]% maintenance costs <for [All] units> <in [City center] tiles>",
+        "[-50]% maintenance costs <for [All] units> <in [City center] tiles>",
 // + research with nobles, + happiness with recruits 
     ]
 }

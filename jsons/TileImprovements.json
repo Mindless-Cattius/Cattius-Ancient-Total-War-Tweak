@@ -37,7 +37,7 @@
 		"Does not need removal of [Jungle]",
 		"[+1 Production] <after discovering [Mass Production]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+30 Gold]"
+		"Pillaging this improvement yields approximately [+40 Gold]"
 		],
 		"shortcutKey": "L"
 	},
@@ -50,7 +50,7 @@
 		"uniques": [
 //		"[+1 Production] <after discovering [Mass Production]>",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+30 Gold]"
+		"Pillaging this improvement yields approximately [+40 Gold]"
 		],
 		"shortcutKey": "M"
 	},
@@ -65,7 +65,7 @@
 		"Does not need removal of [Marsh]",
 //		"[+1 Gold] <after discovering [Centralization]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+30 Gold]"
+		"Pillaging this improvement yields approximately [+40 Gold]"
 		],
 		"shortcutKey": "C"
 	},
@@ -76,7 +76,7 @@
 		"uniques": [
 //		"Provides [1] [Manpower] <while the empire is happy>",
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+20 Gold]"
+		"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "P"
 	},
@@ -89,7 +89,7 @@
 //		"Provides [1] [Manpower] <while the empire is happy>",
 		"[+1 Gold] <after discovering [Private Estates]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+20 Gold]"
+		"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "P"
 	},
@@ -113,7 +113,7 @@
 //		"Provides [1] [Manpower] <while the empire is happy>",
 //		"[+1 Gold] <after discovering [Naval Artillery]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+20 Gold]"
+		"Pillaging this improvement yields approximately [+30 Gold]"
 		],
 		"shortcutKey": "F"
 	},
@@ -121,10 +121,8 @@
 	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Hill"],
-		"turnsToBuild": 10,
-		"gold": -10,
 		"uniques": [
-		"Adjacent enemy units ending their turn take [3] damage",
+		 "Costs [10] [Gold] per turn"
 		"Gives a defensive bonus of [30]%",
 		"Pillaging this improvement yields approximately [+50 Gold]"
 		],
@@ -155,6 +153,12 @@
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X",
         "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Fort",
+		"turnsToBuild": 5,
+		"techRequired": "Mining",
+	
 	},
 	{
 		"name": "Remove Jungle",
@@ -203,25 +207,25 @@
 //		"[+2 Science] <after discovering [Hired Philosophers]>",
 //		"[+2 Science] <after discovering [Optics]>",
 		"Removes removable features when built",
-		"Pillaging this improvement yields approximately [+20 Gold]"]
+		"Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 7,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 6,
-		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
 		"name": "Holy site",

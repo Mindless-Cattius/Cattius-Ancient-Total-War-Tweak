@@ -40,10 +40,12 @@
     "unitType": "Civilian",
     "movement": 2,
     "cost": 100,
+    "requiredTech": "Engineering",
     "uniques": [
-		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
+		"[15]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
      		 "Uncapturable",
      		 "Only available <in cities with a [Barracks]>",
+     		 "Consumes [2] [Manpower]"
     ],
   },
   {
@@ -51,17 +53,20 @@
     "unitType": "Civilian",
     "movement": 1,
     "cost": 200,
+    "requiredTech": "Torsion Engines",
     "uniques": [
-		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
-		"[20]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when defending>",
+		"[25]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
+		"[10]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when defending>",
      		 "Only available <in cities with a [Barracks]>",
      		 "Uncapturable",
+     		 "Consumes [3] [Manpower]",
+      		"Consumes [1] [Timber]",
     ],
   },
   {
     "name": "Skirmisher",
     "unitType": "Scout",
-    "movement": 4,
+    "movement": 3,
     "strength": 9,
     "rangedStrength": 7,
     "cost": 55,
@@ -86,7 +91,7 @@
     "unitType": "Scout",
     "replaces": "Skirmisher",
     "uniqueTo": "The Odrysians",
-    "movement": 4,
+    "movement": 3,
     "strength": 10,
     "rangedStrength": 8,
     "cost": 73,
@@ -112,7 +117,7 @@
     "unitType": "Scout",
     "replaces": "Skirmisher",
     "uniqueTo": "The Mithridatids",
-    "movement": 4,
+    "movement": 3,
     "strength": 9,
     "rangedStrength": 8,
     "cost": 70,
@@ -203,7 +208,6 @@
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
-      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Archer]> <hidden from users>"
@@ -212,139 +216,6 @@
       "[Archer] ability"
     ],
     "attackSound": "arrow"
-  },
-////Add-ons unit
-  {
-    "name": "Armored Horse Archer",
-    "unitType": "Mounted Archery",
-    "hurryCostModifier": 20,
-    "cost": 300,
-    "movement": 3,
-    "strength": 11,
-    "rangedStrength": 13,
-    "requiredTech": "Heavy Archery Tactics",
-    "uniques": [
-      "Consumes [4] [Manpower]",
-      "Consumes [1] [Veterans]",
-      "Consumes [1] [Horses]",
-      "[+1] XP gained from combat",
-      "Only available <in cities with a [Nomadic Herd]>",
-      "Only available <in cities with a [Ballistics Range]>",
-    ],
-    "promotions": [
-      "[Horseman] ability",
-	"Improved Armor"
-    ],
-    "attackSound": "arrow"
-  },
-  {
-    "name": "Mounted Armored Skirmisher",
-    "unitType": "Mounted Archery",
-    "hurryCostModifier": 30,
-    "cost": 300,
-    "movement": 3,
-    "strength": 11,
-    "rangedStrength": 15,
-    "requiredTech": "Heavy Archery Tactics",
-    "uniques": [
-	"Consumes [4] [Manpower]",
- 	"Consumes [1] [Veterans]"
-	"Consumes [1] [Horses]",
-	"[+1] XP gained from combat",
-	"[-1] Range",
-      "Only available <in cities with a [Cavalry Barracks]>",
-    ],
-    "promotions": [
-      "[Horseman] ability",
-	"Improved Armor"
-    ],
-    "attackSound": "arrow"
-  },
-  {
-  "name": "Mounted Skirmisher",
-  "unitType": "Mounted Archery",
-  "hurryCostModifier": 30,
-  "cost": 190,
-  "movement": 3,
-  "strength": 8,
-  "rangedStrength": 13,
-  "requiredTech": "Riding",
-  "uniques": [
-    "Consumes [3] [Manpower]",
-    "Consumes [1] [Horses]",
-    "[-1] Range",
-    "Can move after attacking",
-    "Only available <in cities with a [Cavalry Barracks]>",
-    "Never appears as a Barbarian unit"
-  ],
-  "promotions": [
-      "[Horseman] ability",
-  ],
-  "attackSound": "arrow"
-  },
-  {
-    "name": "Armored Archer",
-    "unitType": "Archery",
-    "movement": 2,
-    "strength": 11,
-    "rangedStrength": 12,
-    "cost": 250,
-    "requiredTech": "Heavy Archery Tactics",
-    "uniques": [
-      "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Ballistics Range]>",
-    ],
-    "promotions": [
-      "[Archer] ability",
-	"Improved Armor"
-    ],
-    "attackSound": "arrow"
-  },
-  {
-    "name": "Crossbowman",
-    "unitType": "Archery",
-    "movement": 2,
-    "strength": 8,
-    "rangedStrength": 12,
-    "cost": 230,
-    "requiredTech": "Crossbow Engineering",
-    "uniques": [
-      "Consumes [3] [Manpower]",
-    	"[-1] Range",
-	"[+50]% Strength <vs [Melee] units> <when attacking>",
-	"[+70]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
-      "Only available <in cities with a [Ballistics Range]>",
-    ],
-    "promotions": [
-      "[Archer] ability"
-    ],
-    "attackSound": "arrow"
-  },
-  {
-    "name": "Imperial Velite",
-    "unitType": "Scout",
-    "uniqueTo": "The Romans",
-    "movement": 3,
-    "strength": 13,
-    "rangedStrength": 10,
-    "cost": 250,
-    "uniques": [
-    "Can move after attacking",
-      "Consumes [4] [Manpower]"
-      "Consumes [1] [Veterans]"
-	"[+1] XP gained from combat",
-      "Only available <in cities with a [Skirmisher Barracks]>",
-    ],
-    "attackSound": "nonmetalhit",
-    "promotions": [
-      "[Skirmisher] ability",
-      "Infantry Shield II"
-    ],
-    "civilopediaText": [
-      {
-        "text": "Elite Skirmisher unit."
-      }
-    ]
   },
   {
     "name": "Slinger",
@@ -356,7 +227,6 @@
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
-      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Slinger]> <hidden from users>"
@@ -378,7 +248,6 @@
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
-      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>"
     ],
     "promotions": [
@@ -399,7 +268,6 @@
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
-      "Can move after attacking",
       "Can move immediately once bought",
       "Only available <in cities with a [Archery Range]>"
     ],
@@ -435,14 +303,13 @@
     "unitType": "Archery",
     "replaces": "Archer",
     "uniqueTo": "The Carthaginians",
-    "movement": 2,
-    "strength": 9,
+    "movement": 3,
+    "strength": 6,
     "rangedStrength": 13,
-    "cost": 110,
+    "cost": 120,
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
-      "Can move after attacking",
       "Only available <in cities with a [Archery Range]>",
       "Can move immediately once bought"
     ],
@@ -455,9 +322,9 @@
     "name": "Rhodian Slinger",
     "unitType": "Archery",
     "movement": 2,
-    "strength": 9,
-    "rangedStrength": 13,
-    "cost": 170,
+    "strength": 10,
+    "rangedStrength": 14,
+    "cost": 190,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
 	"[+1] XP gained from combat",
@@ -471,7 +338,6 @@
     "promotions": [
       "[Slinger] ability",
       "Amphibious I",
-      "Amphibious II"
     ],
     "attackSound": "arrow"
   },
@@ -504,7 +370,7 @@
     "name": "Mercenary Warband",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 15,
+    "strength": 16,
     "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Celtic)]",
@@ -545,7 +411,7 @@
     "name": "Mercenary Hoplite",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 15,
+    "strength": 16,
     "cost": 180,
     "uniques": [
       "Only available <before the [Hellenistic Age]>",
@@ -566,8 +432,8 @@
     "name": "Thureophoros",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 15,
-    "cost": 180,
+    "strength": 16,
+    "cost": 200,
     "uniques": [
       "Ignores terrain cost",
       "Only available <starting from the [Hellenistic Age]>",
@@ -581,7 +447,7 @@
     ],
     "promotions": [
       "[Spearman] ability",
-      "Infantry Shield II"
+      "Infantry Shield III"
     ],
     "attackSound": "metalhit"
   },
@@ -589,8 +455,8 @@
     "name": "Mercenary Judean Spearman",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 13,
-    "cost": 150,
+    "strength": 15,
+    "cost": 170,
     "uniques": [
       "Consumes [1] [Mercenary (Judean)]",
 	"[+1] XP gained from combat",
@@ -611,13 +477,12 @@
     "name": "Thracian Mercenary",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 15,
+    "strength": 16,
     "cost": 200,
     "uniques": [
       "Consumes [1] [Mercenary (Thracian)]",
 	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
       "Never appears as a Barbarian unit"
@@ -625,6 +490,7 @@
     "promotions": [
       "[Thracian Warband] ability",
       "Raider I",
+      "Raider II",
       "Infantry Shield II"
     ],
     "attackSound": "metalhit"
@@ -633,11 +499,11 @@
     "name": "Iberian Mercenary",
     "unitType": "Sword",
     "movement": 3,
-    "strength": 15,
-    "cost": 180,
+    "strength": 16,
+    "cost": 190,
     "uniques": [
       "Consumes [1] [Mercenary (Iberian)]",
-	"[+1] XP gained from combat",
+	"[+2] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable <for [Human player] Civilizations> <hidden from users>",
       "Can be purchased with [Gold] [in all cities]",
@@ -653,7 +519,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 160,
+    "cost": 180,
     "uniques": [
       "Consumes [1] [Mercenary (Oscan)]",
 	"[+1] XP gained from combat",
@@ -726,8 +592,8 @@
     "name": "Hoplite",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 14,
-    "cost": 90,
+    "strength": 15,
+    "cost": 110,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -750,7 +616,7 @@
     "uniqueTo": "The Spartans",
     "movement": 2,
     "strength": 16,
-    "cost": 135,
+    "cost": 150,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -761,7 +627,7 @@
       "[Spearman] ability",
       "Spartan Aura",
       "Drill I"
-      "Infantry Shield III"
+      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -772,7 +638,7 @@
     "uniqueTo": "The Dardanians",
     "movement": 2,
     "strength": 15,
-    "cost": 130,
+    "cost": 150,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -993,7 +859,7 @@
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 20,
-    "cost": 260,
+    "cost": 280,
     "requiredTech": "Infantry Training",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
@@ -1014,9 +880,9 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Romans",
     "movement": 2,
-    "strength": 14,
-    "cost": 180,
-    "requiredTech": "Citizen Levy",
+    "strength": 15,
+    "cost": 190,
+    "requiredTech": "Military Reforms",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
        "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
@@ -1024,7 +890,7 @@
       "Only available <in cities with a [Barracks]>"
     ],
     "promotions": [
-      "Infantry Shield III",
+      "Infantry Shield II",
       "Drill I"
     ],
     "attackSound": "metalhit"
@@ -1033,17 +899,19 @@
     "name": "Royal Phalanx",
     "unitType": "Spear",
     "hurryCostModifier": 40,
-    "cost": 220,
+    "cost": 300,
     "movement": 2,
-    "strength": 20,
+    "strength": 21,
     "requiredTech": "Heavy Infantry",
     "uniques": [
       "Consumes [4] [Manpower]",
-      "Consumes [2] [Bronze]",
-      "Comment [Has cultural requirements]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Bronze]",
+	"[+1] XP gained from combat",
       "Only available <with [Enable Royal Phalanx]> <hidden from users>",
       "Only available <in cities with a [Palace]>",
       "Only available <in cities with a [Make Capital]>",
+      "Comment [Has cultural requirements]",
       "Never appears as a Barbarian unit"
     ],
     "promotions": [
@@ -1112,11 +980,12 @@
   },
   {
     "name": "Numidian Mercenary",
-    "unitType": "Mounted",
-    "hurryCostModifier": 25,
-    "cost": 205,
-    "movement": 5,
-    "strength": 15,
+  "unitType": "Mounted Archery",
+  "hurryCostModifier": 30,
+  "cost": 200,
+  "movement": 4,
+  "strength": 9,
+  "rangedStrength": 15,
     "uniques": [
       "Consumes [1] [Mercenary (Numidian)]",
 	"[+1] XP gained from combat",
@@ -1379,7 +1248,6 @@
       "Limited to [1] per Civilization",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Horses]",
-      "Can move after attacking",
       "Only available <in cities with a [Palace]>",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Royal Agema]> <hidden from users>",
@@ -1450,6 +1318,7 @@
       "Consumes [1] [Elephants]",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable War Elephant]> <hidden from users>",
+      "Only available <in cities with a [Barracks]>",
       "Never appears as a Barbarian unit"
     ],
     "promotions": [
@@ -1461,13 +1330,13 @@
     "name": "Armored Elephant",
     "unitType": "Elephant",
     "uniqueTo": "The Seleucids",
-    "replaces": "War Elephant",
     "hurryCostModifier": 25,
     "cost": 300,
     "movement": 3,
     "strength": 25,
     "requiredTech": "Equestrian Class",
     "uniques": [
+      "Only available <in cities with a [Army Barracks]>",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]"
@@ -1603,15 +1472,15 @@
       "Limited to [1] per Civilization",
       "Never appears as a Barbarian unit"
     ],
-    "attackSound": "arrow"
+    "attackSound": "bombard"
   },
   {
     "name": "Ballista",
     "unitType": "Siege",
     "movement": 2,
     "strength": 7,
-    "rangedStrength": 12,
-    "cost": 210,
+    "rangedStrength": 11,
+    "cost": 220,
     "requiredTech": "Engineering",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -1624,25 +1493,25 @@
       "Must set up to ranged attack",
       "Comment [Has cultural requirements]",
       "Only available <with [Enable Ballista]> <hidden from users>",
-      "Only available <in cities with a [Barracks]>",
+      "Only available <in cities with a [Siege Workshop]>",
       "Never appears as a Barbarian unit"
     ],
     "hurryCostModifier": 20,
-    "attackSound": "throw"
+    "attackSound": "bombard"
   },
   {
     "name": "Catapult",
     "unitType": "Siege",
     "movement": 2,
     "strength": 7,
-    "rangedStrength": 8,
-    "cost": 300,
-    "requiredTech": "Mass Production",
+    "rangedStrength": 10,
+    "cost": 310,
+    "requiredTech": "Crossbow Engineering",
     "uniques": [
       "Consumes [3] [Manpower]",
       "Consumes [1] [Timber]",
       "[+400]% Strength <vs cities> <when attacking>",
-	"Blast radius [1]",
+	"Blast radius [2]",
       "[-1] Sight","Destroys tile improvements when attacking",
 	"May attack when embarked",
       "No defensive terrain bonus",
@@ -1783,10 +1652,14 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
-    "cost": 135,
+    "cost": 150,
     "uniques": [
-      "Limited to [1] per Civilization",
-      "[+10]% Strength bonus for [Military] units within [3] tiles",
+      "Consumes [2] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Bronze]",
+	"[+1] XP gained from combat",
+      "[+15]% Strength bonus for [Military] units within [2] tiles",
+      "Only available <in cities with a [Palace]>",
       "Cannot be purchased",
     ],
     "promotions": [
@@ -1805,7 +1678,7 @@
     "strength": 18,
     "cost": 175,
     "uniques": [
-      "Limited to [2] per Civilization",
+      "Consumes [1] [Veteran]",
       "[+15]% Strength bonus for [Military] units within [2] tiles",
       "Only available <in cities with a [Palace]>",
       "Cannot be purchased"
@@ -1826,8 +1699,11 @@
     "strength": 17,
     "cost": 140,
     "uniques": [
-      "Limited to [1] per Civilization",
-      "[+15]% Strength bonus for [Military] units within [3] tiles",
+      "Consumes [2] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Bronze]",
+	"[+1] XP gained from combat",
+      "[+10]% Strength bonus for [Military] units within [3] tiles",
       "Only available <in cities with a [Palace]>",
       "Cannot be purchased"
     ],
@@ -1845,6 +1721,7 @@
     "strength": 19,
     "cost": 200,
     "uniques": [
+      "Consumes [1] [Nobles]",
 	"Can only be built <in [Capital] cities>",
       "Cannot be purchased",
 	"Limited to [1] per Civilization",
@@ -1868,6 +1745,7 @@
     "uniques": [
 	"Can only be built <in [Capital] cities>",
       "Limited to [1] per Civilization",
+      "Consumes [1] [Nobles]",
       "Cannot be purchased",
       "Never appears as a Barbarian unit"
     ],
@@ -1879,4 +1757,374 @@
     ],
     "attackSound": "metalhit"
   }
+////Add-ons unit
+  {
+    "name": "Armored Horse Archer",
+    "unitType": "Mounted Archery",
+    "hurryCostModifier": 20,
+    "cost": 300,
+    "movement": 3,
+    "strength": 12,
+    "rangedStrength": 13,
+    "requiredTech": "Heavy Archery Tactics",
+    "uniques": [
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Horses]",
+      "[+1] XP gained from combat",
+      "Only available <in cities with a [Nomadic Herd]>",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Cannot be purchased"
+    ],
+    "promotions": [
+      "[Horseman] ability",
+	"Improved Armor"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Mounted Armored Skirmisher",
+    "unitType": "Mounted Archery",
+    "hurryCostModifier": 30,
+    "cost": 270,
+    "movement": 3,
+    "strength": 11,
+    "rangedStrength": 15,
+    "requiredTech": "Heavy Archery Tactics",
+    "uniques": [
+	"Consumes [4] [Manpower]",
+ 	"Consumes [1] [Veteran]"
+	"Consumes [1] [Horses]",
+	"[+1] XP gained from combat",
+	"[-1] Range",
+      "Only available <in cities with a [Army Barracks]>",
+      "Cannot be purchased"
+    ],
+    "promotions": [
+      "[Horseman] ability",
+	"Improved Armor"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+  "name": "Mounted Skirmisher",
+  "unitType": "Mounted Archery",
+  "hurryCostModifier": 30,
+  "cost": 190,
+  "movement": 4,
+  "strength": 9,
+  "rangedStrength": 13,
+  "requiredTech": "Riding",
+  "uniques": [
+    "Consumes [3] [Manpower]",
+    "Consumes [1] [Horses]",
+    "[-1] Range",
+    "Can move after attacking",
+    "Only available <in cities with a [Skirmisher Barracks]>",
+    "Never appears as a Barbarian unit"
+  ],
+  "promotions": [
+      "[Horseman] ability",
+  ],
+  "attackSound": "arrow"
+  },
+  {
+    "name": "Armored Archer",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 12,
+    "rangedStrength": 12,
+    "cost": 250,
+    "requiredTech": "Heavy Archery Tactics",
+    "uniques": [
+      "Consumes [4] [Manpower]",
+      "Only available <in cities with a [Ballistics Range]>",
+    ],
+    "promotions": [
+      "[Archer] ability",
+	"Improved Armor"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Crossbowman",
+    "unitType": "Archery",
+    "movement": 2,
+    "strength": 10,
+    "rangedStrength": 12,
+    "cost": 230,
+    "requiredTech": "Crossbow Engineering",
+    "uniques": [
+      "Consumes [3] [Manpower]",
+    	"[-1] Range",
+	"[+50]% Strength <vs [Melee] units> <when attacking>",
+	"[+70]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
+    "Can move after attacking",
+      "Only available <in cities with a [Ballistics Range]>",
+    ],
+    "promotions": [
+      "[Archer] ability"
+    ],
+    "attackSound": "arrow"
+  },
+  {
+    "name": "Imperial Velite",
+    "unitType": "Scout",
+    "movement": 3,
+    "strength": 14,
+    "rangedStrength": 11,
+    "cost": 300,
+    "requiredTech": "Military Reforms",
+    "uniques": [
+    "Can move after attacking",
+      "Consumes [4] [Manpower]"
+      "Consumes [1] [Veteran]"
+	"[+1] XP gained from combat",
+      "Only available <after adopting [Latin Culture]> <hidden from users>",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Cannot be purchased"
+    ],
+    "attackSound": "nonmetalhit",
+    "promotions": [
+      "[Skirmisher] ability",
+      "Infantry Shield II"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Elite Skirmisher unit."
+      }
+    ]
+  },
+  {
+    "name": "Sacred Band",
+    "unitType": "Spear",
+    "replaces": "Foot Guard",
+    "uniqueTo": "The Carthaginians",
+    "movement": 2,
+    "strength": 17,
+    "cost": 180,
+    "requiredTech": "Citizen Levy",
+    "uniques": [
+      "Consumes [2] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Bronze]",
+	"[+1] XP gained from combat",
+      "Only available <after adopting [Punic Culture]> <hidden from users>",
+      "[+15]% Strength bonus for [Military] units within [3] tiles",
+      "Only available <in cities with a [Barracks]>",
+      "Cannot be purchased"
+    ],
+    "promotions": [
+      "[Spearman] ability",
+      "Drill I"
+      "Infantry Shield II"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Naked Warrior",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 10,
+    "cost": 100,
+    "uniques": [
+      "Consumes [2] [Manpower]",
+      "Only available <after adopting [Celtic Culture]> <hidden from users>",
+      "Only available <in cities with a [Sacred Grove]>"
+    ],
+    "promotions": [
+      "Infantry Shield I",
+	"Naked Warrior",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Mercenary Naked Warrior",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 12,
+    "cost": 170,
+    "uniques": [
+      "Consumes [1] [Mercenary (Celtic)]",
+	"[+1] XP gained from combat",
+      "Only available <in cities with a [Mercenary Camp]>",
+      "Unbuildable <for [Human player] Civilizations> <hidden from users>",
+      "Can be purchased with [Gold] [in all cities]",
+      "Can move immediately once bought",
+    ],
+    "promotions": [
+      "Shock I",
+      "Infantry Shield I",
+	"Naked Warrior",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Gladiator",
+    "unitType": "Sword",
+    "movement": 3,
+    "strength": 14,
+    "cost": 200,
+    "uniques": [
+      "Consumes [1] [Manpower]",
+	"[+2] XP gained from combat",
+      "Only available <in cities with a [Arena]>",
+      "Unbuildable <for [Human player] Civilizations> <hidden from users>",
+      "Can be purchased with [Gold] [in all cities]",
+      "Can move immediately once bought",
+    ],
+    "promotions": [
+      "Shock I",
+      "Infantry Shield I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Praetoria",
+    "unitType": "Sword",
+    "uniqueTo": "The Romans",
+    "movement": 2,
+    "strength": 22,
+    "cost": 420,
+    "uniques": [
+      "Consumes [1] [Veteran]",
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Iron]",
+	"[+1] XP gained from combat",
+      "[+10]% Strength bonus for [Military] units within [2] tiles",
+      "Cannot be purchased",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Cannot be purchased"
+    ],
+    "promotions": [
+      "Infantry Shield III",
+	"Praetorianus",
+	"Drill I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Chosen Axeman",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 20,
+    "cost": 420,
+    "uniques": [
+      "Consumes [1] [Veteran]",
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Iron]",
+	"[+1] XP gained from combat",
+      "[+10]% Strength bonus for [Military] units within [2] tiles",
+      "Cannot be purchased",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Cannot be purchased"
+    ],
+    "promotions": [
+      "Infantry Shield II",
+	"Shock I",
+	"Shock II",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Immortals",
+    "unitType": "Spear",
+    "movement": 2,
+    "strength": 20,
+    "cost": 420,
+    "uniques": [
+      "Consumes [1] [Veteran]",
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Iron]",
+	"[+1] XP gained from combat",
+      "[+10]% Strength bonus for [Military] units within [2] tiles",
+      "Cannot be purchased",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Only available <after adopting [Eastern Culture]> <hidden from users>",
+      "Cannot be purchased"
+    ],
+    "promotions": [
+      "Infantry Shield II",
+      "Desert Warrior",
+	"Drill I",
+	"Drill II",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Germanic Cavalry",
+    "unitType": "Mounted",
+    "uniqueTo": "The Bastarnae",
+    "movement": 3,
+    "strength": 22,
+    "cost": 400,
+    "uniques": [
+      "Consumes [1] [Veteran]",
+      "Consumes [4] [Manpower]",
+      "Consumes [2] [Horses]",
+      "Consumes [1] [Iron]",
+	"[+1] XP gained from combat",
+      "Cannot be purchased",
+      "Only available <after adopting [Germanic Culture]> <hidden from users>",
+      "Only available <in cities with a [Cavalry Barracks]>",
+      "Cannot be purchased"
+    ],
+    "promotions": [
+      "[Horseman] ability",
+      "Amphibious I",
+	"Shock",
+      "Cavalry Shield II",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Companion Cavalry",
+    "unitType": "Mounted",
+    "uniqueTo": "The Macedonians",
+    "movement": 3,
+    "strength": 21,
+    "cost": 400,
+    "uniques": [
+      "Consumes [1] [Veteran]",
+      "Consumes [4] [Manpower]",
+      "Consumes [2] [Horses]",
+      "Consumes [1] [Iron]",
+	"[+1] XP gained from combat",
+      "Cannot be purchased",
+      "Only available <in cities with a [Cavalry Barracks]>",
+      "Cannot be purchased"
+    ],
+    "promotions": [
+      "[Horseman] ability",
+      "Charge I",
+      "Drill I",
+      "Cavalry Shield II",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Numidian Horseman",
+  "unitType": "Mounted Archery",
+    "replaces": "Mounted Skirmisher",
+  "hurryCostModifier": 30,
+  "cost": 170,
+  "movement": 4,
+  "strength": 8,
+  "rangedStrength": 14,
+  "requiredTech": "Riding",
+  "uniques": [
+    "Consumes [3] [Manpower]",
+    "Consumes [1] [Horses]",
+    "[-1] Range",
+    "Can move after attacking",
+      "Only available <after adopting [Numidian Culture]> <hidden from users>",
+    "Only available <in cities with a [Skirmisher Barracks]>",
+    "Never appears as a Barbarian unit"
+  ],
+  "promotions": [
+      "[Horseman] ability",
+      "Raider I",
+  ],
+  "attackSound": "arrow"
+  },
 ]
