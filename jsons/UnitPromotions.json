@@ -599,7 +599,6 @@
 	{
 		"name": "[Skirmisher] ability",
 		"uniques": [
-		"Ignores terrain cost",
 		"Withdraws before melee combat <with [35]% chance>",
 		]
 	},
@@ -608,7 +607,7 @@
 		"uniques": [
 		"[+20]% Strength <when fighting in [Hill] tiles> <when defending>",
 		"[+60]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
-		"Withdraws before melee combat <with [5]% chance>",
+		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
 	{
@@ -618,14 +617,15 @@
 		"[+20]% Strength <vs [Mounted Archery] units> <when attacking>",
 		"[+20]% Strength <when fighting in [Hill] tiles> <when defending>",
 		"[+20]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
-		"Withdraws before melee combat <with [5]% chance>",
+		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
 	{
 		"name": "[Spearman] ability",
 		"uniques": [
 		"[+50]% Strength <vs [Mounted] units>",
-		"Withdraws before melee combat <with [1]% chance>",
+		"[+20]% Strength <vs [Elephant] units>",
+		"Withdraws before melee combat <with [3]% chance>",
 		]
 	},
 	{
@@ -634,7 +634,9 @@
 		"[+50]% Strength <vs [Mounted] units>",
 		"[+50]% Strength <when defending> <vs [Melee] units>",
 		"[-20]% Strength <when defending> <vs [Ranged] units>",
-		"[-20]% Strength <when fighting in [Rough terrain] tiles>"
+		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+		"[+30]% Strength <vs [Elephant] units>",
+		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
 	{
@@ -645,6 +647,8 @@
 		"[+10]% Strength <vs cities>",
 		"[-20]% Strength <when defending> <vs [Ranged] units>",
 		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+		"[+30]% Strength <vs [Elephant] units>",
+		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
 	{
@@ -655,15 +659,14 @@
 		"[+20]% to Flank Attack bonuses",
 		"[+20]% Strength <vs [Wounded] units> <when attacking>",
 		"[-10]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"Withdraws before melee combat <with [35]% chance>",
+		"Withdraws before melee combat <with [50]% chance>",
 		"No defensive terrain bonus",
 		]
 	},
 	{
 		"name": "[Camel Archer] ability",
 		"uniques": [
-		"[+20]% Strength <when fighting in [Desert] tiles>",
-		"[-20]% Strength <vs cities> <when attacking>",
+		"[+30]% Strength <when fighting in [Desert] tiles>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [30]% chance>",
 		]
@@ -671,11 +674,12 @@
 	{
 		"name": "Chariot ability",
 		"uniques": [
-		"[+50]% Strength <when fighting in [Desert] tiles>",
+		"[+20]% Strength <when fighting in [Desert] tiles>",
+		"[+20]% Strength <when fighting in [Open terrain] tiles>",
 		"[-20]% Strength <vs cities> <when attacking>",
+		"[-30]% Strength <when fighting in [Rough terrain] tiles>",
 		"No defensive terrain bonus", 
-		"Rough terrain penalty",
-		"Withdraws before melee combat <with [5]% chance>"
+		"Withdraws before melee combat <with [15]% chance>"
 		]
 	},
 	{
@@ -694,7 +698,7 @@
 	{
 		"name": "[Cataphract] ability",
 		"uniques": [
-		"[-15]% Strength <vs cities> <when attacking>",
+		"[-20]% Strength <vs cities> <when attacking>",
 		"[+20]% Strength <vs [Archery] units> <when defending>",
 		"[+70]% Strength <vs [Archery] units> <when attacking>",
 		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
@@ -707,9 +711,8 @@
 		"name": "[War Elephant] ability",
 		"uniques": [
 		"No defensive terrain bonus", 
-		"[-25]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
 		"[+30]% Strength <vs [Mounted] units>",
-		"[-20]% Strength <vs [Spear] units> <when defending>",
 		"[+25]% Strength <vs [Sword] units> <when defending>",
 		"[-10]% Strength <vs [Archery] units> <when defending>"
 		"Withdraws before melee combat <with [5]% chance>",
@@ -825,7 +828,7 @@
 	{
 		"name": "[Gaesatae] ability",
 		"uniques": [
-		"[+20]% Strength <vs [Sword] units>",
+		"[+25]% Strength <vs [Sword] units>",
 		"[+35]% Strength <vs [Spear] units>"
 		]
 	},
@@ -839,8 +842,8 @@
 	{
 		"name": "[Falxman] ability",
 		"uniques": [
-		"[+75]% Strength <vs [Sword] units>",
-		"[-15]% Strength <when defending> <vs [Archery] units>"
+		"[+70]% Strength <vs [Sword] units>",
+		"[-20]% Strength <when defending> <vs [Archery] units>"
 		]
 	},
 	{
@@ -858,8 +861,8 @@
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","King"],
 		"prerequisites": ["Scouting III","Art of War"],
 		"uniques": [
-		"[+35]% Strength <when attacking> <when fighting in [Forest] tiles>",
-		"[+35]% Strength <when attacking> <when fighting in [Jungle] tiles>"
+		"[+25]% Strength <when attacking> <when fighting in [Forest] tiles>",
+		"[+25]% Strength <when attacking> <when fighting in [Jungle] tiles>"
 		],
         "column": 12,
         "row": 6
@@ -869,8 +872,8 @@
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","King"],
 		"prerequisites": ["Scouting III","Art of War"],
 		"uniques": [
-		"[+30]% Strength <when fighting in [Desert] tiles>",
-		"[+20]% Strength <when fighting in [Hill] tiles>"
+		"[+20]% Strength <when fighting in [Desert] tiles>",
+		"[+10]% Strength <when fighting in [Hill] tiles>"
 		],
         "column": 11,
         "row": 6
@@ -897,8 +900,8 @@
 		"name": "[Mountaineer]",
 		"prerequisites": ["Scouting III","Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","King"],
-		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
-			"[+30]% Strength <when fighting in [Tundra] tiles>",
+		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
+			"[+20]% Strength <when fighting in [Tundra] tiles>",
 			"[+10]% Strength <when fighting in [Hill] tiles>",
 			"Double movement in [Snow]",
 			"Double movement in [Tundra]",
@@ -929,7 +932,7 @@
 		"name": "[Siege Expert] ability",
 		"unitTypes": ["Siege"],
 		"prerequisites": ["Art of War"],
-		"uniques": ["[+10]% Strength when stacked with [Worker]","[+50]% Strength when stacked with [Great Engineer]","[+10]% Strength <when defending>"],
+		"uniques": ["[+10]% Strength when stacked with [Worker]","[+30]% Strength when stacked with [Great Engineer]","[+10]% Strength <when defending>"],
         "column": 15,
         "row": 6
 	},
@@ -937,7 +940,7 @@
 		"name": "Veteran",
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water","Siege","King"],
-		"uniques": ["Heals [10] damage if it kills a unit","[+2] HP when healing","[+5]% Strength <when defending>"],
+		"uniques": ["Heals [10] damage if it kills a unit","[+5]% Strength <when defending>"],
         "column": 7,
         "row": 6
 	},
@@ -954,7 +957,7 @@
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Elephant","King"],
 		"uniques": [
-			"[10]% Strength bonus for [Military] units within [2] tiles <when defending>",
+			"[15]% Strength bonus for [Military] units within [2] tiles <when defending>",
 			"[+10]% Strength <when defending>"
 ],
         "column": 5,
@@ -979,8 +982,7 @@
   		"prerequisites": ["Art of War"],
   		"unitTypes": ["Sword", "Spear", "Mounted", "Mounted Archery", "Scout", "Archery", "Elephant","King"],
   		"uniques": [
-			"[+1] XP gained from combat <for [{Military} {Land}] units>",
-      			"[-5]% Strength for enemy [Wounded] units in adjacent [all] tiles",
+			"[+10]% Strength bonus for [{Melee} {Land}] units within [2] tiles",
 ],
         "column": 3,
         "row": 6
@@ -1002,7 +1004,7 @@
  		 "unitTypes": ["Sword","Spear","King","Elephant"],
  		 "uniques": [
 		"[+10]% Strength bonus for [Archery] units within [1] tiles <when defending>",
-		"[+30]% Strength bonus for [Scout] units within [1] tiles <when defending>",
+		"[+20]% Strength bonus for [Scout] units within [1] tiles <when defending>",
 		"[+20]% Strength bonus for [Archery] units within [1] tiles <when attacking>"],
 	"column": 1, 
        "row": 6
@@ -1040,8 +1042,8 @@
   		"unitTypes": ["Sword", "Spear", "Mounted", "Mounted Archery", "Scout", "Archery", "Elephant","King"],
   		"prerequisites": ["Art of War"],
   		"uniques": [
-    			"[+35]% Yield from pillaging tiles",
-			"[+25]% Health from pillaging tiles"
+    			"[+25]% Yield from pillaging tiles",
+			"[+20]% Health from pillaging tiles"
 			],
         "column": 16,
         "row": 6
@@ -1051,8 +1053,8 @@
 		"name": "Spear Wall",
 		"prerequisites": ["Art of War"],
 		"uniques": [
-			"[+20]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
-    			"[+20]% Strength <when defending>"]
+			"[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
+    			"[+10]% Strength <when defending>"]
 		"unitTypes": ["Spear"],
         "column": 17,
         "row": 6
@@ -1061,7 +1063,7 @@
 		"name": "Skirmisher Tatics",
 		"prerequisites": ["Art of War"],
 		"uniques": [
-    			"[+10]% Strength <when defending>"]
+			"Ignores Zone of Control",]
 		"unitTypes": ["Scout","Archery"],
         "column": 18,
         "row": 6
@@ -1135,6 +1137,18 @@
 			"[-30]% Strength <vs [Mounted] units> <when defending>",
 			"[+80]% Strength <when attacking>",
 			"Withdraws before melee combat <with [15]% chance>",
+			"Ignores Zone of Control",
+		],
+	}
+	{
+		"name": "Crossbowman ability",
+		"uniques": [
+			"[+30]% Strength <vs [Improved Armor] units> <when attacking>",
+			"[+50]% Strength <vs [Infantry Shield III] units> <when attacking>",
+			"[+30]% Strength <vs [Infantry Shield II] units> <when attacking>",
+			"[+50]% Strength <vs [Cataphract] units> <when attacking>",
+   			"Can move after attacking",
+			"Withdraws before melee combat <with [10]% chance>",
 		],
 	}
 ]

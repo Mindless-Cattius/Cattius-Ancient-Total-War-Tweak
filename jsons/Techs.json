@@ -426,10 +426,6 @@
 				"name": "Imperial Military Doctrine",
 				"row": 3,
 				"prerequisites": ["Military Reforms","Social Reforms"],
-				"uniques": [
-                  			  "[Spearman] units gain the [Improved Armor] promotion",
-                   			 "[Scout] units gain the [Ignore terrain cost] promotion",
-				]
 				"quote": "'Therefore, he who desires peace, should prepare for war.'- Vegetius"
 			},
 			{
@@ -442,10 +438,6 @@
 				"name": "Crossbow Engineering",
 				"row": 7,
 				"prerequisites": ["Mass Production"],
-				"uniques": [
-                   			 "[Pike Phalanx] units gain the [Improved Armor] promotion",
-                   			 "[Royal Phalanx] units gain the [Improved Armor] promotion",
-				],
 				"quote": "..."
 			},
 		]
@@ -462,12 +454,7 @@
 				"row": 5,
 				"prerequisites": ["Crossbow Engineering","Heavy Archery Tactics"],
 				"uniques": [
-				"Can be continually researched","Empire enters a [10]-turn Golden Age",
-				"[5]% Natural religion spread [in all cities]",
-				"[-5]% Production when constructing [Military] units [in all cities]",
-				"[-5]% Production towards any buildings that already exist in the Capital",
-				"[+5]% Yield from pillaging tiles",
-				"[-1 Culture] per [20] population [in all cities]",
+				"Can be continually researched","Empire enters a [5]-turn Golden Age",
 ],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]

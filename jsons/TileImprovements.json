@@ -120,6 +120,7 @@
 	// Military improvement
 	{
 		"name": "Fort",
+		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"uniques": [
 		 "Costs [10] [Gold] per turn"

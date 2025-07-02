@@ -910,8 +910,8 @@
 		"production": 3,
 		"culture": 3,
 		"uniques": [
-		"Consumes [1] [Decadence] <in cities with a [Thracian Weaponsmith]>",    
-                "[Military] units gain the [Improved Equipment] promotion",
+		"Consumes [1] [Decadence] <in cities with a [Thracian Weaponsmith]>",
+                "[Sword] units gain the [Improved Armor] promotion",
 		"Only available <after adopting [Thracian Culture]>"
 		],
 		"requiredTech": "Heavy Infantry"
@@ -1017,8 +1017,8 @@
 		"happiness": 2,
 		"gold": 1,
 		"cityHealth": 20,
+		"cityStrength": 5,
 		"uniques": [
-                "[+10]% Strength for cities <with a garrison> <when attacking>",
 		"Consumes [1] [Manpower]",
 		"Must be on [Hill]",
 		"Destroyed when the city is captured"
@@ -1151,12 +1151,11 @@
 	{
 		"name": "Wall Towers",
 		"requiredBuilding": "Walls",
-		"cityStrength": 5,
+		"cityStrength": 10,
 		"cityHealth": 60,
 		"hurryCostModifier": 40,
 		"uniques": [
 		"Consumes [1] [Manpower]",
-                "[+10]% Strength for cities <with a garrison> <when attacking>",
 		],
 		"requiredTech": "Torsion Engines",
 	},
@@ -1551,7 +1550,8 @@
 		"cityHealth": 10,
 		"uniques": [
 		"Provides [2] [Manpower]",
-		"New [Archery] units start with [10] XP [in this city]",
+		"New [Archery] units start with [5] XP [in this city]",
+		"New [Scout] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Military Reforms"
@@ -1560,12 +1560,13 @@
 		"name": "Imperial Barracks",
 		"requiredBuilding": "Army Barracks",
 		"hurryCostModifier": 50,
-		"Cost":1200,
+		"Cost":1500,
 		"maintenance": 10,
 		"cityStrength": 5,
 		"cityHealth": 20,
 		"uniques": [
 		"Provides [3] [Manpower]",
+      		"Free [Swordsman appears <upon turn end> <when above [50] [Manpower]> <with [1]% chance>",
 		"New [Military] units start with [5] XP [in this city]",
 		"New [Foot Guard] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured",
@@ -1590,13 +1591,13 @@
 	{
 		"name": "Sacred Grove",
 		"requiredBuilding": "Muster Field",
-		"replaces": "Garrison Post",
 		"hurryCostModifier": 25,
 		"Cost":80,
 		"maintenance": 1,
 		"culture": 1,
-		"cityHealth": 10,
+		"cityHealth": 5,
 		"uniques": [
+		"Provides [1] [Mercenary (Celtic)]",
 		"[+5]% Production when constructing [Sword] units [in this city]",
 		"Provides [2] [Manpower]",
 		"Only available <after adopting [Celtic Culture]>","Must not be on [Desert]",
@@ -1627,5 +1628,25 @@
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Woodworking"
+	},
+	{
+		"name": "Imperial Armory",
+		"requiredBuilding": "Imperial Barracks",
+		"Cost":1500,
+		"isNationalWonder": true,
+		"maintenance": 10,
+		"production": 1,
+		"cityStrength": 2,
+		"cityHealth": 10,
+		"requiredTech": "Crossbow Engineering",
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [ 
+                   	"[King] units gain the [Improved Armor] promotion",
+                   	"[Pike Phalanx] units gain the [Improved Armor] promotion",
+                   	"[Royal Phalanx] units gain the [Improved Armor] promotion",
+                  	"[Spearman] units gain the [Improved Armor] promotion",
+                  	"[Scout] units gain the [Short Spears] promotion",
+		"Destroyed when the city is captured"
+		]
 	},
 ]
