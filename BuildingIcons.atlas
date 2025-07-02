@@ -221,401 +221,436 @@ BuildingIcons/Garden
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Garum Shop
+BuildingIcons/Garrison Post
   rotate: false
   xy: 328, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Glazier
+BuildingIcons/Garum Shop
   rotate: false
   xy: 436, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Goldsmith
+BuildingIcons/Glazier
   rotate: false
   xy: 544, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Grain Exports
+BuildingIcons/Goldsmith
   rotate: false
   xy: 652, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Grand Temple
+BuildingIcons/Grain Exports
   rotate: false
   xy: 760, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Great Harbor
+BuildingIcons/Grand Temple
   rotate: false
   xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Harbor
+BuildingIcons/Great Harbor
   rotate: false
   xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Herbalist
+BuildingIcons/Harbor
   rotate: false
   xy: 220, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Hill Fort
+BuildingIcons/Herbalist
   rotate: false
   xy: 328, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Horse Imports
+BuildingIcons/Hill Fort
   rotate: false
   xy: 436, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Hunting Lodge
+BuildingIcons/Horse Imports
   rotate: false
   xy: 544, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Iron Imports
+BuildingIcons/Hunting Lodge
   rotate: false
   xy: 652, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Jeweler
+BuildingIcons/Imperial Armory
   rotate: false
   xy: 760, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Kurgan
+BuildingIcons/Imperial Barracks
   rotate: false
   xy: 868, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Make Capital
+BuildingIcons/Iron Imports
   rotate: false
   xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Mausoleum
+BuildingIcons/Jeweler
   rotate: false
   xy: 220, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Mercenary Camp
+BuildingIcons/Kurgan
   rotate: false
   xy: 328, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Muster Field
+BuildingIcons/Make Capital
   rotate: false
   xy: 436, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Noble District
+BuildingIcons/Mausoleum
   rotate: false
   xy: 544, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nomadic Herd
+BuildingIcons/Mercenary Camp
   rotate: false
   xy: 652, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Olive Mill
+BuildingIcons/Muster Field
   rotate: false
   xy: 760, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Oppidum
+BuildingIcons/Noble District
   rotate: false
   xy: 868, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Palace
+BuildingIcons/Nomadic Herd
   rotate: false
   xy: 976, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Palace Library
+BuildingIcons/Olive Mill
   rotate: false
   xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Parchmentry
+BuildingIcons/Oppidum
   rotate: false
   xy: 328, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Parthenon
+BuildingIcons/Palace
   rotate: false
   xy: 436, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Perfumery
+BuildingIcons/Palace Library
   rotate: false
   xy: 544, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Pirate Haven (Cilician)
+BuildingIcons/Palisade
   rotate: false
   xy: 652, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Pirate Haven (Cretan)
-  rotate: false
-  xy: 652, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pirate Haven (Illyrian)
-  rotate: false
-  xy: 652, 436
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pleasure Chambers
+BuildingIcons/Parchmentry
   rotate: false
   xy: 760, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Rotary Mill
+BuildingIcons/Parthenon
   rotate: false
   xy: 868, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/School
+BuildingIcons/Perfumery
   rotate: false
   xy: 976, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Scriptorium
+BuildingIcons/Pirate Haven (Cilician)
   rotate: false
   xy: 1084, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sculptor
+BuildingIcons/Pirate Haven (Cretan)
+  rotate: false
+  xy: 1084, 868
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pirate Haven (Illyrian)
+  rotate: false
+  xy: 1084, 868
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pleasure Chambers
   rotate: false
   xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Second King
+BuildingIcons/Rotary Mill
   rotate: false
   xy: 436, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Secret Cult
+BuildingIcons/Sacred Grove
   rotate: false
   xy: 544, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Siege Workshop
+BuildingIcons/School
   rotate: false
   xy: 652, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Silk Road
+BuildingIcons/Scriptorium
   rotate: false
   xy: 760, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Silphium Trader
+BuildingIcons/Sculptor
   rotate: false
   xy: 868, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Skirmisher Barracks
+BuildingIcons/Second King
   rotate: false
   xy: 976, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Slave Trader
+BuildingIcons/Secret Cult
   rotate: false
   xy: 1084, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Spice Road
+BuildingIcons/Siege Workshop
   rotate: false
   xy: 1192, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Syssition
+BuildingIcons/Silk Road
   rotate: false
   xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Tar Workshop
+BuildingIcons/Silphium Trader
   rotate: false
   xy: 544, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Tavern
+BuildingIcons/Skirmisher Barracks
   rotate: false
   xy: 652, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Temple
+BuildingIcons/Slave Trader
   rotate: false
   xy: 760, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/The Great Lighthouse
+BuildingIcons/Spice Road
   rotate: false
   xy: 868, 436
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/The Oracle of Amun
+BuildingIcons/Syssition
   rotate: false
   xy: 976, 544
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/The Oracle of Delphi
+BuildingIcons/Tar Workshop
   rotate: false
   xy: 1084, 652
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/The Oracle of Dodona
+BuildingIcons/Tavern
   rotate: false
   xy: 1192, 760
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Thracian Weaponsmith
+BuildingIcons/Temple
   rotate: false
   xy: 1300, 868
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Timber Imports
+BuildingIcons/The Great Lighthouse
   rotate: false
   xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Wall Towers
+BuildingIcons/The Oracle of Amun
   rotate: false
   xy: 652, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Walls
+BuildingIcons/The Oracle of Delphi
   rotate: false
   xy: 760, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Warrior Statue
+BuildingIcons/The Oracle of Dodona
   rotate: false
   xy: 868, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Weavery
+BuildingIcons/Thracian Weaponsmith
   rotate: false
   xy: 976, 436
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Timber Imports
+  rotate: false
+  xy: 1084, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wall Towers
+  rotate: false
+  xy: 1192, 652
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Walls
+  rotate: false
+  xy: 1300, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Warrior Statue
+  rotate: false
+  xy: 1408, 868
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Weavery
+  rotate: false
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
