@@ -86,11 +86,11 @@
 		"Provides [1] [Manpower] <in cities with at least [15] [Population]>",
 		"Provides [1] [Manpower] <in cities with at least [25] [Population]>",
 		"Provides [1] [Manpower] <in cities with at least [30] [Population]>",
-		"Provides [15] [Manpower] [in City-State cities] <hidden from users>"
 		]
 	},
 	{
 		"name": "Pirate Haven (Illyrian)",
+		"requiredBuilding": "Mercenary Camp",
 		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -108,6 +108,7 @@
 	},
 	{
 		"name": "Pirate Haven (Cretan)",
+		"requiredBuilding": "Mercenary Camp",
 		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -126,6 +127,7 @@
 	},
 	{
 		"name": "Pirate Haven (Cilician)",
+		"requiredBuilding": "Mercenary Camp",
 		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 0,
@@ -363,6 +365,7 @@
 	},
 	{
 		"name": "Tavern",
+		"requiredBuilding": "Market",
 		"hurryCostModifier": 25,
 		"cost": 100,
 		"maintenance": 0,
@@ -377,13 +380,14 @@
 	},
 	{
 		"name": "Garum Shop",
+		"requiredBuilding": "Market",
 		"requiredNearbyImprovedResources": ["Fish","Crab"],
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"Food": 1,
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": [
-		"[+1 Gold] from [Fish] tiles [in this city]","[+1 Gold] from [Crab] tiles [in this city]"
+		"[+1 Gold] from [Fish] tiles [in this city]","[+2 Gold] from [Crab] tiles [in this city]"
 		],
 		"requiredTech": "Entertainment"
 	},
@@ -415,6 +419,7 @@
 	},
 	{
 		"name": "Garden",
+		"requiredBuilding": "Aqueduct",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"happiness": 1,
@@ -534,13 +539,17 @@
 		"name": "Market",
 		"hurryCostModifier": 25,
 		"gold": 3,
-		"cost": 150,
+		"cost": 200,
 		"happiness": 1,
 		"percentStatBonus": {"gold": 10},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
+		"Gain [10]-[50] [Gold]",
 		"Provides [1] [Ceramics]",
-		"[+1 Gold] <in cities with a [Market]>",
+		"[+1 Gold] <in cities with a [Cattle Trader]>",
+		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
+		"[+1 Gold] <in cities with a [Mint]>",
+		"[+2 Gold] <in cities with a [Grain Exports]>",
 		],
 		"requiredTech": "Currency"
 	},
@@ -556,9 +565,12 @@
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-		"Provides [1] [Silphium]",
 		"Gain [10]-[100] [Gold]",
+		"Provides [1] [Silphium]",
 		"Provides [1] [Decadence]",
+		"[+1 Gold] <in cities with a [Cattle Trader]>",
+		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
+		"[+2 Gold] <in cities with a [Grain Exports]>",
 		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Currency"
@@ -573,8 +585,11 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"Consumes [1] [Copper]",
+		"[+1 Culture] <in cities with a [Market]>",
 		"[Gold] cost of purchasing items in cities [-10]%",
-		"[+4 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]", "[+2 Gold] from [Copper] tiles [in this city]"
+		"[+3 Gold] from [Gold Ore] tiles [in this city]", 
+		"[+2 Gold] from [Silver] tiles [in this city]",
+		"[+1 Gold] from [Copper] tiles [in this city]",
 		],
 		"requiredTech": "Currency"
 	},
@@ -589,6 +604,8 @@
 		"Limited to [1] per Civilization <before the [Hellenistic Age]>",
 		"Limited to [2] per Civilization <during the [Hellenistic Age]>",
 		"Limited to [3] per Civilization <during the [Imperial Age]>",
+		"Limited to [4] per Civilization <during the [Hellenistic Age]> <after adopting [Mercenary Reform]>",
+		"Limited to [5] per Civilization <during the [Imperial Age]> <after adopting [Mercenary Reform]>",
 		"Provides [1] [Mercenary (Celtic)]",
 		"Provides [1] [Mercenary (Eastern)]",
 		"Provides [1] [Mercenary (Germanic)]",
@@ -666,6 +683,7 @@
 	// Tax Farming
 	{
 		"name": "National Treasury",
+		"requiredBuilding": "Mint",
 		"gold": 10,
 		"happiness": 2,
 		"culture": 1,
@@ -714,6 +732,7 @@
 	// Aesthetics
 	{
 		"name": "Grand Temple",
+		"requiredBuilding": "Temple",
 		"culture": 3,
 		"faith": 8,
 		"happiness": 2,
@@ -775,7 +794,7 @@
 		"Comment [Has cultural requirements]","Only available <with [Enable War Elephant]> <hidden from users>",
 		"[+1 Production] from [Ivory] tiles [in this city]"
 		"New [Elephant] units start with [10] XP [in this city]",
-		"Provides [2] [Elephants]"
+		"Provides [1] [Elephants]"
 		],
 		"requiredTech": "Riding"
 	},
@@ -790,7 +809,7 @@
 		"cityHealth": 20,
 		"uniques": [
 		"Provides [2] [Manpower]",
-		"New [Mounted] units start with [10] XP [in this city]",
+		"New [Horseman] units start with [10] XP [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Equestrian Class"
@@ -806,6 +825,7 @@
 		"Provides [1] [Manpower]",
 		"Comment [Reduces the Production and Food penalty in Cities with a Courthouse]",
 		"Can only be built <in [Annexed] cities> <before adopting [Hellenistic Culture]>"
+		"New [Spearman] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Land Grants"
@@ -813,8 +833,10 @@
 	// Public Works
 	{
 		"name": "Aqueduct",
+		"requiredBuilding": "Brick Maker",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 3,
+		"happiness": 1,
 		"uniques": [
 		"Comment [+1 Food from non-fresh water Farm tiles in this city]",
 		"[30]% Food is carried over after population increases [in this city]"
@@ -824,6 +846,7 @@
 	// Supply Logistics
 	{
 		"name": "Rotary Mill",
+		"requiredBuilding": "Aqueduct",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"happiness": 1,
@@ -845,7 +868,6 @@
 		"Provides [1] [Manpower] <during the [Imperial Age]>",
 		"[+20]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
 		"New [Spearman] units start with [10] XP [in this city]",
-		"All newly-trained [Spear] units [in this city] receive the [Formation I] promotion",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Citizen Levy"
@@ -885,7 +907,7 @@
 		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 50,
 		"maintenance": 7,
-		"cityHealth": 100,
+		"cityHealth": 20,
 		"Cost": 500,
 		"uniques": [
 		"Provides [3] [Manpower]",
@@ -893,9 +915,8 @@
 		"[+20]% Production when constructing [Sword] units [in this city] <in cities with a [Forge]>",
 		"[+10]% Production when constructing [General] units [in this city] <in cities with a [Forge]>",
 		"New [Spearman] units start with [10] XP [in this city]",
-		"All newly-trained [{Melee} {Land}] units [in this city] receive the [Assault I] promotion",
-		"All newly-trained [General] units [in this city] receive the [Art of War] promotion",
-		"All newly-trained [King] units [in this city] receive the [Art of War] promotion",
+		"New [Scout] units start with [10] XP [in this city]",
+		"New [Sword] units start with [5] XP [in this city]",
 		"Can only be built <in [Capital] cities> <before adopting [Centralization]>",
 		"Destroyed when the city is captured"
 		],
@@ -939,7 +960,7 @@
 		"uniques": [
 		"Provides [1] [Jewelry]","Provides [1] [Decadence]",		
 		"[+2 Gold] from [Gold Ore] tiles [in this city]",
-		"[+3 Gold] from [Gems] tiles [in this city]"
+		"[+3 Gold] from [Gems] tiles [in this city]",
 		],
 		"requiredTech": "Metallurgy"
 	},
@@ -976,6 +997,7 @@
 	// Masonry
 	{
 		"name": "Walls",
+		"requiredBuilding": "Palisade",
 		"hurryCostModifier": 35,
 		"cityStrength": 10,
 		"cityHealth": 50,
@@ -1100,9 +1122,9 @@
 		"maintenance": 0,
 		"uniques": [
 		"Provides [1] [Manpower] <while the empire is happy>",
-		"New [Archery] units start with [10] XP [in this city]",
-		"[+25]% Production when constructing [Archery Range] buildings [in this city]",
-		"[+1 Food] from [Deer] tiles [in this city]","[+3 Gold] from [Furs] tiles [in this city]"
+		"New [Archery] units start with [5] XP [in this city]",
+		"[+20]% Production when constructing [Archery Range] buildings [in this city]",
+		"[+1 Food] from [Deer] tiles [in this city]","[+3 Gold] from [Furs] tiles [in this city]",
 		],
 		"requiredTech": "Forestry"
 	},
@@ -1122,6 +1144,7 @@
 	// Engineering
 	{
 		"name": "Workshop",
+		"requiredBuilding": "Coal Pile",
 		"maintenance": 1,
 		"production": 3,
 		"specialistSlots": {"Engineer": 1},
@@ -1141,8 +1164,8 @@
 		"cityHealth": 10,
 		"uniques": [
 		"Provides [2] [Manpower]",
-		"New [Archery] units start with [15] XP [in this city]",
-		"New [Scout] units start with [30] XP [in this city]",
+		"New [Archery] units start with [10] XP [in this city]",
+		"New [Scout] units start with [10] XP [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Engineering"
@@ -1210,17 +1233,20 @@
 		"cityHealth": 20,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-		"Provides [1] [Manpower]",
+		"Consumes [1] [Manpower]",
+		"[+1 Gold] <in cities with a [Market]>",
+		"[+1 Gold] <in cities with a [Garum Shop]>",
 		"Remove [Anchorage] [in this city]","Only available <in cities without a [Great Harbor]> <hidden from users>"
 		"[+1 Gold] from [Water resource] tiles [in this city]",
 		"Connects trade routes over water",
-		"Requires at least [4] population",
+		"Requires at least [5] population",
 		"Must be next to [Coast]"
 		],
 		"requiredTech": "Shipbuilding"
 	},
 	{
 		"name": "Drydock",
+		"requiredBuilding": "Anchorage",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"uniques": [
@@ -1233,6 +1259,7 @@
 	},
 	{
 		"name": "Cothon",
+		"requiredBuilding": "Anchorage",
 		"replaces": "Drydock",
 		"uniqueTo": "The Carthaginians",
 		"hurryCostModifier": 25,
@@ -1287,19 +1314,21 @@
 		"name": "Great Harbor",
 		"requiredBuilding": "Harbor",
 		"hurryCostModifier": 25,
-		"maintenance": 2,
+		"maintenance": 4,
 		"food": 3,
 		"production": 2,
 		"culture": 3,
 		"cityHealth": 35,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
-		"Provides [1] [Manpower]",
-		"Remove [Harbor] [in this city]",
-		"Connects trade routes over water",
+		"Consumes [1] [Manpower]",
+		"[+1 Gold] <in cities with a [Market]>",
+		"[+1 Gold] <in cities with a [Garum Shop]>",
 		"[+1 Gold] from [Water resource] tiles [in this city]",
-		"Requires at least [8] population",
+		"Connects trade routes over water",
+		"Requires at least [15] population",
 		"Must be next to [Coast]",
+		"Remove [Harbor] [in this city]",
 		],
 		"requiredTech": "Naval Artillery"
 	},
@@ -1504,7 +1533,7 @@
 	},
 
 
-	// Religious buildings
+	//				--- Religious buildings
 
 	{
 		"name": "Cathedral",
@@ -1566,9 +1595,11 @@
 		"cityHealth": 20,
 		"uniques": [
 		"Provides [3] [Manpower]",
-      		"Free [Swordsman appears <upon turn end> <when above [50] [Manpower]> <with [1]% chance>",
 		"New [Military] units start with [5] XP [in this city]",
 		"New [Foot Guard] units start with [5] XP [in this city]",
+		"New [Pike Phalanx] units start with [5] XP [in this city]",
+		"New [Cavalry] units start with [5] XP [in this city]",
+		"New [Horseman] units start with [10] XP [in this city]",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Imperial Military Doctrine"
@@ -1577,13 +1608,14 @@
 		"name": "Siege Workshop",
 		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 50,
-		"Cost":700,
+		"Cost":600,
 		"maintenance": 5,
 		"cityStrength": 5,
 		"cityHealth": 10,
 		"uniques": [
 		"Provides [2] [Manpower]",
-		"New [Siege] units start with [10] XP [in this city]",
+		"New [Siege] units start with [5] XP [in this city]",
+		"[+10]% Production when constructing [Siege] units [in this city] <in cities with a [Workshop]>",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Engineering"
@@ -1600,7 +1632,7 @@
 		"Provides [1] [Mercenary (Celtic)]",
 		"[+5]% Production when constructing [Sword] units [in this city]",
 		"Provides [2] [Manpower]",
-		"Only available <after adopting [Celtic Culture]>","Must not be on [Desert]",
+		"Only available <after adopting [Naked Fanatics]>","Must not be on [Desert]",
 		"Never destroyed when the city is captured"
 		],
 		"requiredTech": "Forestry"
@@ -1647,6 +1679,21 @@
                   	"[Spearman] units gain the [Improved Armor] promotion",
                   	"[Scout] units gain the [Short Spears] promotion",
 		"Destroyed when the city is captured"
+		]
+	},
+/////				---Scenario
+	{
+		"name": "Hellenic Barracks",
+		"uniques": [ "Gain a free [Hellenic Barracks] [in all cities]",
+		"Destroyed when the city is captured",
+		"Unbuildable"
+		]
+	},
+	{
+		"name": "Gallic Barracks",
+		"uniques": [ "Gain a free [Gallic Barracks] [in all cities]",
+		"Destroyed when the city is captured",
+		"Unbuildable"
 		]
 	},
 ]

@@ -424,20 +424,20 @@
 		"techs": [
 			{
 				"name": "Imperial Military Doctrine",
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Military Reforms","Social Reforms"],
 				"quote": "'Therefore, he who desires peace, should prepare for war.'- Vegetius"
 			},
 			{
 				"name": "Heavy Archery Tactics",
-				"row": 5,
+				"row": 4,
 				"prerequisites": ["Military Reforms"],
 				"quote": "Arm the archer not only with arrows, but with purpose and formation."
 			},
 			{
 				"name": "Crossbow Engineering",
-				"row": 7,
-				"prerequisites": ["Mass Production"],
+				"row": 6,
+				"prerequisites": ["Naval Artillery"],
 				"quote": "..."
 			},
 		]
@@ -452,9 +452,9 @@
 			{
 				"name": "Imperial Decay",
 				"row": 5,
-				"prerequisites": ["Crossbow Engineering","Heavy Archery Tactics"],
+				"prerequisites": ["Crossbow Engineering","Heavy Archery Tactics","Imperial Military Doctrine",],
 				"uniques": [
-				"Can be continually researched","Empire enters a [5]-turn Golden Age",
+				"Can be continually researched","Empire enters a [10]-turn Golden Age",
 ],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
 				"civilopediaText": [{"text": "Who knows what the future holds?"}]

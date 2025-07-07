@@ -383,7 +383,7 @@
 		"name": "Charge I",
 		"uniques": [
 			"[+10]% Strength <when attacking>",
-			"[+10]% Strength <vs [Melee] units>"
+			"[+5]% Strength <vs [Melee] units>"
 		],
 		"unitTypes": ["Mounted","King"],
         "column": 17,
@@ -393,7 +393,7 @@
 		"name": "Charge II",
 		"prerequisites": ["Charge I"],
 		"uniques": ["[+20]% Strength <when attacking>",
-			"[+10]% Strength <vs [Melee] units>"
+			"[+5]% Strength <vs [Melee] units>"
 		],
 		"unitTypes": ["Mounted","King"],
         "column": 17,
@@ -608,13 +608,14 @@
 		"[+20]% Strength <when fighting in [Hill] tiles> <when defending>",
 		"[+60]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
+		"[+15]% Strength <vs [Ambush I] units> <when attacking>",
 		]
 	},
 	{
 		"name": "[Slinger] ability",
 		"uniques": [
-		"[+20]% Strength <vs [Archery] units> <when attacking>",
-		"[+20]% Strength <vs [Mounted Archery] units> <when attacking>",
+		"[+10]% Strength <vs [Archery] units> <when attacking>",
+		"[+10]% Strength <vs [Mounted Archery] units> <when attacking>",
 		"[+20]% Strength <when fighting in [Hill] tiles> <when defending>",
 		"[+20]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
@@ -659,7 +660,7 @@
 		"[+20]% to Flank Attack bonuses",
 		"[+20]% Strength <vs [Wounded] units> <when attacking>",
 		"[-10]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"Withdraws before melee combat <with [50]% chance>",
+		"Withdraws before melee combat <with [35]% chance>",
 		"No defensive terrain bonus",
 		]
 	},
@@ -767,17 +768,18 @@
 		"name": "Armored Lancer",
 		"uniques": [
 		"[+20]% Strength <vs [Ranged] units>",
-		"[+50]% Strength <vs cities> <when defending>",
-		"[+25]% Strength <vs [Melee] units>",
-		"Withdraws before melee combat <with [2]% chance>",
+		"[+30]% Strength <vs cities> <when defending>",
+		"[+30]% Strength <vs [Melee] units> <when attacking>",
+		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
 	{
 		"name": "Lancer",
 		"uniques": [
-		"[+10]% Strength <vs [Ranged] units>",
-		"[+25]% Strength <vs [Melee] units> <when attacking>",
-		"Withdraws before melee combat <with [3]% chance>",
+		"[-20]% Strength <vs [Ranged] units> <when defending>",
+		"[+20]% Strength <vs [Ranged] units> <when attacking>",
+		"[+30]% Strength <vs [Melee] units> <when attacking>",
+		"Withdraws before melee combat <with [15]% chance>",
 		]
 	},
 	// Ships
@@ -932,7 +934,7 @@
 		"name": "[Siege Expert] ability",
 		"unitTypes": ["Siege"],
 		"prerequisites": ["Art of War"],
-		"uniques": ["[+10]% Strength when stacked with [Worker]","[+30]% Strength when stacked with [Great Engineer]","[+10]% Strength <when defending>"],
+		"uniques": ["[+10]% Strength <when stacked with a [Worker] unit>","[+30]% Strength <when stacked with a [Great Engineer] unit>","[+10]% Strength <when defending>"],
         "column": 15,
         "row": 6
 	},
@@ -940,7 +942,7 @@
 		"name": "Veteran",
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water","Siege","King"],
-		"uniques": ["Heals [10] damage if it kills a unit","[+5]% Strength <when defending>"],
+		"uniques": ["Heals [5] damage if it kills a unit","[+10]% Strength <when defending>"],
         "column": 7,
         "row": 6
 	},
@@ -973,7 +975,7 @@
   		"prerequisites": ["Art of War"],
   		"unitTypes": ["Siege"],
   		"uniques": [
-    			"[+10]% Strength when stacked with [Worker]","[+5] HP when healing","[+10]% Strength <when defending>"],
+    			"[+10]% Strength <when stacked with a [Worker] unit>","[+5] HP when healing","[+10]% Strength <when defending>"],
         "column": 4,
         "row": 6
 	},
@@ -1133,7 +1135,7 @@
 		"name": "Naked Warrior",
 		"uniques": [
 			"[+1] XP gained from combat",
-			"[-50]% Strength <vs [{Ranged} {Land}] units> <when defending>",
+			"[-30]% Strength <vs [{Ranged} {Land}] units> <when defending>",
 			"[-30]% Strength <vs [Mounted] units> <when defending>",
 			"[+80]% Strength <when attacking>",
 			"Withdraws before melee combat <with [15]% chance>",
@@ -1143,13 +1145,26 @@
 	{
 		"name": "Crossbowman ability",
 		"uniques": [
-			"[+30]% Strength <vs [Improved Armor] units> <when attacking>",
+			"[+10]% Strength <vs [Improved Armor] units> <when attacking>",
 			"[+50]% Strength <vs [Infantry Shield III] units> <when attacking>",
-			"[+30]% Strength <vs [Infantry Shield II] units> <when attacking>",
+			"[+40]% Strength <vs [Infantry Shield II] units> <when attacking>",
 			"[+50]% Strength <vs [Cataphract] units> <when attacking>",
+			"[+20]% Strength <vs cities> <when defending>",
+			"[+50]% Strength <vs cities> <when attacking>",
    			"Can move after attacking",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
 	}
+	{
+		"name": "Horse Archer ability",
+		"uniques": [
+		"[-30]% Strength <vs cities> <when attacking>",
+		"[+10]% to Flank Attack bonuses",
+		"[+5]% Strength <vs [Wounded] units> <when attacking>",
+		"[-15]% Strength <when fighting in [Hill] tiles> <when defending>",
+		"Withdraws before melee combat <with [40]% chance>",
+		"No defensive terrain bonus",
+		]
+	},
 ]
 
