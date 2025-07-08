@@ -1166,5 +1166,14 @@
 		"No defensive terrain bonus",
 		]
 	},
+	{
+		"name": "Camel Cavalry ability",
+		"uniques": [
+		"[+20]% Strength <when fighting in [Desert] tiles>",
+		"No defensive terrain bonus",
+		"Withdraws before melee combat <with [20]% chance>",
+		"[+20]% Strength <vs [Mounted] units> <when attacking>",
+		]
+	},
 ]
 
