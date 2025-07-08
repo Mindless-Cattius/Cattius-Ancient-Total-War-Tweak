@@ -12,8 +12,9 @@ The main features include:<br>
 <img src="https://github.com/prod0ad/Ancient-Total-War/assets/9596638/30297e01-a3d2-4301-a0f0-ce182c15180d" width="420"><br>
 <img src="https://github.com/prod0ad/Ancient-Total-War/assets/9596638/5f2e4ebc-14ad-4940-acce-7cff45881aad" width="420"><br>
 <img src="https://github.com/prod0ad/Ancient-Total-War/assets/9596638/fe587596-0b41-422d-9002-c8a07e009726" width="420"><br>WHAT MY TWEAK IS ABOUT?
--> Add new units: Naked Warrior, Limitanei, Veterans type units (come with new veteran resource).
--> Rebalacing almost all units, mostly on horseman and cavalry.  
+-> Add new units: Naked Warrior, Limitanei, Veterans type units, mounted skirmisher, armored archer, armored horse archer,... (come with new veteran resource).
+-> Rebalacing almost all units, mostly on horseman and cavalry. 
+-> Add more promotion.
 
           --------GLOBAL CHANGES-------
     Units lose 5 HP when healing in enemy territory, gain +5 HP when healing in forts.
