@@ -914,6 +914,7 @@
     "requiredTech": "Infantry Training",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
+	"Can build [Fort] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
@@ -937,12 +938,14 @@
     "requiredTech": "Military Reforms",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
-       "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-       "[+10]% Strength <for [All] units> <when fighting in [Farm] tiles>",
-      "[Hellenic Limitanei] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
+       "[+10]% Strength <when fighting in [Friendly Land] tiles>",
+       "[+10]% Strength <when fighting in [Farm] tiles>",
+       "[+10]% Strength <during the [Imperial Age]>",
+      "[Limitanei] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
       "Only available <in cities with a [Barracks]>"
-      "Comment [-Heavy spear infantry, good at defending homeland.]",
+      "Comment [-Medium spear infantry, can build road, good at defending homeland.] <before the [Imperial Age]>",
+      "Comment [-Heavy spear infantry, can build road, good at defending homeland.] <during the [Imperial Age]>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1137,12 +1140,13 @@
     "hurryCostModifier": 20,
     "cost": 160,
     "movement": 3,
-    "strength": 12,
+    "strength": 10,
     "rangedStrength": 11,
     "uniques": [
       "Consumes [3] [Manpower]",
+      "Can move after attacking",
       "Only available <in cities with a [Spice Road]>",
-      "Comment [-Medium mounted archery unit, expert at desert fighting, have high withdraw chance.]",
+      "Comment [-Medium camel archery, expert at desert fighting, have high withdraw chance in desert.]",
     ],
     "promotions": [
       "[Camel Archer] ability"
@@ -1156,7 +1160,7 @@
     "cost": 145,
     "movement": 4,
     "strength": 10,
-    "rangedStrength": 10,
+    "rangedStrength": 11,
     "requiredTech": "The Wheel",
     "uniques": [
       "Consumes [2] [Manpower]",
@@ -2105,30 +2109,46 @@
     ],
     "attackSound": "arrow"
   },
-/////			---Veteran Units---
   {
-    "name": "Imperial Velite",
-    "unitType": "Scout",
+    "name": "Camel Cavalry",
+    "unitType": "Mounted",
+    "hurryCostModifier": 20,
+    "cost": 200,
     "movement": 3,
     "strength": 14,
-    "rangedStrength": 11,
-    "cost": 350,
-    "requiredTech": "Military Reforms",
     "uniques": [
-    "Can move after attacking",
-      "Consumes [4] [Manpower]"
-      "Consumes [1] [Veteran]"
-	"[+1] XP gained from combat",
-      "Only available <after adopting [Latin Culture]> <hidden from users>",
-      "Only available <in cities with a [Imperial Barracks]>",
-      "Comment [-Elite heavy skirmisher, good melee defense, high withdraw chance.]",
+      "Consumes [4] [Manpower]",
+      "Only available <in cities with a [Camel Stable]>",
+      "Comment [-Medium camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
     ],
     "promotions": [
-      "[Skirmisher] ability",
-      "Infantry Shield II",
-	"Improved Armor",
+      "Camel Cavalry ability",
+	"Camels Scare Horses"
+	"Charge I",
     ],
-    "attackSound": "nonmetalhit",
+    "attackSound": "metalhit"
+  },
+/////			---Veteran Units---
+ 
+  {
+    "name": "Royal Camel Cavalry",
+    "unitType": "Mounted",
+    "hurryCostModifier": 20,
+    "cost": 400,
+    "movement": 3,
+    "strength": 18,
+    "uniques": [
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Only available <in cities with a [Camel Stable]> <during the [Imperial Age]>",
+      "Comment [-Elite heavy camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
+    ],
+    "promotions": [
+      "Camel Cavalry ability",
+	"Camels Scare Horses"
+	"Charge I",
+    ],
+    "attackSound": "metalhit"
   },
   {
     "name": "Sacred Band",
@@ -2180,50 +2200,25 @@
     "attackSound": "arrow"
   },
   {
-    "name": "Praetoria",
-    "unitType": "Sword",
-    "uniqueTo": "The Romans",
-    "movement": 2,
-    "strength": 22,
-    "cost": 430,
-    "uniques": [
-      "Consumes [1] [Veteran]",
-      "Consumes [5] [Manpower]",
-      "Consumes [1] [Iron]",
-	"[+1] XP gained from combat",
-      "[+10]% Strength bonus for [Military] units within [2] tiles",
-      "Only available <in cities with a [Imperial Barracks]>",
-      "Comment [-Elite heavy infantry, Emperor's best frienemy.]",
-    ],
-    "promotions": [
-      "Infantry Shield III",
-	"Praetorianus",
-	"Drill I",
-	"Improved Armor"
-    ],
-    "attackSound": "metalhit"
-  },
-  {
-    "name": "Chosen Axeman",
-    "unitType": "Sword",
-    "movement": 2,
-    "strength": 19,
-    "cost": 400,
+    "name": "Noble Riders",
+    "unitType": "Mounted",
+    "movement": 3,
+    "strength": 21,
+    "cost": 450,
     "uniques": [
       "Consumes [1] [Veteran]",
       "Consumes [4] [Manpower]",
+      "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
 	"[+1] XP gained from combat",
-      	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
-	"[-20]% Strength <vs [{Ranged} {Land}] units> <when defending>",
-      "Only available <after adopting [Germanic Culture]> <hidden from users>",
-	"Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite heavy infantry, have powerful charge attack but hate arrows, darts and javelins.]",
+      "Only available <after adopting [Celtic Culture]> <hidden from users>",
+      "Only available <in cities with a [Imperial Barracks]>",
+ 	"Comment [-Elite heavy cavalry, King's personal body guard, small withdraw chance]",
     ],
     "promotions": [
-      "Infantry Shield II",
-	"Shock I",
-	"Berserker",
+      "[Cavalry] ability",
+	"Praetorianus",
+      "Cavalry Shield II",
 	"Improved Armor"
     ],
     "attackSound": "metalhit"
@@ -2243,15 +2238,40 @@
 	"[+50]% production cost <during the [Imperial Age]>",
       "[Immortals] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
       "Only available <after adopting [Eastern Culture]> <hidden from users>",
-      "Only available <in cities with a [Barracks]> <before the [Imperial Age]",
-      "Only available <in cities with a [Army Barracks]> <during the [Imperial Age]",
- 	"Comment [-Elite medium spear infantry, have great defense, expert at desert warfare.] <before the [Imperial Age]",
- 	"Comment [-Elite heavy spear infantry, have great defense, expert at desert warfare.] <during the [Imperial Age]",
+      "Only available <in cities with a [Barracks]> <before the [Imperial Age]>",
+      "Only available <in cities with a [Army Barracks]> <during the [Imperial Age]>"
+ 	"Comment [-Elite medium spear infantry, have great defense, expert at desert warfare.] <before the [Imperial Age]>",
+ 	"Comment [-Elite heavy spear infantry, have great defense, expert at desert warfare.] <during the [Imperial Age]>",
     ],
     "promotions": [
       "Infantry Shield II",
       "Desert Warrior",
 	"Medic I",
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Chosen Axeman",
+    "unitType": "Sword",
+    "movement": 2,
+    "strength": 19,
+    "cost": 450,
+    "uniques": [
+      "Consumes [1] [Veteran]",
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Iron]",
+	"[+1] XP gained from combat",
+      	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
+	"[-20]% Strength <vs [{Ranged} {Land}] units> <when defending>",
+      "Only available <after adopting [Germanic Culture]> <hidden from users>",
+	"Only available <in cities with a [Imperial Barracks]>",
+ 	"Comment [-Elite heavy infantry, have powerful charge attack but hate arrows, darts and javelins.]",
+    ],
+    "promotions": [
+      "Infantry Shield II",
+	"Shock I",
+	"Berserker",
+	"Improved Armor"
     ],
     "attackSound": "metalhit"
   },
@@ -2286,16 +2306,17 @@
     "uniqueTo": "The Macedonians",
     "movement": 3,
     "strength": 16,
-    "cost": 250,
+    "cost": 270,
     "uniques": [
       "Consumes [1] [Veteran]",
       "Consumes [3] [Manpower]",
       "Consumes [2] [Horses]",
-	"[+30]% Strength <during the [Imperial Age]>",
+      "Consumes [1] [Iron] <during the [Imperial Age]>",
+	"[+40]% Strength <during the [Imperial Age]>",
 	"[+70]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Cavalry Barracks]> <before the [Imperial Age]",
-      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]",
+      "Only available <in cities with a [Cavalry Barracks]> <before the [Imperial Age]>",
+      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
  	"Comment [-Elite medium cavalry, King's personal Guard have good attack] <before the [Imperial Age]>",
  	"Comment [-Elite heavy cavalry, King's personal Guard have good attack] <during the [Imperial Age]>",
     ],
@@ -2311,19 +2332,20 @@
     "name": "Silver Shield",
     "unitType": "Sword",
     "movement": 3,
-    "strength": 15,
+    "strength": 16,
     "cost": 250,
     "uniques": [
       "Consumes [1] [Veteran]",
       "Consumes [3] [Manpower]",
-      "Consumes [2] [Horses]",
+      "Consumes [1] [Iron] <during the [Imperial Age]>",
 	"[+30]% Strength <during the [Imperial Age]>",
-	"[+50]% production cost <during the [Imperial Age]>",
+	"[+70]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]",
-      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]",
+      "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
+      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
  	"Comment [-Elite medium Infantry, King's personal Guard have good attack] <before the [Imperial Age]>",
  	"Comment [-Elite heavy Infantry, King's personal Guard have good attack] <during the [Imperial Age]>",
+      "Only available <after adopting [Hellenic Culture]> <hidden from users>",
     ],
     "promotions": [
 	"Praetorianus",
@@ -2332,26 +2354,27 @@
     "attackSound": "metalhit"
   },
   {
-    "name": "Noble Riders",
-    "unitType": "Mounted",
+    "name": "Spear Silver Shield",
+    "unitType": "Sword",
     "movement": 3,
-    "strength": 21,
-    "cost": 450,
+    "strength": 14,
+    "cost": 250,
     "uniques": [
       "Consumes [1] [Veteran]",
-      "Consumes [4] [Manpower]",
-      "Consumes [2] [Horses]",
-      "Consumes [1] [Iron]",
+      "Consumes [3] [Manpower]",
+      "Consumes [1] [Iron] <during the [Imperial Age]>",
+	"[+30]% Strength <during the [Imperial Age]>",
+	"[+60]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
-      "Only available <after adopting [Celtic Culture]> <hidden from users>",
-      "Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite heavy cavalry, King's personal body guard, small withdraw chance]",
+      "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
+      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
+ 	"Comment [-Elite medium Infantry, King's personal Guard have good attack] <before the [Imperial Age]>",
+ 	"Comment [-Elite heavy Infantry, King's personal Guard have good attack against cavalry] <during the [Imperial Age]>",
+      "Only available <after adopting [Hellenic Culture]> <hidden from users>",
     ],
     "promotions": [
-      "[Cavalry] ability",
 	"Praetorianus",
-      "Cavalry Shield II",
-	"Improved Armor"
+      "Infantry Shield III",
     ],
     "attackSound": "metalhit"
   },
@@ -2406,6 +2429,30 @@
     "attackSound": "metalhit"
   },
   {
+    "name": "Imperial Velite",
+    "unitType": "Scout",
+    "movement": 3,
+    "strength": 14,
+    "rangedStrength": 11,
+    "cost": 350,
+    "requiredTech": "Military Reforms",
+    "uniques": [
+    "Can move after attacking",
+      "Consumes [4] [Manpower]"
+      "Consumes [1] [Veteran]"
+	"[+1] XP gained from combat",
+      "Only available <after adopting [Latin Culture]> <hidden from users>",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Comment [-Elite heavy skirmisher, good melee defense, high withdraw chance.]",
+    ],
+    "promotions": [
+      "[Skirmisher] ability",
+      "Infantry Shield II",
+	"Improved Armor",
+    ],
+    "attackSound": "nonmetalhit",
+  },
+  {
     "name": "Eagle Cohort",
     "unitType": "Sword",
     "uniqueTo": "The Romans",
@@ -2426,6 +2473,30 @@
     "promotions": [
       "Infantry Shield III",
       "Veteran",	
+	"Improved Armor"
+    ],
+    "attackSound": "metalhit"
+  },
+  {
+    "name": "Praetoria",
+    "unitType": "Sword",
+    "uniqueTo": "The Romans",
+    "movement": 2,
+    "strength": 22,
+    "cost": 430,
+    "uniques": [
+      "Consumes [1] [Veteran]",
+      "Consumes [5] [Manpower]",
+      "Consumes [1] [Iron]",
+	"[+1] XP gained from combat",
+      "[+10]% Strength bonus for [Military] units within [2] tiles",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Comment [-Elite heavy infantry, Emperor's best frienemy.]",
+    ],
+    "promotions": [
+      "Infantry Shield III",
+	"Praetorianus",
+	"Drill I",
 	"Improved Armor"
     ],
     "attackSound": "metalhit"
@@ -2463,6 +2534,7 @@
     "cost": 280,
     "uniques": [
 	"Can build [All Road] improvements on tiles",
+	"Can build [Fort] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Hellenic Barracks]>"
@@ -2484,12 +2556,14 @@
     "cost": 200,
     "uniques": [
 	"Can build [All Road] improvements on tiles",
-       "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-       "[+10]% Strength <for [All] units> <when fighting in [Farm] tiles>",
+       "[+10]% Strength <when fighting in [Friendly Land] tiles>",
+       "[+10]% Strength <when fighting in [Farm] tiles>",
+       "[+10]% Strength <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
       "Only available <in cities with a [Hellenic Barracks]>",
       "[Hellenic Limitanei] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
-      "Comment [-Medium spear infantry, good at defending homeland and fighting against cavalry units.]",
+      "Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
+      "Comment [-Heavy spear infantry, can build road, good at defending homeland and against cavalry.] <during the [Imperial Age]>",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -2505,6 +2579,7 @@
     "cost": 280,
     "uniques": [
 	"Can build [All Road] improvements on tiles",
+	"Can build [Fort] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Gallic Barracks]>"
@@ -2526,12 +2601,14 @@
     "cost": 200,
     "uniques": [
 	"Can build [All Road] improvements on tiles",
-       "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-       "[+10]% Strength <for [All] units> <when fighting in [Farm] tiles>",
+       "[+10]% Strength <when fighting in [Friendly Land] tiles>",
+       "[+10]% Strength <when fighting in [Farm] tiles>",
+       "[+10]% Strength <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
       "Only available <in cities with a [Gallic Barracks]>",
       "[Gallic Limitanei] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
-      "Comment [-Medium spear infantry, good at defending homeland and attacking.]",
+      "Comment [-Medium spear infantry, can build road, good at defending homeland and offensive.] <before the [Imperial Age]>",
+      "Comment [-Heavy spear infantry, can build road, good at defending homeland and offensive.] <during the [Imperial Age]>",
     ],
     "promotions": [
       "Infantry Shield III",

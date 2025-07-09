@@ -12,8 +12,10 @@
 		"Cannot be built on [Hill] tiles",
 		"[+1 Food] from [Fresh water] tiles <after discovering [Land Grants]>",
 		"[+1 Food] from [non-fresh water] tiles <in cities with a [Aqueduct]>",
-		"Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "F"
+		"Pillaging this improvement yields approximately [+40 Gold]",
+		"Unbuildable <for [The Scythians] Civilizations> <before the [Imperial Age]>"
+	]		
+		"shortcutKey": "F",
 	},
 //	{
 //		"name": "Trading post",
@@ -28,7 +30,7 @@
 	// Resource-specific
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"production": 1,
 		"turnsToBuild": 4,
 		"techRequired": "Forestry",
@@ -62,7 +64,7 @@
 		"Does not need removal of [Forest]",
 		"Does not need removal of [Jungle]",
 		"Does not need removal of [Marsh]",
-		"[+1 Gold] <after discovering [Centralization]>", 
+		"[+1 Gold] <after discovering [Currency]>", 
 		"Can only be built to improve a resource", 
 		"Pillaging this improvement yields approximately [+40 Gold]"
 		],
@@ -74,7 +76,7 @@
 		"techRequired": "Animal Husbandry",
 		"uniques": [
 		"Can only be built to improve a resource",
-		"Pillaging this improvement yields approximately [+30 Gold]"
+		"Pillaging this improvement yields approximately [+40 Gold]"
 		],
 		"shortcutKey": "P"
 	},
@@ -86,7 +88,7 @@
 		"uniques": [
 		"[+1 Gold] <after discovering [Private Estates]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+30 Gold]"
+		"Pillaging this improvement yields approximately [+40 Gold]"
 		],
 		"shortcutKey": "P"
 	},
@@ -97,7 +99,7 @@
 		"uniques": [
 		"[+1 Production] <after discovering [Mass Production]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+30 Gold]"
+		"Pillaging this improvement yields approximately [+40 Gold]"
 		],
 		"shortcutKey": "Q"
 	},
@@ -109,7 +111,7 @@
 		"uniques": [
 		"[+1 Gold] <after discovering [Naval Artillery]>", 
 		"Can only be built to improve a resource", 
-		"Pillaging this improvement yields approximately [+30 Gold]"
+		"Pillaging this improvement yields approximately [+50 Gold]"
 		],
 		"shortcutKey": "F"
 	},
@@ -119,9 +121,9 @@
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unbuildable",
-		 "Costs [10] [Gold] per turn",
+		 "Costs [10] [Gold] per turn when in your territory",
 		"Gives a defensive bonus of [25]%",
-		"Pillaging this improvement yields approximately [+50 Gold]",
+		"Pillaging this improvement yields approximately [+100 Gold]",
 		"Removes removable features when built","Unbuildable"
 		],
 		"shortcutKey": "O"
@@ -231,17 +233,6 @@
 		"faith": 6,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
-	{
-		"name": "Citadel",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Great Improvement",
-			"Gives a defensive bonus of [50]%",
-			"Adjacent enemy units ending their turn take [30] damage",
-			"Can be built just outside your borders",
-			"Removes removable features when built",
-		]
-	},
 
 	// Unbuildable improvements
 	{
@@ -277,54 +268,76 @@
 
 	{
 		"name": "Village",
+		"turnsToBuild": 15,
 		"gold": 2,
-		"Food": 2,
-		"Culture": 1,
+		"food": 2,
+		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Removes removable features when built",
 			"Unbuildable",
-			"Pillaging this improvement yields approximately [+70 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Tile provides yield without assigned population",
 		]
 	},
 	{
 		"name": "Hellenic Village",
+		"turnsToBuild": 15,
 		"gold": 3,
-		"Food": 1,
-		"Culture": 1,
+		"food": 1,
+		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Removes removable features when built",
 			"Unbuildable",
-			"Pillaging this improvement yields approximately [+70 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Tile provides yield without assigned population",
 		]
 	},
 	{
 		"name": "Latin Village",
+		"turnsToBuild": 15,
 		"gold": 2,
-		"Food": 1,
-		"Culture": 2,
+		"food": 1,
+		"culture": 2,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Removes removable features when built",
 			"Unbuildable",
-			"Pillaging this improvement yields approximately [+70 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Tile provides yield without assigned population",
 		]
 	},
 	{
 		"name": "Eastern Village",
+		"turnsToBuild": 15,
 		"gold": 1,
-		"Food": 3,
-		"Culture": 1,
+		"food": 3,
+		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
 			"Removes removable features when built",
 			"Unbuildable",
-			"Pillaging this improvement yields approximately [+70 Gold]"
+			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Tile provides yield without assigned population",
+
+		]
+	},
+	{
+		"name": "Fortress",
+		"turnsToBuild": 20,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [50]%",
+			"Removes removable features when built",
+			"Unbuildable",
+			"Pillaging this improvement yields approximately [+200 Gold]",
+			"Tile provides yield without assigned population",
 		]
 	},
 ]

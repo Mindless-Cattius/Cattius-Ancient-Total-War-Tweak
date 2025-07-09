@@ -667,9 +667,10 @@
 	{
 		"name": "[Camel Archer] ability",
 		"uniques": [
-		"[+30]% Strength <when fighting in [Desert] tiles>",
+		"[+40]% Strength <when fighting in [Desert] tiles> <when defending>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [30]% chance>",
+		"Withdraws before melee combat <with [20]% chance>",
+		"Withdraws before melee combat <with [+20]% chance> <when fighting in [Desert] tiles>",
 		]
 	},
 	{
@@ -819,7 +820,7 @@
 	},
 	{
 		"name": "Camels Scare Horses",
-		"uniques": ["[+35]% Strength <when defending> <vs [Mounted] units>"]
+		"uniques": ["[+20]% Strength <when defending> <vs [Mounted] units>"]
 	},
 	{
 		"name": "Caucasian Stronghold",
@@ -1169,10 +1170,20 @@
 	{
 		"name": "Camel Cavalry ability",
 		"uniques": [
-		"[+20]% Strength <when fighting in [Desert] tiles>",
+		"[+30]% Strength <when fighting in [Desert] tiles>",
+		"Withdraws before melee combat <with [10]% chance>",
+		"Withdraws before melee combat <with [+20]% chance> <when fighting in [Desert] tiles>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [20]% chance>",
-		"[+20]% Strength <vs [Mounted] units> <when attacking>",
+		]
+	},
+	{
+		"name": "Clibanarii ability",
+		"uniques": [
+		"[+20]% Strength <when fighting in [Open terrain] tiles>",
+		"Withdraws before melee combat <with [5]% chance>",
+		"Withdraws before melee combat <with [5]% chance> <when fighting in [Open terrain] tiles>",
+		"[-1] Movement <when fighting in [Forest] tiles>",
+		"No defensive terrain bonus",
 		]
 	},
 ]

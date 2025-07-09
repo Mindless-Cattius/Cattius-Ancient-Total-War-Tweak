@@ -203,9 +203,8 @@
 		"style": "Seleucid",
 		"uniqueName": "Lords of Asia",
 		"uniques": [
-		"[-75]% unhappiness from the number of cities",
+		"[-50]% unhappiness from the number of cities",
 		"[Mounted] units gain the [Charge I] promotion",
-		"Great General provides double combat bonus <for [Mounted] units>",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Hellenistic Culture] adopted"
 		],
@@ -293,11 +292,13 @@
 		"style": "Scythian",
 		"uniqueName": "Royal Scythians",
 		"uniques": [
-		"[+100]% [Happiness] from City-States",
+		"[+1 Food] per [5] population [in all cities] <before the [Imperial Age]>",
+		"[+50]% [Happiness] from City-States",
 		"[+50]% Happiness from luxury resources gifted by City-States",
 		"[+25]% Production when constructing [Horse Archer] units [in all cities]",
 //		"Starts with [Light Cavalry]",
-		"Starts with [Eastern Culture] adopted"
+		"Starts with [Eastern Culture] adopted",
+		"Comment [- Cannot build farm until the Imperial Age]",
 		],
 		"cities": [
 		"Gerrhos","Hylaia","Gelonos","Neapolis Scythike",
@@ -389,7 +390,7 @@
 		"tradeRequest": "Let's have a trade. What do you say?",
 		"outerColor": [55,80,90],
 		"innerColor": [225,215,200],
-		"style": "Punic",
+		"style": "Numidian",
 		"uniqueName": "East Numidians",
 		"uniques": [
 		"New [Mounted] units start with [10] XP [in all cities]",
@@ -417,7 +418,7 @@
 		"tradeRequest": "Let's have a trade. What do you say?",
 		"outerColor": [191,189,145],
 		"innerColor": [8,40,117],
-		"style": "Punic",
+		"style": "Numidian",
 		"uniqueName": "West Numidians",
 		"uniques": [
 		"New [Mounted] units start with [10] XP [in all cities]",
@@ -785,6 +786,7 @@
 		"uniqueName": "Celtic Raiders",
 		"uniques": [
 		"New [Melee] units start with [10] XP [in all cities]",
+		"[+1 Culture] from every [Shrine] <when at war>",
 //		"Starts with [Light Cavalry]",
 		"Starts with [Celtic Culture] adopted"
 		],
@@ -2255,6 +2257,8 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [185, 12, 12],
 		"style": "Barbarian",
-		"uniques": ["Can only heal by pillaging"]
+		"uniques": ["Can only heal by pillaging"],
+		"cities": ["Rebel Stronghold","Rebel City","Rebel Town"]
+
 	}
 ]

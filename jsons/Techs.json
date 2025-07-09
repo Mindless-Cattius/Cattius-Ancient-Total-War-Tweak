@@ -348,7 +348,8 @@
 				"uniques": [
 				"Comment [Increased Bonuses from friendly and allied City-States]",
 				"Allied City-States will occasionally gift Great People",
-				"[-25]% City-State Influence degradation"
+				"[-25]% City-State Influence degradation",
+				"[-10]% maintenance costs <for [{Military} {Land}] units>",
 				],
 				"quote": "'Aristotle dines when it seems good to King Philip, but Diogenes when he himself pleases.' - Diogenes "
 			},
