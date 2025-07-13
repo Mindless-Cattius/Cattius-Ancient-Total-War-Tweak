@@ -1689,7 +1689,7 @@
 	{
 		"name": "Imperial Armory",
 		"requiredBuilding": "Imperial Barracks",
-		"Cost":1500,
+		"Cost":2000,
 		"isNationalWonder": true,
 		"maintenance": 10,
 		"production": 1,
@@ -1702,7 +1702,9 @@
                    	"[Pike Phalanx] units gain the [Improved Armor] promotion",
                    	"[Royal Phalanx] units gain the [Improved Armor] promotion",
                   	"[Spearman] units gain the [Improved Armor] promotion",
-                  	"[Scout] units gain the [Short Spears] promotion",
+			"[Sword] units gain the [Improved Armor] promotion",
+                  	"[Scout] units gain the [Improved Armor] promotion",
+                    	"[Cataphract] units gain the [Improved Armor] promotion",
 		"Destroyed when the city is captured"
 		]
 	},
@@ -1721,17 +1723,28 @@
 	},
 /////				---Scenario
 	{
-		"name": "Hellenic Barracks",
-		"uniques": [ "Gain a free [Hellenic Barracks] [in all cities]",
+		"name": "Scenario",
+		"uniques": [ 
 		"Destroyed when the city is captured",
+		"Gain a free [Scenario] [in all cities]",
 		"Unbuildable"
+		]
+	},	{
+		"name": "Hellenic Barracks",
+		"requiredBuilding": "Scenario",
+		"cost": 300,
+		"uniques": [ 
+		"Destroyed when the city is captured",
+      		"Only available <after adopting [Hellenic Culture]> <hidden from users>",
 		]
 	},
 	{
 		"name": "Gallic Barracks",
-		"uniques": [ "Gain a free [Gallic Barracks] [in all cities]",
+		"requiredBuilding": "Scenario",
+		"cost": 300,
+		"uniques": [ 
 		"Destroyed when the city is captured",
-		"Unbuildable"
+      		"Only available <after adopting [Celtic Culture]> <hidden from users>",
 		]
 	},
 ]

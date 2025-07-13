@@ -35,7 +35,7 @@
       "Cannot enter ocean tiles <before discovering [Exploration]>",
       "May create improvements on water resources",
       "Uncapturable",
-      "Automation is a primary action"
+      "Automation is a primary action",
 	"Comment [-Sea Slaves.]"
     ]
   },
@@ -569,7 +569,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 125,
+    "cost": 150,
     "uniques": [
       "Consumes [2] [Manpower]",
       "Only available <in cities with a [Parthenon]>",
@@ -641,7 +641,6 @@
     ],
     "promotions": [
       "[Spearman] ability",
-      "Drill I"
       "Infantry Shield II"
     ],
     "attackSound": "metalhit"
@@ -676,7 +675,7 @@
     "uniqueTo": "The Dardanians",
     "movement": 2,
     "strength": 15,
-    "cost": 160,
+    "cost": 150,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -688,7 +687,7 @@
       "[Spearman] ability",
       "Drill I",
       "Drill II"
-      "Infantry Shield III"
+      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -761,7 +760,7 @@
     "uniqueTo": "The Insubres",
     "movement": 2,
     "strength": 15,
-    "cost": 170,
+    "cost": 175,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [3] [Manpower]",
@@ -783,7 +782,7 @@
     "uniqueTo": "The Odrysians",
     "movement": 2,
     "strength": 15,
-    "cost": 170,
+    "cost": 175,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [4] [Manpower]",
@@ -803,12 +802,12 @@
     "uniqueTo": "The Getae",
     "movement": 2,
     "strength": 14,
-    "cost": 175,
+    "cost": 165,
     "requiredTech": "Citizen Levy",
     "uniques": [
       "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
-	"Comment [-Medium infantry unit, weak range defensive, can ambush and have strong attack against sword units.]"
+	"Comment [-Medium infantry unit, very weak range defensive, can ambush and have strong attack against sword units.]"
     ],
     "promotions": [
       "[Falxman] ability",
@@ -883,7 +882,7 @@
     "replaces": "Swordsman",
     "uniqueTo": "Citizen Levy",
     "movement": 3,
-    "strength": 16,
+    "strength": 17,
     "cost": 175,
     "requiredTech": "Infantry Training",
     "uniques": [
@@ -941,7 +940,6 @@
        "[+10]% Strength <when fighting in [Friendly Land] tiles>",
        "[+10]% Strength <when fighting in [Farm] tiles>",
        "[+10]% Strength <during the [Imperial Age]>",
-      "[Limitanei] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
       "Only available <in cities with a [Barracks]>"
       "Comment [-Medium spear infantry, can build road, good at defending homeland.] <before the [Imperial Age]>",
@@ -950,32 +948,6 @@
     "promotions": [
       "Infantry Shield III",
       "Drill I"
-    ],
-    "attackSound": "metalhit"
-  },
-  {
-    "name": "Royal Phalanx",
-    "unitType": "Spear",
-    "hurryCostModifier": 40,
-    "cost": 300,
-    "movement": 2,
-    "strength": 21,
-    "requiredTech": "Heavy Infantry",
-    "uniques": [
-      "Consumes [4] [Manpower]",
-      "Consumes [1] [Veteran]",
-      "Consumes [1] [Bronze]",
-	"[+1] XP gained from combat",
-      "Only available <with [Enable Royal Phalanx]> <hidden from users>",
-      "Only available <in cities with a [Palace]>",
-      "Only available <in cities with a [Make Capital]>",
-      "Comment [Has cultural requirements]",
-      "Never appears as a Barbarian unit",
-	"Comment [-Elite heavy pike infantry, cavalry's worst nightmare, weak against arrows and darts.]"
-    ],
-    "promotions": [
-      "[Royal Phalanx] ability",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -1066,7 +1038,7 @@
       "Raider I"
       "Cavalry Shield I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Horseman",
@@ -1088,7 +1060,7 @@
       "Scouting I",
       "Cavalry Shield I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Mercenary Horse Archer",
@@ -1221,7 +1193,7 @@
       "Chariot ability",
       "Shock I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Cyrenean Chariot",
@@ -1243,7 +1215,7 @@
       "Shock I",
       "Charge I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Pontic Scythed Chariot",
@@ -1265,7 +1237,7 @@
       "Charge I",
       "Shock I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Scythed Chariot",
@@ -1289,7 +1261,7 @@
       "Charge I",
       "Shock I"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Cavalry",
@@ -1312,7 +1284,7 @@
       "[Cavalry] ability",
       "Cavalry Shield II"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Royal Agema",
@@ -1338,7 +1310,7 @@
       "Cavalry Shield II",
 	"Praetorianus"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Cataphract",
@@ -1349,21 +1321,20 @@
     "strength": 26,
     "requiredTech": "Metallurgy",
     "uniques": [
-      "Consumes [5] [Manpower]",
-      "Consumes [2] [Horses]",
-      "Consumes [2] [Iron]",
-      "Only available <in cities with a [Cavalry Barracks]>",
-      "Comment [Has cultural requirements]",
-      "Only available <with [Enable Cataphract]> <hidden from users>",
-      "Never appears as a Barbarian unit",
-	"Destroys tile improvements when attacking",
-      "Comment [-Very heavy cavalry unit, expensive, fully armored riders and horses, ideal for crushing infantry formations. - 'OG tanks']",
+	"Consumes [5] [Manpower]",
+	"Consumes [2] [Horses]",
+	"Consumes [2] [Iron]",
+	"Only available <in cities with a [Cavalry Barracks]>",
+	"Comment [Has cultural requirements]",
+	"Never appears as a Barbarian unit",
+	"Comment [-Very heavy cavalry unit, expensive, fully armored riders and horses, have less offensive and better defense than their eastern counterpart, ideal for crushing infantry formations] <for [The Romans] Civilizations>",
+	"Comment [-Very heavy cavalry unit, expensive, fully armored riders and horses, ideal for crushing infantry formations. - 'OG tanks']",
     ],
     "promotions": [
       "[Cataphract] ability",
       "Charge I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Armenian Noble",
@@ -1387,7 +1358,7 @@
       "Cavalry Shield II"
       "Armored Lancer",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "War Elephant",
@@ -1583,18 +1554,20 @@
       "Consumes [2] [Manpower]",
       "Consumes [1] [Timber]",
  	"[+40]% Strength <vs [Mounted] units> <when attacking>",
+ 	"[+40]% Strength <vs [Elephant] units> <when attacking>",
  	"[+30]% Strength <vs [Mounted Archery] units> <when attacking>",
-      "[+200]% Strength <vs cities> <when attacking>",
-      "[-1] Sight",
+	"[+200]% Strength <vs cities> <when attacking>",
+	"[+70]% Strength <when fighting in [City center] tiles>",
+	"[-1] Sight",
 	"May attack when embarked",
-      "No defensive terrain bonus",
-      "Must set up to ranged attack",
-      "Comment [Has cultural requirements]",
-      "Only available <with [Enable Ballista]> <hidden from users>",
-      "Only available <in cities with a [Siege Workshop]>",
-      "Never appears as a Barbarian unit",
+	"No defensive terrain bonus",
+	"Must set up to ranged attack",
+	"Only available <with [Enable Ballista]> <hidden from users>",
+	"Only available <in cities with a [Siege Workshop]>",
+	"Never appears as a Barbarian unit",
 	"Destroys tile improvements when attacking",
-      "Comment [-Medium artillery, have good attack against mounted unit]",
+	"Comment [Has cultural requirements]",
+	"Comment [-Medium artillery, have good attack against mounted unit]",
     ],
     "hurryCostModifier": 20,
     "attackSound": "bombard"
@@ -1608,23 +1581,24 @@
     "cost": 310,
     "requiredTech": "Crossbow Engineering",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Timber]",
+	"Consumes [3] [Manpower]",
+	"Consumes [1] [Timber]",
  	"[+30]% Strength <vs [Spear] units> <when attacking>",
  	"[+30]% Strength <vs [Sword] units> <when attacking>",
  	"[+30]% Strength <vs [Siege] units> <when attacking>",
-      "[+400]% Strength <vs cities> <when attacking>",
-      "[-1] Sight","Destroys tile improvements when attacking",
+	"[+400]% Strength <vs cities> <when attacking>",
+	"[+70]% Strength <when fighting in [City center] tiles>",
+	"[-1] Sight",
 	"Destroys tile improvements when attacking",
 	"May attack when embarked",
-      "No defensive terrain bonus",
-      "Must set up to ranged attack",
-      "Only available <in cities with a [Siege Workshop]>",
-      "Never appears as a Barbarian unit",
-      "Comment [-Heavy artillery, good against cities and infantry units]",
+	"No defensive terrain bonus",
+	"Must set up to ranged attack",
+	"Only available <in cities with a [Siege Workshop]>",
+	"Never appears as a Barbarian unit",
+ 	"Comment [-Heavy artillery, good against cities and infantry units]",
     ],
     "hurryCostModifier": 20,
-    "attackSound": "throw"
+    "attackSound": "bombard"
   },
   {
     "name": "Great Artist",
@@ -1938,32 +1912,7 @@
       "Raider I",
 	"Shock I",
   ],
-  "attackSound": "arrow"
-  },
-  {
-    "name": "Armored Horse Archer",
-    "unitType": "Mounted Archery",
-    "hurryCostModifier": 20,
-    "cost": 350,
-    "movement": 3,
-    "strength": 12,
-    "rangedStrength": 13,
-    "requiredTech": "Heavy Archery Tactics",
-    "uniques": [
-      "Consumes [4] [Manpower]",
-      "Consumes [1] [Veteran]",
-      "Consumes [1] [Horses]",
-      "[+1] XP gained from combat",
-      "Only available <in cities with a [Nomadic Herd]>",
-      "Only available <in cities with a [Imperial Barracks]>",
-      "Cannot be purchased",
-      "Comment [-Elite heavy mounted archery, 'arrows goes brr', have high withdraw chance.]",
-    ],
-    "promotions": [
-      "Horse Archer ability",
-	"Improved Armor"
-    ],
-    "attackSound": "arrow"
+  "attackSound": "horse"
   },
   {
   "name": "Mounted Skirmisher",
@@ -2095,7 +2044,7 @@
     "movement": 3,
     "strength": 15,
   "rangedStrength": 13,
-    "cost": 420,
+    "cost": 2200,
     "uniques": [
       "Consumes [1] [Nobles]",
 	"[+1] XP gained from combat",
@@ -2126,36 +2075,89 @@
 	"Camels Scare Horses"
 	"Charge I",
     ],
+    "attackSound": "horse"
+  },
+
+/////			---Veteran Units---
+  
+  {
+    "name": "Royal Phalanx",
+    "unitType": "Spear",
+    "hurryCostModifier": 40,
+    "cost": 300,
+    "movement": 2,
+    "strength": 21,
+    "requiredTech": "Heavy Infantry",
+    "uniques": [
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Bronze]",
+	"[+1] XP gained from combat",
+      "Only available <with [Enable Royal Phalanx]> <hidden from users>",
+      "Only available <in cities with a [Palace]>",
+      "Only available <in cities with a [Make Capital]>",
+      "Comment [Has cultural requirements]",
+      "Never appears as a Barbarian unit",
+	"Comment [-Elite heavy pike infantry, cavalry's worst nightmare, weak against arrows and darts.]"
+    ],
+    "promotions": [
+      "[Royal Phalanx] ability",
+      "Infantry Shield II"
+    ],
     "attackSound": "metalhit"
   },
-/////			---Veteran Units---
- 
+{
+    "name": "Armored Horse Archer",
+    "unitType": "Mounted Archery",
+    "hurryCostModifier": 20,
+    "cost": 350,
+    "movement": 3,
+    "strength": 12,
+    "rangedStrength": 13,
+    "requiredTech": "Heavy Archery Tactics",
+    "uniques": [
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Horses]",
+      "[+1] XP gained from combat",
+      "Only available <in cities with a [Nomadic Herd]>",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Cannot be purchased",
+      "Comment [-Elite heavy mounted archery, 'arrows goes brr', have high withdraw chance.]",
+    ],
+    "promotions": [
+      "Horse Archer ability",
+	"Improved Armor"
+    ],
+    "attackSound": "arrow"
+  },
   {
     "name": "Royal Camel Cavalry",
     "unitType": "Mounted",
     "hurryCostModifier": 20,
-    "cost": 400,
+    "cost": 350,
     "movement": 3,
-    "strength": 18,
+    "strength": 16,
     "uniques": [
+	"[+20]% Strength <when fighting in [Desert] tiles>",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
       "Only available <in cities with a [Camel Stable]> <during the [Imperial Age]>",
-      "Comment [-Elite heavy camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
+      "Comment [-Elite medium camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
     ],
     "promotions": [
       "Camel Cavalry ability",
 	"Camels Scare Horses"
 	"Charge I",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Sacred Band",
     "unitType": "Spear",
     "uniqueTo": "The Carthaginians",
     "movement": 2,
-    "strength": 17,
+    "strength": 16,
     "cost": 180,
     "requiredTech": "Citizen Levy",
     "uniques": [
@@ -2221,13 +2223,13 @@
       "Cavalry Shield II",
 	"Improved Armor"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Immortals",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 15,
+    "strength": 14,
     "cost": 180,
     "uniques": [
       "Consumes [1] [Veteran]",
@@ -2254,7 +2256,7 @@
     "name": "Chosen Axeman",
     "unitType": "Sword",
     "movement": 2,
-    "strength": 19,
+    "strength": 18,
     "cost": 450,
     "uniques": [
       "Consumes [1] [Veteran]",
@@ -2264,8 +2266,9 @@
       	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
 	"[-20]% Strength <vs [{Ranged} {Land}] units> <when defending>",
       "Only available <after adopting [Germanic Culture]> <hidden from users>",
+	"[+20]% Strength <when attacking> <when below [50] HP>",
 	"Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite heavy infantry, have powerful charge attack but hate arrows, darts and javelins.]",
+ 	"Comment [-Elite heavy shock infantry, have powerful charge attack but hate arrows, darts and javelins.]",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -2298,7 +2301,7 @@
       "Cavalry Shield II",
 	"Improved Armor"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Companion Cavalry",
@@ -2326,7 +2329,7 @@
 	"Praetorianus",
       "Cavalry Shield II",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Silver Shield",
@@ -2357,7 +2360,7 @@
     "name": "Spear Silver Shield",
     "unitType": "Sword",
     "movement": 3,
-    "strength": 14,
+    "strength": 15,
     "cost": 250,
     "uniques": [
       "Consumes [1] [Veteran]",
@@ -2400,7 +2403,7 @@
       "Cavalry Shield II",
 	"Improved Armor"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Numidian Raiders",
@@ -2426,7 +2429,7 @@
 	"Raider I",
       "Cavalry Shield II",
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
   {
     "name": "Imperial Velite",
@@ -2505,7 +2508,7 @@
     "name": "Scholae Palatinae",
     "unitType": "Mounted",
     "movement": 3,
-    "strength": 27,
+    "strength": 26,
     "cost": 500,
     "uniques": [
       "Consumes [1] [Veteran]",
@@ -2523,9 +2526,32 @@
 	"Praetorianus",
 	"Improved Armor"
     ],
-    "attackSound": "metalhit"
+    "attackSound": "horse"
   },
-///////Scenario
+  {
+    "name": "Clibanarii",
+    "unitType": "Mounted",
+    "movement": 3,
+    "strength": 28,
+    "cost": 600,
+    "uniques": [
+      "Consumes [1] [Veteran]",
+      "Consumes [4] [Manpower]",
+      "Consumes [2] [Horses]",
+      "Consumes [2] [Iron]",
+	"[+1] XP gained from combat",
+      "Only available <in cities with a [Imperial Barracks]>",
+ 	"Comment [-Elite very heavy cavalry, good at taking tile and (maybe) protecting Emperor]",
+      "Limited to [1] per Civilization",
+    ],
+    "promotions": [
+      "[Cataphract] ability",
+	"Shock I",
+	"Improved Armor"
+    ],
+    "attackSound": "horse"
+},
+///////					-----Scenario
   {
     "name": "Hellenic Legion",
     "unitType": "Sword",
@@ -2538,7 +2564,6 @@
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Hellenic Barracks]>"
-      "[Hellenic Legion] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
     ],
     "promotions": [
@@ -2561,7 +2586,6 @@
        "[+10]% Strength <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
       "Only available <in cities with a [Hellenic Barracks]>",
-      "[Hellenic Limitanei] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
       "Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and against cavalry.] <during the [Imperial Age]>",
     ],
@@ -2583,7 +2607,6 @@
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Gallic Barracks]>"
-      "[Gallic Legion] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
     ],
     "promotions": [
@@ -2606,7 +2629,6 @@
        "[+10]% Strength <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
       "Only available <in cities with a [Gallic Barracks]>",
-      "[Gallic Limitanei] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
       "Comment [-Medium spear infantry, can build road, good at defending homeland and offensive.] <before the [Imperial Age]>",
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and offensive.] <during the [Imperial Age]>",
     ],

@@ -42,7 +42,11 @@
 	{
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
-		"uniques": ["[+15] HP when healing", "[+30]% Strength <when defending>", "Withdraws before melee combat <with [10]% chance>"],
+		"uniques": [
+			"[+5] HP when healing", 
+			"[+10]% Strength <when defending>", 
+			"Withdraws before melee combat <with [+5]% chance>"
+],
 		"unitTypes": ["Scout"],
         "column": 2,
         "row": 2
@@ -50,14 +54,22 @@
 	{
 		"name": "Survivalism III",
 		"prerequisites": ["Survivalism II"],
-		"uniques": ["[+50]% weight to this choice for AI decisions","Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [30]% chance>","[+20]% Strength <vs cities> <when defending>"],
+		"uniques": [
+			"[+50]% weight to this choice for AI decisions",
+			"Unit will heal every turn even, if it performs an action", 
+			"Withdraws before melee combat <with [+5]% chance>",
+			"[+20]% Strength <vs cities> <when defending>"
+],
 		"unitTypes": ["Scout"],
         "column": 2,
         "row": 3
 	},
 	{
 		"name": "Foraging I",
-		"uniques": ["[+10] HP when healing <in [Foreign Land] tiles>"],
+		"uniques": [
+			"[+5] HP when healing <in [Foreign Land] tiles>",
+    			"[+10]% Yield from pillaging tiles",
+],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Siege","Archery","Elephant","Scout","King"],
         "column": 3,
         "row": 1
@@ -65,7 +77,10 @@
 	{
 		"name": "Foraging II",
 		"prerequisites": ["Foraging I"],
-		"uniques": ["[+15] HP when healing <in [Foreign Land] tiles>","[+20]% Strength <vs cities> <when defending>"],
+		"uniques": [
+			"[+10] HP when healing <in [Foreign Land] tiles>",
+    			"[+10]% Yield from pillaging tiles",
+],
 		"unitTypes": ["Mounted","Mounted Archery","Scout","King"],
         "column": 3,
         "row": 2
@@ -448,7 +463,10 @@
 	// Rank 8
 	{
 		"name": "Ambush I",
-		"uniques": ["Invisible to non-adjacent units <in [Forest] tiles>","Invisible to non-adjacent units <in [Jungle] tiles>"],
+		"uniques": [
+			"Invisible to non-adjacent units <in [Forest] tiles>",
+			"Invisible to non-adjacent units <in [Jungle] tiles>"
+],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","King"],
         "column": 19,
         "row": 1
@@ -456,7 +474,10 @@
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+20]% Strength <when fighting in [Forest] tiles>","[+15]% Strength <when fighting in [Jungle] tiles>"],
+		"uniques": [
+			"[+10]% Strength <when fighting in [Forest] tiles>",
+			"[+10]% Strength <when fighting in [Jungle] tiles>"
+],
 		"unitTypes": ["Sword","Spear","Scout","Mounted","Mounted Archery","Archery","King"],
         "column": 19,
         "row": 2
@@ -465,9 +486,9 @@
 		"name": "Ambush III",
 		"prerequisites": ["Ambush II"],
 		"uniques": [
-			"[+10]% Strength <when fighting in [Desert] tiles>",
 			"[+10]% Strength <when fighting in [Forest] tiles>",
 			"[+10]% Strength <when fighting in [Jungle] tiles>",
+			"[+10]% Strength <vs [Wounded] units> <when attacking>",
                     	"[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
 ],
 		"unitTypes": ["Sword","Spear","Scout","Mounted","Mounted Archery","Archery","King"],
@@ -476,7 +497,7 @@
 	},
 	{
 		"name": "Woodsman",
-		"prerequisites": ["Ambush II","Art of War"],
+		"prerequisites": ["Ambush III","Art of War"],
 		"uniques": [
 			"Double movement in [Forest]","Double movement in [Jungle]",
 			"[+15]% Strength <when fighting in [Forest] tiles>",
@@ -491,7 +512,7 @@
 		"uniques": [
 		"Eliminates combat penalty for attacking over a river",
 		"Eliminates combat penalty for attacking across a coast",
- 		"[+10]% Strength <when fighting in [Foreign Land] tiles>"
+ 		"[+5]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","Elephant","King"],
         "column": 20,
@@ -530,7 +551,7 @@
 	{
 		"name": "Flanking",
 		"prerequisites": ["Charge III","Drill III","Ramming Tactics III","Scouting III"],
-		"uniques": ["[+50]% to Flank Attack bonuses"],
+		"uniques": ["[+40]% to Flank Attack bonuses"],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant","Melee Water","King"],
         "column": 23,
         "row": 1
@@ -606,7 +627,7 @@
 		"name": "[Archer] ability",
 		"uniques": [
 		"[+20]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"[+60]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
+		"[+60]% Strength <when fighting in [City center] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
 		"[+15]% Strength <vs [Ambush I] units> <when attacking>",
 		]
@@ -617,7 +638,7 @@
 		"[+10]% Strength <vs [Archery] units> <when attacking>",
 		"[+10]% Strength <vs [Mounted Archery] units> <when attacking>",
 		"[+20]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"[+20]% Strength <vs [Military] units> <when fighting in [City center] tiles>",
+		"[+20]% Strength <when fighting in [City center] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
@@ -705,6 +726,8 @@
 		"[+70]% Strength <vs [Archery] units> <when attacking>",
 		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
 		"[+20]% to Flank Attack bonuses",
+                "[+10]% Strength <for [Cataphract] units> <when defending> <for [The Romans] Civilizations> <hidden from users>",
+                "[-15]% Strength <for [Cataphract] units> <when attacking> <for [The Romans] Civilizations> <hidden from users>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [5]% chance>",
 		]
@@ -839,7 +862,7 @@
 		"name": "[Thracian Warband] ability",
 		"uniques": [
 		"[+30]% Strength <vs [Sword] units>",
-		"[+20]% Strength <vs [Mounted] units>"
+		"[+25]% Strength <vs [Mounted] units>"
 		]
 	},
 	{
@@ -864,9 +887,11 @@
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","King"],
 		"prerequisites": ["Scouting III","Art of War"],
 		"uniques": [
-		"[+25]% Strength <when attacking> <when fighting in [Forest] tiles>",
-		"[+25]% Strength <when attacking> <when fighting in [Jungle] tiles>"
-		],
+		"[+10]% Strength <when attacking> <when fighting in [Forest] tiles>",
+		"[+10]% Strength <when attacking> <when fighting in [Jungle] tiles>",
+                "[+1] Movement <in [Forest] tiles>",
+                "[+1] Movement <in [Jungle] tiles>",
+],
         "column": 12,
         "row": 6
 	},
@@ -876,7 +901,7 @@
 		"prerequisites": ["Scouting III","Art of War"],
 		"uniques": [
 		"[+20]% Strength <when fighting in [Desert] tiles>",
-		"[+10]% Strength <when fighting in [Hill] tiles>"
+                "[+1] Movement <in [Desert] tiles>",
 		],
         "column": 11,
         "row": 6
@@ -903,30 +928,33 @@
 		"name": "[Mountaineer]",
 		"prerequisites": ["Scouting III","Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Siege","King"],
-		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>",
+		"uniques": [
+			"[+20]% Strength <when fighting in [Snow] tiles>",
 			"[+20]% Strength <when fighting in [Tundra] tiles>",
 			"[+10]% Strength <when fighting in [Hill] tiles>",
 			"Double movement in [Snow]",
 			"Double movement in [Tundra]",
-				]
+]
         "column": 10,
         "row": 6
 	},
 	{
 		"name": "Ignore terrain cost",
-		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Archery","Melee Water","Siege","King"],
+		"unitTypes": ["Mounted","Mounted Archery","Archery","King"],
 		"prerequisites": ["Scouting III", "Art of War"],
 		"uniques": ["Ignores terrain cost","[+10]% Strength <when defending>"]
         "column": 9,
-	"Row": 6
+	"row": 6
 	},
 	
 	{
 		"name": "[Looting]",
 		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water"],
 		"prerequisites": ["Raider III","Art of War"],
-		"uniques": ["[+1] XP gained from combat",
-		"Earn [25]% of killed [Military] unit's [Strength] as [Gold]"],
+		"uniques": [
+			"[+1] XP gained from combat",
+			"Earn [20]% of killed [Military] unit's [Strength] as [Gold]",
+],
         "column": 8,
         "row": 6
 	},
@@ -935,7 +963,10 @@
 		"name": "[Siege Expert] ability",
 		"unitTypes": ["Siege"],
 		"prerequisites": ["Art of War"],
-		"uniques": ["[+10]% Strength <when stacked with a [Worker] unit>","[+30]% Strength <when stacked with a [Great Engineer] unit>","[+10]% Strength <when defending>"],
+		"uniques": [
+			"[+10]% Strength <when stacked with a [Worker] unit>",
+			"[+30]% Strength <when stacked with a [Great Engineer] unit>",
+			"[+10]% Strength <when defending>"],
         "column": 15,
         "row": 6
 	},
@@ -943,7 +974,10 @@
 		"name": "Veteran",
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water","Siege","King"],
-		"uniques": ["Heals [5] damage if it kills a unit","[+10]% Strength <when defending>"],
+		"uniques": [
+			"[This Unit] heals [3] HP <upon losing at least [10] HP in a single attack>",
+			"[+10]% Strength <when defending>"
+],
         "column": 7,
         "row": 6
 	},
@@ -960,7 +994,9 @@
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Elephant","King"],
 		"uniques": [
-			"[15]% Strength bonus for [Military] units within [2] tiles <when defending>",
+			"[+5]% Strength bonus for [Military] units within [1] tiles <when defending>",
+			"[+5]% Strength bonus for [Military] units within [2] tiles <when defending>",
+			"[+5]% Strength bonus for [Military] units within [3] tiles <when defending>",
 			"[+10]% Strength <when defending>"
 ],
         "column": 5,
@@ -1075,8 +1111,7 @@
 		"name": "Volley",
 		"prerequisites": ["Art of War"],
 		"uniques": [
-    			"[+10]% Strength <when defending>",
-		"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>"]
+			"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>"]
 		"unitTypes": ["Archery"],
         "column": 19,
         "row": 6
@@ -1085,10 +1120,10 @@
 		"name": "Veteran Archer",
 		"prerequisites": ["Art of War"],
 		"uniques": [
-   			 "[+20]% Strength <when defending> <vs [Spear] units>",
-   			 "[+20]% Strength <when defending> <vs [Sword] units>",
-   			 "[+30]% Strength <when defending> <vs [Mounted] units>",
-    			"[+10]% Strength <when attacking>"]
+   			 "[+10]% Strength <when defending> <vs [Spear] units>",
+   			 "[+10]% Strength <when defending> <vs [Sword] units>",
+   			 "[+10]% Strength <when defending> <vs [Mounted] units>",
+    			"[+10]% Strength <when attacking>"],
 		"unitTypes": ["Archery"],
         "column": 20,
         "row": 6
@@ -1106,19 +1141,15 @@
 		"prerequisites": ["Art of War"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water","Siege","King"],
 		"uniques": ["Can see over obstacles",
-   			 "[+10]% Strength <when defending>"],
+   			 "[+5]% Strength <when defending>"],
       "column": 21,
         "row": 6
 	},
 	{
-		"name": "Mass Charge",
-		"prerequisites": ["Veteran"],
-		"unitTypes": ["Mounted"],
-		"uniques": [
-		"[-30]% Strength <vs [Archery] units> <when defending>",
-		"[+70]% Strength <vs [Archery] units> <when attacking>",
-		"[+40]% Strength <vs [Spear] units> <when attacking>",
-		"[+20]% to Flank Attack bonuses"
+		"name": "Warlust",
+		"prerequisites": ["Art of War"],
+		"unitTypes": ["Mounted","Scout","Sword","Spear"],
+		"uniques": ["Heals [10] damage if it kills a unit"
 		],
       "column": 22,
         "row": 6
@@ -1126,12 +1157,11 @@
 	{
 		"name": "Commander",
 		"uniques": [
-			"[+10]% Strength bonus for [{Melee} {Land}] units within [2] tiles",
-			"[+20]% Strength bonus for [{Ranged} {Land}] units within [2] tiles",
-			"[+50]% Strength <vs cities> <when defending>",
+			"[+10]% Strength bonus for [{Melee} {Land}] units within [3] tiles",
+			"[+20]% Strength bonus for [{Ranged} {Land}] units within [3] tiles",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
-	}
+	},
 	{
 		"name": "Naked Warrior",
 		"uniques": [
@@ -1142,20 +1172,19 @@
 			"Withdraws before melee combat <with [15]% chance>",
 			"Ignores Zone of Control",
 		],
-	}
+	},
 	{
 		"name": "Crossbowman ability",
 		"uniques": [
 			"[+10]% Strength <vs [Improved Armor] units> <when attacking>",
 			"[+50]% Strength <vs [Infantry Shield III] units> <when attacking>",
 			"[+40]% Strength <vs [Infantry Shield II] units> <when attacking>",
-			"[+50]% Strength <vs [Cataphract] units> <when attacking>",
-			"[+20]% Strength <vs cities> <when defending>",
+			"[+60]% Strength <vs [Cataphract] units> <when attacking>",
 			"[+50]% Strength <vs cities> <when attacking>",
    			"Can move after attacking",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
-	}
+	},
 	{
 		"name": "Horse Archer ability",
 		"uniques": [
@@ -1171,6 +1200,7 @@
 		"name": "Camel Cavalry ability",
 		"uniques": [
 		"[+30]% Strength <when fighting in [Desert] tiles>",
+		"[+20]% to Flank Attack bonuses",
 		"Withdraws before melee combat <with [10]% chance>",
 		"Withdraws before melee combat <with [+20]% chance> <when fighting in [Desert] tiles>",
 		"No defensive terrain bonus",
@@ -1180,9 +1210,11 @@
 		"name": "Clibanarii ability",
 		"uniques": [
 		"[+20]% Strength <when fighting in [Open terrain] tiles>",
+		"[+20]% to Flank Attack bonuses"
 		"Withdraws before melee combat <with [5]% chance>",
 		"Withdraws before melee combat <with [5]% chance> <when fighting in [Open terrain] tiles>",
-		"[-1] Movement <when fighting in [Forest] tiles>",
+                "[+1] Movement <in [Forest] tiles>",
+                "[+1] Movement <in [Jungle] tiles>",
 		"No defensive terrain bonus",
 		]
 	},

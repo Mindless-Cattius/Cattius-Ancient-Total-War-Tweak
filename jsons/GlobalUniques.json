@@ -2,7 +2,7 @@
     "name": "Global uniques",
     "uniques": [ 
 // ADDONS
-	"[-5] HP when healing <for [All] units> <when fighting in [Enemy Land] tiles>",
+	"[-10] HP when healing <for [All] units> <when fighting in [Enemy Land] tiles>",
 	"[+5] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
 	"[-30]% Strength for cities <when attacking>",
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
@@ -166,27 +166,27 @@
         "[1] free random researchable Tech(s) from the [Hellenistic Age] <upon gaining a [Great Scholar] unit> <for [AI player] Civilizations> <during the [Hellenistic Age]>",
 // Maintenance
         "[+100]% maintenance costs <for [Military] units>",
+        "[+100]% maintenance costs <for [Military] units> <in [Enemy Land] tiles>",
 
         "[+50]% maintenance costs <for [Cretan Archer] units>",
         "[+100]% maintenance costs <for [Can be purchased with [Gold] [in all cities]] units>",
 
         "[+40]% maintenance costs <for [Spear] units>",
-        "[+70]% maintenance costs <for [Pike Phalanx] units>",
-        "[+100]% maintenance costs <for [Royal Phalanx] units>",
-        "[+120]% maintenance costs <for [Heavy Spearman] units>",
-        "[+150]% maintenance costs <for [Gladiator] units>",
+        "[+60]% maintenance costs <for [Pike Phalanx] units>",
+        "[+120]% maintenance costs <for [Royal Phalanx] units>",
+        "[+100]% maintenance costs <for [Heavy Spearman] units>",
+        "[+100]% maintenance costs <for [Gladiator] units>",
         "[+150]% maintenance costs <for [Legion] units>",
 
-        "[+100]% maintenance costs <for [Sword] units>",
-        "[+130]% maintenance costs <for [Heavy Swordsman] units>",
+        "[+80]% maintenance costs <for [Sword] units>",
+        "[+100]% maintenance costs <for [Heavy Swordsman] units>",
 
         "[+100]% maintenance costs <for [Mounted] units>",
         "[+120]% maintenance costs <for [Mounted Archery] units>",
         "[+120]% maintenance costs <for [Cavalry] units>",
-        "[+150]% maintenance costs <for [Cataphract] units>",
+        "[+200]% maintenance costs <for [Cataphract] units>",
+        "[+200]% maintenance costs <for [Clibanarii] units>",
         "[+50]% maintenance costs <for [Royal Agema] units>",
-        "[+25]% maintenance costs <for [General] units>",
-        "[+25]% maintenance costs <for [King] units>",
 
         "[+100]% maintenance costs <for [Elephant] units>",
         "[+150]% maintenance costs <for [Ballista] units>",

@@ -127,7 +127,7 @@
                     "[+1 Happiness] [in capital]",
                     "Provides [4] [Manpower]",
      		    "Provides [1] [Veteran]",
-                    "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit>",
+                    "[+15]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <when attacking>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                 ]
             }
@@ -263,7 +263,6 @@
                     "Provides [2] [Iron]",
      		    "Provides [1] [Veteran]",
                     "[1] free [Cataphract] units appear",
-                    "[Cataphract] units gain the [Improved Armor] promotion",
                     "[+20]% Strength <for [Mounted Archery] units> <vs [Ranged] units> <when defending>",
                     "[+15]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
@@ -392,16 +391,15 @@
             {
                 "name": "Germanic Culture Complete",
                 "uniques": [
-                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "[+1] Movement <for [Land] units> <in [Forest] tiles>",
                     "[+1 Happiness] [in capital]",
                     "[2] free [Heavy Swordsman] units appear",
                     "Provides [2] [Iron]",
                     "Provides [6] [Manpower]",
      		    "Provides [1] [Veteran]",
-                    "[Sword] units gain the [Improved Armor] promotion",
                     "[Spear] units gain the [Shock I] promotion",
                     "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                 ]
             }
         ]
@@ -546,8 +544,7 @@
      		    "Provides [1] [Veteran]",
                     "Provides [4] [Bronze]",
                     "Provides [4] [Manpower]",
-                    "[Hoplite] units gain the [Improved Armor] promotion",
-                    "[Spearman] units gain the [Shock I] promotion",
+                    "[Pike Phalanx] units gain the [Shock I] promotion",
                     "[+15]% Strength <for [Pike Phalanx] units> <when adjacent to a [Pike Phalanx] unit> <when defending>",
                 ]
             }
@@ -705,9 +702,7 @@
                     "[+1 Happiness] [in capital]",
                     "[2] free [Swordsman] units appear",
                     "Provides [6] [Manpower]",
-                    "[Archer] units gain the [Improved Armor] promotion",
-                    "[Slinger] units gain the [Improved Armor] promotion",
-                    "[+15]% Strength <for [Ranged] units> <when adjacent to a [Ranged] unit>",
+                    "[+10]% Strength <for [Ranged] units> <when adjacent to a [Ranged] unit>",
                     "[+10]% Strength <for [Elephant] units> <when adjacent to a [Spear] unit>",
      		 "Provides [1] [Veteran]",
                 ]
@@ -834,10 +829,8 @@
                     "[2] free [Swordsman] units appear",
                     "Provides [6] [Manpower]",
      		   "Provides [1] [Veteran]",
-                    "[Sword] units gain the [Improved Armor] promotion",
-                    "[Scout] units gain the [Improved Armor] promotion",
-                    "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <when defending>",
-                    "[+10]% Strength <for [Scout] units> <when adjacent to a [Scout] unit>",
+                    "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit>",
+                    "[+15]% Strength <for [Scout] units> <when adjacent to a [Scout] unit>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                 ]
             }
@@ -967,10 +960,8 @@
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "[+1 Happiness] [in capital]",
                     "Provides [4] [Manpower]",
-                    "[Scout] units gain the [Improved Armor] promotion",
-                    "[Slinger] units gain the [Improved Armor] promotion",
      		 "Provides [1] [Veteran]",
-                    "[+20]% Strength <for [Galley] units> <when adjacent to a [Galley] unit>",
+                    "[+20]% Strength <for [Galley] units>",
                     "[+20]% Strength <for [Scout] units> <when adjacent to a [Scout] unit>",
                 ]
             }
@@ -1107,12 +1098,9 @@
 		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users> <during the [Imperial Age]>",
                     "[+1 Happiness] [in capital]"
                     "Provides [4] [Manpower]",
-                    "[Sword] units gain the [Improved Armor] promotion",
-     		 "Provides [1] [Veteran]",
+     		    "Provides [1] [Veteran]",
                     "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <when attacking>",
                     "[+10]% Strength <for [Pike Phalanx] units> <when adjacent to a [Pike Phalanx] unit> <when defending>",
-                    "[+10]% Strength <for [Cataphract] units> <when defending>",
-                    "[-15]% Strength <for [Cataphract] units> <when attacking>",
                 ]
             }
         ]
@@ -1250,12 +1238,9 @@
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "[+1 Happiness] [in capital]",
-                    "[Numidian Raiders] units gain the [Improved Armor] promotion",
-                    "[Numidian Cavalry] units gain the [Improved Armor] promotion",
-                    "[Numidian Horseman] units gain the [Improved Armor] promotion",
                     "Provides [4] [Manpower]",
                     "Provides [2] [Veteran]",
-                    "[+20]% Strength <for [Mounted] units> <when adjacent to a [Mounted] unit>",
+                    "[+10]% Strength <for [Mounted] units> <when attacking>",
                     "[+10]% Strength <for [Spearman] units> <when adjacent to a [Spearman] unit> <when defending>",
                 ]
             }
@@ -1398,15 +1383,16 @@
                     "[General] units gain the [Scouting II] promotion",
                     "[King] units gain the [Scouting II] promotion",
                     "[Mounted] units gain the [Scouting I] promotion",
-                    "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
-                    "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "[+1 Happiness] [in capital]",
-                    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users> <during the [Imperial Age]>",
+                    "Comment [Enables Cataphract during the Imperial Age]",
+		    "Provides [1] [Enable Cataphract] <hidden from users> <during the [Imperial Age]>",
+                    "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
+                    "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
                     "Provides [5] [Manpower]",
                     "Provides [1] [Veteran]",
                     "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
-                    "[+15]% Strength <for [{Military} {Water}] units> <when adjacent to a [{Military} {Water}] unit>",
+                    "[+10]% Strength <for [{Military} {Water}] units>",
                 ]
             }
         ]
@@ -1534,7 +1520,8 @@
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[+10]% Strength <for [Sword] units> <when attacking>",
                     "Provides [4] [Manpower]",
                     "Provides [1] [Veteran]",
                 ]
