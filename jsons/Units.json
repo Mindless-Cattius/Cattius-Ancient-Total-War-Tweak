@@ -927,13 +927,35 @@
     "attackSound": "metalhit"
   },
 {
-    "name": "Limitanei",
-    "unitType": "Spear",
+    "name": "Manipular Legion",
+    "unitType": "Sword",
     "replaces": "Swordsman",
     "uniqueTo": "The Romans",
     "movement": 2,
+    "strength": 16,
+    "cost": 220,
+    "requiredTech": "Military Reforms",
+    "uniques": [
+	      "Can build [All Road] improvements on tiles",
+      "Consumes [4] [Manpower]",
+      "Only available <in cities with a [Barracks]>",
+      "Can upgrade to [Legion] <after discovering [Infantry Training]>",
+      "Comment [-Heavy infantry, can build road, good at taking other people's land]",
+    ],
+    "promotions": [
+      "Infantry Shield III",
+      "Drill I"
+    ],
+    "attackSound": "metalhit"
+  },
+{
+    "name": "Limitanei",
+    "unitType": "Sword",
+    "replaces": "Manipular Legion",
+    "uniqueTo": "The Romans",
+    "movement": 2,
     "strength": 15,
-    "cost": 200,
+    "cost": 210,
     "requiredTech": "Military Reforms",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
@@ -941,9 +963,8 @@
        "[+10]% Strength <when fighting in [Farm] tiles>",
        "[+10]% Strength <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Barracks]>"
-      "Comment [-Medium spear infantry, can build road, good at defending homeland.] <before the [Imperial Age]>",
-      "Comment [-Heavy spear infantry, can build road, good at defending homeland.] <during the [Imperial Age]>",
+      "Only available <in cities with a [Barracks]>",
+      "Comment [-Heavy infantry, can build road, good at defending homeland.] <during the [Imperial Age]>",
     ],
     "promotions": [
       "Infantry Shield III",
