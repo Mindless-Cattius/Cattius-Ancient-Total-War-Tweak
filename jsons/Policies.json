@@ -979,7 +979,6 @@
                     "Only available <after adopting [Latin Culture]> <hidden from users>",
                     "[1] free [Great Scholar] units appear",
                     "[+15]% growth [in capital]",
-                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
@@ -1015,8 +1014,8 @@
                 "uniques": [
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
                     "[+25]% Production when constructing [Melee] units [in capital]",
-                    "[3] free [Swordsman] units appear",
-                    "Provides [9] [Manpower]",
+                    "[3] free [Manipular Legion] units appear",
+                    "Provides [12] [Manpower]",
                     "Provides [2] [Iron]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1095,6 +1094,7 @@
                     "Comment [Enables Hexere]","Provides [1] [Enable Hexere] <hidden from users>",
                     "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
+                    "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
 		    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users> <during the [Imperial Age]>",
                     "[+1 Happiness] [in capital]"
                     "Provides [4] [Manpower]",

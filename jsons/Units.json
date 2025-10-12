@@ -2,9 +2,10 @@
   {
     "name": "Worker",
     "unitType": "Civilian",
-    "movement": 3,
+    "movement": 2,
     "uniques": [
 	"[+50]% Gold cost of upgrading",
+"[+1] Movement <after discovering [Mass Production]>",
       "Limited to [10] per Civilization",
       "Can build [Land] improvements on tiles","Can upgrade to [Skirmisher] <after discovering [Imperial Military Doctrine]>",
       "Automation is a primary action",
@@ -60,8 +61,8 @@
     "cost": 200,
     "requiredTech": "Torsion Engines",
     "uniques": [
-		"[25]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
-		"[10]% Strength bonus for [Melee] units within [2] tiles <vs cities> <when defending>",
+		"[15]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
+		"[10]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when defending>",
       		"Only available <in cities with a [Siege Workshop]>",
      		 "Uncapturable",
      		 "Consumes [4] [Manpower]",
@@ -73,7 +74,7 @@
     "name": "Skirmisher",
     "unitType": "Scout",
     "movement": 3,
-    "strength": 10,
+    "strength": 8,
     "rangedStrength": 7,
     "cost": 55,
     "requiredTech": "Agriculture",
@@ -100,7 +101,7 @@
     "replaces": "Skirmisher",
     "uniqueTo": "The Odrysians",
     "movement": 3,
-    "strength": 11,
+    "strength": 9,
     "rangedStrength": 8,
     "cost": 73,
     "requiredTech": "Agriculture",
@@ -129,7 +130,7 @@
     "uniqueTo": "The Mithridatids",
     "movement": 3,
     "strength": 10,
-    "rangedStrength": 9,
+    "rangedStrength": 8,
     "cost": 70,
     "requiredTech": "Agriculture",
     "uniques": [
@@ -154,7 +155,7 @@
     "name": "Illyrian Raider",
     "unitType": "Scout",
     "movement": 3,
-    "strength": 11,
+    "strength": 10,
     "rangedStrength": 8,
     "cost": 150,
     "uniques": [
@@ -186,8 +187,8 @@
     "name": "Cilician Pirate",
     "unitType": "Scout",
     "movement": 3,
-    "strength": 8,
-    "rangedStrength": 12,
+    "strength": 7,
+    "rangedStrength": 13,
     "cost": 160,
     "uniques": [
 		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
@@ -913,7 +914,6 @@
     "requiredTech": "Infantry Training",
     "uniques": [
 	"Can build [All Road] improvements on tiles",
-	"Can build [Fort] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Barracks]>"
@@ -929,17 +929,16 @@
 {
     "name": "Manipular Legion",
     "unitType": "Sword",
-    "replaces": "Swordsman",
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 16,
-    "cost": 220,
-    "requiredTech": "Military Reforms",
+    "cost": 200,
     "uniques": [
 	      "Can build [All Road] improvements on tiles",
-      "Consumes [4] [Manpower]",
+      "Consumes [3] [Manpower]",
       "Only available <in cities with a [Barracks]>",
       "Can upgrade to [Legion] <after discovering [Infantry Training]>",
+      "Unbuildable <after discovering [Infantry Training]>",
       "Comment [-Heavy infantry, can build road, good at taking other people's land]",
     ],
     "promotions": [
@@ -950,8 +949,7 @@
   },
 {
     "name": "Limitanei",
-    "unitType": "Sword",
-    "replaces": "Manipular Legion",
+    "unitType": "Spear",
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 15,
@@ -983,6 +981,7 @@
       "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
       "Comment [Has cultural requirements]",
+      "Only available <in cities with a [Barracks]>",
       "Only available <with [Enable Heavy Spearman]> <hidden from users>",
 	"Comment [-Heavy spear infantry, strong defense, good against cavalry.]"
     ],

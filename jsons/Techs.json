@@ -411,6 +411,7 @@
 				"uniques": [
 					"Enables [Embarked] units to enter ocean tiles",
 					"[+1] Movement <for [Water] units>",
+					"[+1] Movement <for [Embarked] units>",
 				],
 				"quote": "'Something something wise and viral.' - Some privileged 'wise' person"
 			}
@@ -432,13 +433,13 @@
 			{
 				"name": "Heavy Archery Tactics",
 				"row": 4,
-				"prerequisites": ["Military Reforms"],
+				"prerequisites": ["Military Reforms","Aesthetics"],
 				"quote": "Arm the archer not only with arrows, but with purpose and formation."
 			},
 			{
 				"name": "Crossbow Engineering",
 				"row": 6,
-				"prerequisites": ["Naval Artillery"],
+				"prerequisites": ["Military Reforms","Mass Production"],
 				"quote": "..."
 			},
 		]
