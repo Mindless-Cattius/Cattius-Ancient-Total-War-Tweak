@@ -1,292 +1,572 @@
 
 HexarealmEdits.png
-size: 2048, 128
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/HexaRealm/Tiles/Amber
   rotate: false
-  xy: 600, 68
+  xy: 1668, 195
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Camels
   rotate: false
-  xy: 600, 4
+  xy: 1740, 195
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Camels+Pasture
   rotate: false
-  xy: 672, 68
+  xy: 1812, 195
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center
+TileSets/HexaRealm/Tiles/City Center-Egyptian-Archaic Age
   rotate: false
-  xy: 4, 44
+  xy: 93, 83
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Celtic
+TileSets/HexaRealm/Tiles/City center-Eastern-Archaic Age
   rotate: false
-  xy: 92, 44
+  xy: 93, 83
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Germanic
+TileSets/HexaRealm/Tiles/City center-Punic-Archaic Age
   rotate: false
-  xy: 92, 44
+  xy: 93, 83
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Iberian
+TileSets/HexaRealm/Tiles/Eastern Village
   rotate: false
-  xy: 92, 44
+  xy: 93, 83
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City Center-Egyptian-Classical Age
+  rotate: false
+  xy: 182, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City Center-Egyptian-Hellenistic Age
+  rotate: false
+  xy: 181, 83
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City Center-Roman-Archaic Age
+  rotate: false
+  xy: 4, 171
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Latin Village
+  rotate: false
+  xy: 4, 171
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City Center-Roman-Classical Age
+  rotate: false
+  xy: 270, 170
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City Center-Roman-Hellenistic Age
+  rotate: false
+  xy: 358, 172
+  size: 80, 79
+  orig: 80, 79
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Archaic Age
+  rotate: false
+  xy: 446, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hellenic Village
+  rotate: false
+  xy: 446, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Celtic-Archaic Age
+  rotate: false
+  xy: 534, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Germanic-Archaic Age
+  rotate: false
+  xy: 534, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Iberian-Archaic Age
+  rotate: false
+  xy: 534, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Thracian-Archaic Age
+  rotate: false
+  xy: 534, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Village
+  rotate: false
+  xy: 534, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Celtic-Classical Age
+  rotate: false
+  xy: 4, 82
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Germanic-Classical Age
+  rotate: false
+  xy: 4, 82
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Iberian-Classical Age
+  rotate: false
+  xy: 4, 82
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Scythian-Classical Age
+  rotate: false
+  xy: 4, 82
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Thracian-Classical Age
+  rotate: false
+  xy: 4, 82
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Celtic-Hellenistic Age
+  rotate: false
+  xy: 622, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Germanic-Hellenistic Age
+  rotate: false
+  xy: 622, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Iberian-Hellenistic Age
+  rotate: false
+  xy: 622, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Scythian-Hellenistic Age
+  rotate: false
+  xy: 622, 171
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Thracian
   rotate: false
-  xy: 92, 44
+  xy: 622, 171
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Eastern
+TileSets/HexaRealm/Tiles/City center-Celtic-Imperial Age
   rotate: false
-  xy: 180, 44
+  xy: 710, 171
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Egyptian
+TileSets/HexaRealm/Tiles/City center-Germanic-Imperial Age
   rotate: false
-  xy: 180, 44
+  xy: 710, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Iberian-Imperial Age
+  rotate: false
+  xy: 710, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Thracian-Imperial Age
+  rotate: false
+  xy: 710, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Classical Age
+  rotate: false
+  xy: 798, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Eastern-Classical Age
+  rotate: false
+  xy: 886, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Punic-Classical Age
+  rotate: false
+  xy: 886, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Eastern-Hellenistic Age
+  rotate: false
+  xy: 93, 171
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Punic-Hellenistic Age
+  rotate: false
+  xy: 93, 171
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Eastern-Imperial Age
+  rotate: false
+  xy: 974, 171
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Punic
   rotate: false
-  xy: 180, 44
+  xy: 974, 171
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Roman
+TileSets/HexaRealm/Tiles/City center-Scythian-Imperial Age
   rotate: false
-  xy: 268, 44
+  xy: 974, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Egyptian-Imperial Age
+  rotate: false
+  xy: 1062, 170
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Hellenistic Age
+  rotate: false
+  xy: 1150, 170
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Imperial Age
+  rotate: false
+  xy: 1238, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Roman-Imperial Age
+  rotate: false
+  xy: 1326, 171
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Scythian
   rotate: false
-  xy: 356, 44
+  xy: 1414, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Scythian-Archaic Age
+  rotate: false
+  xy: 1414, 171
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Clay
   rotate: false
-  xy: 672, 4
+  xy: 1884, 195
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Eastern Village-Pillaged
+  rotate: false
+  xy: 1502, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hellenic Village-Pillaged
+  rotate: false
+  xy: 1502, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Latin Village-Pillaged
+  rotate: false
+  xy: 1502, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Village-Pillaged
+  rotate: false
+  xy: 1502, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Flax
   rotate: false
-  xy: 744, 68
+  xy: 1956, 195
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Flax+Plantation
   rotate: false
-  xy: 744, 4
+  xy: 269, 106
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fort
   rotate: false
-  xy: 444, 54
+  xy: 4, 4
   size: 70, 70
   orig: 70, 70
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Fort-Snow
+TileSets/HexaRealm/Tiles/Fort2
   rotate: false
-  xy: 522, 54
+  xy: 1590, 181
   size: 70, 70
   orig: 70, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Fortress
+  rotate: false
+  xy: 917, 103
+  size: 60, 60
+  orig: 60, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Hemp
   rotate: false
-  xy: 816, 68
+  xy: 269, 42
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Hemp+Plantation
   rotate: false
-  xy: 816, 4
+  xy: 1668, 131
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Herbs
   rotate: false
-  xy: 888, 68
+  xy: 1740, 131
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Herbs+Camp
   rotate: false
-  xy: 888, 4
+  xy: 1812, 131
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Honey
   rotate: false
-  xy: 960, 68
+  xy: 1884, 131
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Honey+Camp
   rotate: false
-  xy: 960, 4
+  xy: 1956, 131
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Impassable
   rotate: false
-  xy: 1032, 68
+  xy: 1590, 117
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Ararat
   rotate: false
-  xy: 1032, 4
+  xy: 341, 106
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Behistun
   rotate: false
-  xy: 1104, 68
+  xy: 341, 42
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Etna
   rotate: false
-  xy: 1104, 4
+  xy: 413, 107
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Vesuvius
   rotate: false
-  xy: 1104, 4
+  xy: 413, 107
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Olympus
   rotate: false
-  xy: 1176, 68
+  xy: 485, 107
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Sinai
   rotate: false
-  xy: 1176, 4
+  xy: 413, 43
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Olives
   rotate: false
-  xy: 1248, 68
+  xy: 557, 107
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Olives+Plantation
   rotate: false
-  xy: 1248, 4
+  xy: 485, 43
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Olympia
   rotate: false
-  xy: 1320, 68
+  xy: 629, 107
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Papyrus
   rotate: false
-  xy: 1320, 4
+  xy: 557, 43
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Papyrus+Plantation
   rotate: false
-  xy: 1392, 68
+  xy: 701, 107
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Pillars of Hercules
   rotate: false
-  xy: 1392, 4
+  xy: 629, 43
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Purple Dye
   rotate: false
-  xy: 1464, 68
+  xy: 773, 107
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tar
   rotate: false
-  xy: 1464, 4
+  xy: 701, 43
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/The Pyramids
   rotate: false
-  xy: 1536, 68
+  xy: 845, 107
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tin
   rotate: false
-  xy: 1536, 4
+  xy: 773, 43
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
