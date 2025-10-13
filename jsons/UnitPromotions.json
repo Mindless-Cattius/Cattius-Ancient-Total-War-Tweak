@@ -628,7 +628,6 @@
 		"uniques": [
 		"[+10]% Strength <when fighting in [Hill] tiles> <when defending>",
 		"[+10]% Strength <vs [Mounted] units> <when attacking>",
-		"[+60]% Strength <when fighting in [City center] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
 		"[+10]% Strength <vs [Ambush I] units> <when attacking>",
 		]
@@ -639,7 +638,6 @@
 		"[+10]% Strength <vs [Archery] units> <when attacking>",
 		"[+10]% Strength <vs [Mounted Archery] units> <when attacking>",
 		"[+10]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"[+10]% Strength <when fighting in [City center] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
@@ -747,8 +745,8 @@
 	// Weapons Armor Training
 	{
 		"name": "Morale",
-		"uniques": ["[30]% Strength decreasing with distance from the capital <when defending>",
-			"[20]% Strength decreasing with distance from the capital <when attacking>"
+		"uniques": ["[20]% Strength decreasing with distance from the capital <when defending>",
+			"[10]% Strength decreasing with distance from the capital <when attacking>"
 				]
 	},
 	{
@@ -856,21 +854,27 @@
 		"name": "[Gaesatae] ability",
 		"uniques": [
 		"[+25]% Strength <vs [Sword] units>",
-		"[+35]% Strength <vs [Spear] units>"
+		"[+25]% Strength <vs [Spear] units>",
+		"[+35]% Strength <when attacking>"
+		"[-20]% Strength <when defending> <vs [Archery] units>"
 		]
 	},
 	{
 		"name": "[Thracian Warband] ability",
 		"uniques": [
-		"[+30]% Strength <vs [Sword] units>",
-		"[+25]% Strength <vs [Mounted] units>"
+		"[+20]% Strength <vs [Sword] units>",
+		"[+20]% Strength <vs [Mounted] units>",
+		"[+20]% Strength <in [Forest] tiles>",
+		"[+20]% Strength <in [Jungle] tiles>",
+			"Ignores Zone of Control <in [Forest] tiles>",
 		]
 	},
 	{
 		"name": "[Falxman] ability",
 		"uniques": [
-		"[+70]% Strength <vs [Sword] units>",
-		"[-20]% Strength <when defending> <vs [Archery] units>"
+		"[+80]% Strength <vs [Sword] units> <when attacking>",
+		"[+30]% Strength <vs [Sword] units> <when defending>",
+		"[-10]% Strength <when defending> <vs [Archery] units>"
 		]
 	},
 	{
@@ -878,7 +882,7 @@
 		"unitTypes": ["Archery"],
 		"prerequisites": ["Marksman III","Positioning III"],
 		"uniques": [
-		"[+20]% Strength <when attacking>",
+		"[+15]% Strength <when attacking>",
 		]
         "column": 5,
         "row": 4
@@ -914,7 +918,6 @@
 		"uniques": [
 			"Only available <if [Barracks] is constructed>",
 			"[+1] XP gained from combat",
-			"Earn [10]% of killed [Military] unit's [Strength] as [Culture]",
 			"[+100]% weight to this choice for AI decisions"],
         "row": 5,
 	"column": 5
@@ -1181,8 +1184,8 @@
 			"[+50]% Strength <vs [Infantry Shield III] units> <when attacking>",
 			"[+40]% Strength <vs [Infantry Shield II] units> <when attacking>",
 			"[+60]% Strength <vs [Cataphract] units> <when attacking>",
+			"[+60]% Strength <vs [Clibanarii] units> <when attacking>",
 			"[+50]% Strength <vs cities> <when attacking>",
-   			"Can move after attacking",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
 	},
@@ -1211,11 +1214,13 @@
 		"name": "Clibanarii ability",
 		"uniques": [
 		"[+20]% Strength <when fighting in [Open terrain] tiles>",
+		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+		"[+70]% Strength <vs [Archery] units> <when attacking>",
+		"[+10]% Strength <when attacking>",
 		"[+20]% to Flank Attack bonuses"
-		"Withdraws before melee combat <with [5]% chance>",
 		"Withdraws before melee combat <with [5]% chance> <when fighting in [Open terrain] tiles>",
-                "[+1] Movement <in [Forest] tiles>",
-                "[+1] Movement <in [Jungle] tiles>",
+                "[-1] Movement <in [Forest] tiles>",
+                "[-1] Movement <in [Jungle] tiles>",
 		"No defensive terrain bonus",
 		]
 	},

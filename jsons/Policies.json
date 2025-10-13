@@ -263,6 +263,7 @@
                     "Provides [2] [Iron]",
      		    "Provides [1] [Veteran]",
                     "[1] free [Cataphract] units appear",
+                    "[Horse Archer] units gain the [Maneuver] promotion",
                     "[+20]% Strength <for [Mounted Archery] units> <vs [Ranged] units> <when defending>",
                     "[+15]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
@@ -286,7 +287,8 @@
                     "All newly-trained [{Military} {Land}] units [in all cities] receive the [Ambush I] promotion",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+                    "[Cavalry] units gain the [Shock I] promotion",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
@@ -849,7 +851,7 @@
                     "[1] free [Great Scholar] units appear",
                     "Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
-                    "[Cavalry] units gain the [Lancer] promotion <hidden from users>",
+                    "[Cavalry] units gain the [Maneuver] promotion <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [
@@ -980,7 +982,7 @@
                     "[1] free [Great Scholar] units appear",
                     "[+15]% growth [in capital]",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Cavalry Shield I] promotion <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
@@ -1263,7 +1265,7 @@
                     "Comment [Enables Hoplite]","Provides [1] [Enable Hoplite] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>"
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
-                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>","[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
+                    "Comment [Enables War Elephant]","Provides [1] [Enable War Elephant] <hidden from users>",
                     "Comment [Enables Ballista]","Provides [1] [Enable Ballista] <hidden from users>",
                     "Comment [Enables Trireme]","Provides [1] [Enable Trireme] <hidden from users>",
                     "Comment [Enables Pentere]","Provides [1] [Enable Pentere] <hidden from users>",
@@ -1411,7 +1413,7 @@
                     "[50]% of excess happiness converted to [Gold] <after discovering [Currency]>",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
                     "[+1 Happiness] [in capital]"
         ],
         "policies": [
