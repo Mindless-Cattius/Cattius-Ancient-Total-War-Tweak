@@ -19,7 +19,6 @@
 		"Provides [2] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [3] [Manpower] <during the [Imperial Age]>",
 		"Provides [3] [Manpower]",
-		"Consumes [2] [Nobles] <after adopting [Social Revolution]>",
 		"Doubles Gold given to enemy if city is captured",
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
@@ -28,7 +27,6 @@
 	{
 		"name": "Make Capital",
 		"requiredTech": "Social Reforms"
-		"specialistSlots": {"Courtesan": 2},
 		"cost": 250,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
@@ -37,8 +35,8 @@
 		"happiness": 1,
 		"cityHealth": 20,
 		"cityStrength": 5,
-		"greatPersonPoints": {"Great Courtesan":10},
-		"specialistSlots": {"Courtesan": 2},
+		"greatPersonPoints": {"Great Courtesan":5},
+		"specialistSlots": {"Courtesan": 3},
 		"uniques": [
 		"Indicates the capital city",
 		"[+1 Gold] from [Farm] tiles [in this city]",
@@ -409,7 +407,8 @@
 		"culture": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
-		"[+2 Science] per [2] population [in this city]",
+		"[+1 Science] per [2] population [in this city]",
+ "[+1 Gold] per every [5] [Science]",
 		"Consumes [1] [Decadence] <in cities with a [School]> <while the empire is happy>"
 		],
 		"requiredTech": "Philosophy"
@@ -951,7 +950,7 @@
 		"requiredTech": "Metallurgy",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [ 
-                "[Military] units gain the [Improved Equipment] promotion",
+  "[Military] units gain the [Improved Equipment] promotion",
   "All newly-trained [Military] units [in all cities] receive the [Improved Equipment] promotion",
 		"[+1 Production] from [Iron] tiles [in this city]",
 		"Destroyed when the city is captured"

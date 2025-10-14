@@ -15,8 +15,7 @@
 	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
 	"[-70]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
 	"[-30]% Production when constructing [Civilian] units [in all cities] <during the [Imperial Age]>",
-	 "[25]% Science cost of researching new Technologies",
-	"All newly-trained [Military] units [in all cities] receive the [Morale] promotion <during the [Imperial Age]>",
+	 "[+25]% Science cost of researching new Technologies",
 	"Military Units gifted from City-States start with [30] XP",
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
 	"[-1 Happiness] per [10] population [in all cities]",
@@ -35,8 +34,6 @@
 	"[+20]% Yield from pillaging tiles <during the [Imperial Age]>",
 	"[+40]% Yield from pillaging tiles <during the [Archaic Age]>",
         "[-30]% [Production] [in all cities] <during the [Imperial Age]>",
-        "[-20]% [Production] [in all cities] <during the [Classical Age]>",
-        "[-10]% [Production] [in all cities] <during the [Hellenistic Age]>",
 //GOLD
 	"[Gold] cost of purchasing [Military] units [+20]% <during the [Imperial Age]>",
 // Happiness
@@ -142,10 +139,8 @@
         "[General] is earned [-5]% faster <when above [9] [Decadence]>",
         "[General] is earned [-5]% faster <when above [12] [Decadence]>",
         "[General] is earned [-5]% faster <when above [15] [Decadence]>",
-
-        "[-30]% Production when constructing [King] units [in all cities] <when above [1] [Nobles]>",
 //unit spawn
-        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [30]% chance>",
+        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [10]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [2]% chance>",
         "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [1]% chance>",
         "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [3]% chance> <during the [Imperial Age]>",
