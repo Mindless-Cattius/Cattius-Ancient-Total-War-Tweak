@@ -408,7 +408,7 @@
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 		"[+1 Science] per [2] population [in this city]",
- "[+1 Gold] per every [50] [Science]",
+ "[+1 Gold] per [5] [Science]",
 		"Consumes [1] [Decadence] <in cities with a [School]> <while the empire is happy>"
 		],
 		"requiredTech": "Philosophy"
