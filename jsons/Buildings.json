@@ -76,10 +76,7 @@
 		"Provides [2] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [3] [Manpower] <during the [Imperial Age]>",
 		"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
-		"Provides [1] [Manpower] <in cities with at least [10] [Population]>",
 		"Provides [1] [Manpower] <in cities with at least [15] [Population]>",
-		"Provides [1] [Manpower] <in cities with at least [25] [Population]>",
-		"Provides [1] [Manpower] <in cities with at least [30] [Population]>",
 		]
 	},
 	{
@@ -604,8 +601,7 @@
 		"Limited to [1] per Civilization <before the [Hellenistic Age]>",
 		"Limited to [2] per Civilization <during the [Hellenistic Age]>",
 		"Limited to [3] per Civilization <during the [Imperial Age]>",
-		"Limited to [4] per Civilization <during the [Hellenistic Age]> <after adopting [Mercenary Reform]>",
-		"Limited to [5] per Civilization <during the [Imperial Age]> <after adopting [Mercenary Reform]>",
+		"Limited to [4] per Civilization <during the [Imperial Age]> <after adopting [Mercenary Reform]>",
 		"Provides [1] [Mercenary (Celtic)]",
 		"Provides [1] [Mercenary (Eastern)]",
 		"Provides [1] [Mercenary (Germanic)]",
@@ -1259,7 +1255,6 @@
 	},
 	{
 		"name": "Drydock",
-		"requiredBuilding": "Anchorage",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"uniques": [

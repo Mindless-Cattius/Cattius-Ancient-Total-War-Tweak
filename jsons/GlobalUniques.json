@@ -141,10 +141,11 @@
         "[General] is earned [-5]% faster <when above [15] [Decadence]>",
 //unit spawn
         "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [10]% chance>",
-        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [2]% chance>",
-        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [1]% chance>",
-        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [3]% chance> <during the [Imperial Age]>",
-        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [2]% chance> <during the [Imperial Age]>",
+        "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
+        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance>",
+        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [3]% chance>",
+        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",
+        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
         "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
         "[-5]% Great Person generation [in all cities]",
 // AI Great People

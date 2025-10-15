@@ -669,7 +669,6 @@
         "name": “Scripture Keepers",
         "type": "Enhancer",
 		"uniques": [
-	"Religion naturally spreads to cities [+1] tiles away",
 	"[+30]% Natural religion spread [in all cities]",
 	],
     }
