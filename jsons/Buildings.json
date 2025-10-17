@@ -562,7 +562,7 @@
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-		"Gain [10]-[100] [Gold]",
+		"Gain [50]-[100] [Gold]",
 		"Provides [1] [Silphium]",
 		"Provides [1] [Decadence]",
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
@@ -582,7 +582,9 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"Consumes [1] [Copper]",
+		"Consumes [1] [Manpower]",
 		"[+1 Culture] <in cities with a [Market]>",
+		"[+2 Culture] <in cities with a [Army Barrack]>",
 		"[Gold] cost of purchasing items in cities [-10]%",
 		"[+3 Gold] from [Gold Ore] tiles [in this city]", 
 		"[+2 Gold] from [Silver] tiles [in this city]",
@@ -820,7 +822,7 @@
 		"cityHealth": 15,
 		"culture": 1,
 		"uniques": [
-		"Provides [1] [Manpower]",
+		"Comsume [1] [Manpower]",
 		"Comment [Reduces the Production and Food penalty in Cities with a Courthouse]",
 		"Can only be built <in [Annexed] cities> <before adopting [Hellenistic Culture]>"
 		"New [Spearman] units start with [5] XP [in this city]",
@@ -1258,6 +1260,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"uniques": [
+		"Consumes [1] [Manpower]",
 		"[Water] Units adjacent to this city heal [20] HP per turn when healing",
 		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
 		"[+15]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
@@ -1276,6 +1279,7 @@
 		"science": 1,
 		"happiness": 2,
 		"uniques": [
+		"Consumes [1] [Manpower]",
 		"New [{Military} {Water}] units start with [15] XP [in this city]",
 		"[Water] Units adjacent to this city heal [25] HP per turn when healing",
 		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
@@ -1329,7 +1333,8 @@
 		"cityHealth": 35,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
-		"Consumes [1] [Manpower]",
+		"[{Military} {Water}] units gain the [ "Supply"] promotion",
+		"Consumes [3] [Manpower]",
 		"[+1 Gold] <in cities with a [Market]>",
 		"[+1 Gold] <in cities with a [Garum Shop]>",
 		"[+1 Gold] from [Water resource] tiles [in this city]",
@@ -1562,9 +1567,9 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"faith": 1,
-		"culture": 3,
-		"happiness": 3,
+		"faith": 3,
+		"culture": 2,
+		"happiness": 2,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
@@ -1573,6 +1578,8 @@
 		"cost": 0,
 		"culture": 3,
 		"faith": 3,
+		"happiness": 1,
+		"science": 1,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
@@ -1582,7 +1589,7 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 4,
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
@@ -1590,19 +1597,19 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 1,
-		"happiness": 4,
+		"happiness": 3,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Ballistics Range",
 		"requiredBuilding": "Skirmisher Barracks",
 		"hurryCostModifier": 50,
-		"Cost":900,
+		"Cost":1200,
 		"maintenance": 5,
 		"cityStrength": 3,
 		"cityHealth": 10,
-		"uniques": [
-		"Provides [2] [Manpower]",
+		"uniques": [ 
+		"[+20]% Strength <for [Siege] units> <vs cities>",
 		"New [Archery] units start with [5] XP [in this city]",
 		"New [Scout] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured",
@@ -1619,7 +1626,10 @@
 		"cityHealth": 20,
 		"uniques": [
 		"Provides [3] [Manpower]",
-		"New [Military] units start with [5] XP [in this city]",
+		"New [Military] units start with [10] XP [in this city]",
+		"[General] units gain the [ "Scouting I"] promotion",
+		"[King] units gain the [ "Scouting I"] promotion",
+		"[Foot Guard] units gain the [ "Standard Bearer"] promotion",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Imperial Military Doctrine"
@@ -1684,7 +1694,7 @@
 	{
 		"name": "Imperial Armory",
 		"requiredBuilding": "Imperial Barracks",
-		"Cost":2000,
+		"Cost":2200,
 		"isNationalWonder": true,
 		"maintenance": 10,
 		"production": 1,

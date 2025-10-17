@@ -21,8 +21,8 @@
                 "name": "The Forest Tribes",
                 "uniques": [
                     "[+1 Production] from every [Camp]",
-//                    "[+15]% Strength <for [Spearman] units> <when fighting in [Forest] tiles>",
-//                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Forest] tiles>",
+                    "[+15]% Strength <for [Spearman] units> <when fighting in [Forest] tiles>",
+                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Forest] tiles>",
                     "[3] free [Spearman] units appear",
                     "Provides [5] [Manpower]",
                     "[+1 Happiness] [in capital]"

@@ -159,12 +159,9 @@
     "rangedStrength": 8,
     "cost": 150,
     "uniques": [
-    		"Can move after attacking",
-		"[+20]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
+    		"Can move after attack/ne]>",
       		"Consumes [1] [Mercenary (Illyrian)]",
-		"[+1] XP gained from combat",
-      		"Only available <in cities with a [Mercenary Camp]>",
-     		 "Unbuildable",
+		"[+1] XP gained from combat",/
      		 "Can be purchased with [Gold] [in all cities]",
      		 "Can move immediately once bought",
 		"Comment [-Light skirmisher, good at raiding, fast river crossing, have high withdraw chance.]"
@@ -1737,7 +1734,6 @@
     ],
     "promotions": [
       "[Horseman] ability",
-      "Scouting I",
 	"Commander",
       "Cavalry Shield II"
     ],
@@ -1934,7 +1930,7 @@
   "hurryCostModifier": 30,
   "cost": 190,
   "movement": 4,
-  "strength": 9,
+  "strength": 8,
   "rangedStrength": 13,
   "requiredTech": "Riding",
   "uniques": [
