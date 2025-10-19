@@ -21,8 +21,8 @@
                 "name": "The Forest Tribes",
                 "uniques": [
                     "[+1 Production] from every [Camp]",
-                    "[+15]% Strength <for [Spearman] units> <when fighting in [Forest] tiles>",
-                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Forest] tiles>",
+//                    "[+15]% Strength <for [Spearman] units> <when fighting in [Forest] tiles>",
+//                    "[+15]% Strength <for [Skirmisher] units> <when fighting in [Forest] tiles>",
                     "[3] free [Spearman] units appear",
                     "Provides [5] [Manpower]",
                     "[+1 Happiness] [in capital]"
@@ -263,7 +263,7 @@
                     "Provides [2] [Iron]",
      		    "Provides [1] [Veteran]",
                     "[1] free [Cataphract] units appear",
-                    "[Horse Archer] units gain the [Maneuver] promotion",
+                    "[Horse Archer] units gain the [[Maneuver]] promotion",
                     "[+20]% Strength <for [Mounted Archery] units> <vs [Ranged] units> <when defending>",
                     "[+15]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
@@ -851,7 +851,7 @@
                     "[1] free [Great Scholar] units appear",
                     "Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
                     "Comment [Enables Slinger]","Provides [1] [Enable Slinger] <hidden from users>",
-                    "[Cavalry] units gain the [Maneuver] promotion <hidden from users>",
+                    "[Cavalry] units gain the [[Maneuver]] promotion <hidden from users>",
                     "[+1 Happiness] [in capital]",
         ],
         "policies": [

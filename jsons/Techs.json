@@ -318,8 +318,8 @@
 				"row": 7,
 				"prerequisites": ["Engineering","Masonry"],
 				"uniques": [
-				"[+20]% Strength <for [Siege] units> <vs cities>",
-				"[+25]% Strength <for [Ranged Water] units> <vs cities>",
+//				"[+50]% Strength <for [Siege] units> <vs cities>",
+//				"[+25]% Strength <for [Ranged Water] units> <vs cities>",
 				"[+1] Range <for [Siege] units>",
 				"[+1] Range <for [Ranged Water] units>",
 				],
@@ -448,13 +448,6 @@
 			},
 		]
 	},
-			{
-				"name": "Advanced Supply Logistics",
-				"row": 8,
-				"prerequisites": ["Public Works","Equestrian Class"],
-				"uniques": [ "[+1] Movement <in [Open] tiles> <for [Siege] units>",],
-				"quote": "'I will either find a way, or make one.' - Hannibal Barca"
-			},
 	{
 		"columnNumber": 10,
 		"era": "Imperial Age",

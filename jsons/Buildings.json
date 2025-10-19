@@ -405,7 +405,7 @@
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
 		"[+1 Science] per [2] population [in this city]",
- "[+1 Gold] per [5] [Science]",
+		"[+1 Gold] per [10] population [in this city]",
 		"Consumes [1] [Decadence] <in cities with a [School]> <while the empire is happy>"
 		],
 		"requiredTech": "Philosophy"
@@ -562,7 +562,7 @@
 		"percentStatBonus": {"gold": 12},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-		"Gain [50]-[100] [Gold]",
+		"Gain [10]-[100] [Gold]",
 		"Provides [1] [Silphium]",
 		"Provides [1] [Decadence]",
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
@@ -582,9 +582,7 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"Consumes [1] [Copper]",
-		"Consumes [1] [Manpower]",
 		"[+1 Culture] <in cities with a [Market]>",
-		"[+2 Culture] <in cities with a [Army Barrack]>",
 		"[Gold] cost of purchasing items in cities [-10]%",
 		"[+3 Gold] from [Gold Ore] tiles [in this city]", 
 		"[+2 Gold] from [Silver] tiles [in this city]",
@@ -689,6 +687,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
 		"Provides [2] [Decadence]",
+		"[+1 Gold] <in cities with a [Market]>",
 		"Doubles Gold given to enemy if city is captured"
 		"Destroyed when the city is captured"
 		],
@@ -822,7 +821,7 @@
 		"cityHealth": 15,
 		"culture": 1,
 		"uniques": [
-		"Comsume [1] [Manpower]",
+		"Provides [1] [Manpower]",
 		"Comment [Reduces the Production and Food penalty in Cities with a Courthouse]",
 		"Can only be built <in [Annexed] cities> <before adopting [Hellenistic Culture]>"
 		"New [Spearman] units start with [5] XP [in this city]",
@@ -959,10 +958,10 @@
 		"requiredNearbyImprovedResources": ["Gold Ore","Silver","Gems","Pearls","Amber"],
 		"hurryCostModifier": 25,
 		"uniques": [
-		"Provides [1] [Jewelry]","Provides [1] [Decadence]",		
+		"Provides [1] [Jewelry]","Provides [1] [Decadence]",	
+		"[+3 Gold] from [Gems] tiles [in this city]",	
 		"[+2 Gold] from [Gold Ore] tiles [in this city]",
 		"[+1 Gold] from [Silver] tiles [in this city]",
-		"[+3 Gold] from [Gems] tiles [in this city]",
 		],
 		"requiredTech": "Metallurgy"
 	},
@@ -991,8 +990,8 @@
 		"maintenance": 1,
 		"production": 1,
 		"uniques": [
-		"Provides [2] [Bronze]",
-		"Consumes [1] [Copper]",
+		"Provides [3] [Bronze]",
+		"Consumes [2] [Copper]",
 		"[+2 Gold] from [Tin] tiles [in this city]",
 		"[+1 Gold] from [Copper] tiles [in this city]",
 		"Destroyed when the city is captured"
@@ -1007,7 +1006,7 @@
 		"cityStrength": 10,
 		"cityHealth": 50,
 		"uniques": [
-		"Consumes [1] [Manpower]"
+		"Consumes [2] [Manpower]"
 		],
 		"requiredTech": "Masonry",
 	},
@@ -1184,12 +1183,12 @@
 		"requiredBuilding": "Walls",
 		"maintenance": 5,
 		"cityStrength": 10,
-		"cityHealth": 70,
+		"cityHealth": 80,
 		"happiness": 2,
 		"hurryCostModifier": 40,
 		"Cost": 800,
 		"uniques": [
-		"Consumes [1] [Manpower]",
+		"Consumes [2] [Manpower]",
 		],
 		"requiredTech": "Torsion Engines",
 	},
@@ -1260,7 +1259,6 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"uniques": [
-		"Consumes [1] [Manpower]",
 		"[Water] Units adjacent to this city heal [20] HP per turn when healing",
 		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
 		"[+15]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
@@ -1279,7 +1277,6 @@
 		"science": 1,
 		"happiness": 2,
 		"uniques": [
-		"Consumes [1] [Manpower]",
 		"New [{Military} {Water}] units start with [15] XP [in this city]",
 		"[Water] Units adjacent to this city heal [25] HP per turn when healing",
 		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
@@ -1333,8 +1330,7 @@
 		"cityHealth": 35,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
-		"[{Military} {Water}] units gain the [ "Supply"] promotion",
-		"Consumes [3] [Manpower]",
+		"Consumes [1] [Manpower]",
 		"[+1 Gold] <in cities with a [Market]>",
 		"[+1 Gold] <in cities with a [Garum Shop]>",
 		"[+1 Gold] from [Water resource] tiles [in this city]",
@@ -1567,9 +1563,9 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"faith": 3,
-		"culture": 2,
-		"happiness": 2,
+		"faith": 1,
+		"culture": 3,
+		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
@@ -1578,8 +1574,6 @@
 		"cost": 0,
 		"culture": 3,
 		"faith": 3,
-		"happiness": 1,
-		"science": 1,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
@@ -1589,7 +1583,7 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 4,
-		"happiness": 1,
+		"happiness": 2,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
@@ -1597,19 +1591,19 @@
 		"cost": 0,
 		"culture": 2,
 		"faith": 1,
-		"happiness": 3,
+		"happiness": 4,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Ballistics Range",
 		"requiredBuilding": "Skirmisher Barracks",
 		"hurryCostModifier": 50,
-		"Cost":1200,
+		"Cost":900,
 		"maintenance": 5,
 		"cityStrength": 3,
 		"cityHealth": 10,
-		"uniques": [ 
-		"[+20]% Strength <for [Siege] units> <vs cities>",
+		"uniques": [
+		"Consumes [2] [Manpower]",
 		"New [Archery] units start with [5] XP [in this city]",
 		"New [Scout] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured",
@@ -1626,10 +1620,9 @@
 		"cityHealth": 20,
 		"uniques": [
 		"Provides [3] [Manpower]",
-		"New [Military] units start with [10] XP [in this city]",
-		"[General] units gain the [ "Scouting I"] promotion",
-		"[King] units gain the [ "Scouting I"] promotion",
-		"[Foot Guard] units gain the [ "Standard Bearer"] promotion",
+		"New [Military] units start with [5] XP [in this city]",
+		"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
+		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Imperial Military Doctrine"
@@ -1643,7 +1636,6 @@
 		"cityStrength": 5,
 		"cityHealth": 10,
 		"uniques": [
-		"Provides [2] [Manpower]",
 		"New [Siege] units start with [5] XP [in this city]",
 		"[+10]% Production when constructing [Siege] units [in this city] <in cities with a [Workshop]>",
 		"Destroyed when the city is captured",
@@ -1674,17 +1666,18 @@
 		"maintenance": 1,
 		"cityHealth": 20,
 		"uniques": [
+		"Consumes [1] [Manpower]"
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Woodworking"
 	},
 	{
 		"name": "Garrison Post",
-		"requiredBuilding": "Muster Field",
+		"requiredBuilding": "Barrack",
 		"hurryCostModifier": 20,
 		"Cost":100,
 		"maintenance": 1,
-		"cityHealth": 10,
+		"cityHealth": 20,
 		"uniques": [
 		"Provides [2] [Manpower]",
 		"Destroyed when the city is captured",
@@ -1694,7 +1687,7 @@
 	{
 		"name": "Imperial Armory",
 		"requiredBuilding": "Imperial Barracks",
-		"Cost":2200,
+		"Cost":2000,
 		"isNationalWonder": true,
 		"maintenance": 10,
 		"production": 1,
