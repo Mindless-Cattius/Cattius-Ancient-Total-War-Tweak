@@ -809,6 +809,8 @@
 		"uniques": [
 		"Provides [2] [Manpower]",
 		"New [Horseman] units start with [10] XP [in this city]",
+		"Only available <in cities without a [Army Barracks]>",
+		"Only available <in cities without a [Skirmisher Barracks]>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Equestrian Class"
@@ -1130,7 +1132,7 @@
 		"[+20]% Production when constructing [Archery Range] buildings [in this city]",
 		"[+1 Food] from [Deer] tiles [in this city]",
 		"[+3 Gold] from [Furs] tiles [in this city]",
-		"[+1 Food] from [Deer] tiles [in this city] <for [The Scythians] Civilizations>",
+		"[+2 Food] from [Deer] tiles [in this city] <for [The Scythians] Civilizations>",
 		"[+1 Food] [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>"
 		],
 		"requiredTech": "Forestry"
@@ -1173,6 +1175,8 @@
 		"Provides [2] [Manpower]",
 		"New [Archery] units start with [5] XP [in this city]",
 		"New [Scout] units start with [5] XP [in this city]",
+		"Only available <in cities without a [Cavalry Barracks]>",
+		"Only available <in cities without a [Army Barracks]>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Engineering"
@@ -1246,7 +1250,8 @@
 		"Consumes [1] [Manpower]",
 		"[+1 Gold] <in cities with a [Market]>",
 		"[+1 Gold] <in cities with a [Garum Shop]>",
-		"Remove [Anchorage] [in this city]","Only available <in cities without a [Great Harbor]> <hidden from users>"
+		"Remove [Anchorage] [in this city]",
+		"Only available <in cities without a [Great Harbor]> <hidden from users>",
 		"[+1 Gold] from [Water resource] tiles [in this city]",
 		"Connects trade routes over water",
 		"Requires at least [5] population",
@@ -1673,7 +1678,7 @@
 	},
 	{
 		"name": "Garrison Post",
-		"requiredBuilding": "Barrack",
+		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 20,
 		"Cost":100,
 		"maintenance": 1,

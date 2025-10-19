@@ -337,7 +337,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Hellenistic Age",
-		"techCost": 1150,
+		"techCost": 1300,
 		"buildingCost": 250,
 		"wonderCost": 400,
 		"techs": [
@@ -372,7 +372,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Hellenistic Age",
-		"techCost": 3000,
+		"techCost": 3200,
 		"buildingCost": 350,
 		"wonderCost": 400,
 		"techs": [
@@ -420,7 +420,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Imperial Age",
-		"techCost": 7000,
+		"techCost": 8000,
 		"buildingCost": 400,
 		"wonderCost": 400,
 		"techs": [
@@ -428,9 +428,9 @@
 				"name": "Imperial Military Doctrine",
 				"row": 2,
 				"prerequisites": ["Military Reforms","Social Reforms"],
-  "uniques": [
-  "[Military] units gain the [Improved Equipment] promotion",
-  "All newly-trained [Military] units [in all cities] receive the [Morale] promotion <during the [Imperial Age]>",
+ 				 "uniques": [
+					"[Gold] cost of purchasing [Military] units [+20]%",
+  					"All newly-trained [Military] units [in all cities] receive the [Morale] promotion <during the [Imperial Age]>",
 ],
 				"quote": "'Therefore, he who desires peace, should prepare for war.'- Vegetius"
 			},
