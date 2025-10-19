@@ -1755,12 +1755,10 @@
             {
                 "name": "Centralization Complete",
                 "uniques": [
-                    "May buy [Great Prophet] units for [5000] [Gold] [Capital] at an increasing price ([1000])",
                     "[+1 Happiness] [in capital]",
                     "[+20]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
-                    "Provides [6] [Manpower]",
+                    "Provides [10] [Manpower]",
                     "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
-                    "[Military] units gain the [Survivalism I] promotion",
                     "Can spend Gold to annex or puppet a City-State that has been your Ally for [30] turns",
                 ]
             }

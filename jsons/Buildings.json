@@ -232,7 +232,7 @@
 		"requiredBuilding": "Palace",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"happiness": 4,
+		"happiness": 3,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
 		"Provides [2] [Decadence]",
@@ -292,6 +292,7 @@
 	},
 	{
 		"name": "Secret Cult",
+		"requiredBuilding": "Temple",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"happiness": 3,
@@ -364,9 +365,8 @@
 		"uniques": [
 		"[+1 Gold] from [Wine] tiles [in this city]",
 		"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
-		"[+1 Gold] from [Cattle] tiles [in this city] <in cities with a [Cattle Trader]>",
-		"[+1 Gold] from [Sheep] tiles [in this city] <in cities with a [Cattle Trader]>",
-		"[+1 Gold] from [Camels] tiles [in this city] <in cities with a [Cattle Trader]>"
+		"[+1 Gold] from [Camp] tiles [in this city]",
+		"[+1 Food] from [Pasture] tiles [in this city]",
 		],
 		"requiredTech": "Entertainment"
 	},
@@ -385,6 +385,7 @@
 	},
 	{
 		"name": "Circus Maximus",
+		"requiredBuilding": "Arena",
 		"happiness": 5,
 		"culture": 2,
 		"isWonder": true,
@@ -421,6 +422,7 @@
 	},
 	{
 		"name": "Scriptorium",
+		"requiredBuilding": "School",
 		"requiredNearbyImprovedResources": ["Papyrus"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -434,6 +436,7 @@
 	},
 	{
 		"name": "Parchmentry",
+		"requiredBuilding": "School",
 		"uniqueTo": "The Pergamenes",
 		"replaces": "Scriptorium",
 		"requiredNearbyImprovedResources": ["Sheep","Cattle","Papyrus"],
@@ -467,17 +470,20 @@
 		"maintenance": 1,
 		"food": 2,
 		"cityHealth": 10,
-		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]","Only available <in cities without a [Grain Exports]>"],
+		"uniques": ["[+1 Food] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Pottery"
 	},
 	{
 		"name": "Brick Maker",
+		"requiredBuilding": "Ceramics Workshop",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
 		"[+1 Production] from [Marsh] tiles [in this city]",
 		"[+1 Production] from [Oasis] tiles [in this city]",
 		"[+1 Production] from [Lakes] tiles [in this city]",
+		"[+1 Production] from [Stone] tiles [in this city]",
+		"[+1 Gold] from [Marsh] tiles [in this city]",
 		"[+1 Gold] from [Clay] tiles [in this city]",
 		"[+10]% Production when constructing [All] buildings [in this city]"
 		],
@@ -486,11 +492,12 @@
 	// Barter
 	{
 		"name": "Grain Exports",
+		"requiredBuilding": "Market",
 		"requiredNearbyImprovedResources": ["Wheat"],
 		"hurryCostModifier": 25,
-		"cost": 60,
+		"cost": 70,
 		"maintenance": 0,
-		"uniques": ["[+3 Gold] from [Wheat] tiles [in this city]","Only available <in cities without a [Granary]>"],
+		"uniques": ["[+1 Gold] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Barter"
 	},
 	{
@@ -526,7 +533,8 @@
 		"maintenance": 2,
 		"uniques": [
 		"Provides [1] [Ceramics]",
-		"[+2 Gold] <in cities with a [Olive Mill]>",
+		"[+5]% Production when constructing [All] buildings [in this city]"
+		"[+1 Gold] <in cities with a [Olive Mill]>",
 		],
 		"requiredTech": "Barter"
 	},
@@ -537,18 +545,47 @@
 		"gold": 3,
 		"cost": 200,
 		"happiness": 1,
-		"percentStatBonus": {"gold": 10},
+		"percentStatBonus": {"gold": 5},
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Gain [10]-[50] [Gold]",
-		"Provides [1] [Ceramics]",
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
 		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
 		"[+1 Gold] <in cities with a [Mint]>",
-		"[+2 Gold] <in cities with a [Grain Exports]>",
+		"[+1 Gold] <in cities with a [Grain Exports]>",
+		"[+1 Gold] <in cities with a [Brick Maker]>",
+		"[+1 Gold] <in cities with a [Jeweler]>",
+		"[+1 Gold] <in cities with a [Weavery]>",
+		"[+2 Gold] <in cities with a [Goldsmith]>",
 		"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
 		],
 		"requiredTech": "Currency"
+	},
+	{
+		"name": "Great Market",
+		"isNationalWonder": true,
+		"requiredBuilding": "Market",
+		"hurryCostModifier": 25,
+		"gold": 5,
+		"cost": 1000,
+		"happiness": 1,
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Merchant": 1},
+		"uniques": [
+		"Gain [100]-[300] [Gold]",
+		"[+1 Gold] from [Improvement] tiles [in this city]",
+		"[+1 Gold] <in cities with a [Cattle Trader]>",
+		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
+		"[+1 Gold] <in cities with a [Mint]>",
+		"[+1 Gold] <in cities with a [Grain Exports]>",
+		"[+1 Gold] <in cities with a [Brick Maker]>",
+		"[+1 Gold] <in cities with a [Jeweler]>",
+		"[+1 Gold] <in cities with a [Weavery]>",
+		"[+2 Gold] <in cities with a [Goldsmith]>",
+		"[+1 Gold] per [10] population [in this city]",
+		"Remove [Market] [in this city]",
+		],
+		"requiredTech": "Trade Routes"
 	},
 	{
 		"name": "Silphium Trader",
@@ -568,7 +605,7 @@
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
 		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
 		"[+2 Gold] <in cities with a [Grain Exports]>",
-		"Never destroyed when the city is captured"
+		"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
 	},
@@ -582,7 +619,6 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"Consumes [1] [Copper]",
-		"[+1 Culture] <in cities with a [Market]>",
 		"[Gold] cost of purchasing items in cities [-10]%",
 		"[+3 Gold] from [Gold Ore] tiles [in this city]", 
 		"[+2 Gold] from [Silver] tiles [in this city]",
@@ -592,6 +628,7 @@
 	},
 	{
 		"name": "Mercenary Camp",
+		"requiredBuilding": "Muster Field",
 		"cost": 100,
 		"maintenance": 3,
 		"uniques": [
@@ -624,8 +661,8 @@
 		"maintenance": 0,
 		"uniques": [
 		"[+1 Gold] from [Sheep] tiles [in this city]","[+1 Gold] from [Flax] tiles [in this city]",
-		"[+1 Gold] from [Hemp] tiles [in this city]","[+1 Gold] from [Cotton] tiles [in this city]",
-		"[+1 Gold] from [Dyes] tiles [in this city]","[+1 Gold] from [Purple Dye] tiles [in this city]",
+		"[+1 Gold] from [Hemp] tiles [in this city]","[+2 Gold] from [Cotton] tiles [in this city]",
+		"[+2 Gold] from [Dyes] tiles [in this city]","[+2 Gold] from [Purple Dye] tiles [in this city]",
 		"[+2 Gold] <in cities with a [Silk Road]>"
 		],
 		"requiredTech": "Trade Routes"
@@ -736,7 +773,7 @@
 		"specialistSlots": {"Priest": 3},
 		"uniques": [
 		"Provides [2] [Decadence]",
-		"[+200]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
+		"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Aesthetics",
@@ -772,6 +809,7 @@
 	// Riding
 	{
 		"name": "Stable",
+		"requiredBuilding": "Barracks",
 		"requiredNearbyImprovedResources": ["Horses"],
 		"hurryCostModifier": 35,
 		"cost": 100,
@@ -786,6 +824,7 @@
 	},
 	{
 		"name": "Elephant Trainer",
+		"requiredBuilding": "Stable",
 		"requiredNearbyImprovedResources": ["Ivory"],
 		"hurryCostModifier": 35,
 		"maintenance": 3,
@@ -808,7 +847,9 @@
 		"cityHealth": 20,
 		"uniques": [
 		"Provides [2] [Manpower]",
+		"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 		"New [Horseman] units start with [10] XP [in this city]",
+		"New [Cavalry] units start with [5] XP [in this city]",
 		"Only available <in cities without a [Army Barracks]>",
 		"Only available <in cities without a [Skirmisher Barracks]>",
 		"Destroyed when the city is captured"
@@ -861,13 +902,13 @@
 	// Citizen Levy
 	{
 		"name": "Barracks",
+		"requiredBuilding": "Muster Field",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"happiness": 2,
 		"cityHealth": 30,
 		"uniques": [
 		"Provides [3] [Manpower]",
-		"Provides [1] [Manpower] <during the [Imperial Age]>",
 		"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
 		"Destroyed when the city is captured"
 		],
@@ -918,7 +959,8 @@
 		"New [Spearman] units start with [5] XP [in this city]",
 		"New [Scout] units start with [5] XP [in this city]",
 		"New [Sword] units start with [5] XP [in this city]",
-		"Can only be built <in [Capital] cities> <before adopting [Centralization]>",
+		"Only available <in cities without a [Cavalry Barracks]>",
+		"Only available <in cities without a [Skirmisher Barracks]>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Infantry Training"
@@ -1005,6 +1047,7 @@
 		"name": "Walls",
 		"requiredBuilding": "Palisade",
 		"hurryCostModifier": 35,
+		"happiness": 1,
 		"cityStrength": 10,
 		"cityHealth": 50,
 		"uniques": [
@@ -1018,6 +1061,7 @@
 		"uniqueTo": "The Boii",
 		"hurryCostModifier": 35,
 		"maintenance": 0,
+		"happiness": 1,
 		"production": 1,
 		"cityStrength": 12,
 		"cityHealth": 60,
@@ -1042,7 +1086,7 @@
 		"name": "Hill Fort",
 		"hurryCostModifier": 25,
 		"maintenance": 0,
-		"happiness": 2,
+		"happiness": 1,
 		"gold": 1,
 		"cityHealth": 20,
 		"cityStrength": 5,
@@ -1056,6 +1100,8 @@
 	// Construction
 	{
 		"name": "Sculptor",
+		"requiredBuilding": "Stone Works",
+		"requiredNearbyImprovedResources": ["Marble", "Ivory"],
 		"hurryCostModifier": 25,
 		"maintenance": 0,
 		"culture": 1,
@@ -1083,6 +1129,7 @@
 	},
 	{
 		"name": "Mausoleum",
+		"requiredBuilding": "Temple",
 		"requiredNearbyImprovedResources": ["Marble","Stone"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -1109,6 +1156,7 @@
 	// Mass Production
 	{
 		"name": "Ironworks",
+		"requiredNearbyImprovedResources": ["Iron"],
 		"production": 10,
 		"culture": 1,
 		"specialistSlots": {"Engineer": 2},
@@ -1140,6 +1188,7 @@
 	// Archery
 	{
 		"name": "Archery Range",
+		"requiredBuilding": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"cityStrength": 2,
@@ -1173,8 +1222,10 @@
 		"cityHealth": 10,
 		"uniques": [
 		"Provides [2] [Manpower]",
+		"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 		"New [Archery] units start with [5] XP [in this city]",
-		"New [Scout] units start with [5] XP [in this city]",
+		"New [Scout] units start with [10] XP [in this city]",
+		"New [Spearman] units start with [5] XP [in this city]",
 		"Only available <in cities without a [Cavalry Barracks]>",
 		"Only available <in cities without a [Army Barracks]>",
 		"Destroyed when the city is captured"
@@ -1188,7 +1239,7 @@
 		"maintenance": 5,
 		"cityStrength": 10,
 		"cityHealth": 80,
-		"happiness": 2,
+		"happiness": 1,
 		"hurryCostModifier": 40,
 		"Cost": 800,
 		"uniques": [
@@ -1230,7 +1281,8 @@
 		"maintenance": 0,
 		"production": 2,
 		"uniques": [
-		"[+1 Production] from [Timber] tiles [in this city]","[+1 Production] from [Olives] tiles [in this city]",
+		"[+1 Production] from [Timber] tiles [in this city]",
+		"[+1 Production] from [Olives] tiles [in this city]",
 		"[+5]% [Production] <in this city> <in cities with a [Bronze Works]>","[+5]% [Production] <in this city> <in cities with a [Forge]>","[+5]% [Production] <in this city> <in cities with a [Ironworks]>",
 		],
 		"requiredTech": "Woodworking"
@@ -1264,6 +1316,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"uniques": [
+		"Consumes [2] [Manpower]",
 		"[Water] Units adjacent to this city heal [20] HP per turn when healing",
 		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
 		"[+15]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
@@ -1335,7 +1388,7 @@
 		"cityHealth": 35,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
-		"Consumes [1] [Manpower]",
+		"Consumes [2] [Manpower]",
 		"[+1 Gold] <in cities with a [Market]>",
 		"[+1 Gold] <in cities with a [Garum Shop]>",
 		"[+1 Gold] from [Water resource] tiles [in this city]",
@@ -1431,7 +1484,7 @@
 		"maintenance": 2,
 		"uniques": [
 		"Provides [3] [Timber]",
-		"[+15]% Production when constructing [Water] units [in all cities]",
+		"[+10]% Production when constructing [Water] units [in all cities]",
 		"Can only be built <in [Capital] cities>",
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
@@ -1568,9 +1621,9 @@
 	{
 		"name": "Cathedral",
 		"cost": 0,
-		"faith": 1,
+		"faith": 2,
 		"culture": 3,
-		"happiness": 3,
+		"happiness": 2,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
@@ -1579,6 +1632,7 @@
 		"cost": 0,
 		"culture": 3,
 		"faith": 3,
+		"science": 1,
 		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
@@ -1586,17 +1640,17 @@
 	{
 		"name": "Mosque",
 		"cost": 0,
-		"culture": 2,
+		"culture": 3,
 		"faith": 4,
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Pagoda",
 		"cost": 0,
-		"culture": 2,
+		"culture": 3,
 		"faith": 1,
-		"happiness": 4,
+		"happiness": 3,
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
@@ -1610,21 +1664,21 @@
 		"uniques": [
 		"Consumes [2] [Manpower]",
 		"New [Archery] units start with [5] XP [in this city]",
-		"New [Scout] units start with [5] XP [in this city]",
+		"New [Scout] units start with [10] XP [in this city]",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Military Reforms"
 	},
 	{
 		"name": "Imperial Barracks",
-		"requiredBuilding": "Army Barracks",
+		"requiredBuilding": "Barracks",
+		"isNationalWonder": true,
 		"hurryCostModifier": 50,
 		"Cost":1500,
 		"maintenance": 10,
 		"cityStrength": 5,
 		"cityHealth": 20,
 		"uniques": [
-		"Provides [3] [Manpower]",
 		"New [Military] units start with [5] XP [in this city]",
 		"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 		"Limited to [1] per Civilization",
@@ -1641,6 +1695,7 @@
 		"cityStrength": 5,
 		"cityHealth": 10,
 		"uniques": [
+		"Consumes [1] [Manpower]",
 		"New [Siege] units start with [5] XP [in this city]",
 		"[+10]% Production when constructing [Siege] units [in this city] <in cities with a [Workshop]>",
 		"Destroyed when the city is captured",
