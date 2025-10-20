@@ -74,8 +74,8 @@
         "Rebel units may spawn <when below [500] [Happiness]>",
 // Events
 
-        "Free [Spearman] appears <when between [1] and [555] [Happiness]> <upon founding a city>",
-
+        "Free [Scout] appears <when between [1] and [10] [Happiness]> <upon founding a city>",
+        "Free [Spearman] appears <when between [11] and [99999] [Happiness]> <upon founding a city>",
 // Decadence & Great People
         "Provides [1] [Manpower] <when below [0] [Decadence]> <for [Major] Civilizations>",
         "Provides [1] [Manpower] <when below [3] [Decadence]> <for [Major] Civilizations>",

@@ -1049,8 +1049,8 @@
 		"requiredBuilding": "Palisade",
 		"hurryCostModifier": 35,
 		"happiness": 1,
-		"cityStrength": 10,
-		"cityHealth": 50,
+		"cityStrength": 12,
+		"cityHealth": 80,
 		"uniques": [
 		"Consumes [2] [Manpower]"
 		],
@@ -1064,8 +1064,8 @@
 		"maintenance": 0,
 		"happiness": 1,
 		"production": 1,
-		"cityStrength": 12,
-		"cityHealth": 60,
+		"cityStrength": 15,
+		"cityHealth": 100,
 		"uniques": [
 		"Consumes [1] [Manpower]"
 		],
@@ -1725,7 +1725,7 @@
 		"hurryCostModifier": 20,
 		"Cost":50,
 		"maintenance": 1,
-		"cityHealth": 20,
+		"cityHealth": 30,
 		"uniques": [
 		"Consumes [1] [Manpower]"
 		"Destroyed when the city is captured",
