@@ -1,88 +1,42 @@
-A Hellenistic/Roman Republic era mod for Unciv. In early alpha stage, expect missing features.<br>
-
-The mod can finally be downloaded directly in game! Many recent changes are higly experimental and unbalanced for now though. Feedback is welcome in the Unciv Discord -> Mods -> Ancient Total War<br>
-
-The main features include:<br>
-- Revised, ancient-only tech tree.<br>
-- About 25 civs and 70 city-states from the Hellenistic/Roman Republican era.<br>
-- 160x80 map of the Mediterranean.<br>
-- Great units made by Fairline and Tanelorn for Civ2.<br>
-- Various gameplay changes.<br>
-
-<img src="https://github.com/prod0ad/Ancient-Total-War/assets/9596638/30297e01-a3d2-4301-a0f0-ce182c15180d" width="420"><br>
-<img src="https://github.com/prod0ad/Ancient-Total-War/assets/9596638/5f2e4ebc-14ad-4940-acce-7cff45881aad" width="420"><br>
-<img src="https://github.com/prod0ad/Ancient-Total-War/assets/9596638/fe587596-0b41-422d-9002-c8a07e009726" width="420"><br>WHAT MY TWEAK IS ABOUT?
--> Add new units: Naked Warrior, Limitanei, Veterans type units, mounted skirmisher, armored archer, armored horse archer,... (come with new veteran resource).
--> Rebalacing almost all units, mostly on horseman and cavalry. 
--> Add more promotion.
-
-          --------GLOBAL CHANGES-------
-    Units lose 5 HP when healing in enemy territory, gain +5 HP when healing in forts.
-    Scouts: –1 range (Javelin throwing); Embarked units: –1 sight.
-    All naval military units get the Warship promotion.
-
-✅ City Defense
-    -Defensive buildings’ city strength reduced by:
-        –30% (Archaic Age)
-        –25% (Classical Age)
-        –20% (Hellenistic Age)
-    -City attack strength reduced:
-        –30% vs all when attacking.
-        Additional –30% vs mounted archery when attacking.
-  --> This make city stop one short unit, but attacking citites without siege equipments is brutal and VERY COSTLY.
-        
-✅ Production & Economy
-
-    -New building  “Make Capital”: so you can change capital (sell the "make capital" building then rebuild it in your new Capital wannabe city) but it production cost increasing through ages
-        –80% production cost (Imperial Age).
-        –50% (Classical Age).
-        –70% (Hellenistic Age).
-    –30% production for Civilian units in Imperial Age.
-
-    Global Production penalty: Make late empire harder to snowball
-        –30% (Imperial)
-        –20% (Classical)
-        –10% (Hellenistic)
-        
-    Science tweaks:
-        +25% science cost overall.
-        Extra +40% cost in Imperial Age.
-
-    Luxury & Puppet tweaks:
-        Retain +25% happiness from traded luxuries.
-        May buy items in puppet cities.
-        –50% resources from city-states (–25% in Imperial).
-
-✅ Happiness & Rebels
-    +Unhappiness hits growth, production & strength in steps:
-        Every –5% or –10% growth/production below certain happiness levels.
-        Nullifies growth at –30 happiness.
-        Cannot build Settlers below –15 happiness.
-        Units lose –5% strength for every step down to –30.
-     +Rebel spawns scale massively:
-        Starts at 1% chance below 200 happiness, goes up to 100% chance below 0 happiness
-✅ Unit Spawns
-    Free units appear based on manpower or nobles:
-
-        Spearman: 2–3% for above 10 Manpower
-        Skirmisher: 1–2% for above 30 Manpower
-        Swordsman: 1–2% for aboeve 50
-        General: 3% if nobles exist.
-        Plus: Free Spearman when founding a city if happiness in range.
-        
-✅ Maintenance Costs
-    Big upkeep penalties for elite & heavy units:
-       Read GlobalUniques for more details
-
-✅ Other
-    +Pillaging yields:
-        -40% (Archaic Age)
-        -20% (Imperial Age)
-    +More natural religion spread.
-    +Cultural adoption cost +100% to slow policy spam, and all late culture policies can be adopted.
-
-🗝️ In short:
-
-    🏺 This mod adds deep rebel risk, real economic strain, decadence penalties, and heavy maintenance for elite units.
-    ⚔️ Empires must balance expansion with unrest — no more mindless snowball!
-    🎭 AI gets era-based bonuses for smarter pacing.
+Thank the Author of the Original mod Ancient Total War for the original experience, im making this out of the love of the original mod. What's included: About 25 civs and 70 city-states, 121 units, 50 techs, ~120 buildings and 11 Wonders.
+Combat: 
++Cities have much weaker attack but will need siege to take down, so it wont 1 shot peasant units
++Annexing cities locked by era,
++Units take healing and huge upkeep penalties in enemy lands, staying at war hurts economically – as it should
++Military upkeep is brutally expensive included some favor of Historical realism: Spears cheaper, cavalry expensive, elephants insane, ships a luxury.
++Scout is now a range unit with 1 range (javelin throwing), with high withdraw chance this make skimisher still have their role in late era,
++Military Units gifted from City-States start with huge XP boost, this make CS have some better use in late era,
++Pillaging's yield +40% during the Archaic Age, +20% during the Imperial Age,
++City-State territory always counts as friendly territory during the Imperial Age,
+HAPPINESS SYSTEM (still need works)
++Rebels will happened under 500 Happiness
+          Below +350	1%
+          Below +300	3%
+          Below +250	5%
+          Below +200	7%
+          Below +150	9%
+          Below +100	12%
+          Below +90	          15%
+          Below +80	          20%
+          Below +50	          30%
+          Below +20	          40%
+          Below +10	          50%
+          Below +5	          70%
+          Below +0	          100% (Guaranteed rebellion every turn)
+UNIT SPAWN:
++Free Scout appears when between 1 and 10 Happiness upon founding a city, 
++Free Spearman appears from 11+ Happiness upon founding a city, 
++Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [10]% chance>",
++Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
++Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance>",
++Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [3]% chance>",
++Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",
++Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
++[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
+NEW UNIT:
++Manipular Legion, Limitanei for the Romans
++Naked Warrior for the Celtics
++Gladiator (Mercenary) from Arena Building
++Veterans Unit, late game unique units base on civ culture.
++Crossbow man to anti late heavy unit,
++Support siege units like Ram and Seige Tower and Catapult.
