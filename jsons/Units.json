@@ -163,6 +163,7 @@
       		"Consumes [1] [Mercenary (Illyrian)]",
 		"[+1] XP gained from combat",
      		 "Can be purchased with [Gold] [in all cities]",
+      "Only available <in cities with a [Mercenary Camp]>",
      		 "Can move immediately once bought",
 		"Comment [-Light skirmisher, good at raiding, fast river crossing, have high withdraw chance.]"
     ],
@@ -307,7 +308,7 @@
       "Consumes [1] [Manpower]",
       "Can move after attacking",
       "Only available <in cities with a [Archery Range]>",
-	"Comment [-Light slinger of the Belgae, skilled in forest warfare and mobile skirmishing.]"
+	"Comment [-Light archer of the Belgae, skilled in forest warfare and mobile skirmishing.]"
     ],
     "promotions": [
       "[Archer] ability",
@@ -1707,13 +1708,15 @@
       "Removes other religions when spreading religion",
       "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
       "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-	"May enter foreign tiles without open borders, but loses [100] religious strength each turn it ends there",
+	"May enter foreign tiles without open borders",
       "[-1] Sight",
       "Great Person - [Faith]",
       "Unbuildable",
       "Religious Unit",
       "Only available <when religion is enabled>",
-      "Takes your religion over the one in their birth city"
+      "Takes your religion over the one in their birth city",
+	"[+20]% Strength bonus for [Military] units within [1] tiles <after adopting [War Priests]>",
+	"All adjacent units heal [+2] HP when healing <after adopting [Keeper of Traditions]>"
     ],
     "movement": 4,
     "religiousStrength": 1000

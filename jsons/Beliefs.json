@@ -466,7 +466,7 @@
     {
         "name": "Feed the World",
         "type": "Follower",
-//        "uniques": ["[+1 Food] from every [Shrine]", "[+2 Food] from every [Temple]"]
+//        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
     },
     {
         "name": "Guruship",
@@ -476,8 +476,9 @@
     {
         "name": "Holy Warriors",
         "type": "Follower",
-        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",
+        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before adopting [Seal of Heaven]>",
         	"[+1 Faith] from every [Army Barracks]",
+        	"[+1 Faith] from every [Barracks] <after adopting [Seal of Heaven]>",
 	]
     },
     {

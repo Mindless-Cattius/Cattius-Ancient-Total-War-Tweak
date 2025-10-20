@@ -46,12 +46,12 @@
                 "name": "Naked Fanatics",
                 "uniques": [
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
-                    "All newly-trained [Swordsman] units [in all cities] receive the [Shock I] promotion",
+                    "All newly-trained [Naked Warrior] units [in all cities] receive the [Shock I] promotion",
                     "All newly-trained [Mercenary Warband] units [in all cities] receive the [Shock I] promotion",
                     "[+1 Happiness] [in all cities] <when at war>",
                     "[+1 Happiness] [in capital]",
-                    "[1] free [Swordsman] units appear",
-                    "Provides [3] [Manpower]"
+                    "[3] free [Naked Warrior] units appear",
+                    "Provides [5] [Manpower]"
                 ],
                 "row": 1,
                 "column": 3
@@ -59,7 +59,7 @@
             {
                 "name": "Druidic Circles",
                 "uniques": [
-                    "[+2 Science] from every [Garden]",
+                    "[+1 Science] from every [Garden]",
                     "[+1 Happiness] [in capital]",
                     "[Naked Warrior] units gain the [Ambush I] promotion",
                 ],
@@ -107,12 +107,15 @@
                 "uniques": [
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
-                    "[-25]% maintenance costs <for [Heavy Spearman] units>",
-                    "[-25]% maintenance costs <for [Heavy Swordsman] units>",
-                    "[-25]% maintenance costs <for [Cavalry] units>",
+                    "[-10]% maintenance costs <for [Heavy Spearman] units>",
+                    "[-10]% maintenance costs <for [Heavy Swordsman] units>",
+                    "[-10]% maintenance costs <for [Cavalry] units>",
                     "[+3 Happiness] from every [Forge]",
                     "[+1 Happiness] [in capital]",
-                    "[Sword] units gain the [Improved Armor] promotion",
+                    "[Heavy Swordsman] units gain the [Improved Armor] promotion",
+                    "[Cavalry] units gain the [Improved Armor] promotion",
+                    "[King] units gain the [Improved Armor] promotion",
+                    "[General] units gain the [Improved Armor] promotion",
                 ],
                 "requires": ["Trimarchisia","Druidic Circles"],
                 "row": 3,
@@ -126,7 +129,9 @@
                     "[+2 Happiness] from [Tin] tiles [in all cities]",
                     "[+1 Happiness] [in capital]",
                     "Provides [4] [Manpower]",
-     		    "Provides [1] [Veteran]",
+     		    "Provides [2] [Veteran]",
+                    "[Spear] units gain the [Improved Armor] promotion <after discovering [Mass Production]>",
+                    "[Pike Phalanx] units gain the [Improved Armor] promotion <after discovering [Mass Production]>",
                     "[+15]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <when attacking>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                 ]
@@ -148,7 +153,8 @@
                     "[+100]% Production when constructing [Market] buildings [in all cities]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>",
-                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>","[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
+                    "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
+			"[Cavalry] units gain the [Armored Lancer] promotion <hidden from users>",
         ],
         "policies": [
             {
@@ -156,7 +162,7 @@
                 "uniques": [
                     "[+1 Culture] [in capital]",
                     "[+2 Culture] [in capital] <after adopting [King of Kings]>",
-                    "[+20]% [Culture] <in cities with at least [10] [Population]>",
+                    "[+10]% [Culture] <in cities with at least [10] [Population]>",
                     "[+1 Happiness] [in capital]"
                 ],
                 "row": 1,
@@ -171,7 +177,6 @@
                     "Provides [4] [Manpower]",
                     "Provides [2] [Horses]",
                     "[+1 Happiness] [in capital]",
-                    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                 ],
                 "row": 2,
                 "column": 1
@@ -228,8 +233,8 @@
                     "[-50]% unhappiness from the number of cities",
                     "Free [General] appears",
                     "[+1 Happiness] [in capital]",
-                    "[+15]% Strength <for [Scythian King] units> <for [The Scythians] Civilizations> <when attacking>",
                     "[+15]% Strength <for [King] units> <for [The Scythians] Civilizations> <when defending>",
+                    "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
                 ],
                 "row": 4,
                 "column": 3
@@ -297,6 +302,7 @@
                 "uniques": [
                     "[-50]% construction time for [Camp] improvements",
                     "[+1 Gold, +1 Happiness] from [Furs] tiles [in all cities]",
+                    "[+1 Food] from [Camp] tiles [in all cities]",
                     "[+1 Happiness] [in capital]",
                 ],
                 "row": 1,
@@ -320,7 +326,7 @@
             {
                 "name": "Beast Warriors",
                 "uniques": [
-                    "All newly-trained [Cavalry] units [in all cities] receive the [Charge I] promotion",
+                    "All newly-trained [Cavalry] units [in all cities] receive the [Shock I] promotion",
                     "All newly-trained [Swordsman] units [in all cities] receive the [Shock I] promotion",
                     "[2] free [Swordsman] units appear",
                     "Provides [4] [Manpower]",
@@ -332,7 +338,9 @@
             {
                 "name": "Shield Wall",
                 "uniques": [
-                    "[+20]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
+                    "[+20]% Strength <when defending> <for [Spear] units> <when adjacent to a [Spear] unit>",
+                    "[+20]% Strength <when defending> <for [Spear] units> <when adjacent to a [General] unit>",
+                    "[+20]% Strength <when attacking> <for [Spear] units> <when adjacent to a [King] unit>",
                     "[+1 Happiness] [in capital]",
                     "[3] free [Spearman] units appear",
                     "Provides [5] [Manpower]",
@@ -344,7 +352,6 @@
                 "name": "Shieldmaidens",
                 "uniques": [
                     "[+25]% Production when constructing [Spear] units [in all cities]",
-                    "[+10]% Strength <for [Spear] units> <when defending>",
                     "[+1 Happiness] [in capital]",
                 ],
                 "requires": ["Shield Wall"],
@@ -354,7 +361,7 @@
             {
                 "name": "Chosen Warriors",
                 "uniques": [
-                    "[+150]% XP gained from combat <for [Land] units> <when below [25] HP>",
+                    "[+100]% XP gained from combat <for [Land] units> <when below [25] HP>",
                     "[+1 Happiness] [in capital]",
                     "[1] free [Heavy Swordsman] units appear",
                     "Provides [3] [Manpower]",
@@ -369,12 +376,13 @@
                 "name": "Germanic Horde",
                 "requires": ["Chosen Warriors"],
                 "uniques": [
-                    "[-30]% maintenance costs <for [{Military} {Land}] units>",
+                    "[-20]% maintenance costs <for [{Military} {Land}] units>",
                     "When conquering an encampment, earn [10] Gold and recruit a Barbarian unit"
                     "Free [General] appears",
                     "Provides [5] [Manpower]",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+                    "[+10]% Strength <for [Spear] units> <when defending>",
                 ],
                 "row": 4,
                 "column": 3
@@ -382,7 +390,7 @@
             {
                 "name": "Northern Trade",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] from [Amber] tiles [in all cities]",
+                    "[+1 Gold, +1 Happiness, +1 Faith] from [Amber] tiles [in all cities]",
                     "[+1 Culture] from every [Amber Road]",
                     "[+1 Happiness] [in capital]"
                 ],
@@ -528,7 +536,7 @@
                 "name": "Extort the League",
                 "requires": ["Thalassocracy"],
                 "uniques": [
-                    "[+25]% Production when constructing [All] wonders [in capital]",
+                    "[+20]% Production when constructing [All] wonders [in capital]",
                     "[+1 Food, +1 Production, +1 Gold, +1 Culture, +1 Science] [in capital]",
                     "[+1 Happiness] [in capital]",
                 ],
@@ -540,7 +548,7 @@
                 "uniques": [
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
-                    "[+25]% Great Person generation [in all cities]",
+                    "[+15]% Great Person generation [in all cities]",
                     "[+1 Happiness] [in capital]",
                     "[3] free [Hoplite] units appear",
      		    "Provides [1] [Veteran]",
@@ -1548,101 +1556,130 @@
                 "name": "League Levy",
                 "uniques": [
                     "Units in cities cost no Maintenance",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
                 ],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "League Headquarters",
-                "requires": ["League Levy","Mutual Protection"],
                 "uniques": [
-                    "[+25]% [Culture] [in capital]",
+                    "[+20]% [Culture] [in capital]",
+                    "[+1 Culture, +1 Happiness] from every [Citizen Assembly]",
                     "[+2 Happiness] [in capital]"
-                ],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Naval Tradition",
-                "requires": ["Shared Knowledge"],
-                "uniques": [
-                    "[-25]% maintenance costs <for [Water] units>",
-                    "[+1] Movement <for [Embarked] units>",
-                    "[+1 Happiness] [in capital]"
-                    "Provides [2] [Manpower]",
-                ],
-                "row": 4,
-                "column": 1
-            },
-            {
-                "name": "Mutual Protection",
-                "uniques": [
-                    "[+10]% Strength <for [All] units> <when fighting in [Friendly] tiles>"
-                    "[+33]% Strength <vs [Barbarian] units>",
-                    "[+1 Happiness] [in capital]"
-                    "Provides [4] [Manpower]",
                 ],
                 "row": 1,
                 "column": 3
             },
             {
-                "name": "Shared Knowledge",
-                "requires": ["Trade Contacts","League Headquarters"],
+                "name": "Naval Tradition",
                 "uniques": [
-                    "[+25]% Great Person generation [in all cities]",
-                    "[+1 Happiness] [in capital]"
+                    "[-25]% maintenance costs <for [Water] units>",
+                    "[+1] Movement <for [Embarked] units>",
+                    "[+1 Production] from every [Drydock]",
+                    "[+1 Happiness] [in capital]",
+                    "Provides [2] [Manpower]",
                 ],
-                "row": 3,
-                "column": 3
-            },
-            {
-                "name": "Synoecism",
-                "uniques": [
-                    "[+1 Culture, +1 Science] [in all cities]",
-                    "[+1 Happiness] [in capital]"
-                ],
-
                 "row": 1,
                 "column": 5
             },
             {
-                "name": "Trade Contacts",
-                "requires": ["Synoecism"],
+                "name": "Mutual Protection",
+                "requires": ["League Levy","Naval Tradition","League Headquarters"],
                 "uniques": [
-                    "[-33]% City-State Influence degradation"
+                    "[+15]% Strength <when defending> <for [All] units> <when fighting in [Friendly] tiles>"
+                    "[+33]% Strength <vs [Barbarian] units>",
                     "[+1 Happiness] [in capital]"
+                    "Provides [4] [Manpower]",
+    		    "Only available <before adopting [Mutual Protection]>",
+		"[+2 Production] from all [Barracks] buildings <when at war>",
                 ],
                 "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Confederation Reform",
+                "requires": ["Mutual Protection"],
+                "uniques": [
+                    "[+20]% Great Person generation [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                    "[-30]% City-State Influence degradation",
+                    "[+1 Gold, +1 Happiness] from every [Citizen Assembly]",
+                        "[+20]% Production when constructing [Military] units [in all cities] <when not at war>",
+                    "Can spend Gold to annex or puppet a City-State that has been your Ally for [30] turns",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Citizen Militias",
+                "requires": ["League Levy","Naval Tradition","League Headquarters"],
+                "uniques": [
+                    "[+10]% Production when constructing [Military] units [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                    "[+3 Happiness] [in all cities] <with a garrison>",
+			"[+10]% Strength <for [Scout] units> <when fighting in [Friendly Land] tiles>",
+                ],
+
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Council of War",
+                "requires": ["Citizen Militias"],
+                "uniques": [
+                	"[+1 Happiness] [in capital]",
+        		"New [Military] units start with [10] XP [in all cities]",
+                        "[+15]% Production when constructing [Military] units [in all cities] <when at war>",
+                 	"[+1 Science] [in all cities]",
+			"[+10]% Strength <for [Archery] units> <when fighting in [Friendly Land] tiles>",
+			"[+10]% Strength <for [Mounted] units> <when fighting in [Friendly Land] tiles>",
+                ],
+                "row": 3,
                 "column": 5
             },
             {
                 "name": "Commerce Centers",
-                "requires": ["Shared Knowledge"],
                 "uniques": [
                     "Empire enters golden age",
                     "[+1 Gold] from every [Market]",
+                    "[+1 Gold] from every [Anchorage]",
                     "[+2 Gold] from every [Harbor]",
-                    "[+2 Gold] from every [Great Harbor]",
-                    "[+1 Happiness] [in capital]"
+                    "[+3 Gold] from every [Great Harbor]",
+                    "[+1 Gold] from every [Drydock]",
+                    "[+1 Happiness] [in capital]",
+    		    "Only available <after adopting [Council of War]>",
+    		    "Only available <after adopting [Confederation Reform]>",
                 ],
 
                 "row": 4,
-                "column": 5
+                "column": 2
+            },
+            {
+                "name": "United",
+                "uniques": [
+                    "Empire enters golden age",
+                    "[+1 Production, Happiness] from every [Barrack]",
+                    "[+1 Happiness] [in capital]",
+            		"[+2 Happiness] from every [National Wonder]",
+    		    "Only available <after adopting [Council of War]>",
+    		    "Only available <after adopting [Confederation Reform]>",
+                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
+                    "[+1] Movement <for [Civilian] units> <in [Friendly Land] tiles>",
+                ],
+
+                "row": 4,
+                "column": 4
             },
             {
                 "name": "Federation Complete",
                 "uniques": [
-		"[May buy [Great Merchant] units for [5000] [Gold] [Capital] at an increasing price ([1000])",
-                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
-                    "[+1 Happiness] [in capital]",
-                    "Provides [6] [Manpower]",
                 ]
             }
         ]
     },
     {
-        "name": "Centralization",
+        "name": "Empire",
         "era": "Hellenistic Age",
         "priorities": {
             "Neutral": 0,
@@ -1650,231 +1687,283 @@
             "Domination": 50
         },
         "uniques": [
-            "Comment [Enables Great Prophet generation]",
-            "[+3 Happiness] from every [World Wonder]",
+            "[+2 Happiness] from every [World Wonder]",
             "[+2 Happiness] from every [National Wonder]",
             "[+2 Happiness] from every [Natural Wonder]",
-//            "[+1 Happiness] from every [Plantation]",
-//            "[+1 Happiness] from every [Slave Trader]",
-//            "[+1 Happiness] from every [Stable]",
             "[+1 Happiness] [in capital]"
             "Provides [4] [Manpower]",
 
         ],
         "policies": [
             {
-                "name": "Mercenary Scholars",
+                "name": "Law of the Ruler",
                 "uniques": [
-                    "[-50]% Unhappiness from [Specialists] [in all cities]",
-                    "[+2 Happiness] from every [Palace Library]",
-                    "[+1 Happiness] [in capital]"
-                    "May choose [1] additional [Follower] beliefs when [enhancing] a religion",
+                    "[-20]% Unhappiness from [Specialists] [in all cities]",
+           		"[+1 Happiness] from every [Plantation]",
+           		"[+1 Happiness] from every [Slave Trader]",
+           		"[+1 Happiness] from every [Stable]",
+                    "[+1 Happiness] [in capital]",
                 ],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Urbanization",
-                "requires": ["Mercenary Scholars"],
                 "uniques": [
+                    "[+1 Happiness, +1 Gold] from every [Brick Maker]",
                      "[+15]% Production towards any buildings that already exist in the Capital",
-                     "No Maintenance costs for improvements in [Open terrain] tiles",
                     "[+1 Happiness] [in capital]"
-                    "Provides [3] [Manpower]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Provincial Roads",
+                "uniques": [
+                    "[+1 Happiness] [in capital]",
+                    "[+1 Production] from every [Market]",
+                    "[+10]% Production when constructing [Mounted] units [in all cities]",
+                     "No Maintenance costs for improvements in [Rough terrain] tiles",
+                    "[+1 Happiness] [in all cities]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Imperial Garrisons",
+                "requires": ["Law of the Ruler","Urbanization","Provincial Roads"],
+                "uniques": [
+                    "[+3 Happiness] [in all cities] <with a garrison>",
+                    "[+1 Production, +1 Food] from every [Garrison Post]",
+                    "[+1 Happiness] [in capital]",
+                    "Provides [5] [Manpower]",
+                    "Provides [1] [Veteran]",
+		"[+15]% Strength <when defending> <for [All] units> <when fighting in [Friendly Land] tiles>",
+    		    "Only available <before adopting [War Economy]>",
                 ],
                 "row": 2,
                 "column": 1
             },
             {
-                "name": "Marriage Alliance",
-                "uniques": [
-                    "[+1 Happiness] [in capital]",
-                    "[+1 Happiness] [in all cities]",
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Imperial Garrisons",
-                "uniques": [
-                    "[+3 Happiness] [in all cities] <with a garrison>",
-                    "[+1 Happiness] [in capital]",
-                    "Provides [1] [Manpower]",
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "Imperial Army",
+                "name": "Civil Administration",
                 "requires": ["Imperial Garrisons"],
                 "uniques": [
                     "[+1 Happiness] from every [Army Barracks]",
                     "[+1 Happiness] from every [Cavalry Barracks]",
                     "[+1 Happiness] from every [Skirmisher Barracks]",
-                    "[+2 Happiness] [in capital]",
-                    "Provides [5] [Manpower]",
+		"[+2 Gold] from all [Barracks] buildings <when not at war>",
+		"[+1 Food] from all [Barracks] buildings <when not at war>",
+		"[+1 Happiness] from all [Barracks] buildings <when not at war>",
+		"[+2 Gold] from all [Army Barracks] buildings <when not at war>",
+		"[+2 Production] from all [Cavalry Barracks] buildings <when not at war>",
+		"[+2 Food] from all [Skirmisher Barracks] buildings <when not at war>",
+                    "[+1 Production] from every [Muster Field]",
+                    "[+1 Happiness] [in capital]",
+                     "No Maintenance costs for improvements in [Open terrain] tiles",
+                    "Provides [10] [Manpower]",
                 ],
-                "row": 2,
-                "column": 5
+                "row": 3,
+                "column": 1
             },
             {
-                "name": "Mass Culture",
+                "name": "War Economy",
+                "requires": ["Law of the Ruler","Urbanization","Provincial Roads"],
                 "uniques": [
-                    "Influence of all other civilizations with all city-states degrades [25]% faster <if no other Civilization has adopted this>",
-                    "Comment [Reduces the Production and Food penalty in Cities with a Courthouse]"
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
+		"[+3 Gold] from all [Barracks] buildings <when at war>",
+		"[+1 Food] from all [Barracks] buildings <when at war>",
+		"[+1 Happiness] from all [Barracks] buildings <when at war>",
+		"[+3 Gold] from all [Army Barracks] buildings <when at war>",
+		"[+3 Production] from all [Cavalry Barracks] buildings <when at war>",
+		"[+3 Food] from all [Skirmisher Barracks] buildings <when at war>",
+		"[+1 Gold] from all [Market] buildings <when at war>",
+    		    "Only available <before adopting [Imperial Garrisons]>",
                 ],
-                "requires": ["Marriage Alliance","Imperial Garrisons","Mercenary Scholars"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "Ruler Cult",
-                "requires": ["Mass Culture","Imperial Army","Urbanization"],
+                "name": "Total War",
+                "requires": ["War Economy"],
                 "uniques": [
-                    "Free [Great Prophet] appears",
-                    "[+2 Faith] from [Luxury resource] tiles [in capital]",
-                    "[+1 Faith] from [Luxury resource] tiles [in all cities]",
+                    "Free [General] appears",
                     "[+1 Happiness] [in capital]",
+                    "Provides [1] [Veteran]",
                     "Comment [Enables Royal Phalanx]","Provides [1] [Enable Royal Phalanx] <hidden from users>",
+		"[+1 Production] from all [Barracks] buildings <when at war>",
+                 "[+15]% Production when constructing [Military] units [in all cities]",
+		"[+10]% Strength <when defending> <for [All] units> <when fighting in [Enemy Land] tiles>",
+		"[+10]% Strength <for [Siege] units> <when fighting in [Enemy Land] tiles>",
+		"[+10]% Strength <for [Mounted] units> <when fighting in [Enemy Land] tiles>",
+       		 "New [Military] units start with [5] XP [in all cities]",
                 ],
                 "row": 3,
                 "column": 3
             },
             {
                 "name": "Official Dogma",
-                "requires": ["Ruler Cult"],
                 "uniques": [
                     "[+25]% [Gold] [in capital]",
-                    "Free [Great Prophet] appears",
-                    "[+1 Happiness] [in capital]"
+                    "Free [General] appears",
+                    "[+1 Happiness] [in capital]",
+                    "Provides [1] [Veteran]",
+    		    "Only available <after adopting [Total War]>",
+    		    "Only available <after adopting [Civil Administration]>",
                 ],
                 "row": 4,
-                "column": 3
+                "column": 2
             },
             {
-                "name": "Centralization Complete",
+                "name": "Standardization",
                 "uniques": [
+                    "[+25]% [Gold] [in capital]",
                     "[+1 Happiness] [in capital]",
-                    "[+20]% Strength <for [Spear] units> <when adjacent to a [Spear] unit>",
-                    "Provides [10] [Manpower]",
-                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
-                    "Can spend Gold to annex or puppet a City-State that has been your Ally for [30] turns",
+		"[+1 Production] from all [Market] buildings",
+		"[+1 Gold] from all [Market] buildings",
+    		    "Only available <after adopting [Total War]>",
+    		    "Only available <after adopting [Civil Administration]>",
+                ],
+                "row": 4,
+                "column": 4
+            },
+            {
+                "name": "Empire Complete",
+                "uniques": [
                 ]
             }
         ]
     },
     {
-        "name": "Land Reform",
+        "name": "Theocracy",
         "era": "Hellenistic Age",
         "priorities": {
             "Neutral": 0,
             "Cultural": 50,
-            "Domination": 50
+            "Domination": 50,
         },
         "uniques": [
-            "[+2 Happiness] [in all cities]",
-            "[+1 Happiness] [in capital]"
+            "[+1 Happiness] [in all cities]",
+            "[+1 Happiness] [in capital]",
+            "Only available <before adopting [Federation]>",
+            "Only available <before adopting [Empire]>",
         ],
         "policies": [
             {
-                "name": "Free Speech",
-                "requires": ["Extended Citizenship"],
+                "name": "Divine Mandate",
                 "uniques": [
-                    "[+1 Culture] per [5] population [in all cities]",
+                    "[+1 Faith] per [10] population [in all cities]",
+                    "[+1 Faith] per [5] population [in capital]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Clergy Authority",
+                "uniques": [
+                    "[+10]% Production when constructing [Civilian] units [in all cities]",
+                    "[+15]% Production when constructing [Scout] units [in all cities]",
+                    "[+1 Happiness] per [5] population [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Religious Law",
+                "uniques": [
+                    "[+1 Production] per [10] population [in all cities]",
+                    "Free [Great Prophet] appears",
                     "[+1 Happiness] [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Zealotry",
+                "requires": ["Divine Mandate","Clergy Authority","Religious Law"],
+                "uniques": [
+                    "Comment [Lose 2 Nobles]",
+                    "Remove [Noble District] [in all cities]",
+                    "[+10]% City-State Influence degradation",
+                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
+                    "[+1 Happiness] [in capital]",
+    		    "Only available <before adopting [Slave Liberation]>",
                 ],
                 "row": 2,
                 "column": 1
             },
             {
-                "name": "Extended Citizenship",
+                "name": "War Priests",
+                "requires": ["Zealotry"],
                 "uniques": [
-                    "[+10]% Production when constructing [Military] units [in all cities]",
-                    "[+1 Happiness] per [5] population [in all cities]",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Military Drills",
-                "requires": ["Extended Citizenship"],
-                "uniques": [
-                    "[+1] Movement <for [Military] units> <in [Friendly Land] tiles>",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "Social Revolution",
-                "requires": ["Military Drills"],
-                "uniques": [
-                    "Comment [Lose 2 Nobles]"
-                    "Remove [Noble District] [in all cities]",
-                    "[+10]% City-State Influence degradation",
-                    "[+2 Happiness] [in all cities]",
-                    "[+1 Happiness] [in capital]"
+                    "[+15]% Production when constructing [Military] units [in all cities]"
+		"Comment [All units nearby Prophet gain extra strength]",
+                    "Free [Great Prophet] appears",
+                    "[Scout] units gain the [Berserker] promotion",
                 ],
                 "row": 3,
-                "column": 3
+                "column": 1
             },
             {
-                "name": "Land Redistribution",
-                "requires": ["Social Revolution"],
+                "name": "Slave Liberation",
+                "requires": ["Divine Mandate","Clergy Authority","Religious Law"],
                 "uniques": [
+                    "Remove [Slave Trader] [in all cities]",
+                    "[+15]% City-State Influence degradation",
+                    "[+1 Happiness] per [10] population [in all cities]",
+                    "[+1 Happiness] [in capital]",
+                    "[-20]% maintenance costs <for [Spear] units>",
+                    "[-20]% maintenance costs <for [Archery] units>",
+                    "[-20]% maintenance costs <for [Scout] units>",
+    		    "Only available <before adopting [Zealotry]>",
+                ],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Faithful Unity",
+                "requires": ["Slave Liberation"],
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Scout] units>",
+                    "[+1 Happiness] [in capital]",
                     "[-25]% Unhappiness from [Population] [in all cities]"
                     "[+1 Food] from every [Farm]",
                     "[-1 Gold] from every [Farm]",
                     "[+1 Food] from every [Pasture]",
                     "[+1 Food] from every [Plantation]",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "row": 4,
-                "column": 3
-            },
-            {
-                "name": "Constitutional Reform",
-                "uniques": [
-                    "[-15]% Culture cost of adopting new Policies",
-                    "[+1 Happiness] [in capital]"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "Slave Liberation",
-                "requires": ["Constitutional Reform","Extended Citizenship"],
-                "uniques": [
-                    "Remove [Slave Trader] [in all cities]",
-                    "[+15]% City-State Influence degradation",
-                    "[+2 Happiness] per [5] population [in all cities]",
-                    "[+1 Happiness] [in capital]",
-                    "[-20]% maintenance costs <for [Spear] units>",
-                    "[-20]% maintenance costs <for [Archery] units>",
-                    "[-20]% maintenance costs <for [Scout] units>",
-                ],
-                "row": 2,
-                "column": 5
-            },
-            {
-                "name": "Heliopolitans",
-                "requires": ["Military Drills","Slave Liberation"],
-                "uniques": [
-                    "[Scout] units gain the [Shock I] promotion",
-                    "[+1 Happiness] [in capital]",
                 ],
                 "row": 3,
                 "column": 5
             },
             {
-                "name": "Land Reform Complete",
+                "name": "Keeper of Traditions",
                 "uniques": [
-                    "May buy [General] units for [5000] [Gold] [Capital] at an increasing price ([1000])",
-                    "[+1 Happiness] [in capital]",     
-                    "Provides [4] [Manpower]", 
-     		 "Provides [1] [Veteran]",
+                    "[+1 Happiness] [in capital]"
+		"Comment [All units adjacent Prophet heal extra HP when healing]",
+		    "Only available <after adopting [Faithful Unity]>",
+		    "Only available <after adopting [War Priests]>",
+                    "[+20]% XP gained from combat <for [Military] units>",
+                ],
+                "row": 4,
+                "column": 4
+            },
+            {
+                "name": "Seal of Heaven",
+                "uniques": [
+                    "[+1 Happiness] [in capital]",
+		"May buy [Military] units with [Faith] for [2] times their normal Production cost",
+		    "Only available <after adopting [Faithful Unity]>",
+		    "Only available <after adopting [War Priests]>",
+		"[+15]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
+                    "Free [Great Prophet] appears",
+                ],
+                "row": 4,
+                "column": 2
+            },
+            {
+                "name": "Theocracy Complete",
+                "uniques": [
                 ]
             }
         ]

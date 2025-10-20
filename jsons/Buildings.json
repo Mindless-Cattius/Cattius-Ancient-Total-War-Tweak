@@ -741,7 +741,6 @@
 		"Provides [2] [Decadence]",
 		"Consumes [2] [Manpower]",
 		"[Gold] cost of purchasing [Civilian] units [-50]%","Limited to [1] per Civilization"
-		"[-10 Happiness] <after adopting [Land Reform]>",
 		"Unbuildable <after adopting [Slave Liberation]>",
 		"Destroyed when the city is captured"
 		],
@@ -756,10 +755,10 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"[+1 Happiness] from [Marble] tiles [in this city]","[+1 Happiness] from [Gold Ore] tiles [in this city]","[+1 Happiness] from [Purple Dye] tiles [in this city]",
-		"[-8 Happiness] <after adopting [Land Reform]>",
-		"[+5 Culture] <after adopting [Land Reform]>",
-		"[+4 Gold] <after adopting [Land Reform]>",
-		"Unbuildable <after adopting [Social Revolution]>",
+		"[-8 Happiness] <after adopting [Seal of Heaven]>",
+		"[+5 Culture] <after adopting [Seal of Heaven]>",
+		"[+4 Gold] <after adopting [Seal of Heaven]>",
+		"Unbuildable <after adopting [Seal of Heaven]>",
 		],
 		"requiredTech": "Private Estates"
 	},
@@ -773,6 +772,8 @@
 		"specialistSlots": {"Priest": 3},
 		"uniques": [
 		"Provides [2] [Decadence]",
+		"[+4 Production] <after adopting [Seal of Heaven]>",
+		"[+1 Gold] <after adopting [Seal of Heaven]>",
 		"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
 		"Destroyed when the city is captured"
 		],
@@ -1794,6 +1795,7 @@
 		"uniques": [ 
 		"Destroyed when the city is captured",
       		"Only available <after adopting [Hellenic Culture]> <hidden from users>",
+      "Only available <in cities with a [Scenario]>",
 		]
 	},
 	{
@@ -1803,6 +1805,7 @@
 		"uniques": [ 
 		"Destroyed when the city is captured",
       		"Only available <after adopting [Celtic Culture]> <hidden from users>",
+      "Only available <in cities with a [Scenario]>",
 		]
 	},
 ]
