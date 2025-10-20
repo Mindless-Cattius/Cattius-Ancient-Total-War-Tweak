@@ -495,7 +495,8 @@
 		"requiredBuilding": "Market",
 		"requiredNearbyImprovedResources": ["Wheat"],
 		"hurryCostModifier": 25,
-		"cost": 70,
+		"cost": 100,
+		"gold": 1,
 		"maintenance": 0,
 		"uniques": ["[+1 Gold] from [Wheat] tiles [in this city]"],
 		"requiredTech": "Barter"
@@ -533,7 +534,7 @@
 		"maintenance": 2,
 		"uniques": [
 		"Provides [1] [Ceramics]",
-		"[+5]% Production when constructing [All] buildings [in this city]"
+		"[+5]% Production when constructing [All] buildings [in this city]",
 		"[+1 Gold] <in cities with a [Olive Mill]>",
 		],
 		"requiredTech": "Barter"
@@ -550,6 +551,7 @@
 		"uniques": [
 		"Gain [10]-[50] [Gold]",
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
+		"[+1 Gold] <in cities with a [Olive Mill]>",
 		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
 		"[+1 Gold] <in cities with a [Mint]>",
 		"[+1 Gold] <in cities with a [Grain Exports]>",

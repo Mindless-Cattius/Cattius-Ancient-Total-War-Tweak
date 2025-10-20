@@ -575,7 +575,7 @@
         "name": "Papal Primacy",
         "type": "Founder",
         "uniques": ["Resting point for Influence with City-States following this religion [+50]",
-		"[+1 Faith] from every [Citizen Assembly] <in cities with at least [10] [Followers of this Religion]>"]
+		"[+1 Faith] from every [Citizen Assembly] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
         "name": "Peace Loving",
@@ -641,7 +641,7 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+50]% Natural religion spread [in all cities]"] //34?
+        "uniques": ["[+50]% Natural religion spread [in all cities]"]
     },
     {
         "name": "Religious Unity",
@@ -651,7 +651,7 @@
     {
         "name": "Reliquary",
         "type": "Enhancer",
-		"uniques": ["Gain [350] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>"],
+		"uniques": ["Gain [400] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>"],
     }
     {
         "name": "Zealot Warriors",
@@ -663,14 +663,15 @@
         "name": “Sacred Citadels",
         "type": "Enhancer",
 		"uniques": ["[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-        "[+10]% Strength for cities <when defending>",
+        "[+15]% Strength for cities <when defending>",
 	],
     }
     {
         "name": “Scripture Keepers",
         "type": "Enhancer",
 		"uniques": [
-	"[+30]% Natural religion spread [in all cities]",
+	"[+25]% Natural religion spread [in all cities]",
+	"Religion naturally spreads to cities [+1] tiles away"
 	],
     }
 ]
