@@ -332,7 +332,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"culture": 2,
-		"happiness": 3,
+		"happiness": 2,
 		"greatPersonPoints": {"General":1},		
 		"requiredTech": "Entertainment",
 		"uniques": ["Provides [1] [Decadence]"],
@@ -361,9 +361,9 @@
 		"hurryCostModifier": 25,
 		"cost": 100,
 		"maintenance": 0,
-		"happiness": 2,
+		"happiness": 1,
 		"uniques": [
-		"[+1 Gold] from [Wine] tiles [in this city]",
+		"[+1 Happiness, +1 Gold] from [Wine] tiles [in this city]",
 		"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
 		"[+1 Gold] from [Camp] tiles [in this city]",
 		"[+1 Food] from [Pasture] tiles [in this city]",
@@ -908,7 +908,7 @@
 		"requiredBuilding": "Muster Field",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"happiness": 2,
+		"happiness": 1,
 		"cityHealth": 30,
 		"uniques": [
 		"Provides [3] [Manpower]",
@@ -1077,7 +1077,6 @@
 		"name": "Stone Works",
 		"hurryCostModifier": 0,
 		"maintenance": 1,
-		"happiness": 2,
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"uniques": [
 			"[+10]% Production when constructing [All] buildings [in this city]",
@@ -1136,7 +1135,7 @@
 		"requiredNearbyImprovedResources": ["Marble","Stone"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"happiness": 3,
+		"happiness": 2,
 		"culture": 1,
 		"uniques": [
 		"Provides [1] [Decadence]",

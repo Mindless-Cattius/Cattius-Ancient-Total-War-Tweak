@@ -242,7 +242,7 @@
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
-      "Only available <in cities with a [Archery Range]>",
+      "Only available <in cities with a [Barracks]>",
 	"Comment [-Light slinger, good at countering ranged units.]",
       "Only available <with [Enable Slinger]> <hidden from users>"
     ],
@@ -307,7 +307,7 @@
     "uniques": [
       "Consumes [1] [Manpower]",
       "Can move after attacking",
-      "Only available <in cities with a [Archery Range]>",
+      "Only available <in cities with a [Barracks]>",
 	"Comment [-Light archer of the Belgae, skilled in forest warfare and mobile skirmishing.]"
     ],
     "promotions": [
@@ -328,7 +328,7 @@
     "requiredTech": "Archery",
     "uniques": [
       "Consumes [1] [Manpower]",
-      "Only available <in cities with a [Archery Range]>",
+      "Only available <in cities with a [Barracks]>",
       "Can move immediately once bought",
 	"Comment [-Light slinger unit, equipted with iron darts.]"
     ],
