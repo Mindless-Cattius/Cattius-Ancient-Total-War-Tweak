@@ -74,7 +74,7 @@
         "Rebel units may spawn <when below [500] [Happiness]>",
 // Events
 
-        "Free [Scout] appears <when between [1] and [10] [Happiness]> <upon founding a city>",
+        "Free [Skirmisher] appears <when between [1] and [10] [Happiness]> <upon founding a city>",
         "Free [Spearman] appears <when between [11] and [99999] [Happiness]> <upon founding a city>",
 // Decadence & Great People
         "Provides [1] [Manpower] <when below [0] [Decadence]> <for [Major] Civilizations>",
@@ -108,8 +108,7 @@
         "[Great Merchant] is earned [+5]% faster <when above [20] [Decadence]>",
         "[Great Merchant] is earned [+5]% faster <when above [25] [Decadence]>",
 
-        "May not generate great prophet equivalents naturally <before adopting [Centralization]>",
-        "[Great Prophet] is earned [-90]% faster <before adopting [Centralization]>",
+        "[Great Prophet] is earned [-90]% faster <before adopting [Divine Mandate]>",
         "[Great Prophet] is earned [+5]% faster <when above [2] [Decadence]>",
         "[Great Prophet] is earned [+5]% faster <when above [5] [Decadence]>",
         "[Great Prophet] is earned [+5]% faster <when above [10] [Decadence]>",
