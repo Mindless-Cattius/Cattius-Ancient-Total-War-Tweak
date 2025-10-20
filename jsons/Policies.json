@@ -1550,6 +1550,8 @@
             "[+2 Happiness] [in all cities]",
             "[+1 Happiness] [in capital]"
             "Provides [3] [Manpower]",
+            "Only available <before adopting [Theocracy]>",
+            "Only available <before adopting [Empire]>",
         ],
         "policies": [
             {
@@ -1696,9 +1698,10 @@
             "[+2 Happiness] from every [World Wonder]",
             "[+2 Happiness] from every [National Wonder]",
             "[+2 Happiness] from every [Natural Wonder]",
-            "[+1 Happiness] [in capital]"
+            "[+1 Happiness] [in capital]",
             "Provides [4] [Manpower]",
-
+            "Only available <before adopting [Federation]>",
+            "Only available <before adopting [Theocracy]>",
         ],
         "policies": [
             {
