@@ -81,6 +81,13 @@ TileSets/HexaRealm/Tiles/Latin Village
   orig: 81, 80
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Village-Imperial Age2
+  rotate: false
+  xy: 4, 171
+  size: 81, 80
+  orig: 81, 80
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/City Center-Roman-Classical Age
   rotate: false
   xy: 270, 170
@@ -214,6 +221,13 @@ TileSets/HexaRealm/Tiles/City center-Thracian
   orig: 80, 80
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Village-Hellenistic Age
+  rotate: false
+  xy: 622, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/City center-Celtic-Imperial Age
   rotate: false
   xy: 710, 171
@@ -257,6 +271,13 @@ TileSets/HexaRealm/Tiles/City center-Eastern-Classical Age
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Punic-Classical Age
+  rotate: false
+  xy: 886, 171
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Village-Imperial Age
   rotate: false
   xy: 886, 171
   size: 80, 80

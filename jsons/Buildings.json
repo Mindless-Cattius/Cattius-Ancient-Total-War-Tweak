@@ -19,6 +19,8 @@
 		"Provides [2] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [3] [Manpower] <during the [Imperial Age]>",
 		"Provides [3] [Manpower]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Culture] from [Village] tiles [in this city]",
 		"Doubles Gold given to enemy if city is captured",
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
@@ -48,6 +50,8 @@
 		"[+1 Gold] per every [100] [Culture]",
 		"[+1 Culture] per [10] population [in this city]",
 		"[+1 Happiness] per [10] population [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Food] from [Village] tiles [in this city]",
 		"Provides [5] [Manpower] <during the [Classical Age]>",
 		"Provides [10] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [15] [Manpower] <during the [Imperial Age]>",
@@ -77,6 +81,8 @@
 		"Provides [3] [Manpower] <during the [Imperial Age]>",
 		"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
 		"Provides [1] [Manpower] <in cities with at least [15] [Population]>",
+		"[+1 Production] from [Fort] tiles [in this city]",
+		"[-1 Food] from [Village] tiles [in this city]",
 		]
 	},
 	{
@@ -152,7 +158,9 @@
 		"cityHealth": 10,
 		"uniques": [
 		"[+1 Science] from [Herbs] tiles [in this city]",
-		"[+10]% growth [in this city]"
+		"[+10]% growth [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Science] from [Village] tiles [in this city]",
 		],
 
 		"requiredTech": "Mythology",
@@ -407,6 +415,7 @@
 		"[+1 Gold] per [10] population [in this city]",
 		"[+1 Science] <in cities with a [Scriptorium]>",
 		"[+1 Science] <in cities with a [Parchmentry]>",
+		"[+1 Food] <in cities with a [Herbalist]>",
 		"Consumes [1] [Decadence] <in cities with a [School]> <while the empire is happy>"
 		],
 		"requiredTech": "Philosophy"
@@ -579,6 +588,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Gain [100]-[300] [Gold]",
+		"[+1 Gold] per [8] population [in this city]",
 		"[+2 Gold] from [Trading post] tiles [in this city]",
 		"[+2 Gold] from [Village] tiles [in this city]",
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
