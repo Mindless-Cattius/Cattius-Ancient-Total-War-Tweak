@@ -150,7 +150,7 @@
                     "Only available <after adopting [Eastern Culture]> <hidden from users>",
                     "[1] free [Great Scholar] units appear",
                     "[+1 Happiness] [in capital]",
-                    "[+100]% Production when constructing [Market] buildings [in all cities]",
+                    "[+50]% Production when constructing [Market] buildings [in all cities]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
@@ -678,7 +678,7 @@
                 "name": "Soter",
                 "civilopediaText": [{"text": "Soter was a common hellenestic royal epithet meaning The Savior. Most famous of the saviours was Ptolemy I."}],
                 "uniques": [
-                    "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+                    "Earn [50]% of killed [Barbarian] unit's [Strength] as [Culture]",
                     "Notified of new Barbarian encampments",
                     "[+33]% Strength <vs [Barbarian] units>",
                     "[+1 Happiness] [in capital]",

@@ -278,6 +278,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
 		"uniques": [
 			"Great Improvement",
+			"Cannot be built on [resource] tiles"
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+150 Gold]",
 			"Tile provides yield without assigned population",

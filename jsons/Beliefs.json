@@ -443,7 +443,7 @@
     {
         "name": "Asceticism",
         "type": "Follower",
-//        "uniques": ["[+2 Happiness] from every [Shrine] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+2 Happiness] from every [Shrine] <in cities with at least [5] [Followers of this Religion]>"]
     },
     {
         "name": "Cathedrals",
@@ -466,7 +466,7 @@
     {
         "name": "Feed the World",
         "type": "Follower",
-//        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
+        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
     },
     {
         "name": "Guruship",
