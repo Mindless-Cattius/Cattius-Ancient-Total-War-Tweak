@@ -5,10 +5,12 @@
     "movement": 2,
     "uniques": [
 	"[+50]% Gold cost of upgrading",
-"[+1] Movement <after discovering [Mass Production]>",
-      "Limited to [10] per Civilization",
-      "Can build [Land] improvements on tiles","Can upgrade to [Skirmisher] <after discovering [Imperial Military Doctrine]>",
-      "Automation is a primary action",
+	"[+1] Movement <after discovering [Mass Production]>",
+      	"Limited to [10] per Civilization",
+      	"Can build [Land] improvements on tiles",
+	"Can upgrade to [Skirmisher] <after discovering [Imperial Military Doctrine]>",
+	"Can upgrade to [Spearman] <after adopting [Total War]>",
+      	"Automation is a primary action",
 	"Comment [-Typical peasant unit, good at building empires and being slaves.]"
     ],
     "cost": 60
@@ -933,12 +935,12 @@
     "strength": 16,
     "cost": 180,
     "uniques": [
-	      "Can build [All Road] improvements on tiles",
-      "Consumes [3] [Manpower]",
-      "Only available <in cities with a [Barracks]>",
-      "Can upgrade to [Legion] <after discovering [Infantry Training]>",
-      "Unbuildable <after discovering [Infantry Training]>",
-      "Comment [-Heavy infantry, can build road, good at taking other people's land]",
+	      	"Can build [All Road] improvements on tiles",
+      		"Consumes [3] [Manpower]",
+      		"Only available <in cities with a [Barracks]>",
+      		"Can upgrade to [Legion] <after discovering [Infantry Training]>",
+      		"Unbuildable <after discovering [Infantry Training]>",
+      		"Comment [-Heavy infantry, can build road, good at taking other people's land]",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -1620,8 +1622,8 @@
     "unitType": "Civilian",
     "uniques": [
       "Empire enters a [10]-turn Golden Age <by consuming this unit>",
-      "[This Unit] takes [200] damage <upon ending a turn in a [All] tile> <for [AI player] Civilizations> <hidden from users>",
       "Great Person - [Culture]",
+	"Can instantly construct a [Village] improvement <[3] times> <after which this unit is consumed>",
       "Unbuildable",
       "Uncapturable"
     ],
@@ -1633,7 +1635,7 @@
     "uniques": [
       "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "Free Great Person <by consuming this unit>",
-      "[This Unit] takes [200] damage <upon ending a turn in a [All] tile> <for [AI player] Civilizations> <hidden from users>",
+	"Can instantly construct a [Village] improvement <[2] times> <after which this unit is consumed>",
       "Great Person - [Libertinage]",
       "Unbuildable",
       "Uncapturable"
@@ -1644,16 +1646,13 @@
     "name": "Great Orator",
     "unitType": "Civilian",
     "uniques": [
-      "Empire enters a [10]-turn Golden Age <by consuming this unit>",
-      "Free Social Policy <by consuming this unit>",
-      "[This Unit] takes [200] damage <upon ending a turn in a [All] tile> <for [AI player] Civilizations> <hidden from users>",
-      "Great Person - [Propagandhi]",
-      "Unbuildable",
-      "Uncapturable"
-    ],
-    "promotions": [
-      "Ignore terrain cost"
-    ],
+      	"Empire enters a [10]-turn Golden Age <by consuming this unit>",
+      	"Free Social Policy <by consuming this unit>",
+	"Can instantly construct a [Village] improvement <[2] times> <after which this unit is consumed>",
+      	"Great Person - [Propagandhi]",
+      	"Unbuildable",
+      	"Uncapturable"
+],
     "movement": 3
   },
   {
@@ -1664,10 +1663,10 @@
       "[1] free random researchable Tech(s) from the [Archaic Age] <by consuming this unit> <during the [Archaic Age]>",
       "[1] free random researchable Tech(s) from the [Classical Age] <by consuming this unit> <during the [Classical Age]>",
       "[1] free random researchable Tech(s) from the [Hellenistic Age] <by consuming this unit> <during the [Hellenistic Age]>",
-      "[This Unit] takes [200] damage <upon ending a turn in a [All] tile> <for [AI player] Civilizations> <hidden from users>",
       "Great Person - [Science]",
-      "Unbuildable",
-      "Uncapturable"
+	"Can instantly construct a [Village] improvement  <[2] times> <after which this unit is consumed>",
+      	"Unbuildable",
+      	"Uncapturable"
     ],
     "movement": 3
   },
@@ -1675,14 +1674,14 @@
     "name": "Great Merchant",
     "unitType": "Civilian",
     "uniques": [
-      "Empire enters a [12]-turn Golden Age <by consuming this unit>",
-      "Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
-      "[This Unit] takes [200] damage <upon ending a turn in a [All] tile> <for [AI player] Civilizations> <hidden from users>",
-      "Cannot enter ocean tiles <before discovering [Agriculture]>",
-      "[+100]% Strength <when defending> <when [Embarked]>",
-      "Great Person - [Gold]",
-      "Unbuildable",
-      "Uncapturable"
+      	"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+     	"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+      	"Cannot enter ocean tiles <before discovering [Agriculture]>",
+     	"[+100]% Strength <when defending> <when [Embarked]>",
+	"Can instantly construct a [Trading post] improvement <[1] times> <after which this unit is consumed>",
+      	"Great Person - [Gold]",
+      	"Unbuildable",
+      	"Uncapturable"
     ],
     "movement": 4
   },
@@ -1692,8 +1691,8 @@
     "uniques": [
       "Empire enters a [12]-turn Golden Age <by consuming this unit> <if it hasn't used other actions yet>",
       "Can speed up construction of a building <if it hasn't used other actions yet>",
-      "Founds a new city <[3] times> <after which this unit is consumed>",
-      "[+15]% Strength bonus for [Siege] units within [2] tiles",
+	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
+      "[+10]% Strength bonus for [Siege] units within [2] tiles",
       "Great Person - [Production]",
       "Unbuildable",
       "Uncapturable"
@@ -1704,19 +1703,19 @@
     "name": "Great Prophet",
     "unitType": "Civilian",
     "uniques": [
-      "Can Spread Religion <for [1] movement> <[4] times> <after which this unit is consumed>",
-      "Removes other religions when spreading religion",
-      "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
-      "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+      	"Takes your religion over the one in their birth city",
+      	"Removes other religions when spreading religion",
+      	"Can Spread Religion <for [1] movement> <[4] times> <after which this unit is consumed>",
 	"May enter foreign tiles without open borders",
-      "[-1] Sight",
-      "Great Person - [Faith]",
-      "Unbuildable",
-      "Religious Unit",
-      "Only available <when religion is enabled>",
-      "Takes your religion over the one in their birth city",
 	"[+20]% Strength bonus for [Military] units within [1] tiles <after adopting [War Priests]>",
-	"All adjacent units heal [+2] HP when healing <after adopting [Keeper of Traditions]>"
+	"All adjacent units heal [+2] HP when healing <after adopting [Keeper of Traditions]>",
+      	"[-1] Sight",
+      	"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+      	"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+      	"Great Person - [Faith]",
+      	"Unbuildable",
+      	"Religious Unit",
+     	"Only available <when religion is enabled>",
     ],
     "movement": 4,
     "religiousStrength": 1000
@@ -1729,11 +1728,12 @@
     "cost": 1000,
     "requiredTech": "Infantry Training",
     "uniques": [
-      "Only available <in cities with a [Army Barracks]>",
-      "Consumes [1] [Nobles]",
-      "Never appears as a Barbarian unit",
-      "Great Person - [War]",
-	"Comment [-Battlefield commander, give bounus to nearby units]",
+      		"Only available <in cities with a [Army Barracks]>",
+		"Can instantly construct a [Fort] improvement <[1] times> <after which this unit is consumed>",
+      		"Consumes [1] [Nobles]",
+      		"Never appears as a Barbarian unit",
+      		"Great Person - [War]",
+		"Comment [-Battlefield commander, give bounus to nearby units]",
     ],
     "promotions": [
       "[Horseman] ability",

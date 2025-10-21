@@ -205,8 +205,6 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"Removes extra unhappiness from annexed cities",
-		"[-15]% [Production] <in this city> <before adopting [Mass Culture]>",
-		"[-15]% [Food] <in this city> <before adopting [Mass Culture]>",
 		"[-10]% [Production] <in this city> <in cities without a [Colony]>",
 		"[-10]% [Food] <in this city> <in cities without a [Colony]>",
 		"Can only be built <in [Annexed] cities>",
@@ -405,8 +403,10 @@
 		"culture": 1,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
-		"[+1 Science] per [2] population [in this city]",
+		"[+1 Science] per [3] population [in this city]",
 		"[+1 Gold] per [10] population [in this city]",
+		"[+1 Science] <in cities with a [Scriptorium]>",
+		"[+1 Science] <in cities with a [Parchmentry]>",
 		"Consumes [1] [Decadence] <in cities with a [School]> <while the empire is happy>"
 		],
 		"requiredTech": "Philosophy"
@@ -550,7 +550,10 @@
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Gain [10]-[50] [Gold]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Gold] from [Village] tiles [in this city]",
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
+		"[+1 Gold] <in cities with a [Arena]>",
 		"[+1 Gold] <in cities with a [Olive Mill]>",
 		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
 		"[+1 Gold] <in cities with a [Mint]>",
@@ -559,6 +562,7 @@
 		"[+1 Gold] <in cities with a [Jeweler]>",
 		"[+1 Gold] <in cities with a [Weavery]>",
 		"[+2 Gold] <in cities with a [Goldsmith]>",
+		"[+2 Gold] <in cities with a [Tar Workshop]>",
 		"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
 		],
 		"requiredTech": "Currency"
@@ -575,8 +579,11 @@
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Gain [100]-[300] [Gold]",
-		"[+1 Gold] from [Improvement] tiles [in this city]",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[+2 Gold] from [Village] tiles [in this city]",
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
+		"[+1 Gold] <in cities with a [Arena]>",
+		"[+1 Gold] <in cities with a [Olive Mill]>",
 		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
 		"[+1 Gold] <in cities with a [Mint]>",
 		"[+1 Gold] <in cities with a [Grain Exports]>",
@@ -584,7 +591,6 @@
 		"[+1 Gold] <in cities with a [Jeweler]>",
 		"[+1 Gold] <in cities with a [Weavery]>",
 		"[+2 Gold] <in cities with a [Goldsmith]>",
-		"[+1 Gold] per [10] population [in this city]",
 		"Remove [Market] [in this city]",
 		],
 		"requiredTech": "Trade Routes"
@@ -604,9 +610,18 @@
 		"Gain [10]-[100] [Gold]",
 		"Provides [1] [Silphium]",
 		"Provides [1] [Decadence]",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[+2 Gold] from [Village] tiles [in this city]",
 		"[+1 Gold] <in cities with a [Cattle Trader]>",
+		"[+1 Gold] <in cities with a [Arena]>",
+		"[+1 Gold] <in cities with a [Olive Mill]>",
 		"[+1 Gold] <in cities with a [Ceramics Workshop]>",
-		"[+2 Gold] <in cities with a [Grain Exports]>",
+		"[+1 Gold] <in cities with a [Mint]>",
+		"[+1 Gold] <in cities with a [Grain Exports]>",
+		"[+1 Gold] <in cities with a [Brick Maker]>",
+		"[+1 Gold] <in cities with a [Jeweler]>",
+		"[+1 Gold] <in cities with a [Weavery]>",
+		"[+2 Gold] <in cities with a [Goldsmith]>",
 		"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
@@ -621,6 +636,9 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"Consumes [1] [Copper]",
+		"[+1 Production] from [Fort] tiles [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Production] from [Village] tiles [in this city]",
 		"[Gold] cost of purchasing items in cities [-10]%",
 		"[+3 Gold] from [Gold Ore] tiles [in this city]", 
 		"[+2 Gold] from [Silver] tiles [in this city]",
@@ -641,6 +659,8 @@
 		"Limited to [2] per Civilization <during the [Hellenistic Age]>",
 		"Limited to [3] per Civilization <during the [Imperial Age]>",
 		"Limited to [4] per Civilization <during the [Imperial Age]> <after adopting [Mercenary Reform]>",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[-1 Happiness] from [Village] tiles [in this city]",
 		"Provides [1] [Mercenary (Celtic)]",
 		"Provides [1] [Mercenary (Eastern)]",
 		"Provides [1] [Mercenary (Germanic)]",
@@ -665,7 +685,9 @@
 		"[+1 Gold] from [Sheep] tiles [in this city]","[+1 Gold] from [Flax] tiles [in this city]",
 		"[+1 Gold] from [Hemp] tiles [in this city]","[+2 Gold] from [Cotton] tiles [in this city]",
 		"[+2 Gold] from [Dyes] tiles [in this city]","[+2 Gold] from [Purple Dye] tiles [in this city]",
-		"[+2 Gold] <in cities with a [Silk Road]>"
+		"[+2 Gold] <in cities with a [Silk Road]>",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -681,7 +703,9 @@
 		"Provides [1] [Spices]","Provides [1] [Decadence]",
 		"Must be on [Desert]",
 		"Only available <after adopting [Eastern Culture]>",
-		"Never destroyed when the city is captured"
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -690,14 +714,16 @@
 		"requiredBuilding": "Market",
 		"hurryCostModifier": 35,
 		"happiness": 1,
-		"gold": 4,
+		"gold": 3,
 		"cost": 170,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		"Provides [1] [Silk]","Provides [1] [Decadence]",
 		"Must not be on [Desert]",
 		"Only available <after adopting [Eastern Culture]>",
-		"Never destroyed when the city is captured"
+		"Never destroyed when the city is captured",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Science] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -711,7 +737,9 @@
 		"uniques": [
 		"Provides [1] [Amber]",
 		"Only available <after adopting [Germanic Culture]>",
-		"Never destroyed when the city is captured"
+		"Never destroyed when the city is captured",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -728,7 +756,10 @@
 		"Provides [2] [Decadence]",
 		"[+1 Gold] <in cities with a [Market]>",
 		"Doubles Gold given to enemy if city is captured"
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Culture] from [Village] tiles [in this city]",
+		"[+1 Production] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Tax Farming"
 	},
@@ -744,7 +775,9 @@
 		"Consumes [2] [Manpower]",
 		"[Gold] cost of purchasing [Civilian] units [-50]%","Limited to [1] per Civilization"
 		"Unbuildable <after adopting [Slave Liberation]>",
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[-1 Happiness] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Private Estates"
 	},
@@ -761,6 +794,10 @@
 		"[+5 Culture] <after adopting [Seal of Heaven]>",
 		"[+4 Gold] <after adopting [Seal of Heaven]>",
 		"Unbuildable <after adopting [Seal of Heaven]>",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[-1 Happiness] from [Village] tiles [in this city]",
+		"[+1 Food] from [Trading post] tiles [in this city]",
+		"[+1 Production] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Private Estates"
 	},
@@ -777,7 +814,12 @@
 		"[+4 Production] <after adopting [Seal of Heaven]>",
 		"[+1 Gold] <after adopting [Seal of Heaven]>",
 		"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>",
-		"Destroyed when the city is captured"
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[-1 Production] from [Trading post] tiles [in this city]",
+		"[+1 Food] from [Village] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[+1 Faith] from [Village] tiles [in this city]",
+		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Aesthetics",
 		"isNationalWonder": true
@@ -794,7 +836,12 @@
 		"Provides [2] [Manpower] <while the empire is happy>","Provides [1] [Horses]",
 		"Only available <after adopting [Eastern Culture]>","Must not be on [Desert]",
 		"[+2 Food] from [Pasture] tiles [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
-		"Never destroyed when the city is captured"
+		"Never destroyed when the city is captured",
+		"[+3 Gold] from [Trading post] tiles [in this city]",
+		"[-1 Food] from [Village] tiles [in this city]",
+		"[-1 Food] from [Fort] tiles [in this city]",
+		"[+1 Production] from [Fort] tiles [in this city]",
+		"[+1 Happiness] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Animal Husbandry"
 	},
@@ -806,8 +853,9 @@
 		"happiness": 1,
 		"food": 2,
 		"production": 1,
-		"uniques": ["Must be on [River]"],
-		"requiredTech": "The Wheel"
+		"uniques": ["Must be on [River]",
+			"[+1 Food] from [Village] tiles [in this city]"],
+		"requiredTech": "The Wheel",
 	},
 	// Riding
 	{
@@ -822,6 +870,9 @@
 		"[+10]% Production when constructing [Mounted] units [in this city]",
 		"[+1 Production] from [Horses] tiles [in this city]",
 		"[+1 Food] from [Horses] tiles [in this city] <for [The Scythians] Civilizations>",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Culture] from [Fort] tiles [in this city]",
+		"[+1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Riding"
 	},
@@ -835,7 +886,10 @@
 		"Comment [Has cultural requirements]","Only available <with [Enable War Elephant]> <hidden from users>",
 		"[+1 Production] from [Ivory] tiles [in this city]"
 		"New [Elephant] units start with [10] XP [in this city]",
-		"Provides [1] [Elephants]"
+		"Provides [1] [Elephants]",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Culture] from [Fort] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Riding"
 	},
@@ -855,7 +909,9 @@
 		"New [Cavalry] units start with [5] XP [in this city]",
 		"Only available <in cities without a [Army Barracks]>",
 		"Only available <in cities without a [Skirmisher Barracks]>",
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured",
+		"[+1 Production] from [Fort] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Equestrian Class"
 	},
@@ -873,6 +929,9 @@
 		"New [Spearman] units start with [5] XP [in this city]",
 		"Destroyed when the city is captured",
 		"[+2 Food] [in this city] <for [The Scythians] Civilizations>",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Culture] from [Fort] tiles [in this city]",
+		"[+1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Land Grants"
 	},
@@ -885,7 +944,10 @@
 		"happiness": 1,
 		"uniques": [
 		"Comment [+1 Food from non-fresh water Farm tiles in this city]",
-		"[30]% Food is carried over after population increases [in this city]"
+		"[30]% Food is carried over after population increases [in this city]",
+		"[+1 Food] from [Village] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[+1 Culture] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Public Works"
 	},
@@ -898,7 +960,8 @@
 		"happiness": 1,
 		"food": 2,
 		"uniques": [
-		"[+1 Food] from [Wheat] tiles [in this city]"
+		"[+1 Food] from [Wheat] tiles [in this city]",
+		"[+1 Food] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Supply Logistics"
 	},
@@ -929,7 +992,6 @@
 		"Provides [1] [Manpower] <during the [Imperial Age]>",
 		"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 		"New [Spear] units start with [10] XP [in this city]",
-		"Unbuildable <in cities with a [Courthouse]> <before adopting [Land Reform]>",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Citizen Levy"
@@ -942,7 +1004,8 @@
 		"culture": 2,
 		"specialistSlots": {"Magistrate": 1},
 		"uniques": [
-		"Consumes [2] [Decadence] <in cities with a [Citizen Assembly]> <while the empire is happy>"
+		"Consumes [2] [Decadence] <in cities with a [Citizen Assembly]> <while the empire is happy>",
+		"[+1 Happiness] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Citizen Levy"
 	},
@@ -964,7 +1027,10 @@
 		"New [Sword] units start with [5] XP [in this city]",
 		"Only available <in cities without a [Cavalry Barracks]>",
 		"Only available <in cities without a [Skirmisher Barracks]>",
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[+1 Production] from [Fort] tiles [in this city]",
+		"[-1 Food] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Infantry Training"
 	},
@@ -994,10 +1060,10 @@
 		"requiredTech": "Metallurgy",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [ 
-  "[Military] units gain the [Improved Equipment] promotion",
-  "All newly-trained [Military] units [in all cities] receive the [Improved Equipment] promotion",
-		"[+1 Production] from [Iron] tiles [in this city]",
-		"Destroyed when the city is captured"
+  			"[Military] units gain the [Improved Equipment] promotion",
+  			"All newly-trained [Military] units [in all cities] receive the [Improved Equipment] promotion",
+			"[+1 Production] from [Iron] tiles [in this city]",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -1009,6 +1075,9 @@
 		"[+3 Gold] from [Gems] tiles [in this city]",	
 		"[+2 Gold] from [Gold Ore] tiles [in this city]",
 		"[+1 Gold] from [Silver] tiles [in this city]",
+		"[+3 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[-1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Metallurgy"
 	},
@@ -1025,6 +1094,9 @@
 		"[+3 Gold] from [Gold Ore] tiles [in this city]"
 		"[+1 Gold] from [Silver] tiles [in this city]",
 		"[+3 Gold] from [Gems] tiles [in this city]",
+		"[+3 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[-1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Metallurgy"
 	},
@@ -1041,7 +1113,9 @@
 		"Consumes [2] [Copper]",
 		"[+2 Gold] from [Tin] tiles [in this city]",
 		"[+1 Gold] from [Copper] tiles [in this city]",
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Bronze Working"
 	},
@@ -1054,7 +1128,10 @@
 		"cityStrength": 12,
 		"cityHealth": 80,
 		"uniques": [
-		"Consumes [2] [Manpower]"
+		"Consumes [2] [Manpower]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[-1 Food] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Masonry",
 	},
@@ -1069,7 +1146,10 @@
 		"cityStrength": 15,
 		"cityHealth": 100,
 		"uniques": [
-		"Consumes [1] [Manpower]"
+		"Consumes [1] [Manpower]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[-1 Food] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Masonry",
 	},
@@ -1080,7 +1160,9 @@
 		"requiredNearbyImprovedResources": ["Marble", "Stone"],
 		"uniques": [
 			"[+10]% Production when constructing [All] buildings [in this city]",
-			"[+1 Happiness] from [Marble] tiles [in this city]"
+			"[+1 Happiness] from [Marble] tiles [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Masonry"
 	},
@@ -1095,7 +1177,10 @@
 		"uniques": [
 		"Consumes [1] [Manpower]",
 		"Must be on [Hill]",
-		"Destroyed when the city is captured"
+		"Destroyed when the city is captured",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Production] from [Village] tiles [in this city]",
+		"[-1 Food] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Masonry"
 	},
@@ -1111,7 +1196,10 @@
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
 		"Provides [1] [Decadence]",
-		"[+1 Happiness] from [Marble] tiles [in this city]","[+1 Happiness] from [Ivory] tiles [in this city]"
+		"[+1 Happiness] from [Marble] tiles [in this city]","[+1 Happiness] from [Ivory] tiles [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Gold] from [Village] tiles [in this city]",
+		"[+1 Culture] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Construction"
 	},
@@ -1126,6 +1214,9 @@
 		"cityHealth": 20,
 		"uniques": [
 		"Provides [1] [Manpower]",
+		"[+2 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Happiness] from [Village] tiles [in this city]",
+		"[+1 Food] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Construction"
 	},
@@ -1140,7 +1231,10 @@
 		"uniques": [
 		"Provides [1] [Decadence]",
 		"[+1 Culture] from [Marble] tiles [in this city]",
-		"Doubles Gold given to enemy if city is captured"
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Culture] from [Village] tiles [in this city]",
+		"[-1 Food] from [Village] tiles [in this city]",
+		"Doubles Gold given to enemy if city is captured",
 		],
 		"requiredTech": "Construction"
 	},
@@ -1153,6 +1247,13 @@
 		"happiness": 3,
 		"culture": 1,
 		"food": 1,
+		"uniques": [
+		"[+1 Culture] from [Marble] tiles [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+2 Culture] from [Village] tiles [in this city]",
+		"[-1 Food] from [Village] tiles [in this city]",
+		"Doubles Gold given to enemy if city is captured",
+		],
 		"requiredTech": "Construction"
 	},
 	// Mass Production
@@ -1164,8 +1265,14 @@
 		"specialistSlots": {"Engineer": 2},
 		"isNationalWonder": true,
 		"uniques": [
-		"[+1 Production] from [Iron] tiles [in this city]"
-		"Destroyed when the city is captured"
+			"[+1 Production] from [Iron] tiles [in this city]"
+			"Destroyed when the city is captured"
+			"Provides [1] [Decadence]",
+			"[+1 Culture] from [Iron] tiles [in this city]",
+			"[+2 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
+			"[+1 Food] from [Village] tiles [in this city]",
+			"[+1 Production] from [Fort] tiles [in this city]",
 		],
 		"requiredTech": "Mass Production"
 	},
@@ -1177,13 +1284,15 @@
 		"cost": 40,
 		"maintenance": 0,
 		"uniques": [
-		"Provides [1] [Manpower] <while the empire is happy>",
-		"New [Archery] units start with [5] XP [in this city]",
-		"[+20]% Production when constructing [Archery Range] buildings [in this city]",
-		"[+1 Food] from [Deer] tiles [in this city]",
-		"[+3 Gold] from [Furs] tiles [in this city]",
-		"[+2 Food] from [Deer] tiles [in this city] <for [The Scythians] Civilizations>",
-		"[+1 Food] [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>"
+			"Provides [1] [Manpower] <while the empire is happy>",
+			"New [Archery] units start with [5] XP [in this city]",
+			"[+20]% Production when constructing [Archery Range] buildings [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+3 Gold] from [Furs] tiles [in this city]",
+			"[+2 Food] from [Deer] tiles [in this city] <for [The Scythians] Civilizations>",
+			"[+1 Food] [in this city] <for [The Scythians] Civilizations> <before the [Imperial Age]>",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Food] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Forestry"
 	},
@@ -1211,7 +1320,9 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 5},
 		"uniques": [
-		"[+1 Production] from [Timber] tiles [in this city]"
+			"[+1 Production] from [Timber] tiles [in this city]"
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Gold] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Engineering"
 	},
@@ -1230,6 +1341,9 @@
 		"New [Spearman] units start with [5] XP [in this city]",
 		"Only available <in cities without a [Cavalry Barracks]>",
 		"Only available <in cities without a [Army Barracks]>",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"[-1 Food] from [Village] tiles [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Engineering"
@@ -1246,6 +1360,8 @@
 		"Cost": 800,
 		"uniques": [
 		"Consumes [2] [Manpower]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
 		],
 		"requiredTech": "Torsion Engines",
 	},
@@ -1261,7 +1377,8 @@
 		"uniques": [
 		"Only available <in cities without a [Harbor]> <hidden from users>","Only available <in cities without a [Great Harbor]> <hidden from users>",
 		"Requires at least [2] population",
-		"Must be next to [Coast]"
+		"Must be next to [Coast]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
 		],
 		"requiredTech": "Fishing"
 	},
@@ -1272,7 +1389,10 @@
 		"maintenance": 0,
 		"food": 1,
 		"cityHealth": 15,
-		"uniques": ["Must be next to [Fresh water]"],
+		"uniques": [
+			"Must be next to [Fresh water]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+],
 		"requiredTech": "Fishing"
 	},
 	// Woodworking
@@ -1283,9 +1403,13 @@
 		"maintenance": 0,
 		"production": 2,
 		"uniques": [
-		"[+1 Production] from [Timber] tiles [in this city]",
-		"[+1 Production] from [Olives] tiles [in this city]",
-		"[+5]% [Production] <in this city> <in cities with a [Bronze Works]>","[+5]% [Production] <in this city> <in cities with a [Forge]>","[+5]% [Production] <in this city> <in cities with a [Ironworks]>",
+			"[+1 Production] from [Timber] tiles [in this city]",
+			"[+1 Production] from [Olives] tiles [in this city]",
+			"[+5]% [Production] <in this city> <in cities with a [Bronze Works]>",
+			"[+5]% [Production] <in this city> <in cities with a [Forge]>",
+			"[+5]% [Production] <in this city> <in cities with a [Ironworks]>",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Woodworking"
 	},
@@ -1301,15 +1425,17 @@
 		"cityHealth": 20,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
-		"Consumes [1] [Manpower]",
-		"[+1 Gold] <in cities with a [Market]>",
-		"[+1 Gold] <in cities with a [Garum Shop]>",
-		"Remove [Anchorage] [in this city]",
-		"Only available <in cities without a [Great Harbor]> <hidden from users>",
-		"[+1 Gold] from [Water resource] tiles [in this city]",
-		"Connects trade routes over water",
-		"Requires at least [5] population",
-		"Must be next to [Coast]"
+			"Consumes [1] [Manpower]",
+			"[+1 Gold] <in cities with a [Market]>",
+			"[+1 Gold] <in cities with a [Garum Shop]>",
+			"[+2 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Food] from [Village] tiles [in this city]",
+			"[+1 Gold] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water",
+			"Requires at least [5] population",
+			"Must be next to [Coast]",
+			"Remove [Anchorage] [in this city]",
+			"Only available <in cities without a [Great Harbor]> <hidden from users>",
 		],
 		"requiredTech": "Shipbuilding"
 	},
@@ -1318,11 +1444,13 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"uniques": [
-		"Consumes [2] [Manpower]",
-		"[Water] Units adjacent to this city heal [20] HP per turn when healing",
-		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
-		"[+15]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
-		"Must be next to [Coast]"
+			"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
+			"[Water] Units adjacent to this city heal [20] HP per turn when healing",
+			"[+15]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[-1 Food] from [Village] tiles [in this city]",
+			"Consumes [2] [Manpower]",
+			"Must be next to [Coast]"
 		],
 		"requiredTech": "Shipbuilding"
 	},
@@ -1337,11 +1465,13 @@
 		"science": 1,
 		"happiness": 2,
 		"uniques": [
-		"New [{Military} {Water}] units start with [15] XP [in this city]",
-		"[Water] Units adjacent to this city heal [25] HP per turn when healing",
-		"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
-		"[+10]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
-		"Must be next to [Coast]"
+			"New [{Military} {Water}] units start with [15] XP [in this city]",
+			"[Water] Units adjacent to this city heal [25] HP per turn when healing",
+			"All newly-trained [Water] units [in this city] receive the [Supply] promotion <in cities with a [Tar Workshop]>",
+			"[+10]% Production when constructing [Water] units [in this city] <in cities with a [Weavery]>",
+			"Must be next to [Coast]",
+			"[+2 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Shipbuilding"
 	},
@@ -1354,7 +1484,7 @@
 		"cityStrength": 2,
 		"requiredNearbyImprovedResources": ["Tar"],
 		"uniques": [
-		"[+1 Production] from [Tar] tiles [in this city]",
+			"[+1 Production] from [Tar] tiles [in this city]",
 		],
 		"requiredTech": "Optics"
 	},
@@ -1390,14 +1520,16 @@
 		"cityHealth": 35,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
-		"Consumes [2] [Manpower]",
-		"[+1 Gold] <in cities with a [Market]>",
-		"[+1 Gold] <in cities with a [Garum Shop]>",
-		"[+1 Gold] from [Water resource] tiles [in this city]",
-		"Connects trade routes over water",
-		"Requires at least [15] population",
-		"Must be next to [Coast]",
-		"Remove [Harbor] [in this city]",
+			"[+1 Gold] <in cities with a [Market]>",
+			"[+1 Gold] <in cities with a [Garum Shop]>",
+			"[+1 Gold] from [Water resource] tiles [in this city]",
+			"[+2 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
+			"Consumes [2] [Manpower]",
+			"Connects trade routes over water",
+			"Requires at least [15] population",
+			"Must be next to [Coast]",
+			"Remove [Harbor] [in this city]",
 		],
 		"requiredTech": "Naval Artillery"
 	},
@@ -1440,11 +1572,11 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": [
-		"Provides [4] [Copper]",
-		"[+25]% Production when constructing [Bronze Works] buildings [in all cities]",
-		"Can only be built <in [Capital] cities>",
-		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured",
+			"Provides [4] [Copper]",
+			"[+25]% Production when constructing [Bronze Works] buildings [in all cities]",
+			"Can only be built <in [Capital] cities>",
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Bronze Working"
 	},
@@ -1627,7 +1759,14 @@
 		"culture": 3,
 		"happiness": 2,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+		"uniques": [
+			"[+1 Faith] from [Village] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
+			"Consumes [1] [Manpower]",
+ 			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
 	},
 	{
 		"name": "Monastery",
@@ -1635,9 +1774,16 @@
 		"culture": 3,
 		"faith": 3,
 		"science": 1,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
+			"[+1 Faith] from [Village] tiles [in this city]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"Consumes [1] [Manpower]",
+ 			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
 	},
 	{
 		"name": "Mosque",
@@ -1645,7 +1791,13 @@
 		"culture": 3,
 		"faith": 4,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+		"uniques": [
+			"[+2 Faith] from [Village] tiles [in this city]",
+			"Consumes [1] [Manpower]",
+ 			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
 	},
 	{
 		"name": "Pagoda",
@@ -1653,7 +1805,14 @@
 		"culture": 3,
 		"faith": 1,
 		"happiness": 3,
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
+		"uniques": [
+			"[+1 Faith] from [Village] tiles [in this city]",
+			"[+1 Food] from [Village] tiles [in this city]",
+			"Consumes [1] [Manpower]",
+ 			"Only available <when religion is enabled>",
+			"Unbuildable",
+			"Destroyed when the city is captured"
+]
 	},
 	{
 		"name": "Ballistics Range",
@@ -1681,10 +1840,13 @@
 		"cityStrength": 5,
 		"cityHealth": 20,
 		"uniques": [
-		"New [Military] units start with [5] XP [in this city]",
-		"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
-		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured",
+			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
+			"New [Military] units start with [5] XP [in this city]",
+			"[+1 Happiness] from [Village] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
+			"[-1 Food] from [Village] tiles [in this city]",
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured",
 		],
 		"requiredTech": "Imperial Military Doctrine"
 	},
@@ -1713,11 +1875,12 @@
 		"culture": 1,
 		"cityHealth": 5,
 		"uniques": [
-		"Provides [1] [Mercenary (Celtic)]",
-		"[+5]% Production when constructing [Sword] units [in this city]",
-		"Provides [2] [Manpower]",
-		"Only available <after adopting [Naked Fanatics]>","Must not be on [Desert]",
-		"Never destroyed when the city is captured"
+			"Provides [1] [Mercenary (Celtic)]",
+			"[+5]% Production when constructing [Sword] units [in this city]",
+			"Provides [2] [Manpower]",
+			"Only available <after adopting [Naked Fanatics]>","Must not be on [Desert]",
+			"Never destroyed when the city is captured",
+			"[+1 Faith] from [Village] tiles [in this city]",
 		],
 		"requiredTech": "Forestry"
 	},
@@ -1778,6 +1941,8 @@
 		"gold": 2,
 		"uniques": [ 
                    	"[Camel Archer] units gain the [Camels Scare Horses] promotion",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Production] from [Village] tiles [in this city]",
 		]
 		"requiredTech": "Barter"
 	},

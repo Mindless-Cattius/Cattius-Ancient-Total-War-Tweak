@@ -580,7 +580,7 @@
 		"uniques": [
     		"[+20]% Yield from pillaging tiles",
  		"[+10]% Strength <when fighting in [Foreign Land] tiles>"],
-		"unitTypes": ["Sword","Spear","Mounted","Scout"],
+		"unitTypes": ["Sword","Spear","Mounted","Scout","Mounted Archery"],
         "column": 25,
         "row": 2
 	},
@@ -628,18 +628,18 @@
 	{
 		"name": "[Archer] ability",
 		"uniques": [
-		"[+10]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"[+10]% Strength <vs [Mounted] units> <when attacking>",
+		"[+10]% Strength <when attacking> <vs [Mounted] units>",
+		"[+10]% Strength <when attacking> <vs [Ambush I] units>",
+		"[+10]% Strength <when defending> <when fighting in [Hill] tiles> <when defending>",
 		"Withdraws before melee combat <with [10]% chance>",
-		"[+10]% Strength <vs [Ambush I] units> <when attacking>",
 		]
 	},
 	{
 		"name": "[Slinger] ability",
 		"uniques": [
-		"[+10]% Strength <vs [Archery] units> <when attacking>",
-		"[+10]% Strength <vs [Mounted Archery] units> <when attacking>",
-		"[+10]% Strength <when fighting in [Hill] tiles> <when defending>",
+		"[+10]% Strength <when attacking> <vs [Archery] units>",
+		"[+10]% Strength <when attacking> <vs [Mounted Archery] units>",
+		"[+10]% Strength <when defending> <when fighting in [Hill] tiles>",
 		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
@@ -655,22 +655,22 @@
 		"name": "[Pike Phalanx] ability",
 		"uniques": [
 		"[+50]% Strength <vs [Mounted] units>",
+		"[+30]% Strength <vs [Elephant] units>",
 		"[+50]% Strength <when defending> <vs [Melee] units>",
 		"[-20]% Strength <when defending> <vs [Ranged] units>",
 		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
-		"[+30]% Strength <vs [Elephant] units>",
 		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
 	{
 		"name": "[Royal Phalanx] ability",
 		"uniques": [
-		"[+60]% Strength <vs [Mounted] units>",
-		"[+50]% Strength <when defending> <vs [Melee] units>",
 		"[+10]% Strength <vs cities>",
+		"[+60]% Strength <vs [Mounted] units>",
+		"[+30]% Strength <vs [Elephant] units>",
+		"[+50]% Strength <when defending> <vs [Melee] units>",
 		"[-20]% Strength <when defending> <vs [Ranged] units>",
 		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
-		"[+30]% Strength <vs [Elephant] units>",
 		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
@@ -678,29 +678,29 @@
 		"name": "[Horseman] ability",
 		"uniques": [
 		"Ignores terrain cost",
-		"[-40]% Strength <vs cities> <when attacking>",
 		"[+20]% to Flank Attack bonuses",
-		"[+20]% Strength <vs [Wounded] units> <when attacking>",
-		"[-10]% Strength <when fighting in [Hill] tiles> <when defending>",
-		"Withdraws before melee combat <with [35]% chance>",
+		"[-40]% Strength <when attacking> <vs cities>",
+		"[+20]% Strength <when attacking> <vs [Wounded] units>",
+		"[-10]% Strength <when defending> <when fighting in [Hill] tiles>",
 		"No defensive terrain bonus",
+		"Withdraws before melee combat <with [35]% chance>",
 		]
 	},
 	{
 		"name": "[Camel Archer] ability",
 		"uniques": [
-		"[+40]% Strength <when fighting in [Desert] tiles> <when defending>",
+		"[+40]% Strength <when defending> <when fighting in [Desert] tiles>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [20]% chance>",
-		"Withdraws before melee combat <with [+20]% chance> <when fighting in [Desert] tiles>",
+		"Withdraws before melee combat <with [40]% chance> <when fighting in [Desert] tiles>",
 		]
 	},
 	{
 		"name": "Chariot ability",
 		"uniques": [
+		"[-20]% Strength <when attacking> <vs cities>",
 		"[+20]% Strength <when fighting in [Desert] tiles>",
 		"[+20]% Strength <when fighting in [Open terrain] tiles>",
-		"[-20]% Strength <vs cities> <when attacking>",
 		"[-30]% Strength <when fighting in [Rough terrain] tiles>",
 		"No defensive terrain bonus", 
 		"Withdraws before melee combat <with [15]% chance>"
@@ -709,12 +709,12 @@
 	{
 		"name": "[Cavalry] ability",
 		"uniques": [
-		"[-30]% Strength <vs cities> <when attacking>",
-		"[+20]% Strength <vs [Archery] units> <when attacking>",
-		"[+30]% Strength <vs [Scout] units> <when attacking>",
-		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
-		"[+10]% Strength <vs [Wounded] units> <when attacking>",
 		"[+10]% to Flank Attack bonuses",
+		"[-30]% Strength <when attacking> <vs cities>",
+		"[+20]% Strength <when attacking> <vs [Archery] units>",
+		"[+30]% Strength <when attacking> <vs [Scout] units>",
+		"[+10]% Strength <when attacking> <vs [Wounded] units>",
+		"[-15]% Strength <when fighting in [Rough terrain] tiles>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [20]% chance>",
 		]
@@ -722,13 +722,13 @@
 	{
 		"name": "[Cataphract] ability",
 		"uniques": [
-		"[-20]% Strength <vs cities> <when attacking>",
-		"[+20]% Strength <vs [Archery] units> <when defending>",
-		"[+70]% Strength <vs [Archery] units> <when attacking>",
-		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
 		"[+20]% to Flank Attack bonuses",
-                "[+10]% Strength <for [Cataphract] units> <when defending> <for [The Romans] Civilizations> <hidden from users>",
-                "[-15]% Strength <for [Cataphract] units> <when attacking> <for [The Romans] Civilizations> <hidden from users>",
+		"[-20]% Strength <when attacking> <vs cities>",
+		"[+20]% Strength <when defending> <vs [Archery] units>",
+		"[+70]% Strength <when attacking> <vs [Archery] units>",
+		"[-20]% Strength <when fighting in [Rough terrain] tiles>",
+                "[+10]% Strength <when defending> <for [The Romans] Civilizations>",
+                "[-15]% Strength <when attacking> <for [The Romans] Civilizations>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [5]% chance>",
 		]
@@ -739,8 +739,8 @@
 		"No defensive terrain bonus", 
 		"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
 		"[+30]% Strength <vs [Mounted] units>",
-		"[+25]% Strength <vs [Sword] units> <when defending>",
-		"[-10]% Strength <vs [Archery] units> <when defending>"
+		"[+25]% Strength <when defending> <vs [Sword] units>",
+		"[-10]% Strength <when defending> <vs [Archery] units>"
 		"Withdraws before melee combat <with [5]% chance>",
 		]
 	},
@@ -755,55 +755,55 @@
 		"name": "Infantry Shield I",
 		"uniques": [
 		"[+15]% Strength <vs [Ranged] units>",
-		"[+20]% Strength <vs cities> <when defending>",
+		"[+20]% Strength <when defending> <vs cities>",
 		"Withdraws before melee combat <with [3]% chance>",
 		]
 	},
 	{
 		"name": "Infantry Shield II",
 		"uniques": [
-		"[+25]% Strength <vs [Ranged] units> <when defending>",
-		"[+35]% Strength <vs cities> <when defending>",
+		"[+25]% Strength <when defending> <vs [Ranged] units>",
+		"[+35]% Strength <when defending> <vs cities>",
 		"Withdraws before melee combat <with [2]% chance>",
 		]
 	},
 	{
 		"name": "Infantry Shield III",
 		"uniques": [
-		"[+35]% Strength <vs [Ranged] units> <when defending>",
-		"[+40]% Strength <vs cities> <when defending>",
+		"[+35]% Strength <when defending> <vs [Ranged] units>",
+		"[+40]% Strength <when defending> <vs cities>",
 		"Withdraws before melee combat <with [1]% chance>",
 		]
 	},
 	{
 		"name": "Cavalry Shield I",
 		"uniques": [
-		"[+20]% Strength <vs [Ranged] units> <when defending>",
+		"[+20]% Strength <when defending> <vs [Ranged] units>",
 		"[+20]% Strength <vs cities> <when defending>"
 		]
 	},
 	{
 		"name": "Cavalry Shield II",
 		"uniques": [
-		"[+25]% Strength <vs [Ranged] units> <when defending>",
-		"[+30]% Strength <vs cities> <when defending>"
+		"[+25]% Strength <when defending> <vs [Ranged] units>",
+		"[+30]% Strength <when defending> <vs cities>"
 		]
 	},
 	{
 		"name": "Armored Lancer",
 		"uniques": [
 		"[+20]% Strength <vs [Ranged] units>",
-		"[+30]% Strength <vs cities> <when defending>",
-		"[+30]% Strength <vs [Melee] units> <when attacking>",
+		"[+30]% Strength <when defending> <vs cities>",
+		"[+30]% Strength <when attacking> <vs [Melee] units>",
 		"Withdraws before melee combat <with [10]% chance>",
 		]
 	},
 	{
 		"name": "Lancer",
 		"uniques": [
-		"[-20]% Strength <vs [Ranged] units> <when defending>",
-		"[+20]% Strength <vs [Ranged] units> <when attacking>",
-		"[+30]% Strength <vs [Melee] units> <when attacking>",
+		"[-20]% Strength <when defending> <vs [Ranged] units>",
+		"[+20]% Strength <when attacking> <vs [Ranged] units>",
+		"[+30]% Strength <when attacking> <vs [Melee] units>",
 		"Withdraws before melee combat <with [15]% chance>",
 		]
 	},
@@ -857,8 +857,8 @@
 		"uniques": [
 		"[+25]% Strength <vs [Sword] units>",
 		"[+25]% Strength <vs [Spear] units>",
-		"[+35]% Strength <when attacking>"
-		"[-20]% Strength <when defending> <vs [Archery] units>"
+		"[+35]% Strength <when attacking>",
+		"[-20]% Strength <when defending> <vs [Archery] units>",
 		]
 	},
 	{
@@ -874,9 +874,9 @@
 	{
 		"name": "[Falxman] ability",
 		"uniques": [
-		"[+80]% Strength <vs [Sword] units> <when attacking>",
-		"[+30]% Strength <vs [Sword] units> <when defending>",
-		"[-10]% Strength <when defending> <vs [Archery] units>"
+		"[+80]% Strength <when attacking> <vs [Sword] units>",
+		"[+30]% Strength <when defending> <vs [Sword] units>",
+		"[-10]% Strength <when defending> <vs [Archery] units>",
 		]
 	},
 	{
@@ -947,7 +947,7 @@
 		"name": "Ignore terrain cost",
 		"unitTypes": ["Mounted","Mounted Archery","Archery","King"],
 		"prerequisites": ["Scouting II", "Positioning II","Amphibious II"],
-		"uniques": ["Ignores terrain cost","[+10]% Strength <when defending>"]
+		"uniques": ["Ignores terrain cost","[+5]% Strength <when defending>"]
         "column": 9,
 	"row": 6
 	},

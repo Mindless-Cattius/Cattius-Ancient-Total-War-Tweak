@@ -17,15 +17,6 @@
 	]		
 		"shortcutKey": "F",
 	},
-//	{
-//		"name": "Trading post",
-//		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-//		"gold": 2,
-//		"turnsToBuild": 4,
-//		"techRequired": "Colonization",
-//		"uniques": ["[+1 Gold] <after discovering [Centralization]>", "Pillaging this improvement yields approximately [+30 Gold]"],
-//		"shortcutKey": "T"
-//	},
 
 	// Resource-specific
 	{
@@ -120,11 +111,12 @@
 		"name": "Fort",
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unbuildable",
+		"uniques": [
 		 "Costs [10] [Gold] per turn when in your territory",
 		"Gives a defensive bonus of [25]%",
 		"Pillaging this improvement yields approximately [+100 Gold]",
-		"Removes removable features when built","Unbuildable"
+		"Removes removable features when built",	
+		"Unbuildable <for [Worker] units>"
 		],
 		"shortcutKey": "O"
 	},
@@ -228,6 +220,17 @@
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+50 Gold]"]
 	},
 	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+		"gold": 2,
+		"turnsToBuild": 4,
+		"uniques": [
+			"[+1 Gold] <after discovering [Exploration]>",
+			 "Pillaging this improvement yields approximately [+100 Gold]",
+			"Unbuildable <for [Worker] units>"],
+		"shortcutKey": "T"
+	},
+	{
 		"name": "Holy site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
@@ -268,17 +271,17 @@
 
 	{
 		"name": "Village",
-		"turnsToBuild": 15,
+		"turnsToBuild": 10,
 		"gold": 2,
 		"food": 2,
 		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
 		"uniques": [
 			"Great Improvement",
 			"Removes removable features when built",
-			"Unbuildable",
-			"Pillaging this improvement yields approximately [+100 Gold]",
+			"Pillaging this improvement yields approximately [+150 Gold]",
 			"Tile provides yield without assigned population",
+			"Unbuildable <for [Worker] units>"
 		]
 	},
 	{
