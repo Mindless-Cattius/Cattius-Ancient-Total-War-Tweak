@@ -1611,7 +1611,6 @@
                     	"[-30]% City-State Influence degradation",
                     	"[+1 Gold, +1 Happiness] from every [Citizen Assembly]",
                         "[+20]% Production when constructing [Military] units [in all cities] <when not at war>",
-                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [30] turns",
 			"[+20]% Production when constructing [Market] buildings [in all cities]",
                     	"[-20]% Unhappiness from [Population] [in all cities]"
                 ],
@@ -1677,11 +1676,28 @@
 			"[+20]% Production when constructing [Walls] buildings [in all cities]",
     		    	"Only available <after adopting [Council of War]>",
     		    	"Only available <after adopting [Confederation Reform]>",
-                    	"[-10]% Unhappiness from [Population] [in all cities]"
+                    	"[-10]% Unhappiness from [Population] [in all cities]",
+                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [30] turns",
                 ],
 
                 "row": 4,
                 "column": 4
+            },
+            {
+                "name": "Concordia Pactum",
+                "requires": ["United Front","Commerce Centers"],
+                "uniques": [
+                    	"[+1 Happiness] [in capital]",
+			"May buy [Military] units with [Faith] for [2] times their normal Production cost",
+			"[+15]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
+              		"[-20]% maintenance costs <for [Spear] units> <in [Enemy Land] tiles>",
+                  	 "[+1 Happiness] [in annexed cities] <in cities with a [Temple]>",
+			"Comment [-Teach the peasants how to hold the pointy stick in the time of need]",
+     		 	"[+1] Movement <for [Military] units> <in [Enemy Land] tiles> <after adopting [Council of War]>",
+			"[+5]% growth [in all cities] <after adopting [Confederation Reform]>",
+                ],
+                "row": 4,
+                "column": 3
             },
             {
                 "name": "Federation Complete",
@@ -1764,18 +1780,18 @@
                 "name": "Civil Administration",
                 "requires": ["Imperial Garrisons"],
                 "uniques": [
-		"[Gold] cost of purchasing [Military] units [-20]% <when not at war>",
-                     "No Maintenance costs for improvements in [Open terrain] tiles",
-                    "[+1 Happiness] from every [Army Barracks]",
-                    "[+1 Happiness] from every [Cavalry Barracks]",
-                    "[+1 Happiness] from every [Skirmisher Barracks]",
-                    "[+1 Happiness] [in capital]",
-		"[+1 Happiness, +1 Food, +2 Gold] from all [Barracks] buildings <when not at war>",
-		"[+2 Gold] from all [Army Barracks] buildings <when not at war>",
-		"[+2 Food] from all [Skirmisher Barracks] buildings <when not at war>",
-		"[+2 Production] from all [Cavalry Barracks] buildings <when not at war>",
-                    "[+1 Production] from every [Muster Field]",
-                    "Provides [10] [Manpower]",
+			"[Gold] cost of purchasing [Military] units [-20]% <when not at war>",
+                     	"No Maintenance costs for improvements in [Open terrain] tiles",
+                   	 "[+1 Happiness] from every [Army Barracks]",
+                    	"[+1 Happiness] from every [Cavalry Barracks]",
+                    	"[+1 Happiness] from every [Skirmisher Barracks]",
+                    	"[+1 Happiness] [in capital]",
+			"[+1 Happiness, +1 Food, +2 Gold] from all [Barracks] buildings <when not at war>",
+			"[+2 Gold] from all [Army Barracks] buildings <when not at war>",
+			"[+2 Food] from all [Skirmisher Barracks] buildings <when not at war>",
+			"[+2 Production] from all [Cavalry Barracks] buildings <when not at war>",
+                    	"[+1 Production] from every [Muster Field]",
+                    	"Provides [10] [Manpower]",
                 ],
                 "row": 3,
                 "column": 1
@@ -1810,6 +1826,7 @@
 			"[+10]% Strength <when defending> <for [All] units> <when fighting in [Enemy Land] tiles>",
 			"[+10]% Strength <for [Siege] units> <when fighting in [Enemy Land] tiles>",
 			"[+10]% Strength <for [Mounted] units> <when fighting in [Enemy Land] tiles>",
+			"Comment [-Teach peasant the way of the true war crimes]",
                 ],
                 "row": 3,
                 "column": 5
@@ -1817,31 +1834,46 @@
             {
                 "name": "Official Dogma",
                 "uniques": [
-			"[Gold] cost of purchasing [Sword] units [-10]%",
 			"[Gold] cost of purchasing [Spear] units [-15]%",
-                    "[+10]% [Gold] [in capital]",
-                    "Free [General] appears",
-                    "[+1 Happiness] [in capital]",
-                    "Provides [1] [Veteran]",
-    		    "Only available <after adopting [Total War]>",
-    		    "Only available <after adopting [Civil Administration]>",
+                    	"[+10]% [Gold] [in capital]",
+                    	"Free [General] appears",
+                    	"[+1 Happiness] [in capital]",
+                    	"Provides [1] [Veteran]",
+    		    	"Only available <after adopting [Total War]>",
+    		    	"Only available <after adopting [Civil Administration]>",
+                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [40] turns",
                 ],
                 "row": 4,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "Standardization",
                 "uniques": [
-                    "[+15]% [Gold] [in capital]",
-                    "[+1 Happiness] [in capital]",
-		"[+1 Production] from all [Market] buildings",
-		"[+1 Gold] from all [Market] buildings",
-    		    "Only available <after adopting [Total War]>",
-    		    "Only available <after adopting [Civil Administration]>",
-                    "[-10]% Unhappiness from [Population] [in all cities]"
+                    	"[+15]% [Gold] [in capital]",
+                    	"[+1 Happiness] [in capital]",
+			"[+1 Production] from all [Market] buildings",
+			"[+1 Gold] from all [Market] buildings",
+    		    	"Only available <after adopting [Total War]>",
+                    	"[-10]% Unhappiness from [Population] [in all cities]",
+    		    	"Only available <after adopting [Civil Administration]>",
                 ],
                 "row": 4,
-                "column": 4
+                "column": 5
+            },
+            {
+                "name": "Imperial Doctrine",
+                "requires": ["Standardization","Official Dogma"],
+                "uniques": [
+                    	"[+5]% [Production] [in capital]",
+       		 	"New [Sword] units start with [5] XP [in all cities]",
+			"[Gold] cost of purchasing [Sword] units [-10]%",
+			"[+10]% Strength <for [Sword] units> <when fighting in [Friendly Land] tiles>",
+                  	 "[+2 Happiness] [in annexed cities] <in cities with a [Barracks]>",
+                    	"[+5]% [Gold] [in all cities] <after adopting [Civil Administration]>",
+                    	"Provides [2] [Veteran] <after adopting [Total War]>",
+	],
+                "row": 4,
+                "column": 3
             },
             {
                 "name": "Empire Complete",
@@ -1921,7 +1953,7 @@
 			"Comment [All units nearby Prophet gain extra strength]",
                     	"Free [Great Prophet] appears",
                     	"[Scout] units gain the [Berserker] promotion",
-			"Earn [25]% of killed [Military] unit's [Strength] as [Faith]",
+                    	"Earn [20]% of killed [Military] unit's [Strength] as [Faith]",
                 ],
                 "row": 3,
                 "column": 1
@@ -1934,7 +1966,6 @@
 			"Provides [10] [Manpower]",
                		"[+1 Happiness] per [10] population [in all cities]",
                		"[+1 Happiness] [in capital]",
-              		"[-20]% maintenance costs <for [Spear] units>",
                		"[-20]% maintenance costs <for [Archery] units>",
                		"[-20]% maintenance costs <for [Scout] units>",
     			"Only available <before adopting [Zealotry]>",
@@ -1949,9 +1980,9 @@
                 "requires": ["Slave Liberation"],
                 "uniques": [
                    	 "[+20]% XP gained from combat <for [Military] units>",
-                   	 "[+1 Happiness] [in capital]",
               		"[+15]% City-State Influence degradation",
                     	"[-20]% Unhappiness from [Population] [in all cities]"
+                   	 "[+1 Happiness] [in capital]",
                    	 "[+1 Food] from every [Farm]",
                    	 "[-1 Gold] from every [Farm]",
                     	"[+1 Food] from every [Pasture]",
@@ -1964,29 +1995,47 @@
                 "name": "Keeper of Traditions",
                 "uniques": [
                     	"[+1 Happiness] [in capital]"
-			"Comment [All units adjacent Prophet heal extra HP when healing]",
                     	"[+20]% XP gained from combat <for [Military] units>",
 			"[+1 Happiness] from all [Grand Temple] buildings <when not at war>",
                     	"[-10]% Unhappiness from [Population] [in all cities]",
+			"Comment [All units adjacent Prophet heal extra HP when healing]",
 		    	"Only available <after adopting [Faithful Unity]>",
 		    	"Only available <after adopting [War Priests]>",
                 ],
                 "row": 4,
-                "column": 4
+                "column": 1
             },
             {
                 "name": "Seal of Heaven",
                 "uniques": [
                     	"[+1 Happiness] [in capital]",
-			"May buy [Military] units with [Faith] for [2] times their normal Production cost",
-			"[+15]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
                 	"Free [Great Prophet] appears",
 			"[+2 Food] from all [Grand Temple] buildings <when not at war>",
+                    	"Can spend Gold to annex or puppet a City-State that has been your Ally for [35] turns",
 		 	"Only available <after adopting [Faithful Unity]>",
 		 	"Only available <after adopting [War Priests]>",
                 ],
                 "row": 4,
-                "column": 2
+                "column": 5
+            },
+            {
+                "name": "Divide Consription",
+                "requires": ["Seal of Heaven","Keeper of Traditions"],
+                "uniques": [
+                    	"[+1 Happiness] [in capital]",
+			"May buy [Military] units with [Faith] for [2] times their normal Production cost",
+			"[+15]% Strength <for [Spear] units> <when fighting in [Friendly Land] tiles>",
+              		"[-20]% maintenance costs <for [Spear] units>",
+                  	 "[+1 Happiness] [in annexed cities] <in cities with a [Temple]>",
+			"Comment [-Teach the peasants how to hold the pointy stick in the time of need]",
+     		 	"May buy [Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
+     		 	"May buy [Army Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
+     		 	"May buy [Skirmisher Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
+     		 	"May buy [Cavalry Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
+			"[+10]% growth [in all cities] <when not at war> <after adopting [Faithful Unity]>",
+                ],
+                "row": 4,
+                "column": 3
             },
             {
                 "name": "Theocracy Complete",

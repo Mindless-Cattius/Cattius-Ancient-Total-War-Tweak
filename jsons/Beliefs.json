@@ -24,7 +24,7 @@
         "type": "Pantheon",
         "uniques": [
         "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion",
-        "New [Mounted] units start with [5] XP [in this city]",
+        "New [Mounted] units start with [15] XP [in this city]",
         "Only available <after adopting [Celtic Culture]>"
         ]
     },
@@ -103,7 +103,7 @@
         "uniques": [
         "[+1 Happiness] in cities on [River] tiles",
         "[+15]% Production when constructing [Archery] units [in this city]",
-        "New [Ranged] units start with [5] XP [in this city]",
+        "New [Ranged] units start with [10] XP [in this city]",
         "Only available <after adopting [Eastern Culture]>"
         ]
     },
@@ -121,7 +121,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+2 Happiness] from every [Barracks]",
-        "New [Melee] units start with [5] XP [in this city]",
+        "New [Melee] units start with [15] XP [in this city]",
         "Only available <after adopting [Germanic Culture]>"
         ]
     },
@@ -253,7 +253,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+2 Faith, +1 Production, +1 Gold] from every [Workshop]",
-        "New [Siege] units start with [5] XP [in this city]",
+        "New [Siege] units start with [15] XP [in this city]",
         "Only available <for [The Ptolemies] Civilizations>"
         ]
     },
@@ -376,7 +376,7 @@
         "type": "Pantheon",
         "uniques": [
         "[+2 Culture] from every [Barracks]",
-        "New [Spear] units start with [5] XP [in this city]",
+        "New [Spear] units start with [15] XP [in this city]",
         "Comment [Only available after adopting Punic or Numidian Culture]",
         "Only available <with [PunicOrNumidian]> <hidden from users>"
         ]
@@ -426,7 +426,7 @@
         "uniques": [
         "[+3 Culture, +1 Faith] from [Wine] tiles [in this city]",
         "[+10]% Production when constructing [Scout] units [in this city]",
-        "New [Scout] units start with [5] XP [in this city]",
+        "New [Scout] units start with [20] XP [in this city]",
         "Only available <after adopting [Thracian Culture]>"
         ]
     },
@@ -476,9 +476,9 @@
     {
         "name": "Holy Warriors",
         "type": "Follower",
-        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before adopting [Seal of Heaven]>",
+        "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before adopting [Divide Consription]>",
         	"[+1 Faith] from every [Army Barracks]",
-        	"[+1 Faith] from every [Barracks] <after adopting [Seal of Heaven]>",
+        	"[+1 Faith] from every [Barracks] <after adopting [Divide Consription]>",
 	]
     },
     {
@@ -607,8 +607,11 @@
     {
         "name": "Defender of the Faith",
         "type": "Enhancer",
-        "uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-		"[+2 Happiness] from all [Grand Temple] buildings <when not at war>"]
+        "uniques": [
+		"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+		"[+2 Happiness] from all [Grand Temple] buildings <when not at war>",
+        	"[+10]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>",
+	]
         // ToDo: Should only be friendly territory of cities that follow this religion
     },
 //    {
@@ -619,7 +622,10 @@
     {
         "name": "Itinerant Preachers",
         "type": "Enhancer",
-        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+        "uniques": [
+		"Religion naturally spreads to cities [+3] tiles away"
+        	"[+10]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>",
+]
     },
     {
         "name": "Just War",
