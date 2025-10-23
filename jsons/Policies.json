@@ -1308,7 +1308,7 @@
             {
                 "name": "Phoenician Traders",
                 "uniques": [
-                    "[+2] Movement <for [Embarked] units>",
+                    "[+1] Movement <for [Embarked] units>",
                     "[+2 Gold] from [Water resource] tiles [in all cities]",
                     "[+1 Happiness] from [Purple Dye] tiles [in all cities]",
                     "[+1 Happiness] from [Silver] tiles [in all cities]",
@@ -1334,7 +1334,7 @@
                 "name": "Mercenary Armies",
                 "uniques": [
                     "Comment [Enables Swordsman]","Provides [1] [Enable Swordsman] <hidden from users>",
-                    "[Gold] cost of purchasing [{Military} {Land}] units [-25]%",
+                    "[Gold] cost of purchasing [{Military} {Land}] units [-20]%",
                     "[+1 Happiness] [in all cities]",
                     "[+1 Happiness] [in capital]",
                     "[2] free [Swordsman] units appear",
@@ -1352,8 +1352,8 @@
                     "[+25]% Strength <for [Skirmisher] units> <when fighting in [Desert] tiles> <when attacking>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Free [Horseman] appears",
-                    "Provides [4] [Manpower]",
                     "[2] free [Spearman] units appear",
+                    "Provides [4] [Manpower]",
                     "Provides [1] [Horses]"
                     "[+1 Happiness] [in capital]"
                 ],
@@ -1367,8 +1367,8 @@
                     "[Heavy Spearman] units gain the [Drill I] promotion",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "Free [General] appears", 
-                    "[Gold] cost of purchasing [{Military} {Land}] units [-25]% <during a Golden Age>",
-                    "[+1 Happiness] [in capital]"
+                    "[Gold] cost of purchasing [{Military} {Land}] units [-20]% <during a Golden Age>",
+                    "[+1 Happiness] [in capital]",
                 ],
                 "row": 3,
                 "column": 3
@@ -1379,9 +1379,9 @@
                 "requires": ["Mercenary Reform"],
                 "uniques": [
                     "Free [General] appears",
-                    "[+1] Movement <for [Land] units> <on foreign continents>",
+                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
                     "[+1 Happiness] [in all coastal cities]",
-                    "[+1 Happiness] [in capital]"
+                    "[+1 Happiness] [in capital]",
                     "Provides [2] [Manpower]",
                 ],
                 "row": 4,
@@ -1390,7 +1390,9 @@
             {
                 "name": "Punic Culture Complete",
                 "uniques": [
-                    "[General] units gain the [Scouting II] promotion",
+                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
+                    "[+10]% Strength <for [{Military} {Water}] units>",
+                    "[General] units gain the [Veteran] promotion",
                     "[King] units gain the [Scouting II] promotion",
                     "[Mounted] units gain the [Scouting I] promotion",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
@@ -1401,8 +1403,6 @@
                     "Comment [Enables Decere]","Provides [1] [Enable Decere] <hidden from users>",
                     "Provides [5] [Manpower]",
                     "Provides [1] [Veteran]",
-                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
-                    "[+10]% Strength <for [{Military} {Water}] units>",
                 ]
             }
         ]
@@ -1661,7 +1661,7 @@
                 ],
 
                 "row": 4,
-                "column": 2
+                "column": 1
             },
             {
                 "name": "United Front",
@@ -1681,7 +1681,7 @@
                 ],
 
                 "row": 4,
-                "column": 4
+                "column": 5
             },
             {
                 "name": "Concordia Pactum",
@@ -1696,7 +1696,7 @@
      		 	"[+1] Movement <for [Military] units> <in [Enemy Land] tiles> <after adopting [Council of War]>",
 			"[+5]% growth [in all cities] <after adopting [Confederation Reform]>",
                 ],
-                "row": 4,
+                "row": 5,
                 "column": 3
             },
             {
@@ -1872,7 +1872,7 @@
                     	"[+5]% [Gold] [in all cities] <after adopting [Civil Administration]>",
                     	"Provides [2] [Veteran] <after adopting [Total War]>",
 	],
-                "row": 4,
+                "row": 5,
                 "column": 3
             },
             {
@@ -2034,7 +2034,7 @@
      		 	"May buy [Cavalry Barracks] buildings with [Faith] [in all cities] <after adopting [War Priests]>",
 			"[+10]% growth [in all cities] <when not at war> <after adopting [Faithful Unity]>",
                 ],
-                "row": 4,
+                "row": 5,
                 "column": 3
             },
             {

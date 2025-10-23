@@ -1708,15 +1708,17 @@
     "uniques": [
       	"Takes your religion over the one in their birth city",
       	"Removes other religions when spreading religion",
-      	"Can Spread Religion <for [1] movement> <[4] times> <after which this unit is consumed>",
-	"May enter foreign tiles without open borders",
+	"May enter foreign tiles without open borders <before adopting [War Priests]>",
+      	"Can Spread Religion <for [1] movement> <[4] times> <after which this unit is consumed> <before adopting [War Priests]>",
+      	"Can Spread Religion <for [1] movement> <[2] times> <after adopting [War Priests]>",
 	"[+20]% Strength bonus for [Military] units within [1] tiles <after adopting [War Priests]>",
 	"All adjacent units heal [+2] HP when healing <after adopting [Keeper of Traditions]>",
       	"[-1] Sight",
       	"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
       	"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
       	"Great Person - [Faith]",
-      	"Unbuildable",
+      	"Unbuildable",     
+	"Uncapturable",
       	"Religious Unit",
      	"Only available <when religion is enabled>",
     ],
@@ -1732,7 +1734,7 @@
     "requiredTech": "Infantry Training",
     "uniques": [
       		"Only available <in cities with a [Army Barracks]>",
-		"Can instantly construct a [Fort] improvement <[1] times> <after which this unit is consumed>",
+		"Can instantly construct a [Fort] improvement <[1] times>",
       		"Consumes [1] [Nobles]",
       		"Never appears as a Barbarian unit",
       		"Great Person - [War]",
@@ -1758,7 +1760,6 @@
 	"[+1] XP gained from combat",
       "[+15]% Strength bonus for [Military] units within [2] tiles",
       "Only available <in cities with a [Palace]>",
-      "Cannot be purchased",
 	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
     ],
     "promotions": [
@@ -1780,7 +1781,6 @@
       "Consumes [1] [Veteran]",
       "[+15]% Strength bonus for [Military] units within [2] tiles",
       "Only available <in cities with a [Palace]>",
-      "Cannot be purchased",
 	"Comment [-Elite medium spear infantry, give bounus to nearby allies, can strike fear into enemy lines 'this is SPATAR!']",
     ],
     "promotions": [
@@ -1805,7 +1805,6 @@
 	"[+1] XP gained from combat",
       "[+10]% Strength bonus for [Military] units within [3] tiles",
       "Only available <in cities with a [Palace]>",
-      "Cannot be purchased",
 	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
     ],
     "promotions": [
@@ -2139,7 +2138,6 @@
       "[+1] XP gained from combat",
       "Only available <in cities with a [Nomadic Herd]>",
       "Only available <in cities with a [Imperial Barracks]>",
-      "Cannot be purchased",
       "Comment [-Elite heavy mounted archery, 'arrows goes brr', have high withdraw chance.]",
     ],
     "promotions": [

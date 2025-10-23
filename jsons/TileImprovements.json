@@ -112,7 +112,7 @@
 		"turnsToBuild": 10,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-		 "Costs [10] [Gold] per turn when in your territory",
+		 "[-10 Gold]",
 		"Gives a defensive bonus of [25]%",
 		"Pillaging this improvement yields approximately [+100 Gold]",
 		"Removes removable features when built",	
@@ -222,7 +222,7 @@
 	{
 		"name": "Trading post",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
-		"gold": 2,
+		"gold": 1,
 		"turnsToBuild": 4,
 		"uniques": [
 			"[+1 Gold] <after discovering [Exploration]>",
