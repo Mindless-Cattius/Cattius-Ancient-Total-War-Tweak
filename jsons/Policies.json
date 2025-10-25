@@ -235,6 +235,7 @@
                     "[+1 Happiness] [in capital]",
                     "[+15]% Strength <for [King] units> <for [The Scythians] Civilizations> <when defending>",
                     "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
+			"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
                 ],
                 "row": 4,
                 "column": 3
@@ -274,6 +275,7 @@
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
+			"[Gold] cost of purchasing [Military] units [-10]%",
                 ]
             }
         ]
@@ -410,6 +412,7 @@
                     "[Spear] units gain the [Shock I] promotion",
                     "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
+			"[Gold] cost of purchasing [Spearman] units [-30]% <when at war>",
                 ]
             }
         ]

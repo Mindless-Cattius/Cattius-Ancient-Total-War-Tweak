@@ -2,6 +2,8 @@
     "name": "Global uniques",
     "uniques": [ 
 // ADDONS
+// GLOBAL
+	"[-1 Happiness, -1 Food] from [pillaged] tiles [in this city]",
 	"[-10] HP when healing <for [All] units> <when fighting in [Enemy Land] tiles>",
 	"[+5] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
 	"[-1] Range <for [Scout] units>",
@@ -42,7 +44,7 @@
 
 //GOLD
 
-	"[Gold] cost of purchasing [Military] units [-20]% <when at war>",
+	"[Gold] cost of purchasing [Military] units [+20]% <when at war>",
 
 // Happiness
         "[-5]% growth [in all cities] <when below [100] [Happiness]>",

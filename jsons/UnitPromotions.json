@@ -486,6 +486,7 @@
 		"name": "Ambush III",
 		"prerequisites": ["Ambush II"],
 		"uniques": [
+			"Invisible to non-adjacent units <in [pillaged] tiles>",
 			"[+10]% Strength <when fighting in [Forest] tiles>",
 			"[+10]% Strength <when fighting in [Jungle] tiles>",
 			"[+10]% Strength <vs [Wounded] units> <when attacking>",
@@ -590,7 +591,8 @@
 		"uniques": [
 			"Upon capturing a city, receive [4] times its [Gold] production as [Gold] immediately",
 			"Earn [50]% of the damage done to [City] units as [Gold]",
-			"[+10]% Strength <when fighting in [Foreign Land] tiles>"],
+			"[+10]% Strength <when fighting in [pillaged] tiles>",
+],
 		"unitTypes": ["Sword","Spear","Mounted","Scout"],
         "column": 25,
         "row": 3

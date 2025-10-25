@@ -162,14 +162,14 @@
     "movement": 3,
     "strength": 10,
     "rangedStrength": 8,
-    "cost": 150,
+    "cost": 160,
     "uniques": [
     		"Can move after attacking",
       		"Consumes [1] [Mercenary (Illyrian)]",
 		"[+1] XP gained from combat",
-     		 "Can be purchased with [Gold] [in all cities]",
-      "Only available <in cities with a [Mercenary Camp]>",
-     		 "Can move immediately once bought",
+     		"Can be purchased with [Gold] [in all cities]",
+      		"Only available <in cities with a [Mercenary Camp]>",
+     		"Can move immediately once bought",
 		"Comment [-Light skirmisher, good at raiding, fast river crossing, have high withdraw chance.]"
     ],
     "promotions": [
@@ -227,9 +227,9 @@
     "cost": 90,
     "requiredTech": "Archery",
     "uniques": [
-      "Consumes [1] [Manpower]",
-      "Only available <in cities with a [Archery Range]>",
-      "Only available <with [Enable Archer]> <hidden from users>",
+      	"Consumes [1] [Manpower]",
+      	"Only available <in cities with a [Archery Range]>",
+      	"Only available <with [Enable Archer]> <hidden from users>",
 	"Comment [-Light archer, good at counter ambushing units.]"
     ],
     "promotions": [
@@ -288,9 +288,9 @@
     "cost": 100,
     "requiredTech": "Archery",
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Can move immediately once bought",
-      "Only available <in cities with a [Archery Range]>",
+      	"Consumes [2] [Manpower]",
+      	"Can move immediately once bought",
+      	"Only available <in cities with a [Archery Range]>",
 	"Comment [-Light archer, have strong attack.]"
     ],
     "promotions": [
@@ -349,7 +349,7 @@
     "movement": 2,
     "strength": 10,
     "rangedStrength": 12,
-    "cost": 200,
+    "cost": 210,
     "uniques": [
       "Consumes [1] [Mercenary (Rhodian)]",
 	"[+1] XP gained from combat",
@@ -359,7 +359,7 @@
       "Unbuildable",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-	"Comment [-Light slinger, ideal for countering archers and holding ground.]"
+	"Comment [-Light slinger, ideal for countering archers, the OG Communist fighter.]"
     ],
     "promotions": [
       "[Slinger] ability",
@@ -398,15 +398,15 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 200,
+    "cost": 180,
     "uniques": [
       "Consumes [1] [Mercenary (Celtic)]",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-	"Comment [-Medium shock infantry, paid to use.]"
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Unbuildable",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Can move immediately once bought",
+	"Comment [-Medium shock infantry, great at Yolo-ing an attack, selling their souls to Capitalism.]"
     ],
     "promotions": [
       "Shock I",
@@ -419,15 +419,15 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 200,
+    "cost": 180,
     "uniques": [
       "Consumes [1] [Mercenary (Germanic)]",
 	"[+1] XP gained from combat",
-      "Can move after attacking",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
+      	"Can move after attacking",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Unbuildable",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Can move immediately once bought",
 	"Comment [-Medium infantry, ideal for jungle fighting.]"
     ],
     "promotions": [
@@ -441,15 +441,15 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
-    "cost": 180,
+    "cost": 160,
     "uniques": [
-      "Only available <before the [Hellenistic Age]>",
+      	"Only available <before the [Hellenistic Age]>",
 	"[+1] XP gained from combat",
-      "Consumes [1] [Mercenary (Hellenic)]",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
+      	"Consumes [1] [Mercenary (Hellenic)]",
+     	 "Only available <in cities with a [Mercenary Camp]>",
+     	"Unbuildable",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Can move immediately once bought",
 	"Comment [-Elite medium spear infantry, good defense against cavalry and holding ground.]"
     ],
     "promotions": [
@@ -463,7 +463,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
-    "cost": 200,
+    "cost": 180,
     "uniques": [
       "Ignores terrain cost",
       "Only available <starting from the [Hellenistic Age]>",
@@ -487,7 +487,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 170,
+    "cost": 180,
     "uniques": [
       "Consumes [1] [Mercenary (Judean)]",
 	"[+1] XP gained from combat",
@@ -510,7 +510,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 200,
+    "cost": 220,
     "uniques": [
       "Consumes [1] [Mercenary (Thracian)]",
 	"[+1] XP gained from combat",
@@ -553,7 +553,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 170,
+    "cost": 165,
     "uniques": [
       "Consumes [1] [Mercenary (Oscan)]",
 	"[+1] XP gained from combat",
