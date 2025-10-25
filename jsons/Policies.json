@@ -1553,6 +1553,7 @@
             "Only available <before adopting [Theocracy]>",
             "Only available <before adopting [Empire]>",
             "[+10]% Unhappiness from [Population] [in all cities]",
+        "[+50]% Culture cost of adopting new Policies",
         ],
         "policies": [
             {
@@ -1694,7 +1695,7 @@
                   	 "[+1 Happiness] [in annexed cities] <in cities with a [Temple]>",
 			"Comment [-Teach the peasants how to hold the pointy stick in the time of need]",
      		 	"[+1] Movement <for [Military] units> <in [Enemy Land] tiles> <after adopting [Council of War]>",
-			"[+5]% growth [in all cities] <after adopting [Confederation Reform]>",
+			"[+10]% growth [in all cities] <after adopting [Confederation Reform]>",
                 ],
                 "row": 5,
                 "column": 3
@@ -1723,6 +1724,7 @@
             "Only available <before adopting [Federation]>",
             "Only available <before adopting [Theocracy]>",
            "[+10]% Unhappiness from [Population] [in all cities]",
+        "[+50]% Culture cost of adopting new Policies",
         ],
         "policies": [
             {
@@ -1895,6 +1897,7 @@
             "[+1 Happiness] [in capital]",
             "Only available <before adopting [Federation]>",
             "Only available <before adopting [Empire]>",
+        "[+50]% Culture cost of adopting new Policies",
         ],
         "policies": [
             {
@@ -1932,7 +1935,6 @@
                 "name": "Zealotry",
                 "requires": ["Divine Mandate","Clergy Authority","Religious Law"],
                 "uniques": [
-			"Consumes [2] [Nobles]",
 			"Provides [5] [Manpower]",
                		"Remove [Noble District] [in all cities]",
                  	"[+10]% City-State Influence degradation",

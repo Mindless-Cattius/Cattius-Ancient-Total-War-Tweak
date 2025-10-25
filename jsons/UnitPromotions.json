@@ -923,6 +923,30 @@
         "row": 5,
 	"column": 5
 	},
+	{
+		"name": "Art of War II",
+		"prerequisites": ["Art of War"],
+		"unitTypes": ["King"],
+		"uniques": [
+			"[+10]% Strength bonus for [{Melee} {Land}] units within [2] tiles <when attacking>",
+			"[+10]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
+			"Withdraws before melee combat <with [10]% chance>",
+			"Only available <if [Barracks] is constructed>",
+		],
+        "row": 5,
+	"column": 6
+	},
+	{
+		"name": "Art of War III",
+		"prerequisites": ["Art of War"],
+		"unitTypes": ["King"],
+		"uniques": [
+			"All adjacent units heal [+10] HP when healing <when stacked with a [Worker] unit>",
+			"Only available <if [Barracks] is constructed>",
+		],
+        "row": 5,
+	"column": 7
+	},
 	// Uniques that should be kept on upgrades
 
 	{
