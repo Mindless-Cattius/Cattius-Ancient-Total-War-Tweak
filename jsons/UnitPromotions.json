@@ -944,6 +944,7 @@
 		"unitTypes": ["King"],
 		"uniques": [
 			"All adjacent units heal [+10] HP when healing <when stacked with a [Worker] unit>",
+			"[+3] HP when healing",
 			"Only available <if [Barracks] is constructed>",
 		],
         "row": 5,
@@ -1114,7 +1115,7 @@
   		"prerequisites": ["Raider III"],
   		"uniques": [
     			"[+40]% Yield from pillaging tiles",
-			"[+20]% Health from pillaging tiles"
+			"[+30]% Health from pillaging tiles"
 			],
         "column": 40,
         "row": 4
