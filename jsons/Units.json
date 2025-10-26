@@ -227,6 +227,7 @@
     "cost": 90,
     "requiredTech": "Archery",
     "uniques": [
+	"May attack when embarked",
       	"Consumes [1] [Manpower]",
       	"Only available <in cities with a [Archery Range]>",
       	"Only available <with [Enable Archer]> <hidden from users>",
@@ -246,6 +247,7 @@
     "cost": 90,
     "requiredTech": "Archery",
     "uniques": [
+	"May attack when embarked",
       "Consumes [1] [Manpower]",
       "Only available <in cities with a [Barracks]>",
 	"Comment [-Light slinger, good at countering ranged units.]",
@@ -267,6 +269,7 @@
     "cost": 90,
     "requiredTech": "Archery",
     "uniques": [
+	"May attack when embarked",
       "Consumes [2] [Manpower]",
       "Only available <in cities with a [Archery Range]>",
 	"Comment [-Elite light archer, good at counter ambushing units, have sharp arrows and willing to hurt enemies.]"
@@ -288,6 +291,7 @@
     "cost": 100,
     "requiredTech": "Archery",
     "uniques": [
+	"May attack when embarked",
       	"Consumes [2] [Manpower]",
       	"Can move immediately once bought",
       	"Only available <in cities with a [Archery Range]>",
@@ -310,6 +314,7 @@
     "cost": 120,
     "requiredTech": "Archery",
     "uniques": [
+	"May attack when embarked",
       "Consumes [1] [Manpower]",
       "Can move after attacking",
       "Only available <in cities with a [Barracks]>",
@@ -332,6 +337,7 @@
     "cost": 120,
     "requiredTech": "Archery",
     "uniques": [
+	"May attack when embarked",
       "Consumes [1] [Manpower]",
       "Only available <in cities with a [Barracks]>",
       "Can move immediately once bought",
@@ -351,6 +357,7 @@
     "rangedStrength": 12,
     "cost": 210,
     "uniques": [
+	"May attack when embarked",
       "Consumes [1] [Mercenary (Rhodian)]",
 	"[+1] XP gained from combat",
       "Can move after attacking",
@@ -375,6 +382,7 @@
     "rangedStrength": 13,
     "cost": 200,
     "uniques": [
+	"May attack when embarked",
       "Consumes [1] [Mercenary (Cretan)]",
 	"[+1] XP gained from combat",
       "Can move after attacking",
@@ -1049,6 +1057,7 @@
   "rangedStrength": 14,
     "uniques": [
       "Consumes [1] [Mercenary (Numidian)]",
+	"May attack when embarked",
     "[-1] Range",
 	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -1097,6 +1106,7 @@
     "rangedStrength": 12,
     "uniques": [
       "Consumes [1] [Mercenary (Eastern)]",
+	"May attack when embarked",
 	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable",
@@ -1120,6 +1130,7 @@
     "requiredTech": "Riding",
     "uniques": [
       "Consumes [2] [Manpower]",
+	"May attack when embarked",
       "Consumes [1] [Horses]",
       "Only available <in cities with a [Nomadic Herd]>",
       "Comment [-Light mounted archery unit, 'arrows goes brr', have high withdraw chance.]",
@@ -1138,6 +1149,7 @@
     "strength": 10,
     "rangedStrength": 11,
     "uniques": [
+	"May attack when embarked",
       "Consumes [3] [Manpower]",
       "Only available <in cities with a [Spice Road]>",
       "Comment [-Medium camel archery, expert at desert fighting, have high withdraw chance in desert.]",
@@ -1844,6 +1856,7 @@
   "rangedStrength": 13,
     "cost": 180,
     "uniques": [
+	"May attack when embarked",
 	"Can only be built <in [Capital] cities>",
       "Limited to [1] per Civilization",
       "Cannot be purchased",
@@ -1892,6 +1905,7 @@
     "Consumes [3] [Manpower]",
     "Consumes [1] [Horses]",
     "[-1] Range",
+	"May attack when embarked",
     "Can move after attacking",
       "Only available <after adopting [Numidian Culture]> <hidden from users>",
     "Only available <in cities with a [Skirmisher Barracks]>",
@@ -1941,6 +1955,7 @@
     "Consumes [3] [Manpower]",
     "Consumes [1] [Horses]",
     "[-1] Range",
+	"May attack when embarked",
     "Can move after attacking",
     "Only available <in cities with a [Cavalry Barracks]>",
     "Never appears as a Barbarian unit",
@@ -2022,6 +2037,7 @@
     "requiredTech": "Crossbow Engineering",
     "uniques": [
       "Consumes [3] [Manpower]",
+	"May attack when embarked",
       "Only available <in cities with a [Ballistics Range]>",
       "Comment [-Medium archery, anti armored units, small withdraw chance.]",
     ],
@@ -2041,6 +2057,7 @@
     "uniques": [
 	"[+30]% Strength <vs cities> <when defending>",
       "Consumes [4] [Manpower]",
+	"May attack when embarked",
       "Only available <in cities with a [Ballistics Range]>",
       "Comment [-Heavy archery, armored, small withdraw chance.]",
     ],
@@ -2061,6 +2078,7 @@
     "cost": 2200,
     "uniques": [
       "Consumes [1] [Nobles]",
+	"May attack when embarked",
 	"[+1] XP gained from combat",
       "Cannot be purchased",
       "Only available <in cities with a [Imperial Barracks]>",
@@ -2134,6 +2152,7 @@
       "Consumes [1] [Veteran]",
       "Consumes [1] [Horses]",
       "[+1] XP gained from combat",
+	"May attack when embarked",
       "Only available <in cities with a [Nomadic Herd]>",
       "Only available <in cities with a [Imperial Barracks]>",
       "Comment [-Elite heavy mounted archery, 'arrows goes brr', have high withdraw chance.]",
@@ -2207,6 +2226,7 @@
 	"Consumes [1] [Horses]",
 	"[+1] XP gained from combat",
 	"[-1] Range",
+	"May attack when embarked",
       "Only available <in cities with a [Army Barracks]>",
       "Comment [-Elite heavy mounted skirmisher, strong range attack, have high withdraw chance.]",
     ],

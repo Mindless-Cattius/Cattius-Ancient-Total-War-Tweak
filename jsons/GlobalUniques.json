@@ -8,6 +8,8 @@
 	"[+5] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
 	"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
 	"[-1] Range <for [Scout] units>",
+	"[-10]% Strength <for [{Military} {Land}] units> <when fighting in [Ocean] tiles>",
+	"[-10]% Strength <for [{Military} {Land}] units> <when fighting in [Coast] tiles>",
 	"[-20]% City Strength from defensive buildings <during the [Archaic Age]>",
 	"[-15]% City Strength from defensive buildings <during the [Classical Age]>",
 	"[-10]% City Strength from defensive buildings <during the [Hellenistic Age]>",
@@ -36,6 +38,7 @@
 
 //Cities
 	"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
+	"[+10]% Strength <for [Military] units> <when fighting in [City center] tiles>",
 	"[-50]% Strength for cities <when attacking>",
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
 
@@ -45,20 +48,20 @@
 
 // Happiness & Population
 
-	"[-1 Happiness] [in this city] <in cities with between [10] and [19] [populationFilter]>"
-	"[-2 Happiness] [in this city] <in cities with between [20] and [29] [populationFilter]>"
-	"[-3 Happiness] [in this city] <in cities with between [30] and [39] [populationFilter]>"
-	"[-4 Happiness] [in this city] <in cities with between [40] and [49] [populationFilter]>"
-	"[-5 Happiness] [in this city] <in cities with between [50] and [59] [populationFilter]>"
-	"[-6 Happiness] [in this city] <in cities with between [60] and [69] [populationFilter]>"
-	"[-7 Happiness] [in this city] <in cities with between [70] and [9999] [populationFilter]>"
+	"[-1 Happiness] [in this city] <in cities with between [10] and [19] [Population]>",
+	"[-2 Happiness] [in this city] <in cities with between [20] and [29] [Population]>",
+	"[-3 Happiness] [in this city] <in cities with between [30] and [39] [Population]>",
+	"[-4 Happiness] [in this city] <in cities with between [40] and [49] [Population]>",
+	"[-5 Happiness] [in this city] <in cities with between [50] and [59] [Population]>",
+	"[-6 Happiness] [in this city] <in cities with between [60] and [69] [Population]>",
+	"[-7 Happiness] [in this city] <in cities with between [70] and [9999] [Population]>",
 
-	"[-5]% growth [in this city] <in cities with between [15] and [20] [populationFilter]>"
-	"[-5]% growth [in this city] <in cities with between [21] and [25] [populationFilter]>"
-	"[-5]% growth [in this city] <in cities with between [26] and [30] [populationFilter]>"
-	"[-5]% growth [in this city] <in cities with between [31] and [35] [populationFilter]>"
-	"[-5]% growth [in this city] <in cities with between [36] and [40] [populationFilter]>"
-	"[-5]% growth [in this city] <in cities with between [41] and [9999] [populationFilter]>"
+	"[-5]% growth [in this city] <in cities with between [15] and [20] [Population]>",
+	"[-5]% growth [in this city] <in cities with between [21] and [25] [Population]>",
+	"[-5]% growth [in this city] <in cities with between [26] and [30] [Population]>",
+	"[-5]% growth [in this city] <in cities with between [31] and [35] [Population]>",
+	"[-5]% growth [in this city] <in cities with between [36] and [40] [Population]>",
+	"[-5]% growth [in this city] <in cities with between [41] and [9999] [Population]>",
 
         "[-5]% growth [in all cities] <when below [100] [Happiness]>",
         "[-5]% growth [in all cities] <when below [50] [Happiness]>",
