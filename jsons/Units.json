@@ -1923,7 +1923,7 @@
   "unitType": "Mounted",
   "hurryCostModifier": 30,
   "cost": 160,
-  "movement": 4,
+  "movement": 3,
   "strength": 17,
   "requiredTech": "Riding",
   "uniques": [
@@ -1949,7 +1949,7 @@
   "cost": 190,
   "movement": 4,
   "strength": 9,
-  "rangedStrength": 13,
+  "rangedStrength": 12,
   "requiredTech": "Riding",
   "uniques": [
     "Consumes [3] [Manpower]",
@@ -2052,7 +2052,7 @@
     "movement": 2,
     "strength": 12,
     "rangedStrength": 11,
-    "cost": 200,
+    "cost": 220,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
 	"[+30]% Strength <vs cities> <when defending>",
@@ -2218,7 +2218,7 @@
     "cost": 270,
     "movement": 3,
     "strength": 14,
-    "rangedStrength": 15,
+    "rangedStrength": 12,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
 	"Consumes [4] [Manpower]",
@@ -2228,10 +2228,10 @@
 	"[-1] Range",
 	"May attack when embarked",
       "Only available <in cities with a [Army Barracks]>",
-      "Comment [-Elite heavy mounted skirmisher, strong range attack, have high withdraw chance.]",
+      "Comment [-Elite heavy mounted skirmisher, strong range attack, have medium withdraw chance.]",
     ],
     "promotions": [
-      "[Horseman] ability",
+      "[Cavalry] ability",
 	"Improved Armor"
     ],
     "attackSound": "arrow"

@@ -1071,7 +1071,7 @@
 		"requiredBuilding": "Muster Field",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
- 		"cost": 260,
+ 		"cost": 200,
 		"happiness": 1,
 		"cityHealth": 30,
 		"uniques": [
