@@ -304,7 +304,7 @@
 		"specialistSlots": {"Priest": 1},
 		"requiredBuilding": "Shrine",
 		"uniques": [
-			"Consumes [1] [Decadence] [in this city] <while the empire is happy>",
+			"Consumes [1] [Decadence] <while the empire is happy>",
 			"[-25]% Culture cost of natural border growth [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Mysticism"
 	},
@@ -348,7 +348,7 @@
 		"requiredTech": "Entertainment",
 		"uniques": [
 			"[+1 Happiness] from [Village] tiles [in this city]",
-			"Consumes [1] [Decadence] <in cities with a [Amphitheater]>",
+			"Consumes [1] [Decadence]",
 			"[-25]% Culture cost of natural border growth [in this city]"
 		],
 		"civilopediaText": [{"text": "Promoting largely politically irrelevant or pro-ruling class themes, a Theatre can keep your people busy while shaping their perceptions and making them feel more enlightened."}]
@@ -469,8 +469,9 @@
 		"happiness": 1,
 		"uniques": [
 			"[+30]% Great Person generation [in this city]", 
-			"Must be next to [Fresh water]"],
+			"Must be next to [Fresh water]"
 			"Provides [1] [Decadence]",
+],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -705,7 +706,7 @@
 			"Provides [1] [Decadence]",
 			"Consumes [1] [Copper]",
 			"[Gold] cost of purchasing items in cities [-10]%",
-			"[1 Production] from [Fort] tiles [in this city]",
+			"[+1 Production] from [Fort] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Gold] from [Village] tiles [in this city]",
 			"[-1 Food] from [Village] tiles [in this city]",

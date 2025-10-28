@@ -365,7 +365,7 @@
      "[+10]% Strength <vs [Mounted] units>",
     			"[+20]% Strength <when attacking> <vs [Mounted Archery] units>",
     			"[+10]% Strength <when defending> <vs [Ranged] units>",
-]
+],
 		"unitTypes": ["Spear", "Sword"],
         "column": 16,
         "row": 2
@@ -376,6 +376,7 @@
 		"uniques": [
 			"[+20]% Strength <when defending> <vs [Mounted] units>",
 			"[+10]% Strength <vs [Melee] units>",
+],
 		"unitTypes": ["Spear"],
         "column": 16,
         "row": 3
@@ -568,7 +569,7 @@
 		"name": "Raider I",
 		"uniques": [
     		"[+20]% Yield from pillaging tiles",
- 		"[+10]% Strength <when fighting in [Foreign Land] tiles>"],
+ 		"[+10]% Strength <when fighting in [Foreign Land] tiles>"
 ],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Scout","Archery","Melee Water","King"],
         "column": 25,
@@ -578,7 +579,8 @@
 		"name": "Raider II",
 		"prerequisites": ["Raider I"],
 		"uniques": [
-     "No movement cost to pillage",
+     "No movement cost to pillage"
+],
 		"unitTypes": ["Sword","Spear","Mounted","Scout","Mounted Archery"],
         "column": 25,
         "row": 2
