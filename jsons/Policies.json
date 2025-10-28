@@ -82,7 +82,7 @@
             {
                 "name": "Celtic Horde",
                 "uniques": [
-                    "Upon capturing a city, receive [5] times its [Gold] production as [Gold] immediately",
+                    "Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately",
                     "Free [General] appears",
                     "[+1 Happiness] [in capital]",
                     "[2] free [Swordsman] units appear",
@@ -132,7 +132,7 @@
      		    "Provides [2] [Veteran]",
                     "[Spear] units gain the [Improved Armor] promotion <after discovering [Mass Production]>",
                     "[Pike Phalanx] units gain the [Improved Armor] promotion <after discovering [Mass Production]>",
-                    "[+15]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <when attacking>",
+                    "[+10]% Strength <for [Sword] units> <when adjacent to a [Sword] unit> <when attacking>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                 ]
             }
@@ -150,7 +150,7 @@
                     "Only available <after adopting [Eastern Culture]> <hidden from users>",
                     "[1] free [Great Scholar] units appear",
                     "[+1 Happiness] [in capital]",
-                    "[+50]% Production when constructing [Market] buildings [in all cities]",
+                    "[+30]% Production when constructing [Market] buildings [in all cities]",
                     "Comment [Enables Archer]","Provides [1] [Enable Archer] <hidden from users>",
                     "Comment [Enables War Chariot]","Provides [1] [Enable War Chariot] <hidden from users>",
                     "Comment [Enables Cavalry]","Provides [1] [Enable Cavalry] <hidden from users>",
@@ -172,7 +172,7 @@
                 "name": "Royal Herd",
                 "requires": ["Royal Cities"],
                 "uniques": [
-                    "[+25]% Production when constructing [Mounted] units [in capital]",
+                    "[+20]% Production when constructing [Mounted] units [in capital]",
                     "Free [Cavalry] appears",
                     "Provides [4] [Manpower]",
                     "Provides [2] [Horses]",
@@ -230,10 +230,10 @@
                 "name": "King of Kings",
                 "requires": ["Great King's Levy"],
                 "uniques": [
-                    "[-50]% unhappiness from the number of cities",
+                    "[-20]% unhappiness from the number of cities",
                     "Free [General] appears",
                     "[+1 Happiness] [in capital]",
-                    "[+15]% Strength <for [King] units> <for [The Scythians] Civilizations> <when defending>",
+                    "[+10]% Strength <for [King] units> <when defending>",
                     "Comment [Enables Cataphract]","Provides [1] [Enable Cataphract] <hidden from users>",
 			"[Gold] cost of purchasing [Military] units [-10]% <when at war>",
                 ],
@@ -271,7 +271,7 @@
                     "[1] free [Cataphract] units appear",
                     "[Horse Archer] units gain the [[Maneuver]] promotion",
                     "[+20]% Strength <for [Mounted Archery] units> <vs [Ranged] units> <when defending>",
-                    "[+15]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
+                    "[+10]% Strength <for [Spear] units> <when adjacent to a [Spear] unit> <when defending>",
                     "Comment [Enables Pike Phalanx]","Provides [1] [Enable Pike Phalanx] <hidden from users>",
                     "Comment [Enables Heavy Spearman]","Provides [1] [Enable Heavy Spearman] <hidden from users>",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
@@ -315,7 +315,8 @@
                 "uniques": [
                     "[Skirmisher] units gain the [Forester] promotion",
                     "[Archer] units gain the [Forester] promotion",
-                    "[Spearman] units gain the [Forester] promotion",
+                    "[Infantry Shield I] units gain the [Forester] promotion",
+                    "[Infantry Shield II] units gain the [Forester] promotion",
                     "[2] free [Skirmisher] units appear",
                     "[1] free [Archer] units appear",
                     "Provides [3] [Manpower]",
@@ -328,7 +329,7 @@
             {
                 "name": "Beast Warriors",
                 "uniques": [
-                    "All newly-trained [Cavalry] units [in all cities] receive the [Shock I] promotion",
+                    "All newly-trained [Horseman] units [in all cities] receive the [Shock I] promotion",
                     "All newly-trained [Swordsman] units [in all cities] receive the [Shock I] promotion",
                     "[2] free [Swordsman] units appear",
                     "Provides [4] [Manpower]",
@@ -341,7 +342,7 @@
                 "name": "Shield Wall",
                 "uniques": [
                     "[+20]% Strength <when defending> <for [Spear] units> <when adjacent to a [Spear] unit>",
-                    "[+20]% Strength <when defending> <for [Spear] units> <when adjacent to a [General] unit>",
+                    "[+10]% Strength <when attacking> <for [Spear] units> <when adjacent to a [General] unit>",
                     "[+20]% Strength <when attacking> <for [Spear] units> <when adjacent to a [King] unit>",
                     "[+1 Happiness] [in capital]",
                     "[3] free [Spearman] units appear",
@@ -353,8 +354,10 @@
             {
                 "name": "Shieldmaidens",
                 "uniques": [
-                    "[+25]% Production when constructing [Spear] units [in all cities]",
+                    "[+20]% Production when constructing [Spear] units [in all cities]",
                     "[+1 Happiness] [in capital]",
+                    "[+10]% Strength <for [Infantry Shield II] units> <when defending>",
+                    "[+10]% Strength <for [Infantry Shield III] units> <when defending>",
                 ],
                 "requires": ["Shield Wall"],
                 "row": 2,
@@ -363,6 +366,7 @@
             {
                 "name": "Chosen Warriors",
                 "uniques": [
+                    "[+50]% XP gained from combat <for [Skirmisher] units>"
                     "[+100]% XP gained from combat <for [Land] units> <when below [25] HP>",
                     "[+1 Happiness] [in capital]",
                     "[1] free [Heavy Swordsman] units appear",
@@ -384,7 +388,6 @@
                     "Provides [5] [Manpower]",
                     "Comment [Enables Heavy Swordsman]","Provides [1] [Enable Heavy Swordsman] <hidden from users>",
                     "[+1 Happiness] [in capital]",
-                    "[+10]% Strength <for [Spear] units> <when defending>",
                 ],
                 "row": 4,
                 "column": 3
@@ -403,7 +406,7 @@
             {
                 "name": "Germanic Culture Complete",
                 "uniques": [
-                    "[+1] Movement <for [Land] units> <in [Forest] tiles>",
+                    "[+10]% Strength <for [Land] units> <when attacking> <in [Forest] tiles>",
                     "[+1 Happiness] [in capital]",
                     "[2] free [Heavy Swordsman] units appear",
                     "Provides [2] [Iron]",
@@ -476,7 +479,7 @@
                 "name": "Freedom of The Greeks",
                 "uniques": [
                     "[+15]% Strength <for [Military] units> <when fighting units from a Civilization with more Cities than you>",
-                    "[+50]% Production when constructing [Barracks] buildings [in all cities]",
+                    "[+30]% Production when constructing [Barracks] buildings [in all cities]",
                     "Provides [2] [Bronze]",
                     "[+1 Happiness] [in capital]",
                     "[3] free [Spearman] units appear",
@@ -499,7 +502,7 @@
             {
                 "name": "Hellenic Colonists",
                 "uniques": [
-                    "[+33]% Production when constructing [Settler] units [in capital]",
+                    "[+20]% Production when constructing [Settler] units [in capital]",
                     "Free [Settler] appears",
                     "[+1 Happiness] [in capital]",
                     "Provides [2] [Manpower]",
@@ -557,7 +560,7 @@
      		    "Provides [1] [Veteran]",
                     "Provides [4] [Bronze]",
                     "Provides [4] [Manpower]",
-                    "[Pike Phalanx] units gain the [Shock I] promotion",
+                    "[Spear] units gain the [Formation I] promotion",
                     "[+15]% Strength <for [Pike Phalanx] units> <when adjacent to a [Pike Phalanx] unit> <when defending>",
                 ]
             }
