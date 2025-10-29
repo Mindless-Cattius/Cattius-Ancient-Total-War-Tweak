@@ -313,10 +313,9 @@
             {
                 "name": "Woodland Warfare",
                 "uniques": [
-                    "[Skirmisher] units gain the [Forester] promotion",
-                    "[Archer] units gain the [Forester] promotion",
-                    "[Infantry Shield I] units gain the [Forester] promotion",
-                    "[Infantry Shield II] units gain the [Forester] promotion",
+                    "[Skirmisher] units gain the [Woodsman] promotion",
+                    "[Archer] units gain the [Woodsman] promotion",
+                    "[Infantry Shield I] units gain the [Woodsman] promotion",
                     "[2] free [Skirmisher] units appear",
                     "[1] free [Archer] units appear",
                     "Provides [3] [Manpower]",

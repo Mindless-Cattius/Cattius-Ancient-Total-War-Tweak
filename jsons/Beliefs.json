@@ -530,13 +530,13 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+1]% [Production] from every follower, up to [15]%",
+        "uniques": ["[+1]% [Production] from every follower, up to [12]%",
 		"[+1 Culture] from every [Tavern] <in cities with at least [8] [Followers of this Religion]>"]
     },
     {
         "name": "Swords into Ploughshares",
         "type": "Follower",
-        "uniques": ["[+17]% growth [in this city] <when not at war>",
+        "uniques": ["[+15]% growth [in this city] <when not at war>",
 		"[+1 Food] from every [Garden] <in cities with at least [8] [Followers of this Religion]>"]
     },
 ///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
@@ -624,7 +624,6 @@
         "type": "Enhancer",
         "uniques": [
 		"Religion naturally spreads to cities [+3] tiles away"
-        	"[+10]% Strength <for [Infantry Shield III] units> <when above [100] [Happiness]>",
 ]
     },
     {

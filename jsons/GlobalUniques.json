@@ -38,7 +38,6 @@
 
 //Cities
 	"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
-	"[+10]% Strength <for [Military] units> <when fighting in [City center] tiles>",
 	"[-50]% Strength for cities <when attacking>",
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
 
@@ -141,23 +140,25 @@
         "Provides [1] [Manpower] <when below [12] [Decadence]> <for [Major] Civilizations>",
 
         "[-2]% [Culture] [in all cities] <when above [3] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [8] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [12] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [16] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [20] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [9] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [15] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [21] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [26] [Decadence]>",
 
+        "[-5]% [Gold] [in all cities] <when above [5] [Decadence]>",
         "[-5]% [Gold] [in all cities] <when above [10] [Decadence]>",
-        "[-10]% [Gold] [in all cities] <when above [20] [Decadence]>",
-        "[-15]% [Gold] [in all cities] <when above [30] [Decadence]>",
+        "[-5]% [Gold] [in all cities] <when above [15] [Decadence]>",
+        "[-5]% [Gold] [in all cities] <when above [20] [Decadence]>",
+        "[-5]% [Gold] [in all cities] <when above [25] [Decadence]>",
 
         "[-1 Happiness] [in all cities] <when above [5] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [12] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [10] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [15] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [20] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [30] [Decadence]>",
-        "[-1 Happiness] [in all cities] <when above [40] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [25] [Decadence]>",
 
         "[-2]% [Production] [in all cities] <when above [5] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [12] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [13] [Decadence]>",
         "[-2]% [Production] [in all cities] <when above [20] [Decadence]>",
         "[-2]% [Production] [in all cities] <when above [30] [Decadence]>",
         "[-2]% [Production] [in all cities] <when above [40] [Decadence]>",

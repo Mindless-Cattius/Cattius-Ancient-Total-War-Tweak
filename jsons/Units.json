@@ -4,6 +4,7 @@
     "unitType": "Civilian",
     "movement": 2,
     "uniques": [
+	"Comment [Reliable, replaceable, and remarkably flammable. No empire rose without them — mostly because someone had to hold the shovel.]",
 	"[+50]% Gold cost of upgrading",
 	"[+1] Movement <after discovering [Mass Production]>",
       	"Limited to [10] per Civilization",
@@ -14,7 +15,6 @@
 	"Can upgrade to [Spearman] <after adopting [Imperial Garrisons]>",
 	"Can upgrade to [Swordsman] <after adopting [Total War]>",
       	"Automation is a primary action",
-	"Comment [-Typical peasant unit, good at building empires and being slaves.]"
     ],
     "cost": 60
   },
@@ -24,10 +24,10 @@
     "movement": 3,
     "cost": 90,
     "uniques": [
-      "Founds a new city <by consuming this unit>",
-      "Excess Food converted to Production when under construction",
-      "Requires at least [3] population",
-	"Comment [-Man, woman and childs, good at founding empires and being slaves.]"
+		"Comment [Men, women, and children — good at founding empires, great at dying for them]"
+      		"Founds a new city <by consuming this unit>",
+      		"Excess Food converted to Production when under construction",
+      		"Requires at least [3] population",
     ],
     "hurryCostModifier": 20
   },
@@ -38,11 +38,11 @@
     "cost": 40,
     "requiredTech": "Fishing",
     "uniques": [
-      "Cannot enter ocean tiles <before discovering [Exploration]>",
+	"Comment [Sea Slaves.]",
       "May create improvements on water resources",
+      "Cannot enter ocean tiles <before discovering [Exploration]>",
       "Uncapturable",
       "Automation is a primary action",
-	"Comment [-Sea Slaves.]"
     ]
   },
   {
@@ -52,11 +52,11 @@
     "cost": 100,
     "requiredTech": "Engineering",
     "uniques": [
+		"Comment [Turns “no entry” into “former entry.” Teamwork highly encouraged.]",
 		"[15]% Strength bonus for [Melee] units within [0] tiles <vs cities> <when attacking>",
-     		 "Uncapturable",
      		 "Only available <in cities with a [Barracks]>",
      		 "Consumes [3] [Manpower]",
-	"Comment [-Make settlements 'negotiation' less painful, battle buddies are required.]"
+     		 "Uncapturable",
     ],
   },
   {
@@ -66,13 +66,13 @@
     "cost": 200,
     "requiredTech": "Torsion Engines",
     "uniques": [
+		"Comment [A revolutionary invention that made invading cities slightly less suicidal. Offers protection for your battle buddies while they commit structural diplomacy.]"
 		"[15]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
 		"[10]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when defending>",
       		"Only available <in cities with a [Siege Workshop]>",
-     		 "Uncapturable",
-     		 "Consumes [4] [Manpower]",
+     		"Consumes [4] [Manpower]",
       		"Consumes [1] [Timber]",
-	"Comment [-Make settlements 'negotiation' way less painful, give protection for battle buddie vs cities.]"
+     		"Uncapturable",
     ],
   },
   {
@@ -84,10 +84,10 @@
     "cost": 55,
     "requiredTech": "Agriculture",
     "uniques": [
-		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
+		"Comment [Light troops trained to throw things and run away, in that order. The smart ones mastered both arts equally.]",
 		"Can move after attacking",
       		"Consumes [1] [Manpower]",
-		"Comment [-Light skirmisher unit, have high withdraw chance.]"
+		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
     ],
     "attackSound": "nonmetalhit",
     "promotions": [
@@ -96,7 +96,7 @@
     ],
     "civilopediaText": [
       {
-        "text": "This is your basic, club-swinging fighter."
+        "text": "Light troops trained in the noble art of throwing things and running away. Skirmishers excel at harassing enemies, avoiding death, and reminding heavier soldiers why mobility matters. Historians call them “hit-and-run specialists.” The enemy just calls them cowards — usually right before getting another javelin in the face."
       }
     ]
   },
@@ -111,20 +111,20 @@
     "cost": 73,
     "requiredTech": "Agriculture",
     "uniques": [
-		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
+		"Comment [Thracian hit-and-run specialists; throw, stab, vanish, repeat.]",
     		"Can move after attacking",
       		"Consumes [1] [Manpower]",
-		"Comment [-Light skirmisher, good at raiding, have high withdraw chance.]"
+		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
     ],
     "promotions": [
       	"[Skirmisher] ability",
-     	 "Raider I",
       "Infantry Shield I",
+     	 "Raider I",
     ],
     "attackSound": "nonmetalhit",
     "civilopediaText": [
       {
-        "text": "This is your basic, club-swinging fighter."
+        "text": "Light skirmishers famed for their speed and deadly precision. The Thracians turned javelin warfare into an art — quick to strike, quicker to disappear. Greek generals called them “irregulars.” Everyone else called them gone."
       }
     ]
   },
@@ -139,20 +139,20 @@
     "cost": 70,
     "requiredTech": "Agriculture",
     "uniques": [
-		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
+		"Comment [-Light skirmisher, good at harrassing, have high withdraw chance.]",
    		 "Can move after attacking",
      		 "Consumes [1] [Manpower]",
-		"Comment [-Light skirmisher, good at harrassing, have high withdraw chance.]"
+		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
     ],
     "promotions": [
       "[Skirmisher] ability",
-      "Survivalism I",
       "Infantry Shield I"
+      "Survivalism I",
     ],
     "attackSound": "nonmetalhit",
     "civilopediaText": [
       {
-        "text": "This is your basic, club-swinging fighter."
+        "text": "The Anatolian tribesman trusts no banner. Empires burn, mountains don’t."
       }
     ]
   },
@@ -164,25 +164,27 @@
     "rangedStrength": 8,
     "cost": 160,
     "uniques": [
-    		"Can move after attacking",
-      		"Consumes [1] [Mercenary (Illyrian)]",
-		"[+1] XP gained from combat",
-     		"Can be purchased with [Gold] [in all cities]",
+		"Comment [Mercenary skirmisher from the Illyrian coast — fights hard, drinks harder, runs fastest when unpaid.]",
       		"Only available <in cities with a [Mercenary Camp]>",
      		"Can move immediately once bought",
-		"Comment [-Light skirmisher, good at raiding, fast river crossing, have high withdraw chance.]"
+    		"Can move after attacking",
+		"May attack when embarked",
+		"[+1] XP gained from combat",
+      		"Consumes [1] [Mercenary (Illyrian)]",
+     		"Can be purchased with [Gold] [in all cities]",
+     		 "Unbuildable",
     ],
     "promotions": [
       "[Skirmisher] ability",
+      "Infantry Shield I",
       "Amphibious I",
       "Amphibious II",
-      "Infantry Shield I",
       "Raider I"
     ],
     "attackSound": "nonmetalhit",
     "civilopediaText": [
       {
-        "text": "This is your basic, club-swinging fighter."
+        "text": "The Illyrians were called pirates by the Greeks, “privateers” by the Romans, and “naval contractors” by themselves. History calls that good marketing."
       }
     ]
   },
@@ -194,16 +196,17 @@
     "rangedStrength": 13,
     "cost": 160,
     "uniques": [
-		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
-    		"Can move after attacking",
-     		 "Consumes [1] [Mercenary (Cilician)]",
-		"[+1] XP gained from combat",
-      		"Only available <starting from the [Hellenistic Age]>",
+		"Comment [Coastal skirmisher — hits hard, runs faster, drowns slower. Great at ranged attacks, terrible at staying for melee consequences.]",
       		"Only available <in cities with a [Mercenary Camp]>",
-     		 "Unbuildable",
-     		 "Can be purchased with [Gold] [in all cities]",
      		 "Can move immediately once bought",
-		"Comment [-Light skirmisher, good at raiding, good range attack but lack melee defensive, fast river crossing,  have high withdraw chance.]"
+    		"Can move after attacking",
+		"May attack when embarked",
+		"[+1] XP gained from combat",
+		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
+     		 "Consumes [1] [Mercenary (Cilician)]",
+      		"Only available <starting from the [Hellenistic Age]>",
+     		 "Can be purchased with [Gold] [in all cities]",
+     		 "Unbuildable",
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -214,7 +217,7 @@
     "attackSound": "nonmetalhit",
     "civilopediaText": [
       {
-        "text": "This is your basic, club-swinging fighter."
+        "text": "The Cilician pirates made the Mediterranean their playground, striking trade routes and vanishing before anyone could fight back. Fast ships, faster feet, and no sense of shame — the perfect combination for a long criminal career."
       }
     ]
   },
@@ -227,16 +230,21 @@
     "cost": 90,
     "requiredTech": "Archery",
     "uniques": [
+	"Comment [Light archer, ruins ambushes, morale, and anyone who forgot to bring a shield.]"
+      	"Only available <in cities with a [Archery Range]>",
 	"May attack when embarked",
       	"Consumes [1] [Manpower]",
-      	"Only available <in cities with a [Archery Range]>",
       	"Only available <with [Enable Archer]> <hidden from users>",
-	"Comment [-Light archer, good at counter ambushing units.]"
     ],
     "promotions": [
       "[Archer] ability"
     ],
     "attackSound": "arrow"
+    "civilopediaText": [
+      {
+        "text": "Archers changed warfare by proving you didn’t need armor to win — just range and fear management. From the ancient steppes to city walls, they fought with distance, discipline, and a deep respect for running away when charged."
+      }
+    ]
   },
   {
     "name": "Slinger",
@@ -247,16 +255,21 @@
     "cost": 90,
     "requiredTech": "Archery",
     "uniques": [
+	"Comment [Light slinger, good at countering ranged units, because nothing says “primitive” like a rock to the face.]",
+      "Only available <in cities with a [Barracks]>",
 	"May attack when embarked",
       "Consumes [1] [Manpower]",
-      "Only available <in cities with a [Barracks]>",
-	"Comment [-Light slinger, good at countering ranged units.]",
       "Only available <with [Enable Slinger]> <hidden from users>"
     ],
     "promotions": [
-      "[Slinger] ability"
+      "[Slinger] ability",
     ],
     "attackSound": "arrow"
+    "civilopediaText": [
+      {
+        "text": "Ancient commanders loved slingers: they could kill from afar, cost next to nothing, and made archers nervous. That’s what we call “cost-effective terror."
+      }
+    ]
   },
   {
     "name": "Mysian Bowman",
@@ -264,21 +277,26 @@
     "replaces": "Archer",
     "uniqueTo": "The Pergamenes",
     "movement": 2,
-    "strength": 7,
+    "strength": 8,
     "rangedStrength": 14,
-    "cost": 90,
+    "cost": 120,
     "requiredTech": "Archery",
     "uniques": [
+	"Comment [Elite light archer, good at counter-ambushes, accuracy so good it feels personal.]",
+      "Only available <in cities with a [Archery Range]>",
 	"May attack when embarked",
       "Consumes [2] [Manpower]",
-      "Only available <in cities with a [Archery Range]>",
-	"Comment [-Elite light archer, good at counter ambushing units, have sharp arrows and willing to hurt enemies.]"
     ],
     "promotions": [
       "[Archer] ability",
-      "Marksman I"
+      "Marksman I",
     ],
     "attackSound": "arrow"
+    "civilopediaText": [
+      {
+        "text": "The Mysians of Asia Minor gained fame as mercenary archers, hired across the Hellenistic world for their precision and willingness to actually hit what they aimed at. Pergamon turned their local talent into a professional corps — loyal, lethal, and occasionally sober."
+      }
+    ]
   },
   {
     "name": "Mardian Archer",
@@ -288,20 +306,25 @@
     "movement": 2,
     "strength": 9,
     "rangedStrength": 13,
-    "cost": 100,
+    "cost": 120,
     "requiredTech": "Archery",
     "uniques": [
+	"Comment [Elite light archer, not built for defense, built to make sure you don’t need any.]",
+      	"Only available <in cities with a [Archery Range]>",
+      	"Can move immediately once bought",
 	"May attack when embarked",
       	"Consumes [2] [Manpower]",
-      	"Can move immediately once bought",
-      	"Only available <in cities with a [Archery Range]>",
-	"Comment [-Light archer, have strong attack.]"
     ],
     "promotions": [
       "[Archer] ability",
-      "Marksman I"
+      "Marksman I",
     ],
     "attackSound": "arrow"
+    "civilopediaText": [
+      {
+        "text": "The Mardians of Persia served the Arsacid kings as elite archers, famed for their precision and unnerving enthusiasm for lethal accuracy. Lightly armored but heavily motivated, they hit hard and vanished before anyone could argue about it."
+      }
+    ]
   },
   {
     "name": "Forester Warband",
@@ -314,17 +337,22 @@
     "cost": 120,
     "requiredTech": "Archery",
     "uniques": [
+	"Comment [Light Belgae archer, good at ambushing, bad at staying where you can see them.]",
+      "Only available <in cities with a [Archery Range]>",
+      "Can move after attacking",
 	"May attack when embarked",
       "Consumes [1] [Manpower]",
-      "Can move after attacking",
-      "Only available <in cities with a [Barracks]>",
-	"Comment [-Light archer of the Belgae, skilled in forest warfare and mobile skirmishing.]"
     ],
     "promotions": [
       "[Archer] ability",
-      "Forester"
+      "Woodsman",
     ],
     "attackSound": "arrow"
+    "civilopediaText": [
+      {
+        "text": "The Belgae’s foresters knew every root and shadow of their homeland. In battle, they used the woods as both shield and trap, striking unseen and retreating before the enemy knew who fired. Rome called them barbarians; the trees called them locals."
+      }
+    ]
   },
   {
     "name": "Balearic Slinger",
@@ -337,17 +365,22 @@
     "cost": 120,
     "requiredTech": "Archery",
     "uniques": [
-	"May attack when embarked",
-      "Consumes [1] [Manpower]",
+	"Comment [Light slinger unit, known for turning iron and spite into long-range diplomacy.]"
       "Only available <in cities with a [Barracks]>",
       "Can move immediately once bought",
-	"Comment [-Light slinger unit, equipted with iron darts.]"
+	"May attack when embarked",
+      "Consumes [1] [Manpower]",
     ],
     "promotions": [
       "[Slinger] ability",
-	"Iron Darts"
+	"Iron Darts",
     ],
     "attackSound": "arrow"
+    "civilopediaText": [
+      {
+        "text": "The Balearic slingers earned their reputation long before Carthage made it official. Trained from childhood to hurl stones and iron darts with surgical precision, they served across the Mediterranean — loyal to coin, not causes."
+      }
+    ]
   },
   {
     "name": "Rhodian Slinger",
@@ -357,16 +390,16 @@
     "rangedStrength": 12,
     "cost": 210,
     "uniques": [
+	"Comment [Rhodian mercenary — precise, portable, and politically unpredictable.]",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
+      	"Can move after attacking",
 	"May attack when embarked",
-      "Consumes [1] [Mercenary (Rhodian)]",
 	"[+1] XP gained from combat",
-      "Can move after attacking",
-      "Only available <starting from the [Hellenistic Age]>",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-	"Comment [-Light slinger, ideal for countering archers, the OG Communist fighter.]"
+      	"Consumes [1] [Mercenary (Rhodian)]",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Only available <starting from the [Hellenistic Age]>",
+      	"Unbuildable",
     ],
     "promotions": [
       "[Slinger] ability",
@@ -382,22 +415,22 @@
     "rangedStrength": 13,
     "cost": 200,
     "uniques": [
+	"Comment [Veteran mercenary archer, fast, accurate, and morally flexible.]",
+     	"Only available <in cities with a [Mercenary Camp]>",
+     	"Can move immediately once bought",
+      	"Can move after attacking",
 	"May attack when embarked",
-      "Consumes [1] [Mercenary (Cretan)]",
 	"[+1] XP gained from combat",
-      "Can move after attacking",
-      "Only available <starting from the [Hellenistic Age]>",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Never appears as a Barbarian unit",
-	"Comment [-Medium elite archer, with decent melee defensive, can fast river crossing.]"
+      	"Consumes [1] [Mercenary (Cretan)]",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Only available <starting from the [Hellenistic Age]>",
+      	"Unbuildable",
+     	"Never appears as a Barbarian unit",
     ],
     "promotions": [
       "[Archer] ability",
+      "Infantry Shield I",
       "Amphibious I",
-      "Infantry Shield I"
     ],
     "attackSound": "arrow"
   },
@@ -408,17 +441,17 @@
     "strength": 16,
     "cost": 180,
     "uniques": [
-      "Consumes [1] [Mercenary (Celtic)]",
-	"[+1] XP gained from combat",
+	"Comment [Medium shock infantry, proof that capitalism and violence can coexist beautifully.]",
       	"Only available <in cities with a [Mercenary Camp]>",
-      	"Unbuildable",
-      	"Can be purchased with [Gold] [in all cities]",
       	"Can move immediately once bought",
-	"Comment [-Medium shock infantry, great at Yolo-ing an attack, selling their souls to Capitalism.]"
+	"[+1] XP gained from combat",
+      	"Consumes [1] [Mercenary (Celtic)]",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Unbuildable",
     ],
     "promotions": [
+      "Infantry Shield II",
       "Shock I",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -429,18 +462,18 @@
     "strength": 15,
     "cost": 180,
     "uniques": [
-      "Consumes [1] [Mercenary (Germanic)]",
-	"[+1] XP gained from combat",
-      	"Can move after attacking",
+	"Comment [Medium infantry, excellent in jungle warfare; terrible at diplomacy.]",
       	"Only available <in cities with a [Mercenary Camp]>",
-      	"Unbuildable",
-      	"Can be purchased with [Gold] [in all cities]",
       	"Can move immediately once bought",
-	"Comment [-Medium infantry, ideal for jungle fighting.]"
+	"[+1] XP gained from combat",
+      	"Consumes [1] [Mercenary (Germanic)]",
+      	"Can move after attacking",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Unbuildable",
     ],
     "promotions": [
-      "Forester",
-      "Infantry Shield II"
+      "Infantry Shield II",
+      "Woodsman",
     ],
     "attackSound": "metalhit"
   },
@@ -451,18 +484,18 @@
     "strength": 16,
     "cost": 160,
     "uniques": [
-      	"Only available <before the [Hellenistic Age]>",
+	"Comment [Mercenary hoplite , defends anything, good at stopping cavalry, as long as you’ve paid first.]",
+     	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
 	"[+1] XP gained from combat",
       	"Consumes [1] [Mercenary (Hellenic)]",
-     	 "Only available <in cities with a [Mercenary Camp]>",
-     	"Unbuildable",
+      	"Only available <before the [Hellenistic Age]>",
       	"Can be purchased with [Gold] [in all cities]",
-      	"Can move immediately once bought",
-	"Comment [-Elite medium spear infantry, good defense against cavalry and holding ground.]"
+     	"Unbuildable",
     ],
     "promotions": [
+      "Infantry Shield III",
       "[Spearman] ability",
-      "Infantry Shield III"
     ],
     "attackSound": "metalhit"
   },
@@ -473,16 +506,15 @@
     "strength": 16,
     "cost": 180,
     "uniques": [
-      "Ignores terrain cost",
-      "Only available <starting from the [Hellenistic Age]>",
+	"Comment [Medium spear infantry, moves fast, fights smart, and bills hourly.]",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
+      	"Ignores terrain cost",
 	"[+1] XP gained from combat",
-      "Consumes [1] [Mercenary (Hellenic)]",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Never appears as a Barbarian unit",
-	"Comment [-Medium spear infantry unit, have fast moving speed.]"
+      	"Consumes [1] [Mercenary (Hellenic)]",
+      	"Only available <starting from the [Hellenistic Age]>",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Unbuildable",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -497,19 +529,19 @@
     "strength": 15,
     "cost": 180,
     "uniques": [
-      "Consumes [1] [Mercenary (Judean)]",
+	"Comment [Mercenary spearmen from Judea, disciplined, determined, dangerously dehydrated.]",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Never appears as a Barbarian unit",
-	"Comment [-Medium spear infantry unit, expert in desert fighting.]"
+      	"Consumes [1] [Mercenary (Judean)]",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Never appears as a Barbarian unit",
+      	"Unbuildable",
     ],
     "promotions": [
       "[Spearman] ability",
+      "Infantry Shield II",
       "Desert Warrior",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -520,19 +552,19 @@
     "strength": 16,
     "cost": 220,
     "uniques": [
-      "Consumes [1] [Mercenary (Thracian)]",
+	"Comment [Medium raider, burns, loots, and occasionally remembers who hired them.]",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Never appears as a Barbarian unit",
-	"Comment [-Medium infantry unit, ideal for raiding.]"
+      	"Consumes [1] [Mercenary (Thracian)]",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Never appears as a Barbarian unit",
     ],
     "promotions": [
       "[Thracian Warband] ability",
+      "Infantry Shield II",
       "Raider I",
       "Raider II",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -543,13 +575,13 @@
     "strength": 16,
     "cost": 190,
     "uniques": [
-      "Consumes [1] [Mercenary (Iberian)]",
+	"Comment [Medium infantry, professionals in fighting, amateurs in restraint.]",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
 	"[+2] XP gained from combat",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-	"Comment [-Medium infantry unit, skilled fighters.]"
+      	"Consumes [1] [Mercenary (Iberian)]",
+      	"Unbuildable",
+      	"Can be purchased with [Gold] [in all cities]",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -583,15 +615,15 @@
     "strength": 15,
     "cost": 150,
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Only available <in cities with a [Parthenon]>",
-	"Comment [-Medium spear infantry unit, good at siege and fast river crossing.]"
+	"Comment [Medium spear infantry, built for sieges and river fights, not poetry.]",
+      	"Only available <in cities with a [Parthenon]>",
+      	"Consumes [2] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
+      "Infantry Shield II",
       "Assault I",
       "Amphibious I",
-      "Infantry Shield II"
     ],
     "hurryCostModifier": 20,
     "attackSound": "metalhit"
@@ -604,9 +636,9 @@
     "cost": 50,
     "requiredTech": "Bronze Working",
     "uniques": [
-      "Consumes [1] [Manpower]",
-      "Only available <in cities with a [Muster Field]>",
-	"Comment [-Light spear infantry unit, good against cavalry.]",
+	"Comment [Spearman — ideal for stopping horses, not much else.]",
+     	"Only available <in cities with a [Muster Field]>",
+      	"Consumes [1] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -624,15 +656,15 @@
     "cost": 76,
     "requiredTech": "Bronze Working",
     "uniques": [
-      "Consumes [1] [Manpower]",
-      "Only available <in cities with a [Muster Field]>",
-	"Comment [-Light spear infantry unit, deadly ambushers.]"
+	"Comment [Light spear, deadly in ambushes, unimpressed by fair fights.]",
+      	"Only available <in cities with a [Muster Field]>",
+      	"Consumes [1] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
+      "Infantry Shield II",
       "Ambush I",
       "Shock I",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -644,16 +676,16 @@
     "cost": 110,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Consumes [1] [Bronze]",
-      "Comment [Has cultural requirements]",
-      "Only available <with [Enable Hoplite]> <hidden from users>",
-      "Only available <in cities with a [Barracks]>",
-	"Comment [-Medium spear infantry unit, good against cavalry.]"
+	"Comment [Medium spear infantry, ideal for holding ground and philosophical debates.]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Consumes [2] [Manpower]",
+      	"Consumes [1] [Bronze]",
+      	"Comment [Has cultural requirements]",
+      	"Only available <with [Enable Hoplite]> <hidden from users>",
     ],
     "promotions": [
       "[Spearman] ability",
-      "Infantry Shield II"
+      "Infantry Shield II",
     ],
     "attackSound": "metalhit"
   },
@@ -667,16 +699,16 @@
     "cost": 150,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Bronze]",
-      "Only available <in cities with a [Syssition]>"
-	"Comment [-Medium spear infantry unit, have good training, can strike fear into enemy lines and have zero childhood.]"
+	"Comment [Heavy spear infantry, elite training, zero childhood, maximum trauma.]",
+      	"Only available <in cities with a [Syssition]>",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Bronze]",
     ],
     "promotions": [
       "[Spearman] ability",
+      "Infantry Shield II",
       "Spartan Aura",
       "Drill I"
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -690,16 +722,16 @@
     "cost": 150,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Bronze]",
-      "Only available <in cities with a [Barracks]>"
-	"Comment [-Heavy spear infantry unit, strong defensive.]"
+	"Comment [-Heavy spear infantry, proof that privilege can, in fact, carry a spear.]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Bronze]",
     ],
     "promotions": [
       "[Spearman] ability",
+      "Infantry Shield II",
       "Drill I",
-      "Drill II"
-      "Infantry Shield II"
+      "Drill II",
     ],
     "attackSound": "metalhit"
   },
@@ -711,15 +743,15 @@
     "cost": 125,
     "requiredTech": "Bronze Working",
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Consumes [1] [Bronze]",
-      "Only available <with [Enable Pike Phalanx]> <hidden from users>",
-      "Only available <in cities with a [Barracks]>",
-	"Comment [-Medium pike infantry unit, cavalry's worst nightmare, weak against arrows and darts.]"
+	"Comment [Medium pike unit, long spears, strong against cavalry, short lifespans under missile fire.]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Consumes [2] [Manpower]",
+      	"Consumes [1] [Bronze]",
+      	"Only available <with [Enable Pike Phalanx]> <hidden from users>",
     ],
     "promotions": [
       "[Pike Phalanx] ability",
-      "Infantry Shield I"
+      "Infantry Shield I",
     ],
     "attackSound": "metalhit"
   },
@@ -732,12 +764,12 @@
     "strength": 15,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Only available <in cities with a [Barracks]>",
-      "Only available <with [Enable Swordsman]> <hidden from users>",
+	"Comment [-Medium infantry, simple, sharp, and solves most problems violently.]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Consumes [3] [Manpower]",
+      	"Only available <with [Enable Swordsman]> <hidden from users>",
 	"Unbuildable <in cities with a [Hellenic Barracks]> <hidden from users>",
 	"Unbuildable <in cities with a [Gallic Barracks]> <hidden from users>",
-	"Comment [-Medium infantry unit.]"
     ],
     "promotions": [
       "Infantry Shield II"
@@ -754,14 +786,14 @@
     "cost": 170,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
+	"Comment [Medium infantry, strong attack, limited patience.]",
       "Only available <in cities with a [Barracks]>",
       "Can move immediately once bought",
-	"Comment [-Medium infantry unit, have good attack.]"
+      "Consumes [3] [Manpower]",
     ],
     "promotions": [
-      "Shock I"
-      "Infantry Shield II"
+      "Infantry Shield II",
+      "Shock I",
     ],
     "attackSound": "metalhit"
   },
@@ -775,15 +807,15 @@
     "cost": 175,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Only available <in cities with a [Barracks]>",
-      "Can move immediately once bought",
-	"Comment [-Medium infantry unit, have good attack against sword and spear units.]"
+	"Comment [Light shock unit, excellent versus swords and spears, allergic to armor.]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Can move immediately once bought",
+      	"Consumes [3] [Manpower]",
     ],
     "promotions": [
       "[Gaesatae] ability",
+      "Infantry Shield I",
       "Shock I",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -797,13 +829,13 @@
     "cost": 175,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Barracks]>",
-	"Comment [-Medium infantry unit, have good attack against sword and cavalry units.]"
+	"Comment [Medium infantry, hits hard, moves fast, and hates horses personally.]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Consumes [4] [Manpower]",
     ],
     "promotions": [
       "[Thracian Warband] ability",
-      "Infantry Shield II"
+      "Infantry Shield II",
     ],
     "attackSound": "metalhit"
   },
@@ -817,9 +849,9 @@
     "cost": 165,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Only available <in cities with a [Barracks]>",
-	"Comment [-Medium infantry unit, very weak range defensive, can ambush and have strong attack against sword units.]"
+	"Comment [Light shock infantry, strong versus swords, weak versus everything pointy from afar]",
+      	"Only available <in cities with a [Barracks]>",
+      	"Consumes [3] [Manpower]",
     ],
     "promotions": [
       "[Falxman] ability",
@@ -833,17 +865,17 @@
     "replaces": "Swordsman",
     "uniqueTo": "The Bastarnae",
     "movement": 2,
-    "strength": 17,
+    "strength": 16,
     "cost": 175,
     "requiredTech": "Citizen Levy",
     "uniques": [
+      "Comment [Light shock infantry, ’Tis but a scratch' made violently literal.]",
+      "Only available <in cities with a [Barracks]>",
       "Consumes [3] [Manpower]",
-      "Only available <in cities with a [Barracks]>"
-      "Comment [-Light infantry unit, 'Tis but a scratch'.]",
     ],
     "promotions": [
+      "Infantry Shield I",
       "Berserker",
-      "Infantry Shield I"
     ],
     "attackSound": "metalhit"
   },
@@ -857,13 +889,13 @@
     "cost": 175,
     "requiredTech": "Infantry Training",
     "uniques": [
+      "Comment [Medium infantry, hits hard, screams louder, dies impressively.]",
+      "Only available <in cities with a [Barracks]>",
       "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Barracks]>"
-      "Comment [-Medium infantry unit, good at attacking]",
     ],
     "promotions": [
+      "Infantry Shield II",
       "Shock I",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -877,14 +909,14 @@
     "cost": 175,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Barracks]>",
-      "Comment [-Medium infantry unit, good at raiding, decent on the front line.]",
+      	"Comment [Medium infantry, decent on the front line, excellent behind enemy lines.]",
+      	"Only available <in cities with a [Barracks]>",
+     	"Consumes [4] [Manpower]",
 	"Unbuildable <in cities with a [Gallic Barracks]> <hidden from users>",
     ],
     "promotions": [
+      "Infantry Shield II",
       "Raider I",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -894,18 +926,18 @@
     "replaces": "Swordsman",
     "uniqueTo": "Citizen Levy",
     "movement": 3,
-    "strength": 17,
-    "cost": 170,
+    "strength": 16,
+    "cost": 165,
     "requiredTech": "Infantry Training",
     "uniques": [
+      "Comment [Light shock infantry, quick to raid, quick to die. Use them for the sneak attack, then pray they don’t get caught in the crossfire.]",
+      "Only available <in cities with a [Barracks]>",
       "Consumes [3] [Manpower]",
-      "Only available <in cities with a [Barracks]>"
-      "Comment [-Fast light infantry, ideal for ambushing and raiding]",
     ],
     "promotions": [
+      "Infantry Shield I",
       "Raider I",
       "Ambush I",
-      "Infantry Shield I"
     ],
     "attackSound": "metalhit",
     "civilopediaText": [
@@ -924,16 +956,16 @@
     "cost": 280,
     "requiredTech": "Infantry Training",
     "uniques": [
+      "Comment [Heavy infantry, these guys can siege a city and build a highway at the same time. Too bad they’re slower than your grandma’s morning walk.]",
+      "Only available <in cities with a [Barracks]>"
 	"Can build [All Road] improvements on tiles",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Iron]",
-      "Only available <in cities with a [Barracks]>"
-      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and on the front line]",
     ],
     "promotions": [
       "Infantry Shield III",
       "Assault I",
-      "Drill I"
+      "Drill I",
     ],
     "attackSound": "metalhit"
   },
@@ -946,12 +978,12 @@
     "strength": 16,
     "cost": 180,
     "uniques": [
+      		"Comment [-Heavy infantry, can build roads and steal land. Don’t expect them to win any races, but they’ll gladly take your territory while they're at it]",
+      		"Only available <in cities with a [Barracks]>",
 	      	"Can build [All Road] improvements on tiles",
       		"Consumes [3] [Manpower]",
-      		"Only available <in cities with a [Barracks]>",
       		"Can upgrade to [Legion] <after discovering [Infantry Training]>",
       		"Unbuildable <after discovering [Infantry Training]>",
-      		"Comment [-Heavy infantry, can build road, good at taking other people's land]",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -968,13 +1000,12 @@
     "cost": 210,
     "requiredTech": "Military Reforms",
     "uniques": [
+      "Comment [Heavy spear infantry, happily defend their fields and build roads back to Rome—as long as the enemy doesn’t show up on the other side of the empire.]",
+      "Only available <in cities with a [Army Barracks]>",
 	"Can build [All Road] improvements on tiles",
-       "[+10]% Strength <when fighting in [Friendly Land] tiles>",
+       "[+20]% Strength <when fighting in [Friendly Land] tiles>",
        "[+10]% Strength <when fighting in [Farm] tiles>",
-       "[+10]% Strength <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Barracks]>",
-      "Comment [-Heavy infantry, can build road, good at defending homeland.] <during the [Imperial Age]>",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -991,17 +1022,16 @@
     "strength": 18,
     "requiredTech": "Military Reforms",
     "uniques": [
+	"Comment [-Heavy spear infantry, basically a moving wall. Effective against cavalry, but if you ask them to do anything else, you’ll get a ‘No thanks.’]",
+      "Only available <in cities with a [Barracks]>",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Iron]",
-      "Comment [Has cultural requirements]",
-      "Only available <in cities with a [Barracks]>",
       "Only available <with [Enable Heavy Spearman]> <hidden from users>",
-	"Comment [-Heavy spear infantry, strong defense, good against cavalry.]"
     ],
     "promotions": [
       "[Spearman] ability",
+      "Infantry Shield III",
       "Formation I",
-      "Infantry Shield III"
     ],
     "attackSound": "metalhit"
   },
@@ -1013,17 +1043,16 @@
     "strength": 19,
     "requiredTech": "Military Reforms",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron]",
-      "Comment [Has cultural requirements]",
-	"Comment [-Heavy infantry unit, good fronliner.]"
-      "Only available <with [Enable Heavy Swordsman]> <hidden from users>",
+	"Comment [Heavy infantry, a frontliner with a sword and a bad attitude. Great at holding the line, terrible at anything requiring speed or finesse.]"
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Iron]",
 	"Unbuildable <in cities with a [Hellenic Barracks]> <hidden from users>",
 	"Unbuildable <in cities with a [Gallic Barracks]> <hidden from users>",
+      	"Only available <with [Enable Heavy Swordsman]> <hidden from users>",
     ],
     "promotions": [
+      "Infantry Shield III",
       "Drill I",
-      "Infantry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -1038,9 +1067,9 @@
     "strength": 22,
     "requiredTech": "Military Reforms",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron]",
-	"Comment [-Elite heavy infantry.]",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Iron]",
+	"Comment [Elite heavy infantry, top-tier frontliners, if you don’t mind them taking their sweet time. They’ll hold the line and look intimidating doing it]",
     ],
     "promotions": [
       "Infantry Shield II"
@@ -1054,23 +1083,23 @@
   "cost": 200,
   "movement": 4,
   "strength": 11,
-  "rangedStrength": 14,
+  "rangedStrength": 13,
     "uniques": [
-      "Consumes [1] [Mercenary (Numidian)]",
+      	"Comment [Light mounted skirmisher, Fast, annoying, and best used for running away after causing a little chaos. Don’t expect these guys to fight for long—they’ll be gone before you know it.]",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
 	"May attack when embarked",
-    "[-1] Range",
+    	"[-1] Range",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Comment [-Light skirmisher unit, best use in raiding and harrassing, have high withdraw chance.]",
+      	"Consumes [1] [Mercenary (Numidian)]",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Unbuildable",
     ],
     "promotions": [
       "[Horseman] ability",
+      "Cavalry Shield I",
       "Scouting I",
       "Raider I"
-      "Cavalry Shield I"
     ],
     "attackSound": "arrow"
   },
@@ -1083,10 +1112,10 @@
     "strength": 13,
     "requiredTech": "Riding",
     "uniques": [
+      "Comment [Light cavalry that’s great for hitting and running—because why fight when you can just annoy people and leave]",
+      "Only available <in cities with a [Stable]>",
       "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
-      "Comment [-Light cavalry unit, good in scouting and harrassing, have high withdraw chance.]",
-      "Only available <in cities with a [Stable]>",
       "Only available <before adopting [Numidian Culture]> <hidden from users>",
     ],
     "promotions": [
@@ -1105,14 +1134,14 @@
     "strength": 9,
     "rangedStrength": 12,
     "uniques": [
-      "Consumes [1] [Mercenary (Eastern)]",
+     	"Comment [Elite mounted archer who'll shoot, run, and cry when the real fight starts. Expensive, but they’ll make those arrows fly before they bail]",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
 	"May attack when embarked",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Comment [-Elite mounted archery unit, expensive, 'arrows goes brr', have high withdraw chance.]",
+      	"Consumes [1] [Mercenary (Eastern)]",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Unbuildable",
     ],
     "promotions": [
       "Horse Archer ability",
@@ -1129,11 +1158,11 @@
     "rangedStrength": 11,
     "requiredTech": "Riding",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      	"Comment [Light mounted archer, fast, and completely useless if they ever have to actually fight. They’ll shoot arrows, maybe hit something, then ride off before anyone can say ‘where’d they go?.]",
+      	"Only available <in cities with a [Nomadic Herd]>",
 	"May attack when embarked",
-      "Consumes [1] [Horses]",
-      "Only available <in cities with a [Nomadic Herd]>",
-      "Comment [-Light mounted archery unit, 'arrows goes brr', have high withdraw chance.]",
+      	"Consumes [2] [Manpower]",
+      	"Consumes [1] [Horses]",
     ],
     "promotions": [
       "Horse Archer ability",
@@ -1149,10 +1178,10 @@
     "strength": 10,
     "rangedStrength": 11,
     "uniques": [
+      "Comment [Medium mounted archer, perfect for desert battles, as long as you don’t expect them to do anything when they leave the sand. They’ll shoot a few arrows and bail before you can blink.]",
+      "Only available <in cities with a [Spice Road]>",
 	"May attack when embarked",
       "Consumes [3] [Manpower]",
-      "Only available <in cities with a [Spice Road]>",
-      "Comment [-Medium camel archery, expert at desert fighting, have high withdraw chance in desert.]",
     ],
     "promotions": [
       "[Camel Archer] ability"
@@ -1169,14 +1198,12 @@
     "rangedStrength": 11,
     "requiredTech": "The Wheel",
     "uniques": [
+      "Comment [Medium ranged chariot, a chariot with a bow—because running around in circles is the best way to fight. Good in the desert, terrible on rough terrain. Expect them to get stuck faster than your last bad decision.]",
       "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
-      "Comment [Has cultural requirements]",
-      "Only available <with [Enable Chariot Archer]> <hidden from users>",
       "Only available <before discovering [Equestrian Class]>",
+      "Only available <with [Enable Chariot Archer]> <hidden from users>",
       "Only available <in cities without a [The Oracle of Amun]> <hidden from users>",
-      "Never appears as a Barbarian unit",
-      "Comment [-Medium ranged chariot unit, bad at rough terrain, good at desert fighting, have medium withdraw chance.]",
     ],
     "promotions": [
       "Chariot ability"
@@ -1192,14 +1219,13 @@
     "strength": 11,
     "rangedStrength": 11,
     "uniques": [
-      "Consumes [1] [Mercenary (Libyan)]",
+      	"Comment [Medium ranged chariot, for when you need a flashy unit that’ll shoot a few arrows, then bail when things get rough. They’ll excel in the desert, but anywhere else? They’ll be stuck faster than your last bad mercenary deal.]",
+      	"Only available <in cities with a [Mercenary Camp]>",
+      	"Can move immediately once bought",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Never appears as a Barbarian unit",
-      "Comment [-Medium ranged chariot unit, bad at rough terrain, good at desert fighting, have medium withdraw chance.]",
+      	"Consumes [1] [Mercenary (Libyan)]",
+      	"Can be purchased with [Gold] [in all cities]",
+      	"Unbuildable",
     ],
     "promotions": [
       "Chariot ability"
@@ -1215,13 +1241,11 @@
     "strength": 13,
     "requiredTech": "The Wheel",
     "uniques": [
+      "Comment [-Medium chariot unit, bad at rough terrain, good at desert fighting, have strong attack and medium withdraw chance.]",
       "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
-      "Comment [Has cultural requirements]",
-      "Only available <with [Enable War Chariot]> <hidden from users>",
       "Only available <before discovering [Equestrian Class]>",
-      "Never appears as a Barbarian unit",
-      "Comment [-Medium chariot unit, bad at rough terrain, good at desert fighting, have strong attack and medium withdraw chance.]",
+      "Only available <with [Enable War Chariot]> <hidden from users>",
     ],
     "promotions": [
       "Chariot ability",
@@ -1240,9 +1264,9 @@
     "strength": 14,
     "requiredTech": "The Wheel",
     "uniques": [
+      "Comment [-Medium chariot unit, bad at rough terrain, good at desert fighting, have strong attack and medium withdraw chance.]",
       "Consumes [2] [Manpower]",
       "Consumes [1] [Horses]",
-      "Comment [-Medium chariot unit, bad at rough terrain, good at desert fighting, have strong attack and medium withdraw chance.]",
     ],
     "promotions": [
       "Chariot ability",
@@ -1261,10 +1285,10 @@
     "strength": 15,
     "requiredTech": "Equestrian Class",
     "uniques": [
+      "Comment [-Medium chariot unit, bad at rough terrain, good at desert fighting, have strong attack and medium withdraw chance.]",
+      "Only available <in cities with a [Stable]>",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Horses]",
-      "Only available <in cities with a [Stable]>",
-      "Comment [-Medium chariot unit, bad at rough terrain, good at desert fighting, have strong attack and medium withdraw chance.]",
     ],
     "promotions": [
       "Chariot ability",
@@ -1281,14 +1305,13 @@
     "movement": 4,
     "strength": 15,
     "uniques": [
-      "Consumes [1] [Mercenary (Mesopotamian)]",
-	"[+1] XP gained from combat",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Never appears as a Barbarian unit",
       "Comment [-Elite medium chariot unit, bad at rough terrain, good at desert fighting, have strong attack and medium withdraw chance.]",
+      "Only available <in cities with a [Mercenary Camp]>",
+      "Can move immediately once bought",
+	"[+1] XP gained from combat",
+      "Consumes [1] [Mercenary (Mesopotamian)]",
+      "Can be purchased with [Gold] [in all cities]",
+      "Unbuildable",
     ],
     "promotions": [
       "Chariot ability",
@@ -1306,13 +1329,12 @@
     "strength": 17,
     "requiredTech": "Equestrian Class",
     "uniques": [
+      "Comment [-Medium cavalry, they’re like the middle child of your army—too good to be ignored, but not nearly enough to win the spotlight. Use them to pretend you’ve got cavalry.]",
+      "Only available <in cities with a [Stable]>",
       "Consumes [3] [Manpower]",
       "Consumes [2] [Horses]",
-      "Only available <in cities with a [Stable]>",
-      "Comment [Has cultural requirements]",
       "Only available <with [Enable Cavalry]> <hidden from users>",
       "Only available <before adopting [Numidian Culture]> <hidden from users>",
-      "Comment [-Medium cavalry unit.]",
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -1329,15 +1351,14 @@
     "strength": 19,
     "requiredTech": "Metallurgy",
     "uniques": [
+      "Comment [-Elite medium cavalry unit, King's personal guards.]",
+      "Only available <in cities with a [Palace]>",
       "Limited to [1] per Civilization",
       "Consumes [3] [Manpower]",
-      "Consumes [1] [Veteran]",
       "Consumes [1] [Horses]",
-      "Only available <in cities with a [Palace]>",
-      "Comment [Has cultural requirements]",
+      "Consumes [1] [Veteran]",
       "Only available <with [Enable Royal Agema]> <hidden from users>",
       "Never appears as a Barbarian unit",
-      "Comment [-Elite medium cavalry unit, King's personal guards.]",
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -1355,14 +1376,14 @@
     "strength": 26,
     "requiredTech": "Metallurgy",
     "uniques": [
+	"Comment [Very heavy cavalry, the Roman answer to cavalry: heavier, slower, and less punchy than the eastern versions. Great for crushing infantry, as long as you’re cool with sacrificing an arm and a leg to get them] <after adopting [Latin Culture]>",
+	"Comment [Very heavy cavalry,The ‘OG tank’ if tanks were slow, expensive, and required a small fortune in horses, manpower, and iron. Sure, they’ll crush infantry, but they’ll also burn a hole in your budget faster.] <before adopting [Latin Culture]>",
+	"Only available <in cities with a [Cavalry Barracks]>",
 	"Consumes [5] [Manpower]",
 	"Consumes [2] [Horses]",
 	"Consumes [2] [Iron]",
-	"Only available <in cities with a [Cavalry Barracks]>",
-	"Comment [Has cultural requirements]",
-	"Never appears as a Barbarian unit",
-	"Comment [-Very heavy cavalry unit, expensive, fully armored riders and horses, have less offensive and better defense than their eastern counterpart, ideal for crushing infantry formations] <for [The Romans] Civilizations>",
-	"Comment [-Very heavy cavalry unit, expensive, fully armored riders and horses, ideal for crushing infantry formations. - 'OG tanks']",
+	"Never appears as a Barbarian unit <hidden from users>",
+      "Only available <with [Enable Cataphract]> <hidden from users>",
     ],
     "promotions": [
       "[Cataphract] ability",
@@ -1380,16 +1401,15 @@
     "strength": 20,
     "requiredTech": "Metallurgy",
     "uniques": [
+      "Comment [-Heavy shock cavalry, too bad they’re just another expensive way to crush weaklings.]",
+      "Only available <in cities with a [Cavalry Barracks]>",
       "Consumes [4] [Manpower]",
       "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
-      "Only available <in cities with a [Cavalry Barracks]>",
-      "[-15]% Strength <vs cities> <when attacking>",
-      "Comment [-Heavy cavalry unit, have good attack, decent defense, anti infantry units]",
     ],
     "promotions": [
       "[Horseman] ability",
-      "Cavalry Shield II"
+      "Cavalry Shield II",
       "Armored Lancer",
     ],
     "attackSound": "horse"
@@ -1403,14 +1423,13 @@
     "strength": 18,
     "requiredTech": "Equestrian Class",
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Consumes [1] [Elephants]",
-      "Comment [Has cultural requirements]",
-      "Only available <with [Enable War Elephant]> <hidden from users>",
-      "Only available <in cities with a [Barracks]>",
-      "Never appears as a Barbarian unit",
+      	"Comment [-Medium elephant, a beast that’ll crush anything in its path—except your economy. Hope you’ve got the gold to feed it.]",
+      	"Only available <in cities with a [Stable]>",
 	"Destroys tile improvements when attacking",
-      "Comment [-Medium elephant unit, these beasts strike fear into enemy lines]",
+      	"Consumes [2] [Manpower]",
+      	"Consumes [1] [Elephants]",
+      	"Never appears as a Barbarian unit",
+      	"Only available <with [Enable War Elephant]> <hidden from users>",
     ],
     "promotions": [
       "[War Elephant] ability"
@@ -1427,12 +1446,12 @@
     "strength": 25,
     "requiredTech": "Equestrian Class",
     "uniques": [
+      "Comment [-Heavy elephant unit, armored, and ready to flatten anything that dares stand in its way. Just don’t expect it to help with anything delicate.]",
       "Only available <in cities with a [Army Barracks]>",
+	"Destroys tile improvements when attacking",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Elephants]",
       "Consumes [2] [Iron]",
-	"Destroys tile improvements when attacking",
-      "Comment [-Heavy elephant unit, expensive, these beasts strike fear into enemy lines]",
     ],
     "promotions": [
       "[War Elephant] ability"
@@ -1444,12 +1463,12 @@
     "unitType": "Melee Water",
     "movement": 5,
     "strength": 12,
-    "cost": 126,
+    "cost": 110,
     "requiredTech": "Woodworking",
     "uniques": [
-      "Consumes [2] [Manpower]",
+      "Comment [-Light naval melee, cheap and disposable. Perfect for getting your men killed without actually accomplishing much]",
       "Cannot enter ocean tiles",
-      "Comment [-Light naval melee unit, cost only human lives]",
+      "Consumes [2] [Manpower]",
     ],
     "promotions": [
       "Boarding Tactics"
@@ -1464,13 +1483,12 @@
     "cost": 150,
     "requiredTech": "Shipbuilding",
     "uniques": [
+      "Comment [-Medium naval melee unit]",
+      "Only available <in cities with a [Drydock]>",
+      "Cannot enter ocean tiles",
       "Consumes [3] [Manpower]",
       "Consumes [1] [Timber]",
-      "Cannot enter ocean tiles",
-      "Comment [Has cultural requirements]",
-      "Only available <in cities with a [Anchorage]>",
       "Only available <with [Enable Trireme]> <hidden from users>",
-      "Comment [-Medium naval melee unit]",
     ],
     "attackSound": "nonmetalhit"
   },
@@ -1482,13 +1500,12 @@
     "cost": 200,
     "requiredTech": "Navigation",
     "uniques": [
+      "Comment [-Heavy naval melee unit]",
+      "Only available <in cities with a [Drydock]>",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Timber]",
-      "Comment [Has cultural requirements]",
-      "Only available <with [Enable Pentere]> <hidden from users>",
-      "Only available <in cities with a [Drydock]>",
       "Never appears as a Barbarian unit",
-      "Comment [-Heavy naval melee unit]",
+      "Only available <with [Enable Pentere]> <hidden from users>",
     ],
     "attackSound": "nonmetalhit"
   },
@@ -1500,13 +1517,12 @@
     "cost": 170,
     "requiredTech": "Navigation",
     "uniques": [
+      "Comment [-Medium naval melee, high withdraw chance]",
+      "Only available <in cities with a [Drydock]>",
       "Consumes [2] [Manpower]",
       "Consumes [1] [Timber]",
-      "Comment [Has cultural requirements]",
-      "Only available <in cities with a [Drydock]>",
       "Only available <with [Enable Hemiola]> <hidden from users>",
       "Only available <in cities without a [Colossus]> <hidden from users>",
-      "Comment [-Medium naval melee, high withdraw chance]",
     ],
     "promotions": [
       "[Hemiola] ability",
@@ -1521,14 +1537,14 @@
     "strength": 17,
     "cost": 250,
     "uniques": [
-      "Consumes [1] [Mercenary (Rhodian)]",
-	"[+1] XP gained from combat",
-      "Cannot enter ocean tiles",
-      "Only available <in cities with a [Mercenary Camp]>",
-      "Unbuildable",
-      "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
       "Comment [-Mercenary medium naval melee, high withdraw chance]",
+      "Only available <in cities with a [Mercenary Camp]>",
+      "Can move immediately once bought",
+      "Cannot enter ocean tiles",
+	"[+1] XP gained from combat",
+      "Consumes [1] [Mercenary (Rhodian)]",
+      "Can be purchased with [Gold] [in all cities]",
+      "Unbuildable",
     ],
     "promotions": [
       "[Hemiola] ability",
@@ -1545,13 +1561,12 @@
     "cost": 280,
     "requiredTech": "Naval Artillery",
     "uniques": [
+      "Comment [-Medium naval ranged]",
+      "Only available <in cities with a [Drydock]>",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Timber]",
-      "Only available <in cities with a [Drydock]>",
-      "Comment [Has cultural requirements]",
       "Only available <with [Enable Hexere]> <hidden from users>",
       "Never appears as a Barbarian unit",
-      "Comment [-Medium naval ranged]",
     ],
     "attackSound": "arrow"
   },
@@ -1564,15 +1579,14 @@
     "cost": 400,
     "requiredTech": "Naval Artillery",
     "uniques": [
+      "Comment [-Heavy naval ranged unit]",
+      "Only available <in cities with a [Great Harbor]>",
+      "Limited to [1] per Civilization",
+      "Cannot enter ocean tiles",
       "Consumes [5] [Manpower]",
       "Consumes [2] [Timber]",
-      "Cannot enter ocean tiles",
-      "Only available <in cities with a [Great Harbor]>",
-      "Comment [Has cultural requirements]",
       "Only available <with [Enable Decere]> <hidden from users>",
-      "Limited to [1] per Civilization",
       "Never appears as a Barbarian unit",
-      "Comment [-Heavy naval ranged unit]",
     ],
     "attackSound": "bombard"
   },
@@ -1585,22 +1599,21 @@
     "cost": 220,
     "requiredTech": "Engineering",
     "uniques": [
-      "Consumes [2] [Manpower]",
-      "Consumes [1] [Timber]",
+	"Comment [-Medium artillery, have good attack against mounted unit]",
+	"Only available <in cities with a [Siege Workshop]>",
+	"May attack when embarked",
+	"Must set up to ranged attack",
+	"Destroys tile improvements when attacking",
+	"No defensive terrain bonus",
  	"[+40]% Strength <vs [Mounted] units> <when attacking>",
  	"[+40]% Strength <vs [Elephant] units> <when attacking>",
  	"[+40]% Strength <vs [Mounted Archery] units> <when attacking>",
 	"[+200]% Strength <vs cities> <when attacking>",
-	"[-1] Sight",
-	"May attack when embarked",
-	"No defensive terrain bonus",
-	"Must set up to ranged attack",
-	"Only available <with [Enable Ballista]> <hidden from users>",
-	"Only available <in cities with a [Siege Workshop]>",
+      "Consumes [2] [Manpower]",
+      "Consumes [1] [Timber]",
 	"Never appears as a Barbarian unit",
-	"Destroys tile improvements when attacking",
-	"Comment [Has cultural requirements]",
-	"Comment [-Medium artillery, have good attack against mounted unit]",
+	"Only available <with [Enable Ballista]> <hidden from users>",
+	"[-1] Sight <hidden from users>",
     ],
     "hurryCostModifier": 20,
     "attackSound": "bombard"
@@ -1614,20 +1627,20 @@
     "cost": 310,
     "requiredTech": "Mass Production",
     "uniques": [
-	"Consumes [3] [Manpower]",
-	"Consumes [1] [Timber]",
+ 	"Comment [-Heavy artillery, good against cities and infantry units]",
+	"Only available <in cities with a [Siege Workshop]>",
+	"May attack when embarked",
+	"Must set up to ranged attack",
+	"Destroys tile improvements when attacking",
+	"No defensive terrain bonus",
  	"[+40]% Strength <vs [Spear] units> <when attacking>",
  	"[+40]% Strength <vs [Sword] units> <when attacking>",
  	"[+30]% Strength <vs [Siege] units> <when attacking>",
 	"[+400]% Strength <vs cities> <when attacking>",
-	"[-1] Sight",
-	"Destroys tile improvements when attacking",
-	"May attack when embarked",
-	"No defensive terrain bonus",
-	"Must set up to ranged attack",
-	"Only available <in cities with a [Siege Workshop]>",
+	"Consumes [3] [Manpower]",
+	"Consumes [1] [Timber]",
 	"Never appears as a Barbarian unit",
- 	"Comment [-Heavy artillery, good against cities and infantry units]",
+	"[-1] Sight <hidden from users>",
     ],
     "hurryCostModifier": 20,
     "attackSound": "bombard"
@@ -1638,7 +1651,7 @@
     "uniques": [
       "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "Great Person - [Culture]",
-	"Can instantly construct a [Village] improvement <[3] times> <after which this unit is consumed>",
+	"Can instantly construct a [Village] improvement <[2] times> <after which this unit is consumed>",
       "Unbuildable",
       "Uncapturable"
     ],
@@ -1650,7 +1663,8 @@
     "uniques": [
       "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "Free Great Person <by consuming this unit>",
-	"Can instantly construct a [Village] improvement <[2] times> <after which this unit is consumed>",
+	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
+	"Can instantly construct a [Trading post] improvement <[1] times> <after which this unit is consumed>",
       "Great Person - [Libertinage]",
       "Unbuildable",
       "Uncapturable"
@@ -1663,7 +1677,7 @@
     "uniques": [
       	"Empire enters a [10]-turn Golden Age <by consuming this unit>",
       	"Free Social Policy <by consuming this unit>",
-	"Can instantly construct a [Village] improvement <[2] times> <after which this unit is consumed>",
+	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
       	"Great Person - [Propagandhi]",
       	"Unbuildable",
       	"Uncapturable"
@@ -1679,7 +1693,7 @@
       "[1] free random researchable Tech(s) from the [Classical Age] <by consuming this unit> <during the [Classical Age]>",
       "[1] free random researchable Tech(s) from the [Hellenistic Age] <by consuming this unit> <during the [Hellenistic Age]>",
       "Great Person - [Science]",
-	"Can instantly construct a [Village] improvement  <[2] times> <after which this unit is consumed>",
+	"Can instantly construct a [Village] improvement  <[1] times> <after which this unit is consumed>",
       	"Unbuildable",
       	"Uncapturable"
     ],
@@ -1706,8 +1720,8 @@
     "uniques": [
       "Empire enters a [12]-turn Golden Age <by consuming this unit> <if it hasn't used other actions yet>",
       "Can speed up construction of a building <if it hasn't used other actions yet>",
-	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
-      "[+10]% Strength bonus for [Siege] units within [2] tiles",
+	"Can instantly construct a [Fort] improvement <[1] times> <after which this unit is consumed>",
+      "[+10]% Strength bonus for [Siege] units within [1] tiles",
       "Great Person - [Production]",
       "Unbuildable",
       "Uncapturable"
@@ -1726,8 +1740,9 @@
 	"All adjacent units heal [+2] HP when healing <after adopting [Keeper of Traditions]>",
       	"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
       	"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
       	"Great Person - [Faith]",
-      	"Unbuildable",     
+      	"Unbuildable",
 	"Uncapturable",
       	"Religious Unit",
      	"Only available <when religion is enabled>",
@@ -1743,12 +1758,11 @@
     "cost": 1000,
     "requiredTech": "Infantry Training",
     "uniques": [
+		"Comment [-Battlefield commander, give bounus to nearby units]",
       		"Only available <in cities with a [Army Barracks]>",
-		"Can instantly construct a [Fort] improvement <[1] times>",
       		"Consumes [1] [Nobles]",
       		"Never appears as a Barbarian unit",
       		"Great Person - [War]",
-		"Comment [-Battlefield commander, give bounus to nearby units]",
     ],
     "promotions": [
       "[Horseman] ability",
@@ -1765,12 +1779,12 @@
     "strength": 17,
     "cost": 150,
     "uniques": [
+	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
+      "Only available <in cities with a [Palace]>",
+      "[+10]% Strength bonus for [Military] units within [1] tiles",
+	"[+1] XP gained from combat",
       "Consumes [2] [Manpower]",
       "Consumes [1] [Veteran]",
-	"[+1] XP gained from combat",
-      "[+15]% Strength bonus for [Military] units within [2] tiles",
-      "Only available <in cities with a [Palace]>",
-	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1787,16 +1801,16 @@
     "strength": 17,
     "cost": 180,
     "uniques": [
-	      "[+1] XP gained from combat",
-      "Consumes [1] [Veteran]",
-      "[+15]% Strength bonus for [Military] units within [2] tiles",
-      "Only available <in cities with a [Palace]>",
-	"Comment [-Elite medium spear infantry, give bounus to nearby allies, can strike fear into enemy lines 'this is SPATAR!']",
+		"Comment [Elite medium spear infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away—just don’t expect them to do much beyond that.]",
+     		"Only available <in cities with a [Palace]>",
+      		"[+10]% Strength bonus for [Military] units within [1] tiles",
+	      	"[+1] XP gained from combat",
+      		"Consumes [1] [Veteran]",
     ],
     "promotions": [
       "[Spearman] ability",
+      "Infantry Shield III",
       "Spartan Aura",
-      "Infantry Shield III"
     ],
     "attackSound": "metalhit"
   },
@@ -1809,13 +1823,12 @@
     "strength": 17,
     "cost": 150,
     "uniques": [
+	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
+      "Only available <in cities with a [Palace]>",
+      "[+10]% Strength bonus for [Military] units within [3] tiles",
       	"[+1] XP gained from combat",
       "Consumes [2] [Manpower]",
       "Consumes [1] [Veteran]",
-	"[+1] XP gained from combat",
-      "[+10]% Strength bonus for [Military] units within [3] tiles",
-      "Only available <in cities with a [Palace]>",
-	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -1831,16 +1844,15 @@
     "strength": 19,
     "cost": 170,
     "uniques": [
+	"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 	"Can only be built <in [Capital] cities>",
-      "Cannot be purchased",
 	"Limited to [1] per Civilization",
       "Never appears as a Barbarian unit",
-	"Comment [-Sovereign leader, inspires nearby troops.]",
     ],
     "promotions": [
       "[Cavalry] ability",
+      "Cavalry Shield II",
 	"Commander",
-      "Cavalry Shield II"
     ],
     "attackSound": "metalhit"
   },
@@ -1856,12 +1868,11 @@
   "rangedStrength": 13,
     "cost": 180,
     "uniques": [
-	"May attack when embarked",
+	"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 	"Can only be built <in [Capital] cities>",
+	"May attack when embarked",
       "Limited to [1] per Civilization",
-      "Cannot be purchased",
       "Never appears as a Barbarian unit",
-	"Comment [-Sovereign leader, inspires nearby troops, high withdraw chance.]",
     ],
     "promotions": [
       "Horse Archer ability",
@@ -1879,15 +1890,15 @@
     "strength": 19,
     "cost": 190,
     "uniques": [
+	"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
 	"Can only be built <in [Capital] cities>",
       "Limited to [1] per Civilization",
       "Cannot be purchased",
-	"Comment [-Sovereign leader, inspires nearby troops, small withdraw chance.]",
     ],
     "promotions": [
       "[Cavalry] ability",
-	"Commander",
       "Cavalry Shield II",
+	"Commander",
 	"Inspiring"
     ],
     "attackSound": "metalhit"
@@ -1902,15 +1913,15 @@
   "rangedStrength": 14,
   "requiredTech": "Riding",
   "uniques": [
-    "Consumes [3] [Manpower]",
-    "Consumes [1] [Horses]",
-    "[-1] Range",
-	"May attack when embarked",
-    "Can move after attacking",
-      "Only available <after adopting [Numidian Culture]> <hidden from users>",
-    "Only available <in cities with a [Skirmisher Barracks]>",
  	"Comment [-Light mounted skirmisher, have high range attack, good at raiding, high withdraw chance]",
-    "Never appears as a Barbarian unit"
+    	"Only available <in cities with a [Skirmisher Barracks]>",
+    	"Can move after attacking",
+	"May attack when embarked",
+    	"[-1] Range",
+    	"Consumes [3] [Manpower]",
+    	"Consumes [1] [Horses]",
+      	"Only available <after adopting [Numidian Culture]> <hidden from users>",
+    	"Never appears as a Barbarian unit"
   ],
   "promotions": [
       "[Horseman] ability",
@@ -1927,12 +1938,12 @@
   "strength": 17,
   "requiredTech": "Riding",
   "uniques": [
+ 	"Comment [-Medium cavalry, have strong attack, good at raiding, medium withdraw chance]",
+    "Only available <in cities with a [Cavalry Barracks]>",
+    "Can move after attacking",
     "Consumes [3] [Manpower]",
     "Consumes [2] [Horses]",
-    "Can move after attacking",
       "Only available <after adopting [Numidian Culture]> <hidden from users>",
-    "Only available <in cities with a [Cavalry Barracks]>",
- 	"Comment [-Medium cavalry, have strong attack, good at raiding, medium withdraw chance]",
     "Never appears as a Barbarian unit"
   ],
   "promotions": [
@@ -1952,15 +1963,15 @@
   "rangedStrength": 12,
   "requiredTech": "Riding",
   "uniques": [
-    "Consumes [3] [Manpower]",
-    "Consumes [1] [Horses]",
-    "[-1] Range",
+      "Comment [-Light mounted skirmisher, strong range attack, have high withdraw chance.]",
+    "Only available <in cities with a [Cavalry Barracks]>",
 	"May attack when embarked",
     "Can move after attacking",
-    "Only available <in cities with a [Cavalry Barracks]>",
+    "[-1] Range",
+    "Consumes [3] [Manpower]",
+    "Consumes [1] [Horses]",
     "Never appears as a Barbarian unit",
       "Only available <before adopting [Numidian Culture]> <hidden from users>",
-      "Comment [-Light mounted skirmisher, strong range attack, have high withdraw chance.]",
   ],
   "promotions": [
       "[Horseman] ability",
@@ -1973,10 +1984,10 @@
     "strength": 10,
     "cost": 100,
     "uniques": [
+      "Comment [-Light infantry, have big fear for range weapons, good at attacking, small withdraw chance.]",
+      "Only available <in cities with a [Sacred Grove]>",
       "Consumes [2] [Manpower]",
       "Only available <after adopting [Celtic Culture]> <hidden from users>",
-      "Only available <in cities with a [Sacred Grove]>",
-      "Comment [-Light infantry, have big fear for range weapons, good at attacking, small withdraw chance.]",
     ],
     "promotions": [
       "Infantry Shield I",
@@ -1991,13 +2002,13 @@
     "strength": 12,
     "cost": 170,
     "uniques": [
-      "Consumes [1] [Mercenary (Celtic)]",
-	"[+1] XP gained from combat",
+      "Comment [-Elite light infantry, have big fear for range weapons, good at attacking, small withdraw chance.]",
       "Only available <in cities with a [Mercenary Camp]>",
+      "Can move immediately once bought",
+	"[+1] XP gained from combat",
+      "Consumes [1] [Mercenary (Celtic)]",
       "Unbuildable",
       "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Comment [-Elite light infantry, have big fear for range weapons, good at attacking, small withdraw chance.]",
     ],
     "promotions": [
       "Shock I",
@@ -2013,13 +2024,13 @@
     "strength": 14,
     "cost": 200,
     "uniques": [
-      "Consumes [1] [Manpower]",
-	"[+2] XP gained from combat",
+      "Comment [-Medium infantry, well-trained fighter, good at attacking, bad at holding ground, small withdraw chance.]",
       "Only available <in cities with a [Arena]>",
+      "Can move immediately once bought",
+	"[+2] XP gained from combat",
+      "Consumes [1] [Manpower]",
       "Unbuildable",
       "Can be purchased with [Gold] [in all cities]",
-      "Can move immediately once bought",
-      "Comment [-Medium infantry, well-trained fighter, good at attacking, bad at holding ground, small withdraw chance.]",
     ],
     "promotions": [
       "Shock I",
@@ -2036,10 +2047,10 @@
     "cost": 160,
     "requiredTech": "Crossbow Engineering",
     "uniques": [
-      "Consumes [3] [Manpower]",
-	"May attack when embarked",
-      "Only available <in cities with a [Ballistics Range]>",
       "Comment [-Medium archery, anti armored units, small withdraw chance.]",
+      "Only available <in cities with a [Ballistics Range]>",
+	"May attack when embarked",
+      "Consumes [3] [Manpower]",
     ],
     "promotions": [
       "Crossbowman ability",
@@ -2055,11 +2066,11 @@
     "cost": 220,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
-	"[+30]% Strength <vs cities> <when defending>",
-      "Consumes [4] [Manpower]",
-	"May attack when embarked",
       "Only available <in cities with a [Ballistics Range]>",
       "Comment [-Heavy archery, armored, small withdraw chance.]",
+	"May attack when embarked",
+	"[+30]% Strength <vs cities> <when defending>",
+      "Consumes [4] [Manpower]",
     ],
     "promotions": [
       "[Archer] ability",
@@ -2077,12 +2088,11 @@
   "rangedStrength": 13,
     "cost": 2200,
     "uniques": [
-      "Consumes [1] [Nobles]",
+ 	"Comment [Elite medium horse archer, have strong range attack, small withdraw chance]",
+      	"Only available <in cities with a [Imperial Barracks]>",
 	"May attack when embarked",
 	"[+1] XP gained from combat",
-      "Cannot be purchased",
-      "Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [Elite medium horse archer, have strong range attack, small withdraw chance]",
+      	"Consumes [1] [Nobles]",
     ],
     "promotions": [
       "Horse Archer ability",
@@ -2098,9 +2108,9 @@
     "movement": 3,
     "strength": 14,
     "uniques": [
-      "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Camel Stable]>",
       "Comment [-Medium camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
+      "Only available <in cities with a [Camel Stable]>",
+      "Consumes [4] [Manpower]",
     ],
     "promotions": [
       "Camel Cavalry ability",
@@ -2121,16 +2131,14 @@
     "strength": 21,
     "requiredTech": "Heavy Infantry",
     "uniques": [
+	"Comment [-Elite heavy pike infantry, cavalry's worst nightmare, weak against arrows and darts.]",
+      "Only available <in cities with a [Make Capital]>",
+	"[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
       "Consumes [1] [Bronze]",
-	"[+1] XP gained from combat",
       "Only available <with [Enable Royal Phalanx]> <hidden from users>",
-      "Only available <in cities with a [Palace]>",
-      "Only available <in cities with a [Make Capital]>",
-      "Comment [Has cultural requirements]",
       "Never appears as a Barbarian unit",
-	"Comment [-Elite heavy pike infantry, cavalry's worst nightmare, weak against arrows and darts.]"
     ],
     "promotions": [
       "[Royal Phalanx] ability",
@@ -2148,14 +2156,14 @@
     "rangedStrength": 13,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
+      "Comment [-Elite heavy mounted archery, 'arrows goes brr', have high withdraw chance.]",
+      "Only available <in cities with a [Nomadic Herd]>",
+      "Only available <in cities with a [Imperial Barracks]>",
+	"May attack when embarked",
+      "[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
       "Consumes [1] [Horses]",
-      "[+1] XP gained from combat",
-	"May attack when embarked",
-      "Only available <in cities with a [Nomadic Herd]>",
-      "Only available <in cities with a [Imperial Barracks]>",
-      "Comment [-Elite heavy mounted archery, 'arrows goes brr', have high withdraw chance.]",
     ],
     "promotions": [
       "Horse Archer ability",
@@ -2171,11 +2179,11 @@
     "movement": 3,
     "strength": 16,
     "uniques": [
+      "Comment [-Elite medium camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
+      "Only available <in cities with a [Camel Stable]> <during the [Imperial Age]>",
 	"[+20]% Strength <when fighting in [Desert] tiles>",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
-      "Only available <in cities with a [Camel Stable]> <during the [Imperial Age]>",
-      "Comment [-Elite medium camel cavalry, expert at desert fighting, have medium withdraw chance in desert.]",
     ],
     "promotions": [
       "Camel Cavalry ability",
@@ -2193,21 +2201,21 @@
     "cost": 160,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Veteran]",
-      "Consumes [1] [Bronze]",
+      "Comment [-Elite heavy spear infantry, good defense.]",
+      "Only available <in cities with a [Barracks]>",
 	"[+1] XP gained from combat",
 	"[+20]% Strength <during the [Imperial Age]>",
 	"[+40]% production cost <during the [Imperial Age]>",
+      "Consumes [3] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Bronze]",
       "Only available <after adopting [Punic Culture]> <hidden from users>",
-      "Only available <in cities with a [Barracks]>",
-      "Comment [-Elite heavy spear infantry, good defense.]",
     ],
     "promotions": [
       "[Spearman] ability",
+      "Infantry Shield III",
       "Drill I",
       "Formation I",
-      "Infantry Shield III",
     ],
     "attackSound": "metalhit"
   },
@@ -2221,14 +2229,14 @@
     "rangedStrength": 12,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
+      "Comment [-Elite heavy mounted skirmisher, strong range attack, have medium withdraw chance.]",
+      "Only available <in cities with a [Army Barracks]>",
+	"May attack when embarked",
+	"[+1] XP gained from combat",
+	"[-1] Range",
 	"Consumes [4] [Manpower]",
  	"Consumes [1] [Veteran]"
 	"Consumes [1] [Horses]",
-	"[+1] XP gained from combat",
-	"[-1] Range",
-	"May attack when embarked",
-      "Only available <in cities with a [Army Barracks]>",
-      "Comment [-Elite heavy mounted skirmisher, strong range attack, have medium withdraw chance.]",
     ],
     "promotions": [
       "[Cavalry] ability",
@@ -2243,19 +2251,19 @@
     "strength": 21,
     "cost": 300,
     "uniques": [
-      "Consumes [1] [Veteran]",
+ 	"Comment [-Elite heavy cavalry, King's personal body guard, small withdraw chance]",
+      "Only available <in cities with a [Imperial Barracks]>",
+	"[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
       "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
-	"[+1] XP gained from combat",
       "Only available <after adopting [Celtic Culture]> <hidden from users>",
-      "Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite heavy cavalry, King's personal body guard, small withdraw chance]",
     ],
     "promotions": [
       "[Cavalry] ability",
-	"Praetorianus",
       "Cavalry Shield II",
+	"Praetorianus",
 	"Improved Armor"
     ],
     "attackSound": "horse"
@@ -2267,18 +2275,18 @@
     "strength": 14,
     "cost": 180,
     "uniques": [
-      "Consumes [1] [Veteran]",
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Bronze]",
+ 	"Comment [-Elite medium spear infantry, have great defense, expert at desert warfare.] <before the [Imperial Age]>",
+ 	"Comment [-Elite heavy spear infantry, have great defense, expert at desert warfare.] <during the [Imperial Age]>",
+      	"Only available <in cities with a [Barracks]> <before the [Imperial Age]>",
+      	"Only available <in cities with a [Army Barracks]> <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
 	"[+20]% Strength <during the [Imperial Age]>",
 	"[+40]% production cost <during the [Imperial Age]>",
-      "[Immortals] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
-      "Only available <after adopting [Eastern Culture]> <hidden from users>",
-      "Only available <in cities with a [Barracks]> <before the [Imperial Age]>",
-      "Only available <in cities with a [Army Barracks]> <during the [Imperial Age]>"
- 	"Comment [-Elite medium spear infantry, have great defense, expert at desert warfare.] <before the [Imperial Age]>",
- 	"Comment [-Elite heavy spear infantry, have great defense, expert at desert warfare.] <during the [Imperial Age]>",
+      	"[Immortals] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
+      	"Consumes [3] [Manpower]",
+      	"Consumes [1] [Veteran]",
+      	"Consumes [1] [Bronze]",
+      	"Only available <after adopting [Eastern Culture]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -2292,18 +2300,18 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 18,
-    "cost": 260,
+    "cost": 270,
     "uniques": [
-      "Consumes [1] [Veteran]",
-      "Consumes [4] [Manpower]",
-      "Consumes [1] [Iron]",
-	"[+1] XP gained from combat",
+ 	"Comment [-Elite heavy shock infantry, have powerful charge attack but hate arrows, darts and javelins.]",
+	"Only available <in cities with a [Imperial Barracks]>",
+	"[+30]% Strength <when attacking> <when below [50] HP>",
       	"[-10]% Strength for enemy [Military] units in adjacent [all] tiles",
 	"[-20]% Strength <vs [{Ranged} {Land}] units> <when defending>",
-      "Only available <after adopting [Germanic Culture]> <hidden from users>",
-	"[+30]% Strength <when attacking> <when below [50] HP>",
-	"Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite heavy shock infantry, have powerful charge attack but hate arrows, darts and javelins.]",
+	"[+1] XP gained from combat",
+      	"Consumes [1] [Veteran]",
+      	"Consumes [4] [Manpower]",
+      	"Consumes [1] [Iron]",
+      	"Only available <after adopting [Germanic Culture]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -2320,21 +2328,20 @@
     "strength": 20,
     "cost": 320,
     "uniques": [
+ 	"Comment [-Elite heavy cavalry, good at ambushing, medium withdraw chance]",
+      "Only available <in cities with a [Imperial Barracks]>",
+	"[+1] XP gained from combat",
       "Consumes [1] [Veteran]",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Horses]",
       "Consumes [1] [Iron]",
-	"[+1] XP gained from combat",
       "Only available <after adopting [Germanic Culture]> <hidden from users>",
-      "Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite heavy cavalry, good at ambushing, medium withdraw chance]",
-    "Limited to [1] per Civilization",
     ],
     "promotions": [
       "[Cavalry] ability",
-	"Ambush I",
-	"Ambush II",
       "Cavalry Shield II",
+	"Ambush I",
+	"Charge I",
 	"Improved Armor"
     ],
     "attackSound": "horse"
@@ -2347,24 +2354,24 @@
     "strength": 16,
     "cost": 200,
     "uniques": [
-      "Consumes [1] [Veteran]",
-      "Consumes [3] [Manpower]",
-      "Consumes [2] [Horses]",
-      "Consumes [1] [Iron] <during the [Imperial Age]>",
+ 	"Comment [-Elite medium cavalry, King's personal Guard have good attack] <before the [Imperial Age]>",
+ 	"Comment [-Elite heavy cavalry, King's personal Guard have good attack] <during the [Imperial Age]>",  
+      "Only available <in cities with a [Cavalry Barracks]> <before the [Imperial Age]>",
+      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
+  	"Limited to [1] per Civilization",
 	"[+40]% Strength <during the [Imperial Age]>",
 	"[+50]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Cavalry Barracks]> <before the [Imperial Age]>",
-      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
- 	"Comment [-Elite medium cavalry, King's personal Guard have good attack] <before the [Imperial Age]>",
- 	"Comment [-Elite heavy cavalry, King's personal Guard have good attack] <during the [Imperial Age]>",  
-  "Limited to [1] per Civilization",
+      "Consumes [3] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [2] [Horses]",
+      "Consumes [1] [Iron] <during the [Imperial Age]>",
     ],
     "promotions": [
       "[Cavalry] ability",
+      "Cavalry Shield II",
       "Charge I",
 	"Praetorianus",
-      "Cavalry Shield II",
     ],
     "attackSound": "horse"
   },
@@ -2375,16 +2382,16 @@
     "strength": 16,
     "cost": 190,
     "uniques": [
-      "Consumes [1] [Veteran]",
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron] <during the [Imperial Age]>",
+ 	"Comment [-Elite medium Infantry, King's personal Guard have good attack] <before the [Imperial Age]>",
+ 	"Comment [-Elite heavy Infantry, King's personal Guard have good attack] <during the [Imperial Age]>",
+      "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
+      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
 	"[+30]% Strength <during the [Imperial Age]>",
 	"[+50]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
-      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
- 	"Comment [-Elite medium Infantry, King's personal Guard have good attack] <before the [Imperial Age]>",
- 	"Comment [-Elite heavy Infantry, King's personal Guard have good attack] <during the [Imperial Age]>",
+      "Consumes [3] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Iron] <during the [Imperial Age]>",
       "Only available <after adopting [Hellenic Culture]> <hidden from users>",
     ],
     "promotions": [
@@ -2400,16 +2407,16 @@
     "strength": 15,
     "cost": 180,
     "uniques": [
-      "Consumes [1] [Veteran]",
-      "Consumes [3] [Manpower]",
-      "Consumes [1] [Iron] <during the [Imperial Age]>",
+ 	"Comment [-Elite medium Infantry, King's personal Guard have good attack] <before the [Imperial Age]>",
+ 	"Comment [-Elite heavy Infantry, King's personal Guard have good attack against cavalry] <during the [Imperial Age]>",
+      "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
+      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
 	"[+40]% Strength <during the [Imperial Age]>",
 	"[+40]% production cost <during the [Imperial Age]>",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Army Barracks]> <before the [Imperial Age]>",
-      "Only available <in cities with a [Imperial Barracks]> <during the [Imperial Age]>",
- 	"Comment [-Elite medium Infantry, King's personal Guard have good attack] <before the [Imperial Age]>",
- 	"Comment [-Elite heavy Infantry, King's personal Guard have good attack against cavalry] <during the [Imperial Age]>",
+      "Consumes [3] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Iron] <during the [Imperial Age]>",
       "Only available <after adopting [Hellenic Culture]> <hidden from users>",
     ],
     "promotions": [
@@ -2425,14 +2432,14 @@
     "strength": 21,
     "cost": 300,
     "uniques": [
-      "Consumes [1] [Veteran]",
+ 	"Comment [Elite heavy shock cavalry, have strong charge, small withdraw chance]",
+      "Only available <in cities with a [Imperial Barracks]>",
+	"[+1] XP gained from combat",
       "Consumes [5] [Manpower]",
+      "Consumes [1] [Veteran]",
       "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
-	"[+1] XP gained from combat",
       "Only available <after adopting [Iberian Culture]> <hidden from users>",
-      "Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [Elite heavy shock cavalry, have strong charge, small withdraw chance]",
     ],
     "promotions": [
       "Armored Lancer",
@@ -2449,22 +2456,22 @@
     "strength": 16,
     "cost": 190,
     "uniques": [
+ 	"Comment [Elite medium cavalry, have strong charge, small withdraw chance]",
+      "Only available <in cities with a [Cavalry Barracks]>",
+	"[+10]% Strength <during the [Imperial Age]>",
+      "[Numidian Raiders] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
+	"[+50]% production cost <during the [Imperial Age]>",
+	"[+1] XP gained from combat",
       "Consumes [1] [Veteran]",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Horses]",
-	"[+1] XP gained from combat",
-	"[+10]% Strength <during the [Imperial Age]>",
-	"[+50]% production cost <during the [Imperial Age]>",
-      "[Numidian Raiders] units gain the [Improved Armor] promotion <during the [Imperial Age]>",
       "Only available <after adopting [Numidian Culture]> <hidden from users>",
-      "Only available <in cities with a [Cavalry Barracks]>",
- 	"Comment [Elite medium cavalry, have strong charge, small withdraw chance]",
     ],
     "promotions": [
       "[Horseman] ability",
+      "Cavalry Shield II",
       "Plunderer",
 	"Raider I",
-      "Cavalry Shield II",
     ],
     "attackSound": "horse"
   },
@@ -2477,13 +2484,13 @@
     "cost": 230,
     "requiredTech": "Military Reforms",
     "uniques": [
-    "Can move after attacking",
-      "Consumes [4] [Manpower]"
-      "Consumes [1] [Veteran]"
-	"[+1] XP gained from combat",
-      "Only available <after adopting [Latin Culture]> <hidden from users>",
-      "Only available <in cities with a [Imperial Barracks]>",
       "Comment [-Elite heavy skirmisher, good melee defense, high withdraw chance.]",
+    "Can move after attacking",
+      "Only available <in cities with a [Imperial Barracks]>",
+	"[+1] XP gained from combat",
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Only available <after adopting [Latin Culture]> <hidden from users>",
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -2500,17 +2507,17 @@
     "strength": 18,
     "cost": 300,
     "uniques": [
-      "Consumes [1] [Veteran]",
-      "Consumes [4] [Manpower]",
-      "Consumes [1] [Iron]",
+ 	"Comment [-Elite heavy infantry, inspire nearby ally units, have one job.]",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Limited to [1] per Civilization",
       "[+5]% Strength bonus for [Military] units within [3] tiles",
       "[+5]% Strength bonus for [Military] units within [2] tiles",
       "[+5]% Strength bonus for [Military] units within [1] tiles",
       "[+5]% Strength bonus for [Military] units within [1] tiles <when defending>",
 	"[+1] XP gained from combat",
-      "Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite heavy infantry, inspire nearby ally units, have one job.]",
-      "Limited to [1] per Civilization",
+      "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Iron]",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -2527,14 +2534,14 @@
     "strength": 22,
     "cost": 340,
     "uniques": [
-      "Consumes [1] [Veteran]",
-      "Consumes [5] [Manpower]",
-      "Consumes [1] [Iron]",
-	"[+1] XP gained from combat",
-      "[+10]% Strength bonus for [Military] units within [2] tiles",
+      "Comment [-Elite heavy infantry, Emperor's best frienemy.]",
       "Only available <in cities with a [Imperial Barracks]>",
       "Limited to [1] per Civilization",
-      "Comment [-Elite heavy infantry, Emperor's best frienemy.]",
+      "[+10]% Strength bonus for [Military] units within [2] tiles",
+	"[+1] XP gained from combat",
+      "Consumes [5] [Manpower]",
+      "Consumes [1] [Veteran]",
+      "Consumes [1] [Iron]",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -2551,15 +2558,15 @@
     "strength": 26,
     "cost": 400,
     "uniques": [
-      "Consumes [1] [Veteran]",
+ 	"Comment [-Elite very heavy cavalry, good at taking tile and (maybe) protecting Emperor]",
+      "Only available <in cities with a [Imperial Barracks]>",
+      "Limited to [1] per Civilization",
+	"[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
       "Consumes [2] [Horses]",
       "Consumes [2] [Iron]",
-	"[+1] XP gained from combat",
       "Only available <after adopting [Latin Culture]> <hidden from users>",
-      "Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite very heavy cavalry, good at taking tile and (maybe) protecting Emperor]",
-      "Limited to [1] per Civilization",
     ],
     "promotions": [
       "[Cataphract] ability",
@@ -2575,13 +2582,13 @@
     "strength": 28,
     "cost": 400,
     "uniques": [
-      "Consumes [1] [Veteran]",
+ 	"Comment [-Elite very heavy cavalry, ancient heavy tank]",
+      "Only available <in cities with a [Imperial Barracks]>",
+	"[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
+      "Consumes [1] [Veteran]",
       "Consumes [2] [Horses]",
       "Consumes [2] [Iron]",
-	"[+1] XP gained from combat",
-      "Only available <in cities with a [Imperial Barracks]>",
- 	"Comment [-Elite very heavy cavalry, ancient heavy tank]",
     ],
     "promotions": [
       "Clibanarii ability",
