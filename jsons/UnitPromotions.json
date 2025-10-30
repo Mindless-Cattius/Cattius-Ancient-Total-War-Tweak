@@ -1215,9 +1215,9 @@
 		"uniques": [
 		"[+30]% Strength <when fighting in [Desert] tiles>",
 		"[+20]% to Flank Attack bonuses",
+		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [10]% chance>",
 		"Withdraws before melee combat <with [+20]% chance> <when fighting in [Desert] tiles>",
-		"No defensive terrain bonus",
 		]
 	},
 	{
@@ -1228,10 +1228,19 @@
 		"[+70]% Strength <vs [Archery] units> <when attacking>",
 		"[+10]% Strength <when attacking>",
 		"[+20]% to Flank Attack bonuses"
-		"Withdraws before melee combat <with [5]% chance> <when fighting in [Open terrain] tiles>",
                 "[-1] Movement <in [Forest] tiles>",
                 "[-1] Movement <in [Jungle] tiles>",
 		"No defensive terrain bonus",
+		"Withdraws before melee combat <with [5]% chance> <when fighting in [Open terrain] tiles>",
+		]
+	},
+	{
+		"name": "Healing",
+		"uniques": [
+			"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
+			"[+5] HP when healing <for [All] units> <when fighting in [Village] tiles>",
+			"[+5] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
+			"[-10] HP when healing <for [All] units> <when fighting in [Enemy Land] tiles>",
 		]
 	},
 ]

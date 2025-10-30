@@ -3,49 +3,54 @@
     "uniques": [ 
 // ADDONS
 // GLOBAL
- "[-1 Happiness, -1 Food, -1 Gold] from every [pillaged]",
-	"[-10] HP when healing <for [All] units> <when fighting in [Enemy Land] tiles>",
-	"[+5] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
-	"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
+	"Provides [30] [Manpower] <in [in City-State cities] cities>"
+ 	"[-1 Happiness, -1 Food, -1 Gold] from every [pillaged]",
 	"[-1] Range <for [Scout] units>",
 	"[-20]% Strength <for [{Military} {Land}] units> <when fighting in [Ocean] tiles>",
 	"[-20]% Strength <for [{Military} {Land}] units> <when attacking> <when fighting in [Coast] tiles>",
-	"[-20]% City Strength from defensive buildings <during the [Archaic Age]>",
-	"[-15]% City Strength from defensive buildings <during the [Classical Age]>",
-	"[-10]% City Strength from defensive buildings <during the [Hellenistic Age]>",
 	"May not annex cities <during the [Archaic Age]>",
-	"[-80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
-	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
-	"[-70]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
-	"[-50]% Production when constructing [Civilian] units [in all cities] <during the [Imperial Age]>",
-	 "[+30]% Science cost of researching new Technologies",
+	 "[+30]% Science cost of researching new Technologies <after the [Archaic Age]>",
+	 "[-40]% Science cost of researching new Technologies <during the [Archaic Age]>",
 	"Military Units gifted from City-States start with [30] XP",
 	"Military Units gifted from City-States start with [50] XP <during the [Imperial Age]>",
-	"[-1 Happiness] per [8] population [in all cities]",
 	"[+100]% Science cost of researching new Technologies <during the [Imperial Age]>",
 	"Retain [+25]% of the happiness from a luxury after the last copy has been traded away",
-	"[+20]% unhappiness from the number of cities",
         "[-1] Sight <for [Embarked] units>",
         "[+20]% Natural religion spread [in all cities]",
         "[+100]% Culture cost of adopting new Policies",
         "[{Military} {Water}] units gain the [Warship] promotion",
+        "[{Military} {Land}] units gain the [Healing] promotion",
         "May buy items in puppet cities",
-        "[-50]% resources gifted by City-States",
-        "[-25]% resources gifted by City-States <during the [Imperial Age]>",
 	"City-State territory always counts as friendly territory <during the [Imperial Age]>",
 	"[+20]% Yield from pillaging tiles <during the [Imperial Age]>",
 	"[+40]% Yield from pillaging tiles <during the [Archaic Age]>",
 
 //Cities
-	"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
-	"[-50]% Strength for cities <when attacking>",
+	"[-40]% Strength for cities <when attacking>",
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
+	"[-20]% Strength for cities <vs [Scout] units> <when attacking>",
+        "[-5]% Great Person generation [in all cities]",
+
+	"[-80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
+	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
+	"[-70]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
+	"[-50]% Production when constructing [Civilian] units [in all cities] <during the [Imperial Age]>",
+	"[-20]% City Strength from defensive buildings <during the [Archaic Age]>",
+	"[-15]% City Strength from defensive buildings <during the [Classical Age]>",
+	"[-10]% City Strength from defensive buildings <during the [Hellenistic Age]>",
 
 //GOLD
 
 	"[Gold] cost of purchasing [Military] units [+20]% <when at war>",
 
 // Happiness & Population
+	
+	"[+10]% unhappiness from the number of cities <in cities with between [10] and [15] [Population]>",
+	"[+10]% unhappiness from the number of cities <in cities with between [16] and [20] [Population]>",
+	"[+10]% unhappiness from the number of cities <in cities with between [21] and [30] [Population]>",
+	"[+10]% unhappiness from the number of cities <in cities with between [16] and [20] [Population]>",
+
+	"[-1 Happiness] per [8] population [in all cities]",
 
 	"[-1 Happiness] [in this city] <in cities with between [10] and [15] [Population]>",
 	"[-2 Happiness] [in this city] <in cities with between [16] and [20] [Population]>",
@@ -131,7 +136,17 @@
 
         "Free [Skirmisher] appears <when between [1] and [10] [Happiness]> <upon founding a city>",
         "Free [Spearman] appears <when between [11] and [99999] [Happiness]> <upon founding a city>",
+        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [5]% chance>",
+        "Free [Foot Guard] appears <upon turn end> <when above [3] [Veteran]> <with [5]% chance>",
+        "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
+        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance>",
+        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [3]% chance>",
+        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",
+        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
+        "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
+
 // Decadence & Great People
+
         "Provides [1] [Manpower] <when below [0] [Decadence]> <for [Major] Civilizations>",
         "Provides [1] [Manpower] <when below [3] [Decadence]> <for [Major] Civilizations>",
         "Provides [1] [Manpower] <when below [5] [Decadence]> <for [Major] Civilizations>",
@@ -139,26 +154,38 @@
         "Provides [1] [Manpower] <when below [9] [Decadence]> <for [Major] Civilizations>",
         "Provides [1] [Manpower] <when below [12] [Decadence]> <for [Major] Civilizations>",
 
-        "[-2]% [Culture] [in all cities] <when above [3] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [9] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [5] [Decadence]>",
+        "[-1]% [Culture] [in all cities] <when above [10] [Decadence]>",
         "[-2]% [Culture] [in all cities] <when above [15] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [21] [Decadence]>",
-        "[-2]% [Culture] [in all cities] <when above [26] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [20] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [25] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [30] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [35] [Decadence]>",
+        "[-2]% [Culture] [in all cities] <when above [40] [Decadence]>",
 
-        "[-5]% [Gold] [in all cities] <when above [5] [Decadence]>",
-        "[-5]% [Gold] [in all cities] <when above [10] [Decadence]>",
-        "[-5]% [Gold] [in all cities] <when above [15] [Decadence]>",
-        "[-5]% [Gold] [in all cities] <when above [20] [Decadence]>",
-        "[-5]% [Gold] [in all cities] <when above [25] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [5] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [10] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [15] [Decadence]>",
+        "[-1]% [Gold] [in all cities] <when above [20] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [25] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [30] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [35] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [40] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [45] [Decadence]>",
+        "[-2]% [Gold] [in all cities] <when above [50] [Decadence]>",
 
-        "[-1 Happiness] [in all cities] <when above [5] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [10] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [15] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [20] [Decadence]>",
         "[-1 Happiness] [in all cities] <when above [25] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [30] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [35] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [40] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [45] [Decadence]>",
+        "[-1 Happiness] [in all cities] <when above [50] [Decadence]>",
 
         "[-2]% [Production] [in all cities] <when above [5] [Decadence]>",
-        "[-2]% [Production] [in all cities] <when above [13] [Decadence]>",
+        "[-2]% [Production] [in all cities] <when above [10] [Decadence]>",
         "[-2]% [Production] [in all cities] <when above [20] [Decadence]>",
         "[-2]% [Production] [in all cities] <when above [30] [Decadence]>",
         "[-2]% [Production] [in all cities] <when above [40] [Decadence]>",
@@ -212,17 +239,11 @@
         "[General] is earned [-5]% faster <when above [15] [Decadence]>",
         "[General] is earned [-5]% faster <when above [20] [Decadence]>",
         "[General] is earned [-5]% faster <when above [25] [Decadence]>",
+
 //unit spawn
-        "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [5]% chance>",
-        "Free [Foot Guard] appears <upon turn end> <when above [3] [Veteran]> <with [5]% chance>",
-        "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",
-        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [4]% chance>",
-        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [3]% chance>",
-        "Free [Spearman] appears <upon turn end> <when above [20] [Manpower]> <with [6]% chance> <during the [Imperial Age]>",
-        "Free [Skirmisher] appears <upon turn end> <when above [10] [Manpower]> <with [4]% chance> <during the [Imperial Age]>",
-        "[Great Courtesan] is earned [-100]% faster <before founding a Pantheon>",
-        "[-5]% Great Person generation [in all cities]",
+
 // AI Great People
+
         "Free Social Policy <upon gaining a [Great Orator] unit> <for [AI player] Civilizations>",
         "Empire enters a [12]-turn Golden Age <upon gaining a [Great Artist] unit> <for [AI player] Civilizations>",
         "Empire enters a [12]-turn Golden Age <upon gaining a [Great Merchant] unit> <for [AI player] Civilizations>",

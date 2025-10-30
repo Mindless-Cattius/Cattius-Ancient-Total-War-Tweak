@@ -388,7 +388,7 @@
     "movement": 2,
     "strength": 10,
     "rangedStrength": 12,
-    "cost": 210,
+    "cost": 180,
     "uniques": [
 	"Comment [Rhodian mercenary — precise, portable, and politically unpredictable.]",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -413,7 +413,7 @@
     "movement": 3,
     "strength": 9,
     "rangedStrength": 13,
-    "cost": 200,
+    "cost": 190,
     "uniques": [
 	"Comment [Veteran mercenary archer, fast, accurate, and morally flexible.]",
      	"Only available <in cities with a [Mercenary Camp]>",
@@ -439,7 +439,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 180,
+    "cost": 160,
     "uniques": [
 	"Comment [Medium shock infantry, proof that capitalism and violence can coexist beautifully.]",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -460,7 +460,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 15,
-    "cost": 180,
+    "cost": 160,
     "uniques": [
 	"Comment [Medium infantry, excellent in jungle warfare; terrible at diplomacy.]",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -482,7 +482,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
-    "cost": 160,
+    "cost": 140,
     "uniques": [
 	"Comment [Mercenary hoplite , defends anything, good at stopping cavalry, as long as you’ve paid first.]",
      	"Only available <in cities with a [Mercenary Camp]>",
@@ -504,7 +504,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 16,
-    "cost": 180,
+    "cost": 160,
     "uniques": [
 	"Comment [Medium spear infantry, moves fast, fights smart, and bills hourly.]",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -527,7 +527,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 180,
+    "cost": 160,
     "uniques": [
 	"Comment [Mercenary spearmen from Judea, disciplined, determined, dangerously dehydrated.]",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -550,7 +550,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 220,
+    "cost": 190,
     "uniques": [
 	"Comment [Medium raider, burns, loots, and occasionally remembers who hired them.]",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -573,7 +573,7 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 16,
-    "cost": 190,
+    "cost": 170,
     "uniques": [
 	"Comment [Medium infantry, professionals in fighting, amateurs in restraint.]",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -593,7 +593,7 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 16,
-    "cost": 165,
+    "cost": 150,
     "uniques": [
       "Consumes [1] [Mercenary (Oscan)]",
 	"[+1] XP gained from combat",
@@ -613,7 +613,7 @@
     "unitType": "Spear",
     "movement": 2,
     "strength": 15,
-    "cost": 150,
+    "cost": 160,
     "uniques": [
 	"Comment [Medium spear infantry, built for sieges and river fights, not poetry.]",
       	"Only available <in cities with a [Parthenon]>",
@@ -866,12 +866,16 @@
     "uniqueTo": "The Bastarnae",
     "movement": 2,
     "strength": 16,
-    "cost": 175,
+    "cost": 180,
     "requiredTech": "Citizen Levy",
     "uniques": [
-      "Comment [Light shock infantry, ’Tis but a scratch' made violently literal.]",
+      "Comment [Light shock infantry, ’Tis but a scratch' made violently literal, fierce, half-drunk, and allergic to the concept of retreat.] <before the [Imperial Age]>",
+      "Comment [Medium shock infantry, ’Tis but a scratch' made violently literal, fierce, half-drunk, and allergic to the concept of retreat.] <during the [Imperial Age]>",
       "Only available <in cities with a [Barracks]>",
+	"[This Unit] gains the [Infantry Shield II] promotion <during the [Imperial Age]>",
+	"[+10]% production cost <during the [Imperial Age]>",
       "Consumes [3] [Manpower]",
+	"[This Unit] loses the [Infantry Shield I] promotion <during the [Imperial Age]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield I",
@@ -891,7 +895,10 @@
     "uniques": [
       "Comment [Medium infantry, hits hard, screams louder, dies impressively.]",
       "Only available <in cities with a [Barracks]>",
+	"[This Unit] gains the [Infantry Shield III] promotion <during the [Imperial Age]>",
+	"[+10]% production cost <during the [Imperial Age]>",
       "Consumes [4] [Manpower]",
+	"[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -911,6 +918,9 @@
     "uniques": [
       	"Comment [Medium infantry, decent on the front line, excellent behind enemy lines.]",
       	"Only available <in cities with a [Barracks]>",
+ 	"[+10]% Strength <when attacking> <when fighting in [Foreign Land] tiles>"
+	"[This Unit] gains the [Shock I] promotion <during the [Imperial Age]>",
+	"[+10]% production cost <during the [Imperial Age]>",
      	"Consumes [4] [Manpower]",
 	"Unbuildable <in cities with a [Gallic Barracks]> <hidden from users>",
     ],
@@ -927,12 +937,16 @@
     "uniqueTo": "Citizen Levy",
     "movement": 3,
     "strength": 16,
-    "cost": 165,
+    "cost": 170,
     "requiredTech": "Infantry Training",
     "uniques": [
-      "Comment [Light shock infantry, quick to raid, quick to die. Use them for the sneak attack, then pray they don’t get caught in the crossfire.]",
-      "Only available <in cities with a [Barracks]>",
-      "Consumes [3] [Manpower]",
+      		"Comment [Light shock infantry, quick to raid, quick to die. Use them for the sneak attack, then pray they don’t get caught in the crossfire.]",
+      		"Only available <in cities with a [Barracks]>",
+		"[+10]% Strength <when fighting in [Forest] tiles>",
+		"[+10]% Strength <when fighting in [Jungle] tiles>",
+		"[This Unit] gains the [Ambush II] promotion <during the [Imperial Age]>",
+		"[+10]% production cost <during the [Imperial Age]>",
+      		"Consumes [3] [Manpower]",
     ],
     "promotions": [
       "Infantry Shield I",
@@ -953,7 +967,7 @@
     "uniqueTo": "The Romans",
     "movement": 2,
     "strength": 20,
-    "cost": 280,
+    "cost": 260,
     "requiredTech": "Infantry Training",
     "uniques": [
       "Comment [Heavy infantry, these guys can siege a city and build a highway at the same time. Too bad they’re slower than your grandma’s morning walk.]",
@@ -1080,10 +1094,10 @@
     "name": "Numidian Mercenary",
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
-  "cost": 200,
+  "cost": 180,
   "movement": 4,
   "strength": 11,
-  "rangedStrength": 13,
+  "rangedStrength": 12,
     "uniques": [
       	"Comment [Light mounted skirmisher, Fast, annoying, and best used for running away after causing a little chaos. Don’t expect these guys to fight for long—they’ll be gone before you know it.]",
       	"Only available <in cities with a [Mercenary Camp]>",
@@ -1129,7 +1143,7 @@
     "name": "Mercenary Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 30,
-    "cost": 240,
+    "cost": 210,
     "movement": 4,
     "strength": 9,
     "rangedStrength": 12,
@@ -1214,7 +1228,7 @@
     "name": "Libyan Chariot Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 25,
-    "cost": 150,
+    "cost": 130,
     "movement": 4,
     "strength": 11,
     "rangedStrength": 11,
@@ -1301,7 +1315,7 @@
     "name": "Scythed Chariot",
     "unitType": "Mounted",
     "hurryCostModifier": 25,
-    "cost": 180,
+    "cost": 150,
     "movement": 4,
     "strength": 15,
     "uniques": [
@@ -1535,7 +1549,7 @@
     "unitType": "Melee Water",
     "movement": 6,
     "strength": 17,
-    "cost": 250,
+    "cost": 210,
     "uniques": [
       "Comment [-Mercenary medium naval melee, high withdraw chance]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -1651,7 +1665,7 @@
     "uniques": [
       "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "Great Person - [Culture]",
-	"Can instantly construct a [Village] improvement <[2] times> <after which this unit is consumed>",
+	"Can instantly construct a [Village] improvement <[1] times> <Unavailable> <within [2] tiles of a [Village]> <after which this unit is consumed>",
       "Unbuildable",
       "Uncapturable"
     ],
@@ -1907,10 +1921,10 @@
     "name": "Numidian Horseman",
   "unitType": "Mounted Archery",
   "hurryCostModifier": 30,
-  "cost": 130,
+  "cost": 140,
   "movement": 4,
   "strength": 9,
-  "rangedStrength": 14,
+  "rangedStrength": 11,
   "requiredTech": "Riding",
   "uniques": [
  	"Comment [-Light mounted skirmisher, have high range attack, good at raiding, high withdraw chance]",
@@ -1960,7 +1974,7 @@
   "cost": 190,
   "movement": 4,
   "strength": 9,
-  "rangedStrength": 12,
+  "rangedStrength": 11,
   "requiredTech": "Riding",
   "uniques": [
       "Comment [-Light mounted skirmisher, strong range attack, have high withdraw chance.]",
@@ -2000,7 +2014,7 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 12,
-    "cost": 170,
+    "cost": 150,
     "uniques": [
       "Comment [-Elite light infantry, have big fear for range weapons, good at attacking, small withdraw chance.]",
       "Only available <in cities with a [Mercenary Camp]>",
@@ -2022,9 +2036,9 @@
     "unitType": "Sword",
     "movement": 3,
     "strength": 14,
-    "cost": 200,
+    "cost": 180,
     "uniques": [
-      "Comment [-Medium infantry, well-trained fighter, good at attacking, bad at holding ground, small withdraw chance.]",
+      "Comment [Light shock infantry, trained to entertain the rich and die for the crowd. Good at killing, terrible at staying alive.]",
       "Only available <in cities with a [Arena]>",
       "Can move immediately once bought",
 	"[+2] XP gained from combat",
@@ -2047,7 +2061,7 @@
     "cost": 160,
     "requiredTech": "Crossbow Engineering",
     "uniques": [
-      "Comment [-Medium archery, anti armored units, small withdraw chance.]",
+      "Comment [Medium archery, anti armored units, nothing says ‘technological progress’ like making murder accessible to the lazy.]",
       "Only available <in cities with a [Ballistics Range]>",
 	"May attack when embarked",
       "Consumes [3] [Manpower]",
@@ -2063,11 +2077,11 @@
     "movement": 2,
     "strength": 12,
     "rangedStrength": 11,
-    "cost": 220,
+    "cost": 230,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
       "Only available <in cities with a [Ballistics Range]>",
-      "Comment [-Heavy archery, armored, small withdraw chance.]",
+      "Comment [-Heavy archery, a symbol of the military genius that thought, ‘Why not make archers cost as much as knights?]",
 	"May attack when embarked",
 	"[+30]% Strength <vs cities> <when defending>",
       "Consumes [4] [Manpower]",
@@ -2226,7 +2240,7 @@
     "cost": 270,
     "movement": 3,
     "strength": 14,
-    "rangedStrength": 12,
+    "rangedStrength": 11,
     "requiredTech": "Heavy Archery Tactics",
     "uniques": [
       "Comment [-Elite heavy mounted skirmisher, strong range attack, have medium withdraw chance.]",
@@ -2603,11 +2617,11 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 20,
-    "cost": 280,
+    "cost": 250,
     "uniques": [
 	"Can build [All Road] improvements on tiles",
 	"Can build [Fort] improvements on tiles",
-      "Consumes [4] [Manpower]",
+      "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Hellenic Barracks]>"
       "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
@@ -2626,14 +2640,13 @@
     "strength": 15,
     "cost": 200,
     "uniques": [
-	"Can build [All Road] improvements on tiles",
-       "[+10]% Strength <when fighting in [Friendly Land] tiles>",
-       "[+10]% Strength <when fighting in [Farm] tiles>",
-       "[+10]% Strength <during the [Imperial Age]>",
-      "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Hellenic Barracks]>",
       "Comment [-Medium spear infantry, can build road, good at defending homeland and against cavalry.] <before the [Imperial Age]>",
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and against cavalry.] <during the [Imperial Age]>",
+      "Only available <in cities with a [Hellenic Barracks]>",
+	"Can build [All Road] improvements on tiles",
+       "[+20]% Strength <when fighting in [Friendly Land] tiles>",
+       "[+10]% Strength <when fighting in [Hill] tiles>",
+      "Consumes [4] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -2647,14 +2660,14 @@
     "unitType": "Sword",
     "movement": 2,
     "strength": 20,
-    "cost": 280,
+    "cost": 250,
     "uniques": [
+      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
+      "Only available <in cities with a [Gallic Barracks]>"
 	"Can build [All Road] improvements on tiles",
 	"Can build [Fort] improvements on tiles",
-      "Consumes [4] [Manpower]",
+      "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
-      "Only available <in cities with a [Gallic Barracks]>"
-      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and attacking]",
     ],
     "promotions": [
       "Infantry Shield III",
@@ -2670,14 +2683,13 @@
     "strength": 15,
     "cost": 200,
     "uniques": [
-	"Can build [All Road] improvements on tiles",
-       "[+10]% Strength <when fighting in [Friendly Land] tiles>",
-       "[+10]% Strength <when fighting in [Farm] tiles>",
-       "[+10]% Strength <during the [Imperial Age]>",
-      "Consumes [4] [Manpower]",
-      "Only available <in cities with a [Gallic Barracks]>",
       "Comment [-Medium spear infantry, can build road, good at defending homeland and offensive.] <before the [Imperial Age]>",
       "Comment [-Heavy spear infantry, can build road, good at defending homeland and offensive.] <during the [Imperial Age]>",
+      "Only available <in cities with a [Gallic Barracks]>",
+	"Can build [All Road] improvements on tiles",
+       "[+10]% Strength <when fighting in [Friendly Land] tiles>",
+       "[+10]% Strength <when fighting in [Forest] tiles>",
+      "Consumes [4] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",

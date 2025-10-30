@@ -305,7 +305,7 @@
 		"specialistSlots": {"Priest": 1},
 		"requiredBuilding": "Shrine",
 		"uniques": [
-			"Consumes [1] [Decadence] <while the empire is happy>",
+			"Consumes [1] [Decadence] <during a Golden Age>",
 			"[-25]% Culture cost of natural border growth [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Mysticism"
 	},
@@ -349,7 +349,7 @@
 		"requiredTech": "Entertainment",
 		"uniques": [
 			"[+1 Happiness] from [Village] tiles [in this city]",
-			"Consumes [1] [Decadence]",
+			"Consumes [1] [Decadence] <during a Golden Age>",
 			"[-25]% Culture cost of natural border growth [in this city]"
 		],
 		"civilopediaText": [{"text": "Promoting largely politically irrelevant or pro-ruling class themes, a Theatre can keep your people busy while shaping their perceptions and making them feel more enlightened."}]
@@ -457,7 +457,7 @@
 			"[+1 Gold] per [10] population [in this city]",
 			"[+1 Science] <in cities with a [Scriptorium]>",
 			"[+1 Food] <in cities with a [Herbalist]>",
-			"Consumes [1] [Decadence] <in cities with a [School]> <while the empire is happy>"
+			"Consumes [1] [Decadence] <in cities with a [School]> <during a Golden Age>"
 		],
 		"requiredTech": "Philosophy"
 	},
@@ -539,13 +539,15 @@
 		"name": "Brick Maker",
 		"requiredBuilding": "Ceramics Workshop",
 		"hurryCostModifier": 25,
- 		"cost": 120,
+ 		"cost": 130,
 		"maintenance": 1,
 		"uniques": [
 		"[+1 Culture] from [Marsh] tiles [in this city]",
 		"[+1 Production] from [Oasis] tiles [in this city]",
 		"[+1 Production] from [Lakes] tiles [in this city]",
 		"[+1 Production] from [Stone] tiles [in this city]",
+		"[+1 Culture] from [Village] tiles [in this city]",
+		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Gold] from [Marsh] tiles [in this city]",
 		"[+1 Gold] from [Clay] tiles [in this city]",
 		"[+10]% Production when constructing [All] buildings [in this city]"
@@ -2089,7 +2091,8 @@
 		"name": "Scenario",
 		"uniques": [ 
 		"Destroyed when the city is captured",
-		"Gain a free [Scenario] [in all cities]",
+		"Gain a free [Scenario] [in all cities] <if [Scenario] is not constructed>",
+		"Gain a free [Happiness] [in all cities] <if [Happiness] is not constructed>",
 		"Unbuildable"
 		]
 	},	{
@@ -2099,6 +2102,7 @@
 		"uniques": [ 
 		"Destroyed when the city is captured",
       		"Only available <after adopting [Hellenic Culture]> <hidden from users>",
+      		"Only available <after adopting [Hellenistic Culture]> <hidden from users>",
       "Only available <in cities with a [Scenario]>",
 		]
 	},
@@ -2109,7 +2113,21 @@
 		"uniques": [ 
 		"Destroyed when the city is captured",
       		"Only available <after adopting [Celtic Culture]> <hidden from users>",
+      		"Only available <after adopting [Germanic Culture]> <hidden from users>",
       "Only available <in cities with a [Scenario]>",
 		]
+	},
+	{
+		"name": "Happiness",
+		"requiredBuilding": "Scenario",
+		"hurryCostModifier": 25,
+		"cost": 9999,
+		"maintenance": 0,
+		"gold": 2,
+		"uniques": [ 
+			"[+10 Happiness] <for [AI player] Civilizations>",
+			"Destroyed when the city is captured"
+		]
+		"requiredTech": "Barter"
 	},
 ]

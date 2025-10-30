@@ -226,7 +226,7 @@
 		"turnsToBuild": 4,
 		"uniques": [
 			"[+1 Gold] <after discovering [Exploration]>",
-			 "Pillaging this improvement yields approximately [+100 Gold]",
+			 "Pillaging this improvement yields approximately [+150 Gold]",
 			"Unbuildable <for [Worker] units>"],
 		"shortcutKey": "T"
 	},
@@ -272,17 +272,19 @@
 	{
 		"name": "Village",
 		"turnsToBuild": 10,
-		"gold": 2,
-		"food": 2,
+		"gold": 1,
+		"food": 1,
 		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
 		"uniques": [
+			"Gives a defensive bonus of [10]%",
 			"Great Improvement",
-			"Cannot be built on [resource] tiles"
+			"Cannot be built on [resource] tiles",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+150 Gold]",
 			"Tile provides yield without assigned population",
-			"Unbuildable <for [Worker] units>"
+			"Unbuildable <for [Worker] units>",
+			"Unbuildable <within [2] tiles of a [Village]>"
 		]
 	},
 	{
