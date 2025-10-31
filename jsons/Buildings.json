@@ -12,18 +12,18 @@
 		"greatPersonPoints": {"Great Courtesan":10},
 		"specialistSlots": {"Courtesan": 2},
 		"uniques": [
-		"Provides [1] [Decadence] <during the [Classical Age]>",
-		"Provides [2] [Decadence] <during the [Hellenistic Age]>",
-		"Provides [3] [Decadence] <during the [Imperial Age]>",
-		"Provides [1] [Manpower] <during the [Classical Age]>",
-		"Provides [2] [Manpower] <during the [Hellenistic Age]>",
-		"Provides [3] [Manpower] <during the [Imperial Age]>",
-		"Provides [3] [Manpower]",
+			"Provides [1] [Decadence] <during the [Classical Age]>",
+			"Provides [2] [Decadence] <during the [Hellenistic Age]>",
+			"Provides [3] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Manpower] <during the [Classical Age]>",
+			"Provides [2] [Manpower] <during the [Hellenistic Age]>",
+			"Provides [3] [Manpower] <during the [Imperial Age]>",
+			"Provides [3] [Manpower]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Culture] from [Village] tiles [in this city]",
-		"Doubles Gold given to enemy if city is captured",
-		"Limited to [1] per Civilization",
-		"Destroyed when the city is captured"
+			"Doubles Gold given to enemy if city is captured",
+			"Limited to [1] per Civilization",
+			"Destroyed when the city is captured"
 		]
 	},	
 	{
@@ -40,30 +40,30 @@
 		"greatPersonPoints": {"Great Courtesan":5},
 		"specialistSlots": {"Courtesan": 3},
 		"uniques": [
-		"Indicates the capital city",
-		"[+1 Gold] from [Farm] tiles [in this city]",
-		"[+1 Gold] from [Desert] tiles [in this city] <during the [Imperial Age]>",
-		"[+1 Gold] from [Ocean] tiles [in this city] <during the [Imperial Age]>",
-		"[+1 Gold] from [Coast] tiles [in this city] <during the [Imperial Age]>",
-		"[+1 Food] from [Snow] tiles [in this city] <during the [Imperial Age]>",
-		"[+1 Gold] per every [100] [Science]",
-		"[+1 Gold] per every [100] [Culture]",
-		"[+1 Culture] per [10] population [in this city]",
-		"[+1 Happiness] per [10] population [in this city]",
-		"[+1 Gold] from [Trading post] tiles [in this city]",
-		"[+1 Food] from [Village] tiles [in this city]",
-		"Provides [5] [Manpower] <during the [Classical Age]>",
-		"Provides [10] [Manpower] <during the [Hellenistic Age]>",
-		"Provides [15] [Manpower] <during the [Imperial Age]>",
-		"Provides [1] [Veteran] <in cities with at least [10] [Population]>"
-		"Provides [1] [Veteran] <in cities with at least [30] [Population]>",
-		"Provides [1] [Veteran] <in cities with at least [50] [Population]>",
-		"Provides [3] [Decadence] <during the [Imperial Age]>",
-		"[-30]% enemy spy effectiveness [in this city]",
-		"Can be purchased with [Gold] [in all cities]",
-		"Limited to [1] per Civilization",
-		"Doubles Gold given to enemy if city is captured",
-		"Destroyed when the city is captured",
+			"Indicates the capital city",
+			"[+1 Gold] from [Farm] tiles [in this city]",
+			"[+1 Gold] from [Desert] tiles [in this city] <during the [Imperial Age]>",
+			"[+1 Gold] from [Ocean] tiles [in this city] <during the [Imperial Age]>",
+			"[+1 Gold] from [Coast] tiles [in this city] <during the [Imperial Age]>",
+			"[+1 Food] from [Snow] tiles [in this city] <during the [Imperial Age]>",
+			"[+1 Gold] per every [100] [Science]",
+			"[+1 Gold] per every [100] [Culture]",
+			"[+1 Culture] per [10] population [in this city]",
+			"[+1 Happiness] per [10] population [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Food] from [Village] tiles [in this city]",
+			"Provides [3] [Manpower] <during the [Classical Age]>",
+			"Provides [6] [Manpower] <during the [Hellenistic Age]>",
+			"Provides [10] [Manpower] <during the [Imperial Age]>",
+			"Provides [1] [Veteran] <in cities with at least [10] [Population]>"
+			"Provides [1] [Veteran] <in cities with at least [30] [Population]>",
+			"Provides [1] [Veteran] <in cities with at least [50] [Population]>",
+			"Provides [3] [Decadence] <during the [Imperial Age]>",
+			"[-30]% enemy spy effectiveness [in this city]",
+			"Can be purchased with [Gold] [in all cities]",
+			"Limited to [1] per Civilization",
+			"Doubles Gold given to enemy if city is captured",
+			"Destroyed when the city is captured",
 		]
 	},
 	{
@@ -248,8 +248,8 @@
 		"happiness": 3,
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
-		"Provides [2] [Decadence]",
-		"Provides [3] [Decadence] <during the [Imperial Age]>",
+		"Provides [1] [Decadence]",
+		"Provides [1] [Decadence] <during the [Imperial Age]>",
 		"[+1 Happiness] from [Wine] tiles [in this city]","[+1 Happiness] from [Incense] tiles [in this city]",
 		"[+1 Happiness] from [Truffles] tiles [in this city]","[+1 Happiness] from [Honey] tiles [in this city]",
 		"Only available <in cities with a [Palace]>",
@@ -287,7 +287,7 @@
 		"specialistSlots": {"Courtesan": 1},
 		"uniques": [
 		"Provides [1] [Decadence]",
-		"Provides [2] [Decadence] <during the [Imperial Age]>",
+		"Provides [1] [Decadence] <during the [Imperial Age]>",
 		"[+1 Happiness] from [Wine] tiles [in this city]","[+1 Happiness] from [Crab] tiles [in this city]","[+1 Happiness] from [Deer] tiles [in this city]"
 		],
 		"requiredTech": "Hospitum"
@@ -369,8 +369,9 @@
 			"New [Sword] units start with [5] XP [in this city] <when at war>",
 			"New [Slinger] units start with [5] XP [in this city] <when at war>",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Happiness] from [Village] tiles [in this city] <during the [Imperial Age]>",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Only available <in cities without a [Harbor]> <hidden from users>",
 ],
 		"civilopediaText": [{"text": "A grand show of violence and death keeps the masses busy and enhances our warrior culture."}]
@@ -438,7 +439,7 @@
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 			"[+2 Happiness] <after discovering [Aesthetics]>",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Only available <after adopting [Latin Culture]>",
 			"Remove [Arena] [in this city]",
 		]
@@ -629,7 +630,7 @@
 			"[+2 Gold] <in cities with a [Tar Workshop]>",
 			"[+1 Food] from [Furs] tiles [in this city] <for [The Scythians] Civilizations>",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		],
 		"requiredTech": "Currency"
 	},
@@ -659,7 +660,7 @@
 			"[+1 Gold] <in cities with a [Weavery]>",
 			"[+2 Gold] <in cities with a [Goldsmith]>",
 			"Provides [2] [Decadence]",
-			"Provides [3] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Remove [Market] [in this city]",
 		],
 		"requiredTech": "Trade Routes"
@@ -692,7 +693,7 @@
 			"[+1 Gold] <in cities with a [Weavery]>",
 			"[+2 Gold] <in cities with a [Goldsmith]>",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Currency"
@@ -717,7 +718,7 @@
 			"[+2 Gold] from [Silver] tiles [in this city]",
 			"[+1 Gold] from [Copper] tiles [in this city]",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		],
 		"requiredTech": "Currency"
 	},
@@ -742,7 +743,7 @@
 			"Provides [1] [Mercenary (Thracian)]",
 			"Provides [1] [Mercenary (Rhodian)]",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Limited to [1] per Civilization <before the [Hellenistic Age]>",
 			"Limited to [2] per Civilization <during the [Hellenistic Age]>",
 			"Limited to [3] per Civilization <during the [Imperial Age]>",
@@ -769,7 +770,7 @@
 		"[+1 Happiness] from [Village] tiles [in this city]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -788,7 +789,7 @@
 		"[+2 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Happiness] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		"Never destroyed when the city is captured",
 		],
 		"requiredTech": "Trade Routes"
@@ -809,7 +810,7 @@
 		"[+3 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Culture] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -827,7 +828,7 @@
 		"[+2 Gold] from [Trading post] tiles [in this city]",
 		"[+1 Gold] from [Village] tiles [in this city]",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		],
 		"requiredTech": "Trade Routes"
 	},
@@ -851,7 +852,7 @@
 		"[+1 Gold] from [Fort] tiles [in this city]",
 		"[+1 Happiness] from [Village] tiles [in this city]",
 			"Provides [2] [Decadence]",
-			"Provides [3] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		],
 		"requiredTech": "Tax Farming"
 	},
@@ -1011,7 +1012,7 @@
 		"Only available <in cities without a [Army Barracks]>",
 		"Only available <in cities without a [Skirmisher Barracks]>",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Equestrian Class"
@@ -1129,7 +1130,7 @@
 			"Provides [3] [Manpower]",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"[+20]% Production when constructing [Sword] units [in this city] <in cities with a [Forge]>",
 			"[+10]% Production when constructing [General] units [in this city] <in cities with a [Forge]>",
 			"New [Spearman] units start with [5] XP [in this city]",
@@ -1182,7 +1183,7 @@
  		"cost": 230,
 		"uniques": [
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		"Provides [1] [Jewelry]","Provides [1] [Decadence]",	
 		"[+3 Gold] from [Gems] tiles [in this city]",
 		"[+3 Gold] from [Pearls] tiles [in this city]",
@@ -1206,7 +1207,7 @@
 		"gold": 6,
 		"uniques": [
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		"[+3 Gold] from [Gold Ore] tiles [in this city]",
 		"[+3 Gold] from [Gems] tiles [in this city]",
 		"[+3 Gold] from [Trading post] tiles [in this city]",
@@ -1458,7 +1459,7 @@
 		"cityHealth": 10,
 		"uniques": [
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Provides [2] [Manpower]",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"New [Archery] units start with [5] XP [in this city]",
@@ -1661,7 +1662,7 @@
 			"Consumes [2] [Manpower]",
 			"Connects trade routes over water",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Requires at least [15] population",
 			"Must be next to [Coast]",
 			"Remove [Harbor] [in this city]",
@@ -2067,7 +2068,7 @@
                   	"[Infantry Shield III] units gain the [Improved Armor] promotion",
                     	"[Cataphract] units gain the [Improved Armor] promotion",
 			"Provides [1] [Decadence]",
-			"Provides [2] [Decadence] <during the [Imperial Age]>",
+			"Provides [1] [Decadence] <during the [Imperial Age]>",
 		"Destroyed when the city is captured"
 		]
 	},
@@ -2090,20 +2091,20 @@
 	{
 		"name": "Scenario",
 		"uniques": [ 
-		"Destroyed when the city is captured",
-		"Gain a free [Scenario] [in all cities] <if [Scenario] is not constructed>",
-		"Gain a free [Happiness] [in all cities] <if [Happiness] is not constructed>",
-		"Unbuildable"
+			"Destroyed when the city is captured",
+			"Gain a free [Scenario] [in all cities] <if [Scenario] is not constructed>",
+			"Gain a free [Happiness] [in all cities] <if [Happiness] is not constructed>",
+			"Unbuildable"
 		]
 	},	{
 		"name": "Hellenic Barracks",
 		"requiredBuilding": "Scenario",
 		"cost": 400,
 		"uniques": [ 
-		"Destroyed when the city is captured",
-      		"Only available <after adopting [Hellenic Culture]> <hidden from users>",
-      		"Only available <after adopting [Hellenistic Culture]> <hidden from users>",
-      "Only available <in cities with a [Scenario]>",
+      			"Only available <after adopting [Hellenic Culture]> <hidden from users>",
+      			"Only available <after adopting [Hellenistic Culture]> <hidden from users>",
+      			"Only available <in cities with a [Scenario]>",
+			"Destroyed when the city is captured",
 		]
 	},
 	{
@@ -2111,10 +2112,11 @@
 		"requiredBuilding": "Scenario",
 		"cost": 400,
 		"uniques": [ 
-		"Destroyed when the city is captured",
-      		"Only available <after adopting [Celtic Culture]> <hidden from users>",
-      		"Only available <after adopting [Germanic Culture]> <hidden from users>",
-      "Only available <in cities with a [Scenario]>",
+			"Destroyed when the city is captured",
+      			"Only available <after adopting [Celtic Culture]> <hidden from users>",
+      			"Only available <after adopting [Germanic Culture]> <hidden from users>",
+      			"Only available <in cities with a [Scenario]>",
+			"Unbuildable"
 		]
 	},
 	{
@@ -2122,11 +2124,22 @@
 		"requiredBuilding": "Scenario",
 		"hurryCostModifier": 25,
 		"cost": 9999,
-		"maintenance": 0,
-		"gold": 2,
 		"uniques": [ 
 			"[+10 Happiness] <for [AI player] Civilizations>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Unbuildable"
+		]
+		"requiredTech": "Barter"
+	},
+	{
+		"name": "Manpower",
+		"requiredBuilding": "Scenario",
+		"hurryCostModifier": 25,
+		"cost": 9999,
+		"uniques": [ 
+			"Provides [30] [Manpower] <for [AI player] Civilizations>",
+			"Destroyed when the city is captured",
+			"Unbuildable"
 		]
 		"requiredTech": "Barter"
 	},

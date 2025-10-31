@@ -16,7 +16,6 @@
 		"movementCost": 1,
 		"RGB": [70, 138, 216], //Darker87, 139, 199  Lighter59, 137, 227
 		"uniques": ["[+2] to Fertility for Map Generation",
-		"Units ending their turn on this terrain take [1] damage",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -147,7 +146,7 @@
             "Becomes [Tundra] when adjacent to [River]",
             "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Never receives any resources <in [Hill] tiles>",
-		"Units ending their turn on this terrain take [3] damage",]
+		"Units ending their turn on this terrain take [1] damage",]
 	},
 	{
 		"name": "Impassable",
@@ -239,7 +238,6 @@
 		"occursOn": ["Grassland"],
 		"uniques": [
 			"Rare feature",
-			"Units ending their turn on this terrain take [2] damage",
 			"[-2] to Fertility for Map Generation",
 			"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
 			"civilopediaText": [{"text":"Only Polders can be built here", "link":"Improvement/Polder"}]
