@@ -1247,9 +1247,13 @@
 		"name": "Healing",
 		"uniques": [
 			"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
-			"[+5] HP when healing <for [All] units> <when fighting in [Village] tiles>",
 			"[+5] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
+			"[+3] HP when healing <for [All] units> <when fighting in [Village] tiles>",
 			"[-10] HP when healing <for [All] units> <when fighting in [Enemy Land] tiles>",
+			"[-10] HP when healing <for [All] units> <when fighting in [Snow] tiles>",
+			"[-5] HP when healing <for [All] units> <when fighting in [Tundra] tiles>",
+			"[-3] HP when healing <for [All] units> <when fighting in [Marsh] tiles>",
+			"[-2] HP when healing <for [All] units> <when fighting in [Desert] tiles>",
 		]
 	},
 ]

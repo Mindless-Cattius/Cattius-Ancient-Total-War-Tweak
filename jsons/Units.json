@@ -22,12 +22,13 @@
     "name": "Settler",
     "unitType": "Civilian",
     "movement": 3,
-    "cost": 90,
+    "cost": 100,
     "uniques": [
 		"Comment [Men, women, and children — good at founding empires, great at dying for them]"
       		"Founds a new city <by consuming this unit>",
       		"Excess Food converted to Production when under construction",
       		"Requires at least [3] population",
+		"Unbuildable <in cities with a [Scenario]> <hidden from users>",
     ],
     "hurryCostModifier": 20
   },
