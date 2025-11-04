@@ -41,17 +41,6 @@
 		"specialistSlots": {"Courtesan": 3},
 		"uniques": [
 			"Indicates the capital city",
-			"[+1 Gold] from [Farm] tiles [in this city]",
-			"[+1 Gold] from [Desert] tiles [in this city] <during the [Imperial Age]>",
-			"[+1 Gold] from [Ocean] tiles [in this city] <during the [Imperial Age]>",
-			"[+1 Gold] from [Coast] tiles [in this city] <during the [Imperial Age]>",
-			"[+1 Food] from [Snow] tiles [in this city] <during the [Imperial Age]>",
-			"[+1 Gold] per every [100] [Science]",
-			"[+1 Gold] per every [100] [Culture]",
-			"[+1 Culture] per [10] population [in this city]",
-			"[+1 Happiness] per [10] population [in this city]",
-			"[+1 Gold] from [Trading post] tiles [in this city]",
-			"[+1 Food] from [Village] tiles [in this city]",
 			"Provides [3] [Manpower] <during the [Classical Age]>",
 			"Provides [6] [Manpower] <during the [Hellenistic Age]>",
 			"Provides [10] [Manpower] <during the [Imperial Age]>",
@@ -59,10 +48,21 @@
 			"Provides [1] [Veteran] <in cities with at least [30] [Population]>",
 			"Provides [1] [Veteran] <in cities with at least [50] [Population]>",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
+			"[+1 Gold] per every [100] [Science]",
+			"[+1 Gold] per every [100] [Culture]",
+			"[+1 Culture] per [10] population [in this city]",
+			"[+1 Happiness] per [10] population [in this city]",
+			"[+1 Gold] from [Farm] tiles [in this city]",
+			"[+1 Gold] from [Trading post] tiles [in this city]",
+			"[+1 Gold] from [Desert] tiles [in this city] <during the [Imperial Age]>",
+			"[+1 Gold] from [Ocean] tiles [in this city] <during the [Imperial Age]>",
+			"[+1 Gold] from [Coast] tiles [in this city] <during the [Imperial Age]>",
+			"[+1 Food] from [Snow] tiles [in this city] <during the [Imperial Age]>",
+			"[+1 Food] from [Village] tiles [in this city]",
 			"[-30]% enemy spy effectiveness [in this city]",
 			"Can be purchased with [Gold] [in all cities]",
-			"Limited to [1] per Civilization",
 			"Doubles Gold given to enemy if city is captured",
+			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured",
 		]
 	},
@@ -71,16 +71,15 @@
 		"cost": 40,
 		"maintenance": 1,
 		"uniques": [
-		"[+1 Culture] <while the empire is happy>",
-		"[+10]% Production when constructing [Military] units [in this city]",
-		"[+5]% Production when constructing [Military] units [in this city] <during the [Hellenistic Age]>"
-		"[+10]% Production when constructing [Military] units [in this city] <during the [Imperial Age]>"
 		"Provides [1] [Manpower] <while the empire is happy>",
 		"Provides [1] [Manpower] <during the [Classical Age]>",
 		"Provides [2] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [3] [Manpower] <during the [Imperial Age]>",
 		"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
 		"Provides [1] [Manpower] <in cities with at least [15] [Population]>",
+		"[+5]% Production when constructing [Military] units [in this city] <during the [Hellenistic Age]>",
+		"[+10]% Production when constructing [Military] units [in this city] <during the [Imperial Age]>",
+		"[+1 Culture] <while the empire is happy>",
 		"[+1 Production] from [Fort] tiles [in this city]",
 		"[-1 Food] from [Village] tiles [in this city]",
 		"[+50]% weight to this choice for AI decisions",
@@ -96,8 +95,8 @@
 		"happiness": -3,
 		"cityHealth": 5,
 		"uniques": [
-		"New [Galley] units start with [30] XP [in this city]",
 		"Only available <starting from the [Classical Age]>",
+		"New [Galley] units start with [30] XP [in this city]",
 		"Must be next to [Coast]",
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured",
@@ -114,13 +113,14 @@
 		"happiness": -3,
 		"cityHealth": 5,
 		"uniques": [
-		"Must be next to [Coast]"
+		"Comment [Enables Hemiola]",
 		"Only available <starting from the [Classical Age]>",
-		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
 		"Consumes [1] [Mercenary (Cretan)]","Only available <with [Mercenary (Cretan)]> <hidden from users>",
-		"New [Hemiola] units start with [30] XP [in this city]",
-		"Destroyed when the city is captured",
+		"Provides [1] [Enable Hemiola] <hidden from users>",
+		"New [Hemiola] units start with [20] XP [in this city]",
+		"Must be next to [Coast]",
 		"Limited to [1] per Civilization",
+		"Destroyed when the city is captured",
 		],
 	},
 	{
@@ -133,13 +133,13 @@
 		"happiness": -3,
 		"cityHealth": 5,
 		"uniques": [
-		"Must be next to [Coast]"
-		"Only available <starting from the [Hellenistic Age]>",
 		"Comment [Enables Hemiola]","Provides [1] [Enable Hemiola] <hidden from users>",
+		"Only available <starting from the [Hellenistic Age]>",
 		"Consumes [1] [Mercenary (Cilician)]","Only available <with [Mercenary (Cilician)]> <hidden from users>",
 		"New [Hemiola] units start with [20] XP [in this city]",
-		"Destroyed when the city is captured",
+		"Must be next to [Coast]",
 		"Limited to [1] per Civilization",
+		"Destroyed when the city is captured",
 		],
 	},
 	// Agriculture
@@ -159,9 +159,9 @@
 		"science": 1,
 		"cityHealth": 10,
 		"uniques": [
-		"[+1 Science] from [Herbs] tiles [in this city]",
 		"[+10]% growth [in this city]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
+		"[+1 Science] from [Herbs] tiles [in this city]",
 		"[+1 Science] from [Village] tiles [in this city]",
 		],
 
@@ -177,10 +177,10 @@
 		"science": 4,
 		"specialistSlots": {"Scholar": 1},
 		"uniques": [
+		"Only available <in cities with a [Palace]>"
 		"Consumes [1] [Decadence] <in cities with a [Palace Library]> <while the empire is happy>",
 		"New [Foot Guard] units start with [10] XP [in this city]",
 		"New [King] units start with [10] XP [in this city]",
-		"Only available <in cities with a [Palace]>"
 		"Limited to [1] per Civilization",
 		"Destroyed when the city is captured"
 		],
@@ -1080,9 +1080,10 @@
 		"cityHealth": 30,
 		"uniques": [
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-		"Provides [3] [Manpower]",
-		"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
-		"Destroyed when the city is captured"
+			"Provides [3] [Manpower]",
+			"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
+			"Destroyed when the city is captured"
+			"[+100]% weight to this choice for AI decisions",
 		],
 		"requiredTech": "Citizen Levy"
 	},

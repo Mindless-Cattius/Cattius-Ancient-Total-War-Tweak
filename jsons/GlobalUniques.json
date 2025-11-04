@@ -3,6 +3,7 @@
     "uniques": [ 
 // ADDONS
 // GLOBAL
+	"[Melee] units gain the [Veteran] promotion <upon defeating a [King] unit>",
 	"Provides [30] [Manpower] <in [in City-State cities] cities>"
  	"[-1 Happiness, -1 Food, -1 Gold] from every [pillaged]",
 	"[-1] Range <for [Scout] units>",
@@ -28,22 +29,31 @@
 	"[+40]% Yield from pillaging tiles <during the [Archaic Age]>",
 
 //Cities
-	"[-40]% Strength for cities <when attacking>",
+	"[-50]% Strength for cities <when attacking>",
 	"[-30]% Strength for cities <vs [Mounted Archery] units> <when attacking>",
 	"[-20]% Strength for cities <vs [Scout] units> <when attacking>",
-        "[-5]% Great Person generation [in all cities]",
 
 	"[-80]% Production when constructing [Make Capital] buildings [in all cities] <during the [Imperial Age]>",
 	"[-50]% Production when constructing [Make Capital] buildings [in all cities] <during the [Classical Age]>",
 	"[-70]% Production when constructing [Make Capital] buildings [in all cities] <during the [Hellenistic Age]>",
 	"[-50]% Production when constructing [Civilian] units [in all cities] <during the [Imperial Age]>",
-	"[-20]% City Strength from defensive buildings <during the [Archaic Age]>",
-	"[-15]% City Strength from defensive buildings <during the [Classical Age]>",
-	"[-10]% City Strength from defensive buildings <during the [Hellenistic Age]>",
 
 //GOLD
 
 	"[Gold] cost of purchasing [Military] units [+20]% <when at war>",
+
+//MANPOWER
+	
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [20] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [30] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [40] [Manpower]>",
+	"[Gold] cost of purchasing [Military] units [-5]% <when above [50] [Manpower]>",
+
+        "[+2]% [Production] [in all cities] <when above [20] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [30] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [40] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [50] [Manpower]>",
+        "[+2]% [Production] [in all cities] <when above [60] [Manpower]>",
 
 // Happiness & Population
 	
@@ -108,7 +118,7 @@
         "[+5]% [Faith] [in all cities] <when between [81] and [100] [Happiness]>",       
         "[+7]% [Faith] [in all cities] <when between [101] and [150] [Happiness]>",      
         "[+10]% [Faith] [in all cities] <when between [151] and [250] [Happiness]>",       
-        "[+15]% [Faith] [in all cities] <when above [251] [Happiness]>",
+        "[+12]% [Faith] [in all cities] <when above [251] [Happiness]>",
 
         "[+3]% Strength for cities <when attacking> <when between [11] and [80] [Happiness]>",
         "[+7]% Strength for cities <when attacking> <when between [81] and [100] [Happiness]>",       
@@ -137,7 +147,7 @@
 // Events
 
         "Free [Skirmisher] appears <when between [1] and [10] [Happiness]> <upon founding a city>",
-        "Free [Spearman] appears <when between [11] and [99999] [Happiness]> <upon founding a city>",
+        "Free [Spearman] appears <when above [11] [Happiness]> <upon founding a city>",
         "Free [General] appears <upon turn end> <when above [0] [Nobles]> <with [5]% chance>",
         "Free [Foot Guard] appears <upon turn end> <when above [3] [Veteran]> <with [5]% chance>",
         "Free [Great Prophet] appears <upon turn end> <after discovering [Aesthetics]> <with [1]% chance>",

@@ -638,7 +638,7 @@
     "uniques": [
 	"Comment [Spearman — ideal for stopping horses, not much else.]",
      	"Only available <in cities with a [Muster Field]>",
-      	"Consumes [1] [Manpower]",
+      	"Consumes [2] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -658,7 +658,7 @@
     "uniques": [
 	"Comment [Light spear, deadly in ambushes, unimpressed by fair fights.]",
       	"Only available <in cities with a [Muster Field]>",
-      	"Consumes [1] [Manpower]",
+      	"Consumes [2] [Manpower]",
     ],
     "promotions": [
       "[Spearman] ability",
@@ -893,11 +893,11 @@
     "cost": 175,
     "requiredTech": "Infantry Training",
     "uniques": [
-      "Comment [Medium infantry, hits hard, screams louder, dies impressively.]",
-      "Only available <in cities with a [Barracks]>",
+      	"Comment [Medium infantry, hits hard, screams louder, dies impressively.]",
+      	"Only available <in cities with a [Barracks]>",
 	"[This Unit] gains the [Infantry Shield III] promotion <during the [Imperial Age]>",
-	"[+10]% production cost <during the [Imperial Age]>",
-      "Consumes [4] [Manpower]",
+	"[+15]% production cost <during the [Imperial Age]>",
+      	"Consumes [4] [Manpower]",
 	"[This Unit] loses the [Infantry Shield II] promotion <during the [Imperial Age]> <hidden from users>",
     ],
     "promotions": [
@@ -1665,7 +1665,7 @@
     "uniques": [
       "Empire enters a [10]-turn Golden Age <by consuming this unit>",
       "Great Person - [Culture]",
-	"Can instantly construct a [Village] improvement <[1] times> <Unavailable> <within [2] tiles of a [Village]> <after which this unit is consumed>",
+	"Can instantly construct a [Village] improvement <[1] times> <after which this unit is consumed>",
       "Unbuildable",
       "Uncapturable"
     ],
@@ -2496,11 +2496,10 @@
     "strength": 14,
     "rangedStrength": 11,
     "cost": 230,
-    "requiredTech": "Military Reforms",
     "uniques": [
       "Comment [-Elite heavy skirmisher, good melee defense, high withdraw chance.]",
     "Can move after attacking",
-      "Only available <in cities with a [Imperial Barracks]>",
+      "Only available <in cities with a [Skirmisher Barracks]>",
 	"[+1] XP gained from combat",
       "Consumes [4] [Manpower]",
       "Consumes [1] [Veteran]",
@@ -2619,12 +2618,11 @@
     "strength": 20,
     "cost": 250,
     "uniques": [
+      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
 	"Can build [All Road] improvements on tiles",
-	"Can build [Fort] improvements on tiles",
       "Consumes [5] [Manpower]",
       "Consumes [1] [Iron]",
       "Only available <in cities with a [Hellenic Barracks]>"
-      "Comment [-Heavy sword infantry, can build road and fort, excellent in sieges and fighting against cavalry units]",
     ],
     "promotions": [
       "Infantry Shield III",

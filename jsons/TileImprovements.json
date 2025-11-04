@@ -166,6 +166,12 @@
 		"uniques": ["Can be built outside your borders"],
 		"shortcutKey": "X"
 	},
+	{
+		"name": "Remove Village",
+		"turnsToBuild": 8,
+		"techRequired": "Land Grants",
+		"shortcutKey": "X"
+	},
 
 	// These are unique and have unique in-game checks related to them
 	{

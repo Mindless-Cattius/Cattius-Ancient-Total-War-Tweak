@@ -117,7 +117,7 @@
 	// Rank 4
 	{
 		"name": "Marksman I",
-		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+20]% Strength <when attacking> <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 1
@@ -125,7 +125,7 @@
 	{
 		"name": "Marksman II",
 		"prerequisites": ["Marksman I"],
-		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"uniques": ["[+20]% Strength <when attacking> <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 2
@@ -133,7 +133,10 @@
 	{
 		"name": "Marksman III",
 		"prerequisites": ["Marksman II"],
-		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles> <when attacking>","[+10]% Strength <vs cities>"],
+		"uniques": [
+			"[+20]% Strength <when attacking> <when fighting in [Open terrain] tiles>",
+			"[+10]% Strength <vs cities>"
+],
 		"unitTypes": ["Siege","Archery","Mounted Archery"],
         "column": 5,
         "row": 3
@@ -148,7 +151,9 @@
 	{
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
-		"uniques": ["[+30]% Strength <when attacking>"],
+		"uniques": [
+			"[+20]% Strength <when attacking>"
+],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant","King","Scout"],
         "column": 6,
         "row": 2
@@ -156,7 +161,11 @@
 	{
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
-		"uniques": ["[+30]% Strength <when attacking>","[+10]% Strength <vs [Wounded] units>","[+20]% Strength <vs cities>"],
+		"uniques": [
+			"[+30]% Strength <when attacking>",
+			"[+10]% Strength <vs [Wounded] units>",
+			"[+20]% Strength <vs cities>"
+],
 		"unitTypes": ["Sword","Spear","Mounted","Elephant","King","Scout"],
         "column": 6,
         "row": 3
@@ -509,7 +518,6 @@
 		"uniques": [
 		"Eliminates combat penalty for attacking over a river",
 		"Eliminates combat penalty for attacking across a coast",
- 		"[+5]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","Elephant","King"],
         "column": 20,
@@ -520,9 +528,9 @@
 		"prerequisites": ["Amphibious I"],
 		"uniques": [
 		"[0] Movement point cost to disembark",
-		"[0] Movement point cost to embark",
-		"[+50]% Strength <when defending> <when [Embarked]>",
- 		"[+5]% Strength <when fighting in [Foreign Land] tiles>"
+		"[1] Movement point cost to embark",
+		"[+30]% Strength <when defending> <when [Embarked]>",
+ 		"[+10]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","King"],
         "column": 20,
@@ -530,7 +538,7 @@
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Marksman III","Positioning III", "Shock III","Scouting III","Coastal Raider III","Bombardment III","Raider III"],
+		"prerequisites": ["Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Raider III"],
 		"uniques": [
 				"[1] additional attacks per turn",
  				"[-10]% Strength <when attacking>",
@@ -683,7 +691,7 @@
 		"Ignores terrain cost",
 		"[+20]% to Flank Attack bonuses",
 		"[-40]% Strength <when attacking> <vs cities>",
-		"[+25]% Strength <when attacking> <vs [Wounded] units>",
+		"[+15]% Strength <when attacking> <vs [Wounded] units>",
 		"[-10]% Strength <when defending> <when fighting in [Hill] tiles>",
 		"No defensive terrain bonus",
 		"Withdraws before melee combat <with [35]% chance>",
@@ -924,7 +932,6 @@
 		"uniques": [
 			"[+10]% Strength bonus for [{Melee} {Land}] units within [2] tiles <when attacking>",
 			"[+10]% Strength bonus for [{Ranged} {Land}] units within [2] tiles <when attacking>",
-			"Withdraws before melee combat <with [10]% chance>",
 			"Only available <if [Barracks] is constructed>",
 		],
         "row": 5,
@@ -936,7 +943,7 @@
 		"unitTypes": ["King"],
 		"uniques": [
 			"All adjacent units heal [+10] HP when healing <when stacked with a [Worker] unit>",
-			"[+3] HP when healing",
+			"[+10] HP when healing <when stacked with a [Worker] unit>",
 			"Only available <if [Barracks] is constructed>",
 		],
         "row": 5,
@@ -995,7 +1002,7 @@
 	},
 	{
 		"name": "Veteran",
-		"prerequisites": ["Medic III","Ambush III","Marksman III","Positioning III", "Shock III","Scouting III","Coastal Raider III","Bombardment III","Flanking","Charge III","Siege III","Survivalism III","Raider III","Assault III","Trample III","Drill III","Formation III"],
+		"prerequisites": ["Medic III","Ambush III","Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Flanking","Charge III","Siege III","Survivalism III","Raider III","Assault III","Trample III","Drill III","Formation III"],
 		"unitTypes": ["Sword","Spear","Mounted","Scout","Melee Water","Siege","King"],
 		"uniques": [
 			"[This Unit] heals [5] HP <upon losing at least [10] HP in a single attack>",
@@ -1068,8 +1075,8 @@
  		 "unitTypes": ["Sword","Spear","Elephant"],
  		 "uniques": [
 		"[+10]% Strength bonus for [Archery] units within [1] tiles <when defending>",
+		"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>"],
 		"[+20]% Strength bonus for [Scout] units within [1] tiles <when defending>",
-		"[+20]% Strength bonus for [Archery] units within [1] tiles <when attacking>"],
 	"column": 37, 
        "row": 6
 	},
@@ -1171,8 +1178,9 @@
 	{
 		"name": "Commander",
 		"uniques": [
-			"[+10]% Strength bonus for [{Melee} {Land}] units within [3] tiles <when defending>",
-			"[+20]% Strength bonus for [{Ranged} {Land}] units within [3] tiles <when defending>",
+			"[+10]% Strength bonus for [Military] units within [2] tiles <when defending>",
+			"[+20]% Strength bonus for [Military] units within [1] tiles <when defending>",
+			"[+10]% Strength bonus for [Military] units within [1] tiles <when attacking>",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
 	},
