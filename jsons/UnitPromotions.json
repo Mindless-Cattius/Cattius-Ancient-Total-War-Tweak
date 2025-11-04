@@ -1075,8 +1075,9 @@
  		 "unitTypes": ["Sword","Spear","Elephant"],
  		 "uniques": [
 		"[+10]% Strength bonus for [Archery] units within [1] tiles <when defending>",
-		"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>"],
+		"[+10]% Strength bonus for [Archery] units within [1] tiles <when attacking>",
 		"[+20]% Strength bonus for [Scout] units within [1] tiles <when defending>",
+],
 	"column": 37, 
        "row": 6
 	},

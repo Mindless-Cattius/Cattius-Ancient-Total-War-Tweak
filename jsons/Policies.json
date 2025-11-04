@@ -805,7 +805,7 @@
                     "[+15]% Strength <for [Skirmisher] units> <when fighting in [Rough terrain] tiles>",
                     "[+15]% Strength <for [Archery] units> <when fighting in [Rough terrain] tiles>",
                     "[3] free [Skirmisher] units appear",
-                    "[] free [Archer] units appear",
+                    "[2] free [Archer] units appear",
                     "Provides [5] [Manpower]",
                     "[+1 Happiness] [in capital]",
                 ],
