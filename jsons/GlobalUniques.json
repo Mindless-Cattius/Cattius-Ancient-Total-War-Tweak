@@ -64,11 +64,11 @@
         "[+1]% [Faith] [in all cities] <when above [50] [Manpower]>",
         "[+1]% [Faith] [in all cities] <when above [60] [Manpower]>",
 
-        "[-1]% growth [in all cities] <when above [30] [Manpower]>,
-        "[-1]% growth [in all cities] <when above [40] [Manpower]>,
-        "[-1]% growth [in all cities] <when above [50] [Manpower]>,
-        "[-1]% growth [in all cities] <when above [60] [Manpower]>,
-        "[-1]% growth [in all cities] <when above [70] [Manpower]>,
+        "[-1]% growth [in all cities] <when above [30] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [40] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [50] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [60] [Manpower]>",
+        "[-1]% growth [in all cities] <when above [70] [Manpower]>",
 
 // Happiness & Population
 	
