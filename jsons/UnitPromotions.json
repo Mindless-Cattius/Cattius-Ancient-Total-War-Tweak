@@ -34,7 +34,7 @@
 	// Rank 2
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing", "[+5]% Strength <when defending>","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["[+3] HP when healing", "[+5]% Strength <when defending>","[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Scout","Archery","Mounted","Mounted Archery","Sword","Spear","Siege","King"],
         "column": 2,
         "row": 1
@@ -43,7 +43,7 @@
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
 		"uniques": [
-			"[+5] HP when healing", 
+			"[+3] HP when healing", 
 			"[+10]% Strength <when defending>", 
 ],
 		"unitTypes": ["Scout"],
@@ -342,7 +342,7 @@
 	},
 	{
 		"name": "Coastal Raider I",
-		"uniques": ["[+20]% Strength <when attacking> <vs cities> ","Earn [30]% of the damage done to [City] units as [Gold]",
+		"uniques": ["[+20]% Strength <vs cities> ","Earn [10]% of the damage done to [City] units as [Gold]",
 		"Withdraws before melee combat <with [5]% chance>"],
 		"unitTypes": ["Melee Water"],
         "column": 15,
@@ -351,7 +351,7 @@
 	{
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
-		"uniques": ["[+40]% Strength <when attacking> <vs cities>","Earn [30]% of the damage done to [City] units as [Gold]",
+		"uniques": ["[+30]% Strength <when attacking> <vs cities>","Earn [20]% of the damage done to [City] units as [Gold]",
 		"Withdraws before melee combat <with [5]% chance>"],
 		"unitTypes": ["Melee Water"],
         "column": 15,
@@ -361,7 +361,8 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": [
-			"[+60]% Strength <when attacking> <vs cities>",
+			"[+40]% Strength <when attacking> <vs cities>",
+ "Earn [30]% of the damage done to [City] units as [Gold]",
 			"Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately"],
 		"unitTypes": ["Melee Water"],
         "column": 15,
@@ -414,7 +415,8 @@
 	{
 		"name": "Charge II",
 		"prerequisites": ["Charge I"],
-		"uniques": ["[+10]% Strength <when attacking>",
+		"uniques": [
+  "[+10]% Strength <when attacking>",
 			"[+5]% Strength <vs [Melee] units>"
 		],
 		"unitTypes": ["Mounted","King"],
@@ -543,7 +545,7 @@
 		"prerequisites": ["Marksman III","Positioning III", "Shock III","Scouting III","Ramming Tactics III","Coastal Raider III","Bombardment III","Raider III"],
 		"uniques": [
 				"[1] additional attacks per turn",
- 				"[-10]% Strength <when attacking>",
+ 				"[-20]% Strength <when attacking>",
 				"[-20]% to Flank Attack bonuses",
 			  	"[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water","King"],
@@ -669,7 +671,7 @@
 	{
 		"name": "[Pike Phalanx] ability",
 		"uniques": [
-		"[+60]% Strength <vs [Mounted] units>",
+		"[+70]% Strength <vs [Mounted] units>",
 		"[+50]% Strength <vs [Elephant] units>",
 		"[+50]% Strength <when defending> <vs [Melee] units>",
 		"[+10]% Strength <when defending> <when fighting in [Open terrain] tiles>",
@@ -682,7 +684,7 @@
 		"name": "[Royal Phalanx] ability",
 		"uniques": [
 		"[+10]% Strength <vs cities>",
-		"[+60]% Strength <vs [Mounted] units>",
+		"[+70]% Strength <vs [Mounted] units>",
 		"[+50]% Strength <vs [Elephant] units>",
 		"[+60]% Strength <when defending> <vs [Melee] units>",
 		"[+10]% Strength <when defending> <when fighting in [Open terrain] tiles>",
@@ -700,7 +702,7 @@
 		"[+10]% Strength <when attacking> <vs [Wounded] units>",
 		"[-10]% Strength <when defending> <when fighting in [Hill] tiles>",
 		"No defensive terrain bonus",
-		"Withdraws before melee combat <with [35]% chance>",
+		"Withdraws before melee combat <with [40]% chance>",
 		]
 	},
 	{
@@ -754,7 +756,7 @@
 		"name": "[War Elephant] ability",
 		"uniques": [
 		"No defensive terrain bonus", 
-		"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
+		"[-15]% Strength for enemy [Military] units in adjacent [All] tiles",
 		"[+30]% Strength <vs [Mounted] units>",
 		"[+25]% Strength <when defending> <vs [Sword] units>",
 		"[-10]% Strength <when defending> <vs [Archery] units>"
@@ -795,14 +797,14 @@
 	{
 		"name": "Cavalry Shield I",
 		"uniques": [
-		"[+15]% Strength <when defending> <vs [Ranged] units>",
+		"[+15]% Strength <vs [Ranged] units>",
 		"[+20]% Strength <vs cities> <when defending>"
 		]
 	},
 	{
 		"name": "Cavalry Shield II",
 		"uniques": [
-		"[+20]% Strength <when defending> <vs [Ranged] units>",
+		"[+25]% Strength <when defending> <vs [Ranged] units>",
 		"[+30]% Strength <when defending> <vs cities>"
 		]
 	},
@@ -839,8 +841,8 @@
 	{
 		"name": "War Transports",
 		"uniques": [
-		"May attack when embarked",
-		"[-20]% Strength <when fighting in [Water] tiles>",
+		"May attack when embarked <when fighting in [Water] tiles>",
+		"[-30]% Strength <when fighting in [Water] tiles>",
 		"[-30]% Strength <when attacking> <when fighting in [Water] tiles>",
 		]
 	},

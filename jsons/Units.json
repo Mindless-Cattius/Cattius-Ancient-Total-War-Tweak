@@ -4,16 +4,15 @@
     "unitType": "Civilian",
     "movement": 2,
     "uniques": [
-	"Comment [Reliable, replaceable, and remarkably flammable. No empire rose without them — mostly because someone had to hold the shovel.]",
-	"[+50]% Gold cost of upgrading",
-	"[+1] Movement <after discovering [Mass Production]>",
+	"Comment ['Reliable, replaceable, and remarkably flammable. No empire rose without them — mostly because someone had to hold the shovel. Can be upgrade into military unit']",
       	"Limited to [10] per Civilization",
       	"Can build [Land] improvements on tiles",
-	"Can upgrade to [Skirmisher] <after discovering [Imperial Military Doctrine]>",
-	"Can upgrade to [Spearman] <after adopting [Concordia Pactum]>",
-	"Can upgrade to [Spearman] <after adopting [Divide Consription]>",
-	"Can upgrade to [Spearman] <after adopting [Imperial Garrisons]>",
-	"Can upgrade to [Swordsman] <after adopting [Total War]>",
+	"[+1] Movement <after discovering [Mass Production]>",
+	"Can upgrade to [Skirmisher] <after discovering [Imperial Military Doctrine]> <hidden from users>",
+	"Can upgrade to [Spearman] <after adopting [Concordia Pactum]> <hidden from users>",
+	"Can upgrade to [Spearman] <after adopting [Divide Consription]> <hidden from users>",
+	"Can upgrade to [Spearman] <after adopting [Imperial Garrisons]> <hidden from users>",
+	"Can upgrade to [Swordsman] <after adopting [Total War]> <hidden from users>",
       	"Automation is a primary action",
     ],
     "cost": 60
@@ -24,10 +23,10 @@
     "movement": 3,
     "cost": 100,
     "uniques": [
-		"Comment [Men, women, and children — good at founding empires, great at dying for them]"
+		"Comment ['Men, women, and children — good at founding empires, great at dying for them']",
+      		"Requires at least [3] population",
       		"Founds a new city <by consuming this unit>",
       		"Excess Food converted to Production when under construction",
-      		"Requires at least [3] population",
 		"Unbuildable <in cities with a [Scenario]> <hidden from users>",
     ],
     "hurryCostModifier": 20
@@ -36,14 +35,14 @@
     "name": "Work Boats",
     "unitType": "Civilian Water",
     "movement": 5,
-    "cost": 40,
+    "cost": 80,
     "requiredTech": "Fishing",
     "uniques": [
-	"Comment [Sea Slaves.]",
-      "May create improvements on water resources",
-      "Cannot enter ocean tiles <before discovering [Exploration]>",
-      "Uncapturable",
-      "Automation is a primary action",
+		"Comment ['Sea Slaves.']",
+      		"May create improvements on water resources",
+      		"Cannot enter ocean tiles <before discovering [Exploration]>",
+      		"Uncapturable",
+      		"Automation is a primary action",
     ]
   },
   {
@@ -53,11 +52,11 @@
     "cost": 100,
     "requiredTech": "Engineering",
     "uniques": [
-		"Comment [Turns “no entry” into “former entry.” Teamwork highly encouraged.]",
+     		"Only available <in cities with a [Barracks]>",
+		"Comment ['Turns “no entry” into “former entry.” Teamwork highly encouraged.']",
+     		"Consumes [3] [Manpower]",
 		"[15]% Strength bonus for [Melee] units within [0] tiles <vs cities> <when attacking>",
-     		 "Only available <in cities with a [Barracks]>",
-     		 "Consumes [3] [Manpower]",
-     		 "Uncapturable",
+     		"Uncapturable",
     ],
   },
   {
@@ -67,12 +66,12 @@
     "cost": 200,
     "requiredTech": "Torsion Engines",
     "uniques": [
-		"Comment [A revolutionary invention that made invading cities slightly less suicidal. Offers protection for your battle buddies while they commit structural diplomacy.]"
-		"[15]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
-		"[10]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when defending>",
       		"Only available <in cities with a [Siege Workshop]>",
+		"Comment ['A revolutionary invention that made invading cities slightly less suicidal. Offers protection for your battle buddies while they commit structural diplomacy.']",
      		"Consumes [4] [Manpower]",
       		"Consumes [1] [Timber]",
+		"[15]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when attacking>",
+		"[10]% Strength bonus for [Melee] units within [1] tiles <vs cities> <when defending>",
      		"Uncapturable",
     ],
   },
@@ -85,10 +84,9 @@
     "cost": 55,
     "requiredTech": "Agriculture",
     "uniques": [
-		"Comment [Light troops trained to throw things and run away, in that order. The smart ones mastered both arts equally.]",
-		"Can move after attacking",
+		"Comment ['Light troops trained to throw things and run away, in that order. The smart ones mastered both arts equally.']",
       		"Consumes [1] [Manpower]",
-		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
+		"Can move after attacking",
     ],
     "attackSound": "nonmetalhit",
     "promotions": [
@@ -112,10 +110,9 @@
     "cost": 73,
     "requiredTech": "Agriculture",
     "uniques": [
-		"Comment [Thracian hit-and-run specialists; throw, stab, vanish, repeat.]",
-    		"Can move after attacking",
+		"Comment ['Thracian hit-and-run specialists; throw, stab, vanish, repeat.']",
       		"Consumes [1] [Manpower]",
-		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
+    		"Can move after attacking",
     ],
     "promotions": [
       	"[Skirmisher] ability",
@@ -140,10 +137,9 @@
     "cost": 70,
     "requiredTech": "Agriculture",
     "uniques": [
-		"Comment [-Light skirmisher, good at harrassing, have high withdraw chance.]",
+		"Comment ['Light tribal infantry from Anatolia — armed with courage, sticks, and whatever gods didn’t abandon them this week.']",
    		 "Can move after attacking",
      		 "Consumes [1] [Manpower]",
-		"[+25]% Strength <when attacking> <after discovering [Imperial Military Doctrine]>",
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -165,15 +161,16 @@
     "rangedStrength": 8,
     "cost": 160,
     "uniques": [
-		"Comment [Mercenary skirmisher from the Illyrian coast — fights hard, drinks harder, runs fastest when unpaid.]",
       		"Only available <in cities with a [Mercenary Camp]>",
+		"Comment ['Mercenary skirmisher from the Illyrian coast — fights hard, drinks harder, runs fastest when unpaid.']",
+      		"Consumes [1] [Mercenary (Illyrian)]",
      		"Can move immediately once bought",
     		"Can move after attacking",
 		"May attack when embarked",
 		"[+1] XP gained from combat",
-      		"Consumes [1] [Mercenary (Illyrian)]",
-     		"Can be purchased with [Gold] [in all cities]",
+		"[50]% maintenance costs"
      		 "Unbuildable",
+     		"Can be purchased with [Gold] [in all cities]",
     ],
     "promotions": [
       "[Skirmisher] ability",
@@ -207,6 +204,7 @@
      		 "Consumes [1] [Mercenary (Cilician)]",
       		"Only available <starting from the [Hellenistic Age]>",
      		 "Can be purchased with [Gold] [in all cities]",
+		"[50]% maintenance costs"
      		 "Unbuildable",
     ],
     "promotions": [
@@ -401,6 +399,7 @@
       	"Can be purchased with [Gold] [in all cities]",
       	"Only available <starting from the [Hellenistic Age]>",
       	"Unbuildable",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "[Slinger] ability",
@@ -427,6 +426,7 @@
       	"Only available <starting from the [Hellenistic Age]>",
       	"Unbuildable",
      	"Never appears as a Barbarian unit",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "[Archer] ability",
@@ -449,6 +449,7 @@
       	"Consumes [1] [Mercenary (Celtic)]",
       	"Can be purchased with [Gold] [in all cities]",
       	"Unbuildable",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "Infantry Shield II",
@@ -471,6 +472,7 @@
       	"Can move after attacking",
       	"Can be purchased with [Gold] [in all cities]",
       	"Unbuildable",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "Infantry Shield II",
@@ -493,6 +495,7 @@
       	"Only available <before the [Hellenistic Age]>",
       	"Can be purchased with [Gold] [in all cities]",
      	"Unbuildable",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "Infantry Shield III",
@@ -516,6 +519,7 @@
       	"Only available <starting from the [Hellenistic Age]>",
       	"Can be purchased with [Gold] [in all cities]",
       	"Unbuildable",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -538,6 +542,7 @@
       	"Can be purchased with [Gold] [in all cities]",
       	"Never appears as a Barbarian unit",
       	"Unbuildable",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "[Spearman] ability",
@@ -560,6 +565,7 @@
       	"Consumes [1] [Mercenary (Thracian)]",
       	"Can be purchased with [Gold] [in all cities]",
       	"Never appears as a Barbarian unit",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "[Thracian Warband] ability",
@@ -583,6 +589,7 @@
       	"Consumes [1] [Mercenary (Iberian)]",
       	"Unbuildable",
       	"Can be purchased with [Gold] [in all cities]",
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "Infantry Shield II"
@@ -596,13 +603,14 @@
     "strength": 16,
     "cost": 150,
     "uniques": [
+	"Comment [-Medium infantry unit, cheaper to deploys.]"
       "Consumes [1] [Mercenary (Oscan)]",
 	"[+1] XP gained from combat",
       "Only available <in cities with a [Mercenary Camp]>",
       "Unbuildable",
       "Can be purchased with [Gold] [in all cities]",
       "Can move immediately once bought",
-	"Comment [-Medium infantry unit, cheaper to deploys.]"
+		"[50]% maintenance costs"
     ],
     "promotions": [
       "Infantry Shield II"
@@ -1144,7 +1152,7 @@
     "name": "Mercenary Horse Archer",
     "unitType": "Mounted Archery",
     "hurryCostModifier": 30,
-    "cost": 210,
+    "cost": 220,
     "movement": 4,
     "strength": 9,
     "rangedStrength": 12,
@@ -1390,11 +1398,9 @@
     "movement": 3,
     "strength": 26,
     "requiredTech": "Metallurgy",
-    "uniques": [
-	"Comment [Very heavy cavalry, the Roman answer to cavalry: heavier, slower, and less punchy than the eastern versions. Great for crushing infantry, as long as you’re cool with sacrificing an arm and a leg to get them] <after adopting [Latin Culture]>",
-	"Comment [Very heavy cavalry,The ‘OG tank’ if tanks were slow, expensive, and required a small fortune in horses, manpower, and iron. Sure, they’ll crush infantry, but they’ll also burn a hole in your budget faster.] <before adopting [Latin Culture]>",
+    "uniques": [	"Comment [Very heavy cavalry,The ‘OG tank’ if tanks were slow, expensive, and required a small fortune in horses, manpower, and iron. Sure, they’ll crush infantry, but they’ll also burn a hole in your budget faster.] <before adopting [Latin Culture]>",
 	"Only available <in cities with a [Cavalry Barracks]>",
-	"Consumes [5] [Manpower]",
+	"Consumes [6] [Manpower]",
 	"Consumes [2] [Horses]",
 	"Consumes [2] [Iron]",
 	"Never appears as a Barbarian unit <hidden from users>",
@@ -1418,7 +1424,7 @@
     "uniques": [
       "Comment [-Heavy shock cavalry, too bad they’re just another expensive way to crush weaklings.]",
       "Only available <in cities with a [Cavalry Barracks]>",
-      "Consumes [4] [Manpower]",
+      "Consumes [5] [Manpower]",
       "Consumes [2] [Horses]",
       "Consumes [1] [Iron]",
     ],
@@ -1441,7 +1447,7 @@
       	"Comment [-Medium elephant, a beast that’ll crush anything in its path—except your economy. Hope you’ve got the gold to feed it.]",
       	"Only available <in cities with a [Stable]>",
 	"Destroys tile improvements when attacking",
-      	"Consumes [2] [Manpower]",
+      	"Consumes [3] [Manpower]",
       	"Consumes [1] [Elephants]",
       	"Never appears as a Barbarian unit",
       	"Only available <with [Enable War Elephant]> <hidden from users>",
@@ -1791,14 +1797,16 @@
     "name": "Foot Guard",
     "unitType": "Spear",
     "movement": 2,
-    "strength": 17,
+    "strength": 15,
     "cost": 150,
     "uniques": [
 	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
-      "Only available <in cities with a [Palace]>",
-      "[+10]% Strength bonus for [Military] units within [1] tiles",
+      	"Only available <in cities with a [Palace]>",
+      	"[+10]% Strength bonus for [Military] units within [1] tiles",
 	"[+1] XP gained from combat",
-      "Consumes [2] [Manpower]",
+	"[+20]% Strength <during the [Imperial Age]>",
+	"[+40]% production cost <during the [Imperial Age]>",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
     ],
     "promotions": [
@@ -1813,13 +1821,16 @@
     "uniqueTo": "The Spartans",
     "replaces": "Foot Guard",
     "movement": 2,
-    "strength": 17,
+    "strength": 16,
     "cost": 180,
     "uniques": [
 		"Comment [Elite medium spear infantry, the ‘SPARTA!’ warriors, good for boosting morale and getting the enemy to run away—just don’t expect them to do much beyond that.]",
      		"Only available <in cities with a [Palace]>",
       		"[+10]% Strength bonus for [Military] units within [1] tiles",
 	      	"[+1] XP gained from combat",
+		"[+20]% Strength <during the [Imperial Age]>",
+		"[+40]% production cost <during the [Imperial Age]>",
+      		"Consumes [3] [Manpower]",
       		"Consumes [1] [Veteran]",
     ],
     "promotions": [
@@ -1835,14 +1846,16 @@
     "uniqueTo": "The Macedonians",
     "replaces": "Foot Guard",
     "movement": 2,
-    "strength": 17,
+    "strength": 15,
     "cost": 150,
     "uniques": [
 	"Comment [-Elite medium spear infantry, give bounus to nearby units]",
-      "Only available <in cities with a [Palace]>",
-      "[+10]% Strength bonus for [Military] units within [3] tiles",
+      	"Only available <in cities with a [Palace]>",
+      	"[+10]% Strength bonus for [Military] units within [1] tiles",
       	"[+1] XP gained from combat",
-      "Consumes [2] [Manpower]",
+	"[+20]% Strength <during the [Imperial Age]>",
+	"[+40]% production cost <during the [Imperial Age]>",
+      "Consumes [3] [Manpower]",
       "Consumes [1] [Veteran]",
     ],
     "promotions": [
@@ -1856,17 +1869,19 @@
     "name": "King",
     "unitType": "King",
     "movement": 3,
-    "strength": 19,
+    "strength": 15,
     "cost": 170,
     "uniques": [
-	"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
-	"Can only be built <in [Capital] cities>",
-	"Limited to [1] per Civilization",
-      "Never appears as a Barbarian unit",
+		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
+		"Can only be built <in [Capital] cities>",
+		"[+20]% Strength <during the [Imperial Age]>",
+		"[+40]% production cost <during the [Imperial Age]>",
+		"Limited to [1] per Civilization",
+      		"Never appears as a Barbarian unit",
     ],
     "promotions": [
-      "[Cavalry] ability",
-      "Cavalry Shield II",
+      	"[Cavalry] ability",
+      	"Cavalry Shield II",
 	"Commander",
     ],
     "attackSound": "metalhit"
@@ -1879,18 +1894,20 @@
     "uniqueTo": "The Scythians",
     "replaces": "King",
     "movement": 4,
-    "strength": 15,
-  "rangedStrength": 13,
+    "strength": 11,
+  "rangedStrength": 9,
     "cost": 180,
     "uniques": [
-	"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
-	"Can only be built <in [Capital] cities>",
-	"May attack when embarked",
-      "Limited to [1] per Civilization",
-      "Never appears as a Barbarian unit",
+		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
+		"Can only be built <in [Capital] cities>",
+		"[+20]% Strength <during the [Imperial Age]>",
+		"[+40]% production cost <during the [Imperial Age]>",
+		"May attack when embarked",
+      		"Limited to [1] per Civilization",
+      		"Never appears as a Barbarian unit",
     ],
     "promotions": [
-      "Horse Archer ability",
+      	"Horse Archer ability",
 	"Commander",
 	"Parthian Doctrine",
     ],
@@ -1902,17 +1919,19 @@
     "uniqueTo": "The Romans",
     "replaces": "King",
     "movement": 3,
-    "strength": 19,
+    "strength": 15,
     "cost": 190,
     "uniques": [
-	"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
-	"Can only be built <in [Capital] cities>",
-      "Limited to [1] per Civilization",
-      "Cannot be purchased",
+		"Can only be built <in [Capital] cities>",
+		"Comment [This is you if roleplay is a thing, nothing says ‘royalty’ like a king who willingly throws peasants into the meat grinder. What’s a few hundred lives when you’ve got the throne to protect?.]",
+      		"Limited to [1] per Civilization",
+		"[+25]% Strength <during the [Imperial Age]>",
+		"[+40]% production cost <during the [Imperial Age]>",
+      		"Cannot be purchased",
     ],
     "promotions": [
-      "[Cavalry] ability",
-      "Cavalry Shield II",
+      	"[Cavalry] ability",
+      	"Cavalry Shield II",
 	"Commander",
 	"Inspiring"
     ],
@@ -2212,7 +2231,7 @@
     "unitType": "Spear",
     "uniqueTo": "The Carthaginians",
     "movement": 2,
-    "strength": 16,
+    "strength": 15,
     "cost": 160,
     "requiredTech": "Citizen Levy",
     "uniques": [

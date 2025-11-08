@@ -46,7 +46,6 @@
 			"Provides [10] [Manpower] <during the [Imperial Age]>",
 			"Provides [1] [Veteran] <in cities with at least [10] [Population]>"
 			"Provides [1] [Veteran] <in cities with at least [30] [Population]>",
-			"Provides [1] [Veteran] <in cities with at least [50] [Population]>",
 			"Provides [3] [Decadence] <during the [Imperial Age]>",
 			"[+1 Gold] per every [100] [Science]",
 			"[+1 Gold] per every [100] [Culture]",
@@ -76,7 +75,6 @@
 		"Provides [2] [Manpower] <during the [Hellenistic Age]>",
 		"Provides [3] [Manpower] <during the [Imperial Age]>",
 		"Provides [1] [Manpower] <in cities with at least [5] [Population]>",
-		"Provides [1] [Manpower] <in cities with at least [15] [Population]>",
 		"[+1 Culture] <while the empire is happy>",
 		"[+1 Production] from [Fort] tiles [in this city]",
 		"[-1 Food] from [Village] tiles [in this city]",
@@ -314,6 +312,7 @@
 		"cost": 80,
 		"maintenance": 1,
 		"happiness": 3,
+		"faith": 1,
 		"uniques": ["Provides [1] [Decadence]"],
 		"requiredTech": "Mysticism"
 	},
@@ -1008,7 +1007,6 @@
 		"New [Cavalry] units start with [5] XP [in this city]",
 		"[+1 Production] from [Fort] tiles [in this city]",
 		"[+1 Happiness] from [Village] tiles [in this city]",
-		"Provides [2] [Manpower]",
 		"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
@@ -1080,7 +1078,8 @@
 		"cityHealth": 40,
 		"uniques": [
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Provides [3] [Manpower]",
+			"Provides [2] [Manpower]",
+			"Provides [1] [Manpower] <during the [Imperial Age]>",
 			"[+10]% Production when constructing [Spear] units [in this city] <in cities with a [Bronze Works]>",
 			"Destroyed when the city is captured"
 			"[+100]% weight to this choice for AI decisions",
@@ -1096,7 +1095,7 @@
 		"maintenance": 1,
 		"cityHealth": 40,
 		"uniques": [
-		"Provides [3] [Manpower]",
+		"Provides [2] [Manpower]",
 		"Provides [1] [Manpower] <during the [Imperial Age]>",
 		"Consumes [1] [Decadence] <in cities with a [Syssition]>",
 		"New [Spear] units start with [10] XP [in this city]",
@@ -1128,7 +1127,6 @@
 		"cityHealth": 50,
 		"Cost": 500,
 		"uniques": [
-			"Provides [3] [Manpower]",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
@@ -1247,7 +1245,7 @@
 		"cityHealth": 100,
 		"cost": 150,
 		"uniques": [
-		"Consumes [2] [Manpower]",
+		"Consumes [1] [Manpower]",
 		"[+1 Gold] from [Trading post] tiles [in this city]",
 		"[-1 Food, +1 Happiness] from [Village] tiles [in this city]",
 		"Destroyed when the city is captured",
@@ -1428,7 +1426,7 @@
 		"cityStrength": 2,
 		"cityHealth": 15,
 		"uniques": [
-		"Provides [2] [Manpower]",
+		"Provides [1] [Manpower]",
 		"Comment [Training: Archer, Slinger]",
 		],
 		"requiredTech": "Archery"
@@ -1456,12 +1454,12 @@
 		"hurryCostModifier": 25,
 		"maintenance": 3,
 		"cityStrength": 2,
- "cost": 470,
+ "cost": 500,
 		"cityHealth": 50,
 		"uniques": [
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
-			"Provides [2] [Manpower]",
+			"Provides [1] [Manpower]",
 			"Provides [1] [Veteran] <in cities with at least [20] [Population]>",
 			"New [Archery] units start with [5] XP [in this city]",
 			"New [Scout] units start with [10] XP [in this city]",
@@ -1486,7 +1484,7 @@
 		"hurryCostModifier": 40,
 		"Cost": 800,
 		"uniques": [
-		"Consumes [2] [Manpower]",
+		"Consumes [1] [Manpower]",
 			"[+1 Happiness] from [Village] tiles [in this city]",
 			"[+1 Gold] from [Trading post] tiles [in this city]",
 		],
@@ -1655,13 +1653,13 @@
  "cost": 650,
 		"specialistSlots": {"Merchant": 2},
 		"uniques": [
+			"Connects trade routes over water",
 			"[+1 Gold] <in cities with a [Market]>",
 			"[+1 Gold] <in cities with a [Garum Shop]>",
 			"[+1 Gold] from [Water resource] tiles [in this city]",
 			"[+2 Gold] from [Trading post] tiles [in this city]",
 			"[+1 Production] from [Village] tiles [in this city]",
-			"Consumes [2] [Manpower]",
-			"Connects trade routes over water",
+			"Consumes [1] [Manpower]",
 			"Provides [1] [Decadence]",
 			"Provides [1] [Decadence] <during the [Imperial Age]>",
 			"Requires at least [15] population",
@@ -1903,6 +1901,7 @@
 		"happiness": 2,
 		"specialistSlots": {"Artist": 1},
 		"uniques": [
+			"Consumes [1] [Decadence]",
 			"[+1 Faith] from [Village] tiles [in this city]",
 			"[+1 Production] from [Village] tiles [in this city]",
 			"Consumes [1] [Manpower]",
@@ -1918,6 +1917,7 @@
 		"faith": 3,
 		"science": 1,
 		"uniques": [
+			"Consumes [1] [Decadence]",
 			"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"[+1 Faith] from [Village] tiles [in this city]",
@@ -1935,6 +1935,7 @@
 		"faith": 4,
 		"happiness": 1,
 		"uniques": [
+			"Consumes [1] [Decadence]",
 			"[+2 Faith] from [Village] tiles [in this city]",
 			"Consumes [1] [Manpower]",
  			"Only available <when religion is enabled>",
@@ -1949,6 +1950,7 @@
 		"faith": 1,
 		"happiness": 3,
 		"uniques": [
+			"Consumes [1] [Decadence]",
 			"[+1 Faith] from [Village] tiles [in this city]",
 			"[+1 Food] from [Village] tiles [in this city]",
 			"Consumes [1] [Manpower]",
@@ -2033,7 +2035,6 @@
 		"maintenance": 1,
 		"cityHealth": 30,
 		"uniques": [
-		"Consumes [1] [Manpower]"
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Woodworking"
@@ -2046,7 +2047,7 @@
 		"maintenance": 1,
 		"cityHealth": 20,
 		"uniques": [
-		"Provides [2] [Manpower]",
+		"Provides [1] [Manpower]",
 		"Destroyed when the city is captured",
 		],
 		"requiredTech": "Woodworking"
