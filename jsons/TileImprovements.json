@@ -4,7 +4,7 @@
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"food": 1,
-		"turnsToBuild": 4,
+		"turnsToBuild": 6,
 		"techRequired": "Agriculture",
 		"uniques": [
 		"Provides [1] [Manpower] <while the empire is happy> <in [Wheat] tiles>",
@@ -23,7 +23,7 @@
 		"name": "Lumber mill",
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"production": 1,
-		"turnsToBuild": 4,
+		"turnsToBuild": 5,
 		"techRequired": "Forestry",
 		"uniques": [
 		"Does not need removal of [Forest]",
@@ -38,7 +38,7 @@
 		"name": "Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
-		"turnsToBuild": 4,
+		"turnsToBuild": 5,
 		"techRequired": "Mining",
 		"uniques": [
 		"[+1 Production] <after discovering [Mass Production]>",
@@ -49,7 +49,7 @@
 	},
 	{
 		"name": "Camp",
-		"turnsToBuild": 4,
+		"turnsToBuild": 5,
 		"techRequired": "Agriculture",
 		"uniques": [
 		"Does not need removal of [Forest]",
@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "Plantation",
-		"turnsToBuild": 5,
+		"turnsToBuild": 6,
 		"gold": 2,
 		"techRequired": "Pottery",
 		"uniques": [
@@ -97,7 +97,7 @@
 	{
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 2,
+		"food": 1,
 		"techRequired": "Fishing",
 		"uniques": [
 		"[+1 Gold] <after discovering [Naval Artillery]>", 
@@ -113,10 +113,11 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 		 "[-10 Gold]",
-		"Gives a defensive bonus of [25]%",
+		"Gives a defensive bonus of [20]%",
 		"Pillaging this improvement yields approximately [+100 Gold]",
 		"Removes removable features when built",	
-		"Unbuildable <for [Worker] units>"
+		"Unbuildable <for [Worker] units>",
+			"Tile provides yield without assigned population","Great Improvement"
 		],
 		"shortcutKey": "O"
 	},
@@ -168,7 +169,7 @@
 	},
 	{
 		"name": "Remove Village",
-		"turnsToBuild": 8,
+		"turnsToBuild": 2,
 		"techRequired": "Land Grants",
 		"shortcutKey": "X"
 	},
@@ -205,7 +206,8 @@
 //		"[+2 Science] <after discovering [Hired Philosophers]>",
 //		"[+2 Science] <after discovering [Optics]>",
 		"Removes removable features when built",
-		"Pillaging this improvement yields approximately [+50 Gold]"]
+		"Pillaging this improvement yields approximately [+50 Gold]"
+]
 	},
 	{
 		"name": "Landmark",
@@ -233,8 +235,9 @@
 		"uniques": [
 			"[+1 Gold] <after discovering [Exploration]>",
 			 "Pillaging this improvement yields approximately [+150 Gold]",
-			"Unbuildable <for [Worker] units>"],
-		"shortcutKey": "T"
+			"Unbuildable <for [Worker] units>",
+			"Unbuildable <within [2] tiles of a [Village]>",
+]
 	},
 	{
 		"name": "Holy site",
@@ -285,12 +288,10 @@
 		"uniques": [
 			"Gives a defensive bonus of [10]%",
 			"Great Improvement",
-			"Cannot be built on [resource] tiles",
 			"Removes removable features when built",
 			"Pillaging this improvement yields approximately [+150 Gold]",
 			"Tile provides yield without assigned population",
 			"Unbuildable <for [Worker] units>",
-			"Unbuildable <within [2] tiles of a [Village]>"
 		]
 	},
 	{

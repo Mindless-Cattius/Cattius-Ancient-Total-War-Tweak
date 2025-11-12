@@ -10,7 +10,7 @@
 	// Rank 1
 	{
 		"name": "Medic I",
-		"uniques": ["[+5] HP when healing","All adjacent units heal [+2] HP when healing"],
+		"uniques": ["[+3] HP when healing","All adjacent units heal [+2] HP when healing"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Archery","Elephant","Scout"],
         "column": 1,
         "row": 1
@@ -18,7 +18,7 @@
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic I","Survivalism I"],
-		"uniques": ["[+5] HP when healing","All adjacent units heal [+3] HP when healing","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["[+3] HP when healing","All adjacent units heal [+3] HP when healing","[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Sword","Spear","King","Archery","Elephant"],
         "column": 1,
         "row": 2
@@ -26,7 +26,7 @@
 	{
 		"name": "Medic III",
 		"prerequisites": ["Medic II","Foraging II"],
-		"uniques": ["[+5] HP when healing","All adjacent units heal [+5] HP when healing","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["[+3] HP when healing","All adjacent units heal [+5] HP when healing","[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Sword","Spear","King","Archery","Elephant"],
         "column": 1,
         "row": 3
@@ -34,7 +34,7 @@
 	// Rank 2
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+3] HP when healing", "[+5]% Strength <when defending>","[+50]% weight to this choice for AI decisions"],
+		"uniques": ["[+2] HP when healing", "[+5]% Strength <when defending>","[+50]% weight to this choice for AI decisions"],
 		"unitTypes": ["Scout","Archery","Mounted","Mounted Archery","Sword","Spear","Siege","King"],
         "column": 2,
         "row": 1
@@ -43,7 +43,7 @@
 		"name": "Survivalism II",
 		"prerequisites": ["Survivalism I"],
 		"uniques": [
-			"[+3] HP when healing", 
+			"[+2] HP when healing", 
 			"[+10]% Strength <when defending>", 
 ],
 		"unitTypes": ["Scout"],
@@ -76,7 +76,7 @@
 		"name": "Foraging II",
 		"prerequisites": ["Foraging I","Survivalism I"],
 		"uniques": [
-			"[+10] HP when healing <in [Foreign Land] tiles>",
+			"[+5] HP when healing <in [Foreign Land] tiles>",
     			"[+10]% Yield from pillaging tiles",
 ],
 		"unitTypes": ["Mounted","Mounted Archery","Scout","King"],
@@ -162,7 +162,7 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": [
-			"[+20]% Strength <when attacking>",
+			"[+10]% Strength <when attacking>",
 			"[+10]% Strength <vs [Wounded] units>",
 			"[+20]% Strength <vs cities>"
 ],
@@ -600,7 +600,7 @@
 	},
 	{
 		"name": "Raider III",
-		"prerequisites": ["Raider II"],
+		"prerequisites": ["Raider II","Foraging II"],
 		"uniques": [
 			"Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately",
 			"Earn [50]% of the damage done to [City] units as [Gold]",
@@ -811,23 +811,16 @@
 	{
 		"name": "Armored Lancer",
 		"uniques": [
-		"[+30]% Strength <when attacking> <vs [Melee] units>",
-		"[+10]% Strength <vs [Ranged] units>",
-      		"[-20]% Strength <when attacking> <vs cities>",
+		"[+10]% Strength",
+		"[+10]% Strength <when defending> <vs [Ranged] units>",
 		"[+30]% Strength <when defending> <vs cities>",
-		"Withdraws before melee combat <with [10]% chance>",
-		"No defensive terrain bonus",
 		]
 	},
 	{
 		"name": "Lancer",
 		"uniques": [
-		"[+30]% Strength <when attacking> <vs [Melee] units>",
-		"[+20]% Strength <when attacking> <vs [Ranged] units>",
-		"[-20]% Strength <when defending> <vs [Ranged] units>",
-      		"[-30]% Strength <vs cities> <when attacking>",
-		"Withdraws before melee combat <with [15]% chance>",
-		"No defensive terrain bonus",
+		"[+10]% Strength <when attacking>",
+		"[+20]% Strength <when defending> <vs cities>",
 		]
 	},
 	// Ships
@@ -842,14 +835,12 @@
 		"name": "War Transports",
 		"uniques": [
 		"May attack when embarked <when fighting in [Water] tiles>",
-		"[-30]% Strength <when fighting in [Water] tiles>",
-		"[-30]% Strength <when attacking> <when fighting in [Water] tiles>",
 		]
 	},
 	{
 		"name": "Warship",
 		"uniques": [
-		"[+35]% Strength <vs [Embarked] units>"
+		"[+30]% Strength <vs [Embarked] units>"
 		]
 	},
 	// Uniques Units and Civ uniques
@@ -991,7 +982,7 @@
 	{
 		"name": "[Looting]",
 		"unitTypes": ["Mounted Archery", "Mounted", "Sword","Spear","Archery","Siege","Ranged Water","Melee Water"],
-		"prerequisites": ["Raider II"],
+		"prerequisites": ["Raider II","Foraging II"],
 		"uniques": [
 			"Earn [25]% of killed [Military] unit's [Strength] as [Gold]",
 ],
@@ -1005,7 +996,7 @@
 		"prerequisites": ["Veteran"],
 		"uniques": [
 			"[+10]% Strength <when stacked with a [Worker] unit>",
-			"[+30]% Strength <when stacked with a [Great Engineer] unit>",
+			"[+20]% Strength <when stacked with a [Great Engineer] unit>",
 			"[+10]% Strength <when defending>"],
         "column": 30,
         "row": 6
@@ -1035,7 +1026,7 @@
 		"prerequisites": ["Veteran"],
 		"unitTypes": ["Sword","Spear","Mounted","Mounted Archery","Elephant","King"],
 		"uniques": [
-			"[+12]% Strength bonus for [Military] units within [1] tiles <when defending>",
+			"[+12]% Strength bonus for [Military] units within [1] tiles",
 			"[+10]% Strength bonus for [Military] units within [2] tiles <when defending>",
 			"[+5]% Strength bonus for [Military] units within [3] tiles <when defending>",
 			"[+5]% Strength <when defending>",
@@ -1063,7 +1054,7 @@
   		"prerequisites": ["Veteran"],
   		"unitTypes": ["Sword", "Spear", "Mounted", "Mounted Archery", "Scout", "Archery", "Elephant","King"],
   		"uniques": [
-			"[+10]% Strength bonus for [{Melee} {Land}] units within [2] tiles",
+			"[+5]% Strength bonus for [{Military} {Land}] units within [2] tiles",
 ],
         "column": 35,
         "row": 6
@@ -1073,7 +1064,7 @@
   		"prerequisites": ["Veteran"],
  		 "unitTypes": ["Sword", "Spear", "Mounted", "Elephant"],
  		 "uniques": [
-			"[+30]% Strength bonus for [King] units within [2] tiles <when defending>",
+			"[+30]% Strength bonus for [King] units within [1] tiles <when defending>",
       			"[-5]% Strength for enemy [Military] units in adjacent [all] tiles",
    			 "[+5]% Strength <when defending> <vs [Archery] units>"]
         "column": 36,
@@ -1096,10 +1087,8 @@
   		"unitTypes": ["Mounted Archery"],
   		"prerequisites": ["Veteran"],
   		"uniques": [
-   			 "[+15]% Strength <when attacking> <vs [Sword] units>" ,
-    			"[+15]% Strength <when attacking> <vs [Spear] units>",
-    			"[+10]% Strength <when attacking> <vs [Mounted] units>",
-   			 "[-20]% Strength <when defending> <vs [Mounted] units>",
+   			 "[+10]% Strength <when attacking> <vs [{Melee} {Land}] units>" ,
+   			 "[-10]% Strength <when defending> <vs [Mounted] units>",
    			 "[-10]% Strength <when defending> <vs [Archery] units>",
 			"Ignores Zone of Control",
 			],
@@ -1180,7 +1169,7 @@
 	{
 		"name": "Warlust",
 		"prerequisites": ["Veteran"],
-		"unitTypes": ["Mounted","Scout","Sword","Spear"],
+		"unitTypes": ["Scout","Sword","Spear"],
 		"uniques": ["Heals [10] damage if it kills a unit"
 		],
       "column": 46,
@@ -1191,14 +1180,14 @@
 		"uniques": [
 			"[+10]% Strength bonus for [Military] units within [2] tiles <when defending>",
 			"[+20]% Strength bonus for [Military] units within [1] tiles <when defending>",
-			"[+10]% Strength bonus for [Military] units within [1] tiles <when attacking>",
+			"[+12]% Strength bonus for [Military] units within [1] tiles <when attacking>",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
 	},
 	{
 		"name": "Naked Warrior",
 		"uniques": [
-			"[+1] XP gained from combat",
+			"[+2] XP gained from combat",
 			"[-30]% Strength <vs [{Ranged} {Land}] units> <when defending>",
 			"[-30]% Strength <vs [Mounted] units> <when defending>",
 			"[+80]% Strength <when attacking>",
@@ -1214,7 +1203,6 @@
 			"[+40]% Strength <vs [Infantry Shield II] units> <when attacking>",
 			"[+60]% Strength <vs [Cataphract] units> <when attacking>",
 			"[+60]% Strength <vs [Clibanarii] units> <when attacking>",
-			"[+50]% Strength <vs cities> <when attacking>",
 			"Withdraws before melee combat <with [10]% chance>",
 		],
 	},
@@ -1257,13 +1245,25 @@
 		"name": "Healing",
 		"uniques": [
 			"[+10] HP when healing <for [All] units> <when fighting in [City center] tiles>",
-			"[+5] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
+			"[+4] HP when healing <for [All] units> <when fighting in [Fort] tiles>",
 			"[+3] HP when healing <for [All] units> <when fighting in [Village] tiles>",
+			"[+1] HP when healing <for [All] units> <when fighting in [improved] tiles>",
 			"[-10] HP when healing <for [All] units> <when fighting in [Enemy Land] tiles>",
 			"[-10] HP when healing <for [All] units> <when fighting in [Snow] tiles>",
 			"[-5] HP when healing <for [All] units> <when fighting in [Tundra] tiles>",
 			"[-3] HP when healing <for [All] units> <when fighting in [Marsh] tiles>",
 			"[-2] HP when healing <for [All] units> <when fighting in [Desert] tiles>",
+		]
+	},
+	{
+		"name": "Mercenary",
+		"uniques": [
+      			"Unbuildable",
+     			"Only available <in cities with a [Mercenary Camp]>",
+      			"Can be purchased with [Gold] [in all cities]",
+     			"Can move immediately once bought",
+			"[+1] XP gained from combat",
+			"[100]% maintenance costs"
 		]
 	},
 ]
