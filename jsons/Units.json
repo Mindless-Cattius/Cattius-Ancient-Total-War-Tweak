@@ -160,7 +160,7 @@
     "movement": 3,
     "strength": 11,
     "rangedStrength": 8,
-    "cost": 160,
+    "cost": 170,
     "uniques": [
       		"Only available <in cities with a [Mercenary Camp]>",
 		"Comment ['Mercenary skirmisher from the Illyrian coast — fights hard, drinks harder, runs fastest when unpaid.']",
@@ -171,8 +171,7 @@
     "promotions": [
       	"[Skirmisher] ability",
       	"Infantry Shield I",
-      	"Amphibious I",
-      	"Amphibious II",
+      	"Amphibious I,
       	"Raider I",
 	"[Maneuver]",
 	"Mercenary",
@@ -190,7 +189,7 @@
     "movement": 3,
     "strength": 9,
     "rangedStrength": 10,
-    "cost": 160,
+    "cost": 140,
     "uniques": [
       		"Only available <starting from the [Hellenistic Age]>",
       		"Only available <in cities with a [Mercenary Camp]>",
@@ -249,7 +248,7 @@
     "requiredTech": "Archery",
     "uniques": [
       "Only available <in cities with a [Archery Range]>",
-	"Comment ['Light slinger, good at countering ranged units, because nothing says “primitive” like a rock to the face.]'",
+	"Comment ['Light slinger, good at countering ranged units, because nothing says “primitive” like a rock to the face.']",
       "Consumes [2] [Manpower]",
       "Only available <with [Enable Slinger]> <hidden from users>"
     ],
@@ -376,7 +375,7 @@
     "unitType": "Archery",
     "movement": 2,
     "strength": 10,
-    "rangedStrength": 12,
+    "rangedStrength": 11,
     "cost": 200,
     "uniques": [
 	"Comment ['Rhodian mercenary — precise, portable, and politically unpredictable.']",
@@ -390,6 +389,7 @@
       "[Slinger] ability",
       "Amphibious I",
       "Mercenary",
+      "[Maneuver]",
     ],
     "attackSound": "arrow"
   },
@@ -398,7 +398,7 @@
     "unitType": "Archery",
     "movement": 3,
     "strength": 9,
-    "rangedStrength": 13,
+    "rangedStrength": 12,
     "cost": 190,
     "uniques": [
       	"Only available <starting from the [Hellenistic Age]>",
@@ -554,6 +554,7 @@
     "strength": 16,
     "cost": 170,
     "uniques": [
+      	"Only available <in cities with a [Mercenary Camp]>",
 	"Comment ['Medium infantry, professionals in fighting, amateurs in restraint.']",
 	"[+1] XP gained from combat",
       	"Unbuildable",
@@ -572,8 +573,11 @@
     "strength": 16,
     "cost": 150,
     "uniques": [
+      	"Only available <in cities with a [Mercenary Camp]>",
 	"Comment ['Medium infantry unit, quick to deploys.']"
       "Consumes [1] [Mercenary (Oscan)]",
+      	"Unbuildable",
+      	"Can be purchased with [Gold] [in all cities]",
     ],
     "promotions": [
       "Infantry Shield II",
@@ -1073,16 +1077,20 @@
   "strength": 11,
   "rangedStrength": 11,
     "uniques": [
+      	"Only available <in cities with a [Mercenary Camp]>",
       	"Comment ['Light mounted skirmisher, Fast, annoying, and best used for running away after causing a little chaos. Don’t expect these guys to fight for long—they’ll be gone before you know it.']",
     	"[-1] Range",
 	"[+1] XP gained from combat",
       	"Consumes [1] [Mercenary (Numidian)]",
+      	"Unbuildable",
+      	"Can be purchased with [Gold] [in all cities]",
     ],
     "promotions": [
       "[Horseman] ability",
       "Cavalry Shield I",
-      "Scouting I",
+      "[Maneuver]",
       "Raider I",
+      "Mercenary",
 	"Mercenary"
     ],
     "attackSound": "arrow"
@@ -1116,19 +1124,18 @@
     "cost": 220,
     "movement": 4,
     "strength": 9,
-    "rangedStrength": 12,
+    "rangedStrength": 11,
     "uniques": [
      	"Comment [Elite mounted archer who'll shoot, run, and cry when the real fight starts. Expensive, but they’ll make those arrows fly before they bail]",
       	"Only available <in cities with a [Mercenary Camp]>",
       	"Can move immediately once bought",
-	"May attack when embarked",
-	"[+1] XP gained from combat",
       	"Consumes [1] [Mercenary (Eastern)]",
       	"Can be purchased with [Gold] [in all cities]",
       	"Unbuildable",
     ],
     "promotions": [
       "Horse Archer ability",
+      "Mercenary",
     ],
     "attackSound": "arrow"
   },
@@ -1971,6 +1978,7 @@
   ],
   "promotions": [
       "[Horseman] ability",
+      "[Maneuver]",
   ],
   "attackSound": "arrow"
   },{

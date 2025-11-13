@@ -296,7 +296,7 @@
 	// Rank 6
 	{
 		"name": "Siege I",
-		"uniques": ["[+30]% Strength <vs cities>"],
+		"uniques": ["[+20]% Strength <vs cities>"],
 		"unitTypes": ["Siege"],
         "column": 13,
         "row": 1
@@ -304,7 +304,7 @@
 	{
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
-		"uniques": ["[+50]% Strength <vs cities>"],
+		"uniques": ["[+30]% Strength <vs cities>"],
 		"unitTypes": ["Siege"],
         "column": 13,
         "row": 2
@@ -312,7 +312,7 @@
 	{
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
-		"uniques": ["[+70]% Strength <vs cities>","[+1] Sight"],
+		"uniques": ["[+40]% Strength <vs cities>","[+1] Sight"],
 		"unitTypes": ["Siege"],
         "column": 13,
         "row": 3
@@ -522,6 +522,7 @@
 		"uniques": [
 		"Eliminates combat penalty for attacking over a river",
 		"Eliminates combat penalty for attacking across a coast",
+ 		"[+5]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","Elephant","King"],
         "column": 20,
@@ -534,7 +535,7 @@
 		"[0] Movement point cost to disembark",
 		"[1] Movement point cost to embark",
 		"[+30]% Strength <when defending> <when [Embarked]>",
- 		"[+10]% Strength <when fighting in [Foreign Land] tiles>"
+ 		"[+5]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"unitTypes": ["Sword","Spear","Archery","Scout","King"],
         "column": 20,
@@ -1258,12 +1259,7 @@
 	{
 		"name": "Mercenary",
 		"uniques": [
-      			"Unbuildable",
-     			"Only available <in cities with a [Mercenary Camp]>",
-      			"Can be purchased with [Gold] [in all cities]",
-     			"Can move immediately once bought",
 			"[+1] XP gained from combat",
-			"[100]% maintenance costs"
 		]
 	},
 ]
